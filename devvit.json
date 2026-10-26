@@ -1,0 +1,17 @@
+{
+  "name": "oyez-oyez-oyez",
+  "server": { "dir": "dist/server", "entry": "index.js" },
+  "permissions": {
+    "http": { "enable": true, "domains": ["www.supremecourt.gov"] },
+    "redis": true,
+    "reddit": true
+  },
+  "scheduler": {
+    "tasks": {
+      "poll": { "endpoint": "/internal/scheduler/poll", "cron": "*/2 * * * *" }
+    }
+  },
+  "scripts": {
+    "build": "esbuild src/server/index.ts --bundle --platform=node --format=cjs --outfile=dist/server/index.js"
+  }
+}

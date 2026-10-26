@@ -1,0 +1,7 @@
+export default {
+  testEnvironment: 'node',
+  testMatch: ['**/tests/**/*.test.ts'],
+  transform: {
+    '^.+\\.ts$': ['ts-jest', { tsconfig: 'tsconfig.test.json' }],
+  },
+};

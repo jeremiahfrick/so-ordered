@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='slipopinion.xsl' ?>
+<?xml-stylesheet type='text/xsl' href='slipopinion.css' ?>
+<rss version='2.0'>
+<channel>
+<title>US Supreme Court Opinions of the Court - 2026 Term</title>
+<link>https://www.supremecourt.gov/oral_arguments/argument_transcript/</link>
+<description>US Supreme Court Opinions of the Court - 2026 Term</description>
+<pubDate>Sun, 25 Oct 2026 20:25:59 EST</pubDate>
+<item>
+<title><![CDATA[FCC v. Brown (26A476) - (per curiam) ]]></title>
+
+<description><![CDATA[The Fourth Circuit’s mandamus order requiring the Federal Communications Commission to resolve an application for review within 48 hours of its entry is stayed because the order improperly interferes with the Commission’s discretion to determine the timing and procedures of its deliberative process. ]]></description>
+<link>http://www.supremecourt.gov/opinions/26pdf/26a476_k537.pdf</link>
+<pubDate>Wed, 14 Oct 2026 16:33:18 EDT</pubDate>
+<category>Unsigned Per Curiam Opinion</category>
+<category>610 U. S., Part 1</category>
+</item>
+</channel>
+</rss>
