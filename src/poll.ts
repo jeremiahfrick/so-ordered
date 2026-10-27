@@ -17,11 +17,24 @@ const BROWSER_UA = { 'User-Agent': 'Mozilla/5.0' }; // the old bot sent a browse
 
 const message = (e: unknown) => (e instanceof Error ? e.message : String(e));
 
+const HOUR_MS = 60 * 60 * 1000;
+
+// True at most once per hour per key (state lives in Redis because each tick is a separate request).
+async function oncePerHour(d: PollDeps, key: string): Promise<boolean> {
+  const now = d.now().getTime();
+  const last = Number(await d.redis.get(key));
+  if (Number.isFinite(last) && last > 0 && now - last < HOUR_MS) return false;
+  await d.redis.set(key, String(now));
+  return true;
+}
+
 // The old bot's flow: find_and_post_opinions + post_it + find_and_post_orders. A key is marked noted only after
 // submit resolves, so a failed post is retried on the next tick.
 export async function runPoll(d: PollDeps): Promise<void> {
   if (!(await isInitialized(d.redis))) {
-    d.log('WARN not initialized: poll skipped (run "Initialize dedup" from the mod menu)');
+    if (await oncePerHour(d, 'last_uninitialized_warning')) {
+      d.log('WARN not initialized: poll skipped (run "Initialize dedup" from the mod menu)');
+    }
     return;
   }
   try {
@@ -34,6 +47,8 @@ export async function runPoll(d: PollDeps): Promise<void> {
   } catch (e) {
     d.log(`Exception (pollOrders): ${message(e)}`);
   }
+  // Idle ticks are silent; this hourly line is the only sign of life (there is no external heartbeat).
+  if (await oncePerHour(d, 'last_heartbeat')) d.log(`HEARTBEAT polling ok at ${d.now().toISOString()}`);
 }
 
 async function lookupAuthor(d: PollDeps, caseNum: string, caseJson: any): Promise<string> {
@@ -71,6 +86,7 @@ async function pollOpinions(d: PollDeps): Promise<void> {
       const { title, body } = buildOpinionPost(opinion, caseJson, author);
       await d.submit(title, body);
       await markNoted(d.redis, 'cases', opinion.caseId);
+      d.log(`Posted opinion ${opinion.caseId}: ${title}`);
     } catch (e) {
       d.log(`Exception (post_it) ${opinion.caseId}: ${message(e)}`);
     }
@@ -88,17 +104,15 @@ async function pollOrders(d: PollDeps): Promise<void> {
     d.log('WARN no order links found on orders page');
     return;
   }
-  let posted = 0;
   for (const link of links) {
     if (await isNoted(d.redis, 'orders', link.id)) continue;
     try {
       const { title, body } = buildOrderPost(link, d.now());
       await d.submit(title, body);
       await markNoted(d.redis, 'orders', link.id);
-      posted++;
+      d.log(`Posted order ${link.id}`);
     } catch (e) {
       d.log(`Exception (find_and_post_orders) ${link.id}: ${message(e)}`);
     }
   }
-  d.log(`Posted ${posted} new orders.`);
 }

@@ -26,6 +26,7 @@ async function setup(routes: Record<string, Res>, opts: { initialized?: boolean;
   const posts: { title: string; body: string }[] = [];
   const logs: string[] = [];
   let toFail = opts.failFirstSubmits ?? 0;
+  let clock = new Date('2026-10-06T02:30:00Z'); // 10/05 evening in New York
   const deps: PollDeps = {
     fetchText: async (url, headers) => {
       calls.push({ url, headers });
@@ -40,9 +41,12 @@ async function setup(routes: Record<string, Res>, opts: { initialized?: boolean;
     },
     redis,
     log: (m) => logs.push(m),
-    now: () => new Date('2026-10-06T02:30:00Z'), // 10/05 evening in New York
+    now: () => clock,
   };
-  return { deps, redis, calls, posts, logs };
+  const advance = (minutes: number) => {
+    clock = new Date(clock.getTime() + minutes * 60_000);
+  };
+  return { deps, redis, calls, posts, logs, advance };
 }
 
 const emptyOrders = ok('<html><body></body></html>');
@@ -161,5 +165,60 @@ describe('runPoll', () => {
 
     await runPoll(s.deps);
     expect(s.posts).toHaveLength(12);
+  });
+});
+
+describe('logging', () => {
+  test('an idle tick is silent apart from an hourly heartbeat', async () => {
+    // A healthy idle tick: the orders page lists only orders that are already noted.
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: ok(fixture('orders.html')) });
+    await runPoll(s.deps); // first tick posts the 12 orders and logs the first heartbeat
+    expect(s.logs.filter((l) => l.startsWith('HEARTBEAT'))).toHaveLength(1);
+    const afterFirst = s.logs.length;
+
+    s.advance(2);
+    await runPoll(s.deps);
+    s.advance(2);
+    await runPoll(s.deps);
+    expect(s.logs).toHaveLength(afterFirst); // nothing new within the hour
+
+    s.advance(60);
+    await runPoll(s.deps);
+    expect(s.logs.filter((l) => l.startsWith('HEARTBEAT'))).toHaveLength(2);
+  });
+
+  test('a tick that finds nothing new never logs "Posted 0"', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: ok(fixture('orders.html')) });
+    await runPoll(s.deps); // posts all 12
+    s.logs.length = 0;
+    s.advance(2);
+    await runPoll(s.deps);
+    expect(s.logs).toEqual([]);
+  });
+
+  test('each post is logged', async () => {
+    const s = await setup({
+      [RSS]: ok(rss(['A v. B (24A884)'])),
+      [CASE('24A884')]: ok(fixture('case_24-1056.json')),
+      [SLIP]: ok(fixture('slipopinion_24.html')),
+      [ORDERS]: ok(fixture('orders.html')),
+    });
+    await runPoll(s.deps);
+    expect(s.logs.filter((l) => l.startsWith('Posted opinion 24A884'))).toHaveLength(1);
+    expect(s.logs.filter((l) => l.startsWith('Posted order '))).toHaveLength(12);
+  });
+
+  test('the not-initialized warning is logged once per hour, not every tick', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: emptyOrders }, { initialized: false });
+    await runPoll(s.deps);
+    s.advance(2);
+    await runPoll(s.deps);
+    s.advance(2);
+    await runPoll(s.deps);
+    expect(s.logs.filter((l) => l.includes('WARN not initialized'))).toHaveLength(1);
+
+    s.advance(60);
+    await runPoll(s.deps);
+    expect(s.logs.filter((l) => l.includes('WARN not initialized'))).toHaveLength(2);
   });
 });
