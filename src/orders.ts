@@ -29,8 +29,20 @@ export function parseOrderLinks(html: string): OrderLink[] {
   return out;
 }
 
-const mmddyyyy = (d: Date) =>
-  `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${d.getFullYear()}`;
+// "Today" is the Court's date: Devvit's clock is UTC, so late-evening orders would otherwise be dated tomorrow.
+// Falls back to the UTC date if the runtime lacks time-zone data.
+function mmddyyyy(d: Date): string {
+  try {
+    return new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/New_York',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    }).format(d);
+  } catch {
+    return `${String(d.getUTCMonth() + 1).padStart(2, '0')}/${String(d.getUTCDate()).padStart(2, '0')}/${d.getUTCFullYear()}`;
+  }
+}
 
 // Ports the title/body construction in find_and_post_orders; with no date in the text it uses today (old behavior).
 export function buildOrderPost(link: OrderLink, now: Date): { title: string; body: string } {

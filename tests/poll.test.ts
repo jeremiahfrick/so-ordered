@@ -40,7 +40,7 @@ async function setup(routes: Record<string, Res>, opts: { initialized?: boolean;
     },
     redis,
     log: (m) => logs.push(m),
-    now: () => new Date(2026, 9, 5),
+    now: () => new Date('2026-10-06T02:30:00Z'), // 10/05 evening in New York
   };
   return { deps, redis, calls, posts, logs };
 }

@@ -39,7 +39,8 @@ describe('parseOrderLinks', () => {
 });
 
 describe('buildOrderPost', () => {
-  const now = new Date(2026, 9, 5); // 5 Oct 2026, local time
+  // 02:30 UTC on 6 Oct is still the evening of 5 Oct at the Court (America/New_York).
+  const now = new Date('2026-10-06T02:30:00Z');
   const url = 'https://www.supremecourt.gov/orders/courtorders/100725zor_abcd.pdf';
 
   test('uses the date found in the link text', () => {
