@@ -1,5 +1,5 @@
 {
-  "name": "oyez-oyez-oyez",
+  "name": "so-ordered",
   "version": "0.0.0",
   "private": true,
   "description": "Devvit Web app that posts new Supreme Court opinions and orders",
@@ -10,7 +10,7 @@
   },
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@devvit/web": "^0.15.0",
+    "@devvit/web": "0.15.0",
     "fast-xml-parser": "^5.11.2",
     "node-html-parser": "^9.0.5"
   },
@@ -22,5 +22,6 @@
     "ts-jest": "^29.4.15",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "type": "module"
 }

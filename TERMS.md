@@ -1,8 +1,8 @@
-# Terms of Use: Oyez Oyez Oyez
+# Terms of Use: So Ordered
 
 _Last updated: 2026-10-27_
 
-By installing Oyez Oyez Oyez ("the app") on a subreddit you agree to these terms.
+By installing So Ordered ("the app") on a subreddit you agree to these terms.
 
 1. **What the app does.** It reads public information published by the Supreme Court of the United States and posts it to the subreddit where it is installed, using the app's own account.
 2. **No affiliation.** The app is not affiliated with, endorsed by, or sponsored by the Supreme Court or any government body. Summaries and documents come from the Court's own publications.

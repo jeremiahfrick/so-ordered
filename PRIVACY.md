@@ -1,8 +1,8 @@
-# Privacy Policy: Oyez Oyez Oyez
+# Privacy Policy: So Ordered
 
 _Last updated: 2026-10-27_
 
-Oyez Oyez Oyez is a Reddit Developer Platform (Devvit) app that posts new U.S. Supreme Court opinions and orders to the subreddit where it is installed.
+So Ordered is a Reddit Developer Platform (Devvit) app that posts new U.S. Supreme Court opinions and orders to the subreddit where it is installed.
 
 ## What the app collects
 

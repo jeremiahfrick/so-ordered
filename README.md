@@ -1,4 +1,4 @@
-# Oyez Oyez Oyez
+# So Ordered
 
 Posts new U.S. Supreme Court opinions and orders to your subreddit as soon as the Court publishes them.
 

@@ -1,5 +1,5 @@
 {
-  "name": "oyez-oyez-oyez",
+  "name": "so-ordered",
   "server": {
     "dir": "dist/server",
     "entry": "index.js"
@@ -40,5 +40,8 @@
         "endpoint": "/internal/menu/init-empty"
       }
     ]
+  },
+  "dev": {
+    "subreddit": "so_ordered_dev"
   }
 }
