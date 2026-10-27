@@ -1,17 +1,44 @@
 {
   "name": "oyez-oyez-oyez",
-  "server": { "dir": "dist/server", "entry": "index.js" },
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.js"
+  },
   "permissions": {
-    "http": { "enable": true, "domains": ["www.supremecourt.gov"] },
+    "http": {
+      "enable": true,
+      "domains": [
+        "www.supremecourt.gov"
+      ]
+    },
     "redis": true,
     "reddit": true
   },
   "scheduler": {
     "tasks": {
-      "poll": { "endpoint": "/internal/scheduler/poll", "cron": "*/2 * * * *" }
+      "poll": {
+        "endpoint": "/internal/scheduler/poll",
+        "cron": "*/2 * * * *"
+      }
     }
   },
   "scripts": {
     "build": "esbuild src/server/index.ts --bundle --platform=node --format=cjs --outfile=dist/server/index.js"
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "Initialize dedup (import snapshot)",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/init-seed"
+      },
+      {
+        "label": "Initialize dedup (start empty)",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/init-empty"
+      }
+    ]
   }
 }
