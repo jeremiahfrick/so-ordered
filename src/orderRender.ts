@@ -51,6 +51,31 @@ const MAX_ENTRY_TEXT = 600;
 
 const isCountOnly = (header: string) => /DENIED\.?$/.test(header.trim());
 
+// The Court prints consecutive docket lines followed by one shared order. In a detailed section every entry has a
+// disposition, so a run of text-less entries shares the text of the entry that ends the run.
+function groupShared(entries: OrderEntry[]): OrderEntry[] {
+  const out: OrderEntry[] = [];
+  let pending: OrderEntry[] = [];
+  for (const e of entries) {
+    if (e.text === '') {
+      pending.push(e);
+      continue;
+    }
+    const run = [...pending, e];
+    out.push(
+      run.length === 1
+        ? e
+        : {
+            docket: run.map((x) => x.docket).join(', '),
+            caption: run.map((x) => x.caption).filter(Boolean).join('; '),
+            text: e.text,
+          }
+    );
+    pending = [];
+  }
+  return [...out, ...pending]; // trailing text-less entries have nothing to share
+}
+
 function bullet(parsed: ParsedOrder, e: OrderEntry): string {
   const cut = e.text.length > MAX_ENTRY_TEXT ? `${e.text.slice(0, MAX_ENTRY_TEXT)}…` : e.text;
   const caption = e.caption ? ` — ${escapeMd(e.caption)}` : '';
@@ -71,8 +96,9 @@ export function renderOrderList(link: OrderLink, now: Date, parsed: ParsedOrder)
   for (const section of parsed.sections) {
     if (isCountOnly(section.header)) continue;
     parts.push(`**${escapeMd(section.header)}**`);
-    parts.push(section.entries.slice(0, MAX_ENTRIES).map((e) => bullet(parsed, e)).join('\n'));
-    if (section.entries.length > MAX_ENTRIES) parts.push(`…and ${section.entries.length - MAX_ENTRIES} more in the PDF`);
+    const items = groupShared(section.entries);
+    parts.push(items.slice(0, MAX_ENTRIES).map((e) => bullet(parsed, e)).join('\n'));
+    if (items.length > MAX_ENTRIES) parts.push(`…and ${items.length - MAX_ENTRIES} more in the PDF`);
   }
   parts.push(linkLine(link));
 

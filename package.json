@@ -4,7 +4,7 @@
   "private": true,
   "description": "Devvit Web app that posts new Supreme Court opinions and orders",
   "scripts": {
-    "build": "esbuild src/server/index.ts --bundle --platform=node --format=cjs --outfile=dist/server/index.js",
+    "build": "esbuild src/server/index.ts --bundle --platform=node --format=cjs --minify --outfile=dist/server/index.js",
     "test": "jest",
     "typecheck": "tsc --noEmit"
   },
@@ -12,7 +12,8 @@
   "dependencies": {
     "@devvit/web": "0.15.0",
     "fast-xml-parser": "^5.11.2",
-    "node-html-parser": "^9.0.5"
+    "node-html-parser": "^9.0.5",
+    "unpdf": "^2.0.1"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",

@@ -1,9 +1,13 @@
 import { RedisLike, isInitialized, isNoted, markNoted } from './dedup';
 import { buildOpinionPost, parseAuthor, parseOpinionFeed, termYear } from './opinions';
-import { buildOrderPost, parseOrderLinks } from './orders';
+import { OrderLink, buildOrderPost, parseOrderLinks } from './orders';
+import { parseOrderText } from './orderParse';
+import { renderOrder } from './orderRender';
 
 export type PollDeps = {
   fetchText: (url: string, headers?: Record<string, string>) => Promise<{ status: number; text: string }>;
+  fetchBytes: (url: string) => Promise<{ status: number; bytes: Uint8Array }>;
+  pdfText: (bytes: Uint8Array) => Promise<string>;
   submit: (title: string, body: string) => Promise<void>; // throws on failure
   redis: RedisLike;
   log: (msg: string) => void;
@@ -93,6 +97,22 @@ async function pollOpinions(d: PollDeps): Promise<void> {
   }
 }
 
+// The digest is a bonus: any failure logs one warning and falls back to the simple link post.
+async function buildOrderPostWithDigest(d: PollDeps, link: OrderLink): Promise<{ title: string; body: string }> {
+  try {
+    const res = await d.fetchBytes(link.url);
+    if (res.status !== 200) throw new Error(`PDF status ${res.status}`);
+    const parsed = parseOrderText(await d.pdfText(res.bytes));
+    if (!parsed) throw new Error('unrecognized layout');
+    const post = renderOrder(link, d.now(), parsed);
+    if (!post) throw new Error('digest too long');
+    return post;
+  } catch (e) {
+    d.log(`WARN orders digest failed for ${link.url}: ${message(e)}`);
+    return buildOrderPost(link, d.now());
+  }
+}
+
 async function pollOrders(d: PollDeps): Promise<void> {
   const page = await d.fetchText(ORDERS_PAGE);
   if (page.status !== 200) {
@@ -107,7 +127,7 @@ async function pollOrders(d: PollDeps): Promise<void> {
   for (const link of links) {
     if (await isNoted(d.redis, 'orders', link.id)) continue;
     try {
-      const { title, body } = buildOrderPost(link, d.now());
+      const { title, body } = await buildOrderPostWithDigest(d, link);
       await d.submit(title, body);
       await markNoted(d.redis, 'orders', link.id);
       d.log(`Posted order ${link.id}`);

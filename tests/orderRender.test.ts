@@ -168,6 +168,30 @@ describe('renderOrderList', () => {
   });
 });
 
+describe('renderOrderList: grouped entries', () => {
+  const l = link('101326zor_qol1.pdf', 'Order List');
+  const out = renderOrderList(l, now, parseOrderText(text('101326zor_qol1'))!)!;
+
+  test('the counts table has no row for a wrapped citation', () => {
+    expect(out.body).not.toMatch(/^U\. S\. 371/m);
+    expect(out.body).toContain('CERTIORARI -- SUMMARY DISPOSITIONS|4\n');
+  });
+
+  test("docket lines that share one order text are shown as one bullet, as the Court prints them", () => {
+    expect(out.body).toContain(
+      '- **26M23, 26M24** — ODOM, RACHEL B. V. OKLAHOMA; COUDRAIN, MARILYN, ET AL. V. BOEHRINGER INGELHEIM, ET AL.: ' +
+        'The motions for leave to file petitions for writs of certiorari with the supplemental appendices under seal are granted.'
+    );
+    expect(out.body).toContain('- **25-1103, 25-1343** — U.S. DOGE SERVICE, ET AL. V. USDC DC, ET AL.; BLANCHE, ATT\'Y GEN. V. OZURUMBA, IZUCHUKWU: The petitions for writs of certiorari are granted.');
+  });
+
+  test('every docket in a detailed section appears in some bullet', () => {
+    for (const d of ['26M23', '26M24', '25-159', '25-417', '25-7598', '26-5011', '26-5296', '25-1103']) {
+      expect(out.body).toContain(d);
+    }
+  });
+});
+
 describe('renderOrder', () => {
   test('an order list gets the digest, a one-entry miscellaneous order gets its text', () => {
     const list = renderOrder(link('101926zor_q8l1.pdf', 'Order List'), now, parseOrderText(text('101926zor_q8l1'))!)!;

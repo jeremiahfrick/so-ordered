@@ -99,6 +99,16 @@ describe('parseOrderText: list layout', () => {
   });
 });
 
+describe('parseOrderText: wrapped citations', () => {
+  test('a citation wrapped onto its own line is body text, not a section header', () => {
+    const p = parseOrderText(text('101326zor_qol1'))!;
+    expect(p.sections.map((s) => s.header)).not.toContain('U. S. 371 (2026).');
+    const summary = p.sections.find((s) => s.header === 'CERTIORARI -- SUMMARY DISPOSITIONS')!;
+    expect(summary.entries.map((e) => e.docket)).toEqual(['25-1367', '25-7569', '26-139', '26-5216']);
+    expect(summary.entries[2].text.endsWith('Monsanto v. Durnell, 609 U. S. 371 (2026).')).toBe(true);
+  });
+});
+
 describe('parseOrderText: single-Justice layout', () => {
   test('an administrative stay order', () => {
     const p = parseOrderText(text('050426zr1_f2bh'))!;

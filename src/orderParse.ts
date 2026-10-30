@@ -82,7 +82,16 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
     }
     inCaption = false;
     // An unknown all-caps header directly after body text and before a docket line starts a new section.
-    if (entry.text && isAllCaps(line) && line.length > 3 && DOCKET.test(body[k + 1] ?? '')) {
+    // (A wrapped citation tail like "U. S. 371 (2026)." is all caps too, so a real header needs a word of 4+ capitals
+    // and must not end like a sentence.)
+    const nextLine = body[k + 1] ?? '';
+    if (
+      entry.text &&
+      isAllCaps(line) &&
+      /[A-Z]{4,}/.test(line) &&
+      !/[.)]$/.test(line) &&
+      (DOCKET.test(nextLine) || BARE_DOCKET.test(nextLine))
+    ) {
       section = { header: line, entries: [] };
       sections.push(section);
       entry = undefined;

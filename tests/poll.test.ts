@@ -19,13 +19,18 @@ const rss = (titles: string[]) =>
     .map((t, i) => `<item><title><![CDATA[${t}]]></title><description><![CDATA[Sum.]]></description><link>http://x/${i}.pdf</link></item>`)
     .join('')}</channel></rss>`;
 
-async function setup(routes: Record<string, Res>, opts: { initialized?: boolean; failFirstSubmits?: number } = {}) {
+type SetupOpts = { initialized?: boolean; failFirstSubmits?: number; pdfs?: Record<string, string>; pdfThrows?: boolean };
+
+async function setup(routes: Record<string, Res>, opts: SetupOpts = {}) {
   const redis = fakeRedis();
   if (opts.initialized !== false) await initialize(redis);
   const calls: { url: string; headers?: Record<string, string> }[] = [];
   const posts: { title: string; body: string }[] = [];
   const logs: string[] = [];
   let toFail = opts.failFirstSubmits ?? 0;
+  const pdfCalls: string[] = [];
+  const enc = new TextEncoder();
+  const dec = new TextDecoder();
   let clock = new Date('2026-10-06T02:30:00Z'); // 10/05 evening in New York
   const deps: PollDeps = {
     fetchText: async (url, headers) => {
@@ -39,6 +44,16 @@ async function setup(routes: Record<string, Res>, opts: { initialized?: boolean;
       }
       posts.push({ title, body });
     },
+    // A fake "PDF" is just its extracted text encoded as bytes; URLs not in opts.pdfs return 404.
+    fetchBytes: async (url) => {
+      pdfCalls.push(url);
+      const body = opts.pdfs?.[url];
+      return body === undefined ? { status: 404, bytes: new Uint8Array() } : { status: 200, bytes: enc.encode(body) };
+    },
+    pdfText: async (bytes) => {
+      if (opts.pdfThrows) throw new Error('pdf extraction failed');
+      return dec.decode(bytes);
+    },
     redis,
     log: (m) => logs.push(m),
     now: () => clock,
@@ -46,7 +61,7 @@ async function setup(routes: Record<string, Res>, opts: { initialized?: boolean;
   const advance = (minutes: number) => {
     clock = new Date(clock.getTime() + minutes * 60_000);
   };
-  return { deps, redis, calls, posts, logs, advance };
+  return { deps, redis, calls, posts, logs, advance, pdfCalls };
 }
 
 const emptyOrders = ok('<html><body></body></html>');
@@ -220,5 +235,88 @@ describe('logging', () => {
     s.advance(60);
     await runPoll(s.deps);
     expect(s.logs.filter((l) => l.includes('WARN not initialized'))).toHaveLength(2);
+  });
+});
+
+describe('order digests', () => {
+  const base = 'https://www.supremecourt.gov/orders/courtorders/';
+  const miscUrl = base + '102126zr_5i36.pdf';
+  const page = (url: string, label = 'Miscellaneous Order') => ok(`<html><body><a href="${url}">${label}</a></body></html>`);
+  const miscText = fixture('orders_text/102126zr_5i36.txt');
+  const simple = { title: 'ORDERS: Miscellaneous Order (10/21/2026)', body: `Date: 10/21/2026\n\n[Miscellaneous Order](${miscUrl})` };
+  const digestTitle = 'ORDERS: Miscellaneous Order — 26A416 (10/21/2026)';
+
+  test('a new miscellaneous order is posted with its order text', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: page(miscUrl) }, { pdfs: { [miscUrl]: miscText } });
+    await runPoll(s.deps);
+    expect(s.posts).toHaveLength(1);
+    expect(s.posts[0].title).toBe(digestTitle);
+    expect(s.posts[0].body).toContain('> The application for stay presented to The Chief Justice');
+    expect(await isNoted(s.redis, 'orders', miscUrl)).toBe(true);
+    expect(s.logs.some((l) => l.includes('WARN orders digest failed'))).toBe(false);
+  });
+
+  test('a PDF that cannot be fetched posts the simple post, logs one warning, and notes the order', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: page(miscUrl) }); // no pdfs => 404
+    await runPoll(s.deps);
+    expect(s.posts).toEqual([simple]);
+    expect(s.logs.filter((l) => l.startsWith('WARN orders digest failed'))).toEqual([
+      `WARN orders digest failed for ${miscUrl}: PDF status 404`,
+    ]);
+    expect(await isNoted(s.redis, 'orders', miscUrl)).toBe(true);
+  });
+
+  test('a PDF whose text extraction throws falls back to the simple post', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: page(miscUrl) }, { pdfs: { [miscUrl]: miscText }, pdfThrows: true });
+    await runPoll(s.deps);
+    expect(s.posts).toEqual([simple]);
+    expect(s.logs.some((l) => l.includes('pdf extraction failed'))).toBe(true);
+  });
+
+  test('empty text and an unrecognized layout fall back to the simple post', async () => {
+    for (const text of ['', 'hello world, not an order']) {
+      const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: page(miscUrl) }, { pdfs: { [miscUrl]: text } });
+      await runPoll(s.deps);
+      expect(s.posts).toEqual([simple]);
+      expect(s.logs.some((l) => l.includes('unrecognized layout'))).toBe(true);
+    }
+  });
+
+  test('a digest over the size cap falls back to the simple post', async () => {
+    const huge = '(ORDER LIST: 610 U.S.)\nWEDNESDAY, OCTOBER 21, 2026\nORDER IN PENDING CASE\n26A1 A V. B\n' + 'word '.repeat(9000);
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: page(miscUrl) }, { pdfs: { [miscUrl]: huge } });
+    await runPoll(s.deps);
+    expect(s.posts).toEqual([simple]);
+    expect(s.logs.some((l) => l.includes('digest too long'))).toBe(true);
+  });
+
+  test('an order list is posted as a digest', async () => {
+    const listUrl = base + '101926zor_q8l1.pdf';
+    const s = await setup(
+      { [RSS]: ok(rss([])), [ORDERS]: page(listUrl, 'Order List') },
+      { pdfs: { [listUrl]: fixture('orders_text/101926zor_q8l1.txt') } }
+    );
+    await runPoll(s.deps);
+    expect(s.posts[0].title).toBe('ORDERS: Order List (10/19/2026)');
+    expect(s.posts[0].body).toContain('CERTIORARI GRANTED|2');
+  });
+
+  test('an already-noted order does not fetch its PDF', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: page(miscUrl) }, { pdfs: { [miscUrl]: miscText } });
+    await runPoll(s.deps);
+    s.pdfCalls.length = 0;
+    s.advance(2);
+    await runPoll(s.deps);
+    expect(s.pdfCalls).toEqual([]);
+  });
+
+  test('a failing digest does not stop the other orders from posting', async () => {
+    const other = base + '102026zr_2d9g.pdf';
+    const html = ok(`<html><a href="${miscUrl}">Miscellaneous Order</a><a href="${other}">Miscellaneous Order</a></html>`);
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: html }, { pdfs: { [other]: fixture('orders_text/102026zr_2d9g.txt') } });
+    await runPoll(s.deps);
+    expect(s.posts).toHaveLength(2);
+    expect(s.posts[0]).toEqual(simple);
+    expect(s.posts[1].title).toBe('ORDERS: Miscellaneous Order — 26-5865 (10/20/2026)');
   });
 });
