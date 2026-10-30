@@ -45,3 +45,42 @@ export function renderMiscOrder(link: OrderLink, now: Date, parsed: ParsedOrder)
   const body = parts.join('\n\n');
   return body.length > MAX_BODY ? null : { title, body };
 }
+
+const MAX_ENTRIES = 25;
+const MAX_ENTRY_TEXT = 600;
+
+const isCountOnly = (header: string) => /DENIED\.?$/.test(header.trim());
+
+function bullet(parsed: ParsedOrder, e: OrderEntry): string {
+  const cut = e.text.length > MAX_ENTRY_TEXT ? `${e.text.slice(0, MAX_ENTRY_TEXT)}…` : e.text;
+  const caption = e.caption ? ` — ${escapeMd(e.caption)}` : '';
+  const text = cut ? `: ${escapeMd(cut)}` : '';
+  return `- **${entryLabel(parsed, e)}**${caption}${text}`;
+}
+
+// An Order List: a counts table for every section, and the substantive sections (grants, summary dispositions,
+// orders in pending cases, ...) listed in detail. Denials are only counted.
+export function renderOrderList(link: OrderLink, now: Date, parsed: ParsedOrder): { title: string; body: string } | null {
+  const date = orderDate(link, now);
+  const title = ['ORDERS:', ...(link.text ? [link.text] : []), `(${date})`].join(' ');
+
+  const parts = [`Date: ${date}`];
+  const rows = parsed.sections.map((s) => `${escapeMd(s.header)}|${s.entries.length}`);
+  parts.push(['Disposition|Count', ':--|:--', ...rows].join('\n'));
+
+  for (const section of parsed.sections) {
+    if (isCountOnly(section.header)) continue;
+    parts.push(`**${escapeMd(section.header)}**`);
+    parts.push(section.entries.slice(0, MAX_ENTRIES).map((e) => bullet(parsed, e)).join('\n'));
+    if (section.entries.length > MAX_ENTRIES) parts.push(`…and ${section.entries.length - MAX_ENTRIES} more in the PDF`);
+  }
+  parts.push(linkLine(link));
+
+  const body = parts.join('\n\n');
+  return body.length > MAX_BODY ? null : { title, body };
+}
+
+export function renderOrder(link: OrderLink, now: Date, parsed: ParsedOrder): { title: string; body: string } | null {
+  const total = parsed.sections.reduce((n, s) => n + s.entries.length, 0);
+  return isOrderList(link) || total > 10 ? renderOrderList(link, now, parsed) : renderMiscOrder(link, now, parsed);
+}
