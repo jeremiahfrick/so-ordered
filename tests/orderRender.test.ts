@@ -219,6 +219,18 @@ describe('renderOrderList: counts', () => {
   });
 });
 
+describe('renderOrderList: the first order list of a Term', () => {
+  test('is digested without a bogus section, within the size cap, and counts add up', () => {
+    const parsed = parseOrderText(text('100526zor_2a34'))!;
+    const out = renderOrder(link('100526zor_2a34.pdf', 'Order List'), now, parsed);
+    expect(out).not.toBeNull();
+    expect(out!.body.length).toBeLessThanOrEqual(MAX_BODY);
+    expect(out!.body).not.toMatch(/\n25-\s/);
+    expect(out!.body).toContain('CERTIORARI DENIED|');
+    expect(out!.body).not.toContain('WILLIAMS, RONNARD'); // denials are counted, not listed
+  });
+});
+
 describe('renderOrder', () => {
   test('an order list gets the digest, a one-entry miscellaneous order gets its text', () => {
     const list = renderOrder(link('101926zor_q8l1.pdf', 'Order List'), now, parseOrderText(text('101926zor_q8l1'))!)!;

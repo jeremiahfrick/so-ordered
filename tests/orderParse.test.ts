@@ -224,6 +224,117 @@ describe('review fixes: appended documents, phantom dockets, docket counting', (
   });
 });
 
+describe('margin docket numbers (the first order list of a Term)', () => {
+  // On this list the Court prints docket numbers that are multiples of 5 apart from their lines: the line keeps
+  // "25- CAPTION" and the digits arrive as a batch of bare numbers at the top of the page.
+  const p = parseOrderText(text('100526zor_2a34'))!;
+  const entries = p.sections.flatMap((s) => s.entries);
+
+  test('each missing number is put back into its docket line', () => {
+    const docketOf = (caption: string) => entries.find((e) => e.caption === caption)?.docket;
+    expect(docketOf('BOLIN, EUGENE N. V. KEYSTONE RV CO.')).toBe('25-1375');
+    expect(docketOf('MURRAY, STEPHEN L. V. ARCHER, PHIL, ET AL.')).toBe('25-1380');
+    expect(docketOf('WILLIAMS, RONNARD V. UNITED STATES')).toBe('25-7560');
+    expect(docketOf('ALO-KAONOHI, KAULANA V. UNITED STATES')).toBe('25-7565');
+    expect(docketOf('SANTIAGO NIEVES, JEAN C. V. ILLINOIS')).toBe('25-7570');
+  });
+
+  test('a caption line is never mistaken for a section header', () => {
+    expect(p.sections.map((s) => s.header)).toEqual([
+      'CERTIORARI -- SUMMARY DISPOSITIONS',
+      'ORDERS IN PENDING CASES',
+      'CERTIORARI DENIED',
+      'HABEAS CORPUS DENIED',
+      'MANDAMUS DENIED',
+      'PROHIBITION DENIED',
+      'REHEARINGS DENIED',
+    ]);
+  });
+
+  test('the margin numbers do not end up in any entry text', () => {
+    for (const e of entries) expect(e.text).not.toMatch(/(^|\s)\d{4,5}\s+\d{4,5}(\s|$)|^\d{4,5}$/);
+  });
+
+  test('every docket line is counted, including the repaired ones', () => {
+    const total = entries.reduce((n, e) => n + countDockets(e.docket), 0);
+    // Counted independently from the raw text: 839 full docket lines + 19 with a missing number, plus the one
+    // original-jurisdiction docket "65, ORIG.".
+    expect(total).toBe(859);
+    expect(entries.every((e) => /^(\d{2}[-A-Z]|\d{1,3}, ORIG\.)/.test(e.docket) && !/-$/.test(e.docket))).toBe(true);
+  });
+
+  test('the 2025 list has the same quirk and is read the same way', () => {
+    const q = parseOrderText(text('100625zor_5368'))!;
+    expect(q.sections.map((s) => `${s.header}:${s.entries.length}`)).toEqual([
+      'ORDERS IN PENDING CASES:43',
+      'CERTIORARI DENIED:820',
+      'HABEAS CORPUS DENIED:26',
+      'MANDAMUS DENIED:11',
+      'REHEARINGS DENIED:10',
+    ]);
+    // 904 numbered docket lines in the raw text + 6 whose number was restored.
+    expect(q.sections.flatMap((s) => s.entries).reduce((n, e) => n + countDockets(e.docket), 0)).toBe(910);
+    expect(q.sections[1].entries.map((e) => e.docket)).toEqual(expect.arrayContaining(['25-5110', '25-5115', '25-5135']));
+  });
+
+  test('a docket line with no margin number to restore makes the parse refuse (the caller posts the plain link)', () => {
+    const raw = [
+      '(ORDER LIST: 610 U.S.)',
+      'MONDAY, OCTOBER 5, 2026',
+      'CERTIORARI DENIED',
+      '25-1374 TRIMBLE, AISHA V. UNITED STATES',
+      '25- BOLIN, EUGENE N. V. KEYSTONE RV CO.',
+      '25-1377 SIDDELL, LeROY G. V. SAN DIEGO, CA',
+    ].join('\n');
+    expect(parseOrderText(raw)).toBeNull();
+  });
+
+  test('a restored number that is out of order makes the parse refuse', () => {
+    const raw = [
+      '(ORDER LIST: 610 U.S.)',
+      'MONDAY, OCTOBER 5, 2026',
+      'CERTIORARI DENIED',
+      '25-1380 FIRST, ONE V. UNITED STATES',
+      '1',
+      '1375',
+      '25- SECOND, TWO V. UNITED STATES',
+      '25-1390 THIRD, THREE V. UNITED STATES',
+    ].join('\n');
+    expect(parseOrderText(raw)).toBeNull();
+  });
+
+  test('margin numbers left over with no docket line to take them make the parse refuse', () => {
+    const raw = [
+      '(ORDER LIST: 610 U.S.)',
+      'MONDAY, OCTOBER 5, 2026',
+      'CERTIORARI DENIED',
+      '25-1374 TRIMBLE, AISHA V. UNITED STATES',
+      '1',
+      '1375',
+      '1380',
+      '25- BOLIN, EUGENE N. V. KEYSTONE RV CO.',
+      '25-1381 SIDDELL, LeROY G. V. SAN DIEGO, CA',
+    ].join('\n');
+    expect(parseOrderText(raw)).toBeNull();
+  });
+
+  test('a well-formed page restores in order', () => {
+    const raw = [
+      '(ORDER LIST: 610 U.S.)',
+      'MONDAY, OCTOBER 5, 2026',
+      'CERTIORARI DENIED',
+      '25-1374 TRIMBLE, AISHA V. UNITED STATES',
+      '1',
+      '1375',
+      '1380',
+      '25- BOLIN, EUGENE N. V. KEYSTONE RV CO.',
+      '25-1377 SIDDELL, LeROY G. V. SAN DIEGO, CA',
+      '25- MURRAY, STEPHEN L. V. ARCHER, PHIL, ET AL.',
+    ].join('\n');
+    expect(parseOrderText(raw)!.sections[0].entries.map((e) => e.docket)).toEqual(['25-1374', '25-1375', '25-1377', '25-1380']);
+  });
+});
+
 describe('parseOrderText: single-Justice layout', () => {
   test('an administrative stay order', () => {
     const p = parseOrderText(text('050426zr1_f2bh'))!;
@@ -239,6 +350,8 @@ describe('parseOrderText: single-Justice layout', () => {
     expect(e.text).not.toContain('/s/');
   });
 });
+
+const REPAIRED = new Set(['100526zor_2a34', '100625zor_5368']); // see 'margin docket numbers' above
 
 describe('corpus of historical orders', () => {
   const dir = join(__dirname, 'fixtures', 'orders_text');
@@ -281,7 +394,7 @@ describe('corpus of historical orders', () => {
     for (const f of files) {
       const raw = text(f);
       const p = parseOrderText(raw);
-      if (!p || p.layout !== 'list') continue;
+      if (!p || p.layout !== 'list' || REPAIRED.has(f)) continue;
       const parsed = strip(
         p.sections.map((s) => s.header + s.entries.map((e) => e.docket + e.caption + e.text).join('')).join('')
       );

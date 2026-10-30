@@ -99,10 +99,12 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
   let inCaption = false;
   let nextPage = 1;
   let attached: string[] = [];
+  // Margin docket numbers for the current page (see the page-number branch below).
+  let batch: string[] = [];
 
   const body = lines.slice(i + 1).filter((l) => l.length > 0);
   for (let k = 0; k < body.length; k++) {
-    const line = body[k];
+    let line = body[k];
     // Appended opinions begin with a running head ("1Cite as: 607 U. S. ____ (2026)") before their own header, so
     // either marks the end of the listing; otherwise that head would be glued onto the last entry.
     if (line === ATTACHED_DOCS || /^\d*Cite as: /.test(line)) {
@@ -111,10 +113,23 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
     }
     if (/^\d{1,3}$/.test(line) && Number(line) === nextPage) {
       nextPage++;
+      // On the biggest lists the Court prints docket numbers that are multiples of 5 apart from their lines: the line
+      // keeps "25- CAPTION" and the digits arrive as a batch of bare numbers right after the previous page's number.
+      if (batch.length > 0) return null; // numbers nobody took: the pairing can't be trusted
+      while (k + 1 < body.length && /^\d{4,5}$/.test(body[k + 1]) && Number(body[k + 1]) % 5 === 0) batch.push(body[++k]);
       continue; // page-number line
     }
     if (line === dateLine) continue;
     if (/^[)\]}]+$/.test(line)) continue; // the Court's brace marks on consolidated cases
+
+    const truncated = /^(\d{2})-\s+(\S.*)$/.exec(line);
+    if (truncated) {
+      const n = batch.shift();
+      if (n === undefined) return null; // can't restore the number: refuse rather than guess
+      const prev = /^(\d{2})-(\d+)$/.exec(entry?.docket ?? '');
+      if (prev && prev[1] === truncated[1] && Number(n) <= Number(prev[2])) return null; // out of order
+      line = `${truncated[1]}-${n} ${truncated[2]}`;
+    }
 
     // A docket number at the start of a wrapped line is a cross-reference when the line before ends "case No."
     // or when the rest of the line is ordinary lowercase prose (list captions are all caps).
@@ -168,7 +183,7 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
       isAllCaps(line) &&
       /[A-Z]{4,}/.test(line) &&
       !/[.)]$/.test(line) &&
-      (DOCKET.test(nextLine) || BARE_DOCKET.test(nextLine))
+      (DOCKET.test(nextLine) || BARE_DOCKET.test(nextLine) || /^\d{2}-\s+\S/.test(nextLine))
     ) {
       section = { header: line, entries: [] };
       sections.push(section);
@@ -178,6 +193,7 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
     entry.text = join(entry.text, line);
   }
 
+  if (batch.length > 0) return null;
   const kept = sections.filter((s) => s.entries.length > 0);
   if (kept.length === 0) return null;
   const opinions = parseOpinions(attached);
