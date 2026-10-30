@@ -109,6 +109,74 @@ describe('parseOrderText: wrapped citations', () => {
   });
 });
 
+describe('parseOrderText: written opinions attached to an order list', () => {
+  const summary = (name: string) =>
+    (parseOrderText(text(name))!.opinions ?? []).map((o) => `${o.docket} ${o.author}: ${o.kind}`);
+
+  test('a statement respecting the denial of certiorari', () => {
+    expect(parseOrderText(text('101326zor_qol1'))!.opinions).toEqual([
+      {
+        docket: '25-6989',
+        caption: 'JESUS HERRERA-SALAZAR v. UNITED STATES',
+        author: 'Justice Sotomayor',
+        kind: 'statement respecting the denial of certiorari',
+      },
+    ]);
+  });
+
+  test('per curiam opinions, dissents and hyphenated line breaks', () => {
+    expect(summary('032326zor_7mio')).toEqual([
+      '25-297 Per Curiam: per curiam opinion',
+      '25-297 Justice Sotomayor: dissenting',
+      '24-1268 Justice Sotomayor: dissenting from the denial of certiorari',
+      '25-29 Justice Sotomayor: dissenting from the denial of certiorari',
+    ]);
+  });
+
+  test('"with whom ... joins except as to Part III-B" does not change the kind', () => {
+    expect(summary('060126zor_k53l')).toEqual(['25-580 Per Curiam: per curiam opinion', '25-580 Justice Thomas: dissenting']);
+  });
+
+  test('concurrences', () => {
+    expect(summary('052626zor_6j36')).toContain('25-767 Justice Thomas: concurring');
+  });
+
+  test('an original-jurisdiction case is flagged with its ORIG docket', () => {
+    expect(summary('052626zor_6j36')).toContain(
+      '162, ORIG. Justice Thomas: dissenting from the denial of motion for leave to file complaint'
+    );
+  });
+
+  test('a list with no appended documents has no opinions field', () => {
+    expect(parseOrderText(text('102126zr_5i36'))!.opinions).toBeUndefined();
+    expect(parseOrderText(text('101926zor_q8l1'))!.opinions?.length).toBe(1);
+  });
+
+  test('corpus: every appended document yields exactly one flagged opinion, and each is verifiable in its own text', () => {
+    const dir = join(__dirname, 'fixtures', 'orders_text');
+    const problems: string[] = [];
+    let total = 0;
+    for (const f of readdirSync(dir).filter((x) => x.endsWith('.txt')).map((x) => x.replace(/\.txt$/, ''))) {
+      const raw = text(f);
+      const attached = raw.split(/\r?\n/).filter((l) => l.trim() === 'SUPREME COURT OF THE UNITED STATES').length;
+      const p = parseOrderText(raw);
+      const ops = p?.opinions ?? [];
+      total += ops.length;
+      if (p?.layout === 'list' && ops.length !== attached) problems.push(`${f}: ${attached} attached documents, ${ops.length} flagged`);
+      for (const o of ops) {
+        const noLine = o.docket.endsWith('ORIG.') ? `No. ${o.docket.replace(', ORIG.', ', Orig.')}` : `No. ${o.docket.replace('-', '–')}`;
+        if (!raw.includes(noLine)) problems.push(`${f}: docket ${o.docket} not found as "${noLine}"`);
+        if (o.author !== 'Per Curiam' && !raw.includes(`JUSTICE ${o.author.split(' ').pop()!.toUpperCase()}`)) {
+          problems.push(`${f}: author ${o.author} not found`);
+        }
+        if (!/^(per curiam opinion|dissenting|concurring|statement respecting .+|dissenting from .+)/.test(o.kind)) problems.push(`${f}: odd kind "${o.kind}"`);
+      }
+    }
+    expect(problems).toEqual([]);
+    expect(total).toBeGreaterThanOrEqual(30);
+  });
+});
+
 describe('parseOrderText: single-Justice layout', () => {
   test('an administrative stay order', () => {
     const p = parseOrderText(text('050426zr1_f2bh'))!;

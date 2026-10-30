@@ -192,6 +192,25 @@ describe('renderOrderList: grouped entries', () => {
   });
 });
 
+describe('renderOrderList: written opinions', () => {
+  test('lists the opinions attached to the order list, before the PDF link', () => {
+    const l = link('101326zor_qol1.pdf', 'Order List');
+    const out = renderOrderList(l, now, parseOrderText(text('101326zor_qol1'))!)!;
+    const heading = "**Written opinions with today's orders**";
+    expect(out.body).toContain(
+      `${heading}\n\n- **25-6989** — JESUS HERRERA-SALAZAR v. UNITED STATES: Justice Sotomayor, statement respecting the denial of certiorari`
+    );
+    expect(out.body.indexOf(heading)).toBeLessThan(out.body.indexOf(`[Order List](${l.url})`));
+  });
+
+  test('no heading when there are none', () => {
+    const l = link('101926zor_q8l1.pdf', 'Order List');
+    const parsed = parseOrderText(text('101926zor_q8l1'))!;
+    parsed.opinions = undefined;
+    expect(renderOrderList(l, now, parsed)!.body).not.toContain('Written opinions');
+  });
+});
+
 describe('renderOrder', () => {
   test('an order list gets the digest, a one-entry miscellaneous order gets its text', () => {
     const list = renderOrder(link('101926zor_q8l1.pdf', 'Order List'), now, parseOrderText(text('101926zor_q8l1'))!)!;

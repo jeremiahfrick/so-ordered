@@ -1,6 +1,13 @@
 export type OrderEntry = { docket: string; caption: string; text: string };
 export type OrderSection = { header: string; entries: OrderEntry[] };
-export type ParsedOrder = { layout: 'list' | 'single'; dateLine: string; sections: OrderSection[] };
+// A separate written opinion or statement appended to an Order List (only when its author and kind are certain).
+export type OrderOpinion = { docket: string; caption: string; author: string; kind: string };
+export type ParsedOrder = {
+  layout: 'list' | 'single';
+  dateLine: string;
+  sections: OrderSection[];
+  opinions?: OrderOpinion[];
+};
 
 // Hyphen/letter forms only, so a wrapped citation such as "601 U. S. 1 (2023)" is never a docket line.
 // "D-3150" is an attorney-discipline docket.
@@ -20,6 +27,62 @@ function join(base: string, next: string): string {
   return base.endsWith('-') ? base + next : `${base} ${next}`;
 }
 
+const AUTHOR_LINE = /^(?:Statement of |Opinion of )?(?:CHIEF JUSTICE|JUSTICE) [A-Z]+|^PER CURIAM\./;
+// Only these kinds are emitted; anything else is dropped rather than guessed.
+const KIND =
+  /^(dissenting|concurring|concurring in the judgment|concurring in part and dissenting in part|dissenting from (?:the )?denial of .+|respecting (?:the )?denial of .+)$/;
+
+const titleCase = (w: string) => w.charAt(0) + w.slice(1).toLowerCase();
+
+// Each appended document starts "SUPREME COURT OF THE UNITED STATES / <caption> / ON ... / No. 25–6989. Decided ..."
+// and then names its author, e.g. "JUSTICE SOTOMAYOR, with whom JUSTICE KAGAN joins, dissenting."
+function parseOpinions(lines: string[]): OrderOpinion[] {
+  const starts = lines.map((l, i) => (l === ATTACHED_DOCS ? i : -1)).filter((i) => i >= 0);
+  const out: OrderOpinion[] = [];
+  starts.forEach((s, k) => {
+    const doc = lines.slice(s + 1, k + 1 < starts.length ? starts[k + 1] : lines.length);
+    const noIdx = doc.findIndex((l) => /^Nos?\.\s/.test(l));
+    if (noIdx < 0) return;
+    const dm = /^Nos?\.\s+(\d{2}[–-]\d{1,5}|\d{2}[A-Z]\d{1,5}|\d{1,3}, Orig\.)/.exec(doc[noIdx]);
+    if (!dm) return;
+    const docket = dm[1].replace('–', '-').replace(', Orig.', ', ORIG.');
+    const onIdx = doc.findIndex((l) => /^ON /.test(l));
+    const caption = doc.slice(0, onIdx > 0 ? onIdx : 1).reduce((acc, x) => join(acc, x), '');
+
+    let j = -1;
+    for (let i = noIdx + 1; i < Math.min(doc.length, noIdx + 12); i++) {
+      if (AUTHOR_LINE.test(doc[i])) {
+        j = i;
+        break;
+      }
+    }
+    if (j < 0) return;
+    let sentence = doc[j];
+    for (let n = 1; !sentence.endsWith('.') && n <= 3 && j + n < doc.length; n++) sentence += ` ${doc[j + n]}`;
+    sentence = sentence.replace(/([a-z])- ([a-z])/g, '$1$2').replace(/\s+/g, ' ').trim(); // "certio- rari"
+    if (!sentence.endsWith('.')) return;
+
+    if (sentence === 'PER CURIAM.') {
+      out.push({ docket, caption, author: 'Per Curiam', kind: 'per curiam opinion' });
+      return;
+    }
+    const m = /^(Statement of |Opinion of )?(CHIEF JUSTICE|JUSTICE) ([A-Z]+)(.*)\.$/.exec(sentence);
+    if (!m) return;
+    const rest = m[4]
+      .replace(/^,\s*with whom .*?\bjoins?\b(?: except as to [^,]+)?/, '')
+      .replace(/^[,\s]+/, '')
+      .trim();
+    if (!KIND.test(rest)) return;
+    out.push({
+      docket,
+      caption,
+      author: `${m[2] === 'CHIEF JUSTICE' ? 'Chief Justice' : 'Justice'} ${titleCase(m[3])}`,
+      kind: m[1] === 'Statement of ' ? `statement ${rest}` : rest,
+    });
+  });
+  return out;
+}
+
 function parseListLayout(lines: string[]): ParsedOrder | null {
   let i = lines.findIndex((l) => l.length > 0);
   if (i === -1 || !lines[i].startsWith('(ORDER LIST:')) return null;
@@ -30,11 +93,15 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
   let entry: OrderEntry | undefined;
   let inCaption = false;
   let nextPage = 1;
+  let attached: string[] = [];
 
   const body = lines.slice(i + 1).filter((l) => l.length > 0);
   for (let k = 0; k < body.length; k++) {
     const line = body[k];
-    if (line === ATTACHED_DOCS) break;
+    if (line === ATTACHED_DOCS) {
+      attached = body.slice(k);
+      break;
+    }
     if (/^\d{1,3}$/.test(line) && Number(line) === nextPage) {
       nextPage++;
       continue; // page-number line
@@ -101,7 +168,9 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
   }
 
   const kept = sections.filter((s) => s.entries.length > 0);
-  return kept.length > 0 ? { layout: 'list', dateLine, sections: kept } : null;
+  if (kept.length === 0) return null;
+  const opinions = parseOpinions(attached);
+  return { layout: 'list', dateLine, sections: kept, ...(opinions.length > 0 ? { opinions } : {}) };
 }
 
 // "Supreme Court of the United States / No. 25A1207 / <parties> / O R D E R / <text> / /s/ <Justice> / Dated ..."

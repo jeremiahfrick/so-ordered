@@ -100,6 +100,16 @@ export function renderOrderList(link: OrderLink, now: Date, parsed: ParsedOrder)
     parts.push(items.slice(0, MAX_ENTRIES).map((e) => bullet(parsed, e)).join('\n'));
     if (items.length > MAX_ENTRIES) parts.push(`…and ${items.length - MAX_ENTRIES} more in the PDF`);
   }
+  if (parsed.opinions && parsed.opinions.length > 0) {
+    parts.push("**Written opinions with today's orders**");
+    parts.push(
+      parsed.opinions
+        .slice(0, MAX_ENTRIES)
+        .map((o) => `- **${o.docket}** — ${escapeMd(o.caption)}: ${o.author === 'Per Curiam' ? o.kind : `${o.author}, ${o.kind}`}`)
+        .join('\n')
+    );
+    if (parsed.opinions.length > MAX_ENTRIES) parts.push(`…and ${parsed.opinions.length - MAX_ENTRIES} more in the PDF`);
+  }
   parts.push(linkLine(link));
 
   const body = parts.join('\n\n');
