@@ -290,6 +290,21 @@ describe('order digests', () => {
     expect(s.logs.some((l) => l.includes('digest too long'))).toBe(true);
   });
 
+  test('if Reddit rejects the digest post, the simple post is submitted instead', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: page(miscUrl) }, { pdfs: { [miscUrl]: miscText }, failFirstSubmits: 1 });
+    await runPoll(s.deps);
+    expect(s.posts).toEqual([simple]);
+    expect(s.logs.some((l) => l.includes('WARN digest post rejected'))).toBe(true);
+    expect(await isNoted(s.redis, 'orders', miscUrl)).toBe(true);
+  });
+
+  test('if both the digest and the simple post are rejected, nothing is noted and the order is retried next tick', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: page(miscUrl) }, { pdfs: { [miscUrl]: miscText }, failFirstSubmits: 2 });
+    await runPoll(s.deps);
+    expect(s.posts).toEqual([]);
+    expect(await isNoted(s.redis, 'orders', miscUrl)).toBe(false);
+  });
+
   test('an order list is posted as a digest', async () => {
     const listUrl = base + '101926zor_q8l1.pdf';
     const s = await setup(

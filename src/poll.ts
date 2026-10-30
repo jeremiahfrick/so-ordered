@@ -98,7 +98,10 @@ async function pollOpinions(d: PollDeps): Promise<void> {
 }
 
 // The digest is a bonus: any failure logs one warning and falls back to the simple link post.
-async function buildOrderPostWithDigest(d: PollDeps, link: OrderLink): Promise<{ title: string; body: string }> {
+async function buildOrderPostWithDigest(
+  d: PollDeps,
+  link: OrderLink
+): Promise<{ post: { title: string; body: string }; digest: boolean }> {
   try {
     const res = await d.fetchBytes(link.url);
     if (res.status !== 200) throw new Error(`PDF status ${res.status}`);
@@ -106,10 +109,10 @@ async function buildOrderPostWithDigest(d: PollDeps, link: OrderLink): Promise<{
     if (!parsed) throw new Error('unrecognized layout');
     const post = renderOrder(link, d.now(), parsed);
     if (!post) throw new Error('digest too long');
-    return post;
+    return { post, digest: true };
   } catch (e) {
     d.log(`WARN orders digest failed for ${link.url}: ${message(e)}`);
-    return buildOrderPost(link, d.now());
+    return { post: buildOrderPost(link, d.now()), digest: false };
   }
 }
 
@@ -127,8 +130,16 @@ async function pollOrders(d: PollDeps): Promise<void> {
   for (const link of links) {
     if (await isNoted(d.redis, 'orders', link.id)) continue;
     try {
-      const { title, body } = await buildOrderPostWithDigest(d, link);
-      await d.submit(title, body);
+      const { post, digest } = await buildOrderPostWithDigest(d, link);
+      try {
+        await d.submit(post.title, post.body);
+      } catch (e) {
+        if (!digest) throw e;
+        // A missed order is worse than a plain one: if Reddit refuses the digest, post the simple version.
+        d.log(`WARN digest post rejected for ${link.url}: ${message(e)}; posting the simple version`);
+        const simple = buildOrderPost(link, d.now());
+        await d.submit(simple.title, simple.body);
+      }
       await markNoted(d.redis, 'orders', link.id);
       d.log(`Posted order ${link.id}`);
     } catch (e) {

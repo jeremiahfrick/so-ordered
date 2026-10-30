@@ -1,5 +1,5 @@
 import { OrderLink, orderDate } from './orders';
-import { OrderEntry, ParsedOrder } from './orderParse';
+import { OrderEntry, ParsedOrder, countDockets } from './orderParse';
 
 export const MAX_BODY = 35_000;
 
@@ -90,7 +90,7 @@ export function renderOrderList(link: OrderLink, now: Date, parsed: ParsedOrder)
   const title = ['ORDERS:', ...(link.text ? [link.text] : []), `(${date})`].join(' ');
 
   const parts = [`Date: ${date}`];
-  const rows = parsed.sections.map((s) => `${escapeMd(s.header)}|${s.entries.length}`);
+  const rows = parsed.sections.map((s) => `${escapeMd(s.header)}|${s.entries.reduce((n, e) => n + countDockets(e.docket), 0)}`);
   parts.push(['Disposition|Count', ':--|:--', ...rows].join('\n'));
 
   for (const section of parsed.sections) {

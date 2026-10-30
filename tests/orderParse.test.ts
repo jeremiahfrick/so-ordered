@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { parseOrderText } from '../src/orderParse';
+import { countDockets, parseOrderText } from '../src/orderParse';
 
 const text = (name: string) => readFileSync(join(__dirname, 'fixtures', 'orders_text', `${name}.txt`), 'utf8');
 
@@ -177,6 +177,53 @@ describe('parseOrderText: written opinions attached to an order list', () => {
   });
 });
 
+describe('review fixes: appended documents, phantom dockets, docket counting', () => {
+  test('the running head of an appended opinion does not leak into the last entry', () => {
+    const p = parseOrderText(text('012626zor_ec8f'))!;
+    const last = p.sections[p.sections.length - 1].entries.slice(-1)[0];
+    expect(last.text).not.toMatch(/Cite as/);
+    expect(last.text).not.toMatch(/\b[A-Za-z]+(, J\.|\s+Per Curiam)\b/);
+  });
+
+  test('corpus: no entry contains an appended-opinion running head', () => {
+    const dir = join(__dirname, 'fixtures', 'orders_text');
+    const bad: string[] = [];
+    for (const f of readdirSync(dir).filter((x) => x.endsWith('.txt')).map((x) => x.replace(/\.txt$/, ''))) {
+      const p = parseOrderText(text(f));
+      if (!p) continue;
+      const all = p.sections.flatMap((s) => s.entries.map((e) => `${e.caption} ${e.text}`)).join(' ');
+      // The leaked running heads use UPPERCASE surnames ("GORSUCH, J., dissenting"); real citations use "Jackson, J.".
+      if (/Cite as|[A-Z]{3,}, (C\. ?)?J\./.test(all)) bad.push(f);
+    }
+    expect(bad).toEqual([]);
+  });
+
+  test('a wrapped cross-reference to a docket number is not a new entry', () => {
+    const raw = [
+      '(ORDER LIST: 610 U.S.)',
+      'MONDAY, OCTOBER 26, 2026',
+      'ORDERS IN PENDING CASES',
+      '26A500 FOO V. BAR',
+      'The application to stay the judgment of the United States Court',
+      'of Appeals for the First Circuit in case No.',
+      '25-2089 are stayed pending the disposition of the petition for a writ',
+      'of certiorari. Justice Sotomayor would deny the application.',
+    ].join('\n');
+    const entries = parseOrderText(raw)!.sections[0].entries;
+    expect(entries.map((e) => e.docket)).toEqual(['26A500']);
+    expect(entries[0].text).toContain('case No. 25-2089 are stayed pending');
+    expect(entries[0].text.endsWith('Justice Sotomayor would deny the application.')).toBe(true);
+  });
+
+  test('countDockets counts every docket in a consolidated group', () => {
+    expect(countDockets('26A416')).toBe(1);
+    expect(countDockets('D-3150')).toBe(1);
+    expect(countDockets('162, ORIG.')).toBe(1);
+    expect(countDockets('24-109, 24-110')).toBe(2);
+    expect(countDockets('24-1192, 25-151, 25-76')).toBe(3);
+  });
+});
+
 describe('parseOrderText: single-Justice layout', () => {
   test('an administrative stay order', () => {
     const p = parseOrderText(text('050426zr1_f2bh'))!;
@@ -206,7 +253,7 @@ describe('corpus of historical orders', () => {
     const out: string[] = [];
     let page = 1;
     for (const l of lines.slice(2)) {
-      if (l === 'SUPREME COURT OF THE UNITED STATES') break;
+      if (l === 'SUPREME COURT OF THE UNITED STATES' || /^\d*Cite as: /.test(l)) break;
       if (/^\d{1,3}$/.test(l) && Number(l) === page) {
         page++;
         continue;

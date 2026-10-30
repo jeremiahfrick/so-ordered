@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { OrderLink } from '../src/orders';
-import { ParsedOrder, parseOrderText } from '../src/orderParse';
+import { ParsedOrder, countDockets, parseOrderText } from '../src/orderParse';
 import { MAX_BODY, escapeMd, isOrderList, renderMiscOrder, renderOrder, renderOrderList } from '../src/orderRender';
 
 const text = (name: string) => readFileSync(join(__dirname, 'fixtures', 'orders_text', `${name}.txt`), 'utf8');
@@ -211,6 +211,14 @@ describe('renderOrderList: written opinions', () => {
   });
 });
 
+describe('renderOrderList: counts', () => {
+  test('a consolidated group of bare dockets is counted once per docket', () => {
+    // 334 docket lines in the denied section of this list (6 of them are bare dockets in consolidated groups).
+    const out = renderOrderList(link('011226zor_3d9g.pdf', 'Order List'), now, parseOrderText(text('011226zor_3d9g'))!)!;
+    expect(out.body).toContain('CERTIORARI DENIED|334\n');
+  });
+});
+
 describe('renderOrder', () => {
   test('an order list gets the digest, a one-entry miscellaneous order gets its text', () => {
     const list = renderOrder(link('101926zor_q8l1.pdf', 'Order List'), now, parseOrderText(text('101926zor_q8l1'))!)!;
@@ -235,7 +243,9 @@ describe('renderOrder', () => {
       expect(out.body.length).toBeLessThanOrEqual(MAX_BODY);
       if (out.body.includes('Disposition|Count')) {
         const rows = [...out.body.matchAll(/^(?!Disposition)([^\n|]+)\|(\d+)$/gm)].map((m) => Number(m[2]));
-        expect(rows.reduce((a, b) => a + b, 0)).toBe(parsed.sections.reduce((n, s) => n + s.entries.length, 0));
+        expect(rows.reduce((a, b) => a + b, 0)).toBe(
+          parsed.sections.reduce((n, s) => n + s.entries.reduce((m, e) => m + countDockets(e.docket), 0), 0)
+        );
       }
     }
   });

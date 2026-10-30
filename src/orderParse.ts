@@ -13,6 +13,11 @@ export type ParsedOrder = {
 // "D-3150" is an attorney-discipline docket.
 const TOKEN = String.raw`\d{2}-\d{1,5}|\d{2}[A-Z]\d{1,5}|[A-Z]-\d{1,5}|\d{1,3}, ORIG\.`;
 const DOCKET = new RegExp(`^(${TOKEN})\\s+(\\S.*)$`);
+
+// How many dockets an entry covers: a consolidated group is stored as "24-109, 24-110".
+export function countDockets(docket: string): number {
+  return docket.match(new RegExp(TOKEN, 'g'))?.length ?? 0;
+}
 // Consolidated cases list several bare dockets, then brace marks, then one shared caption.
 const BARE_DOCKET = new RegExp(`^(${TOKEN})$`);
 const KNOWN_HEADER =
@@ -98,7 +103,9 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
   const body = lines.slice(i + 1).filter((l) => l.length > 0);
   for (let k = 0; k < body.length; k++) {
     const line = body[k];
-    if (line === ATTACHED_DOCS) {
+    // Appended opinions begin with a running head ("1Cite as: 607 U. S. ____ (2026)") before their own header, so
+    // either marks the end of the listing; otherwise that head would be glued onto the last entry.
+    if (line === ATTACHED_DOCS || /^\d*Cite as: /.test(line)) {
       attached = body.slice(k);
       break;
     }
@@ -109,8 +116,12 @@ function parseListLayout(lines: string[]): ParsedOrder | null {
     if (line === dateLine) continue;
     if (/^[)\]}]+$/.test(line)) continue; // the Court's brace marks on consolidated cases
 
-    const docket = DOCKET.exec(line);
-    const bare = BARE_DOCKET.exec(line);
+    // A docket number at the start of a wrapped line is a cross-reference when the line before ends "case No."
+    // or when the rest of the line is ordinary lowercase prose (list captions are all caps).
+    const afterCaseNo = /\bNos?\.$/.test(body[k - 1] ?? '');
+    let docket = afterCaseNo ? null : DOCKET.exec(line);
+    if (docket && /\b[a-z]{2,}\b/.test(docket[2])) docket = null;
+    const bare = afterCaseNo ? null : BARE_DOCKET.exec(line);
     if (KNOWN_HEADER.test(line) && isAllCaps(line) && !docket) {
       section = { header: line, entries: [] };
       sections.push(section);
