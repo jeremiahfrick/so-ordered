@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseOrderText } from '../src/orderParse';
 
@@ -96,5 +96,72 @@ describe('parseOrderText: list layout', () => {
   test('text that is not an order returns null', () => {
     expect(parseOrderText('hello')).toBeNull();
     expect(parseOrderText('')).toBeNull();
+  });
+});
+
+describe('parseOrderText: single-Justice layout', () => {
+  test('an administrative stay order', () => {
+    const p = parseOrderText(text('050426zr1_f2bh'))!;
+    expect(p.layout).toBe('single');
+    expect(p.sections).toHaveLength(1);
+    expect(p.sections[0].header).toBe('ORDER');
+    const e = p.sections[0].entries[0];
+    expect(e.docket).toBe('25A1208');
+    expect(e.caption).toContain('GENBIOPRO, INC.');
+    expect(e.caption).toContain('LOUISIANA, ET AL.');
+    expect(e.text.startsWith('UPON CONSIDERATION of the application of counsel for the applicant,')).toBe(true);
+    expect(e.text.endsWith('by 5 p.m. (EDT).')).toBe(true);
+    expect(e.text).not.toContain('/s/');
+  });
+});
+
+describe('corpus of historical orders', () => {
+  const dir = join(__dirname, 'fixtures', 'orders_text');
+  const files = readdirSync(dir).filter((f) => f.endsWith('.txt')).map((f) => f.replace(/\.txt$/, ''));
+  const strip = (s: string) => s.replace(/[\s,]+/g, ''); // commas too: consolidated dockets are joined with ", "
+
+  // Independent restatement of what the parser should keep: everything after the date line and before
+  // any appended opinions, minus page numbers and the Court's brace marks.
+  function expectedConcat(raw: string): string {
+    const lines = raw.split(/\r?\n/).map((l) => l.trim()).filter((l) => l.length > 0);
+    const dateLine = lines[1];
+    const out: string[] = [];
+    let page = 1;
+    for (const l of lines.slice(2)) {
+      if (l === 'SUPREME COURT OF THE UNITED STATES') break;
+      if (/^\d{1,3}$/.test(l) && Number(l) === page) {
+        page++;
+        continue;
+      }
+      if (l === dateLine || /^[)\]}]+$/.test(l)) continue;
+      out.push(l.replace(/^(\d{2}-\d{1,5}|\d{2}[A-Z]\d{1,5}|[A-Z]-\d{1,5}|\d{1,3}, ORIG\.)\s+[)\]}]\s*/, '$1 '));
+    }
+    return strip(out.join(''));
+  }
+
+  test('every fixture parses without throwing, and at most 3 fall back to null', () => {
+    const nulls: string[] = [];
+    for (const f of files) {
+      let p: ReturnType<typeof parseOrderText> = null;
+      expect(() => {
+        p = parseOrderText(text(f));
+      }).not.toThrow();
+      if (!p) nulls.push(f);
+    }
+    if (nulls.length > 3) throw new Error(`unparsed fixtures: ${nulls.join(', ')}`);
+  });
+
+  test('nothing is dropped, duplicated or reordered in list-layout orders', () => {
+    const bad: string[] = [];
+    for (const f of files) {
+      const raw = text(f);
+      const p = parseOrderText(raw);
+      if (!p || p.layout !== 'list') continue;
+      const parsed = strip(
+        p.sections.map((s) => s.header + s.entries.map((e) => e.docket + e.caption + e.text).join('')).join('')
+      );
+      if (parsed !== expectedConcat(raw)) bad.push(f);
+    }
+    expect(bad).toEqual([]);
   });
 });
