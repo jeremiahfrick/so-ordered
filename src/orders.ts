@@ -55,8 +55,12 @@ function dateFromFilename(url: string): string | undefined {
 }
 
 // Date precedence: a date in the link text (old behavior), then the date in the PDF filename, then today (Court time).
+export function orderDate(link: OrderLink, now: Date): string {
+  return DATE_IN_TEXT.exec(link.text)?.[1] ?? dateFromFilename(link.url) ?? mmddyyyy(now);
+}
+
 export function buildOrderPost(link: OrderLink, now: Date): { title: string; body: string } {
-  const date = DATE_IN_TEXT.exec(link.text)?.[1] ?? dateFromFilename(link.url) ?? mmddyyyy(now);
+  const date = orderDate(link, now);
   const title = ['ORDERS:', ...(link.text ? [link.text] : []), `(${date})`].join(' ');
   const body = [`Date: ${date}`, link.text ? `[${link.text}](${link.url})` : `[Order Document](${link.url})`].join('\n\n');
   return { title, body };
