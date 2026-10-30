@@ -42,6 +42,7 @@ describe('buildOrderPost', () => {
   // 02:30 UTC on 6 Oct is still the evening of 5 Oct at the Court (America/New_York).
   const now = new Date('2026-10-06T02:30:00Z');
   const url = 'https://www.supremecourt.gov/orders/courtorders/100725zor_abcd.pdf';
+  const undated = 'https://www.supremecourt.gov/orders/courtorders/calendar.pdf';
 
   test('uses the date found in the link text', () => {
     expect(buildOrderPost({ id: url, url, text: '10/07/2025 Order List' }, now)).toEqual({
@@ -50,17 +51,45 @@ describe('buildOrderPost', () => {
     });
   });
 
-  test('falls back to today as zero-padded MM/DD/YYYY when the text has no date', () => {
-    expect(buildOrderPost({ id: url, url, text: 'Order List' }, now)).toEqual({
+  test('a date in the link text wins over the date in the filename', () => {
+    expect(buildOrderPost({ id: url, url, text: '10/08/2025 Order List' }, now).title).toBe(
+      'ORDERS: 10/08/2025 Order List (10/08/2025)'
+    );
+  });
+
+  test('reads the real date from the PDF filename (MMDDYY) when the text has none', () => {
+    const u = 'https://www.supremecourt.gov/orders/courtorders/102126zr_5i36.pdf';
+    expect(buildOrderPost({ id: u, url: u, text: 'Miscellaneous Order' }, now)).toEqual({
+      title: 'ORDERS: Miscellaneous Order (10/21/2026)',
+      body: `Date: 10/21/2026\n\n[Miscellaneous Order](${u})`,
+    });
+  });
+
+  test('filename dates work for order lists and numbered miscellaneous orders', () => {
+    const list = 'https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf';
+    const misc = 'https://www.supremecourt.gov/orders/courtorders/100726zr2_0813.pdf';
+    expect(buildOrderPost({ id: list, url: list, text: 'Order List' }, now).title).toBe('ORDERS: Order List (10/19/2026)');
+    expect(buildOrderPost({ id: misc, url: misc, text: 'Miscellaneous Order' }, now).title).toBe(
+      'ORDERS: Miscellaneous Order (10/07/2026)'
+    );
+  });
+
+  test('an impossible filename date (month 99) falls back to today', () => {
+    const u = 'https://www.supremecourt.gov/orders/courtorders/991326zr_xxxx.pdf';
+    expect(buildOrderPost({ id: u, url: u, text: 'Order List' }, now).title).toBe('ORDERS: Order List (10/05/2026)');
+  });
+
+  test('falls back to today as zero-padded MM/DD/YYYY when neither text nor filename has a date', () => {
+    expect(buildOrderPost({ id: undated, url: undated, text: 'Order List' }, now)).toEqual({
       title: 'ORDERS: Order List (10/05/2026)',
-      body: `Date: 10/05/2026\n\n[Order List](${url})`,
+      body: `Date: 10/05/2026\n\n[Order List](${undated})`,
     });
   });
 
   test('empty link text yields the generic body and a bare title', () => {
-    expect(buildOrderPost({ id: url, url, text: '' }, now)).toEqual({
+    expect(buildOrderPost({ id: undated, url: undated, text: '' }, now)).toEqual({
       title: 'ORDERS: (10/05/2026)',
-      body: `Date: 10/05/2026\n\n[Order Document](${url})`,
+      body: `Date: 10/05/2026\n\n[Order Document](${undated})`,
     });
   });
 });

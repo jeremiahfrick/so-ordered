@@ -158,8 +158,8 @@ describe('runPoll', () => {
     await runPoll(s.deps);
     expect(s.posts).toHaveLength(12);
     expect(s.posts[0]).toEqual({
-      title: 'ORDERS: Miscellaneous Order (10/05/2026)',
-      body: `Date: 10/05/2026\n\n[Miscellaneous Order](${first})`,
+      title: 'ORDERS: Miscellaneous Order (10/21/2026)', // the date comes from the filename 102126zr_...
+      body: `Date: 10/21/2026\n\n[Miscellaneous Order](${first})`,
     });
     expect(await isNoted(s.redis, 'orders', first)).toBe(true);
 

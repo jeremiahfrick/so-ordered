@@ -44,9 +44,19 @@ function mmddyyyy(d: Date): string {
   }
 }
 
-// Ports the title/body construction in find_and_post_orders; with no date in the text it uses today (old behavior).
+// Order PDFs are named MMDDYY + type, e.g. 102126zr_5i36.pdf (10/21/26) or 101926zor_q8l1.pdf (10/19/26).
+function dateFromFilename(url: string): string | undefined {
+  const basename = url.split('?')[0].split('/').pop() ?? '';
+  const m = /^(\d{2})(\d{2})(\d{2})[a-z]/i.exec(basename);
+  if (!m) return undefined;
+  const [, mm, dd, yy] = m;
+  if (Number(mm) < 1 || Number(mm) > 12 || Number(dd) < 1 || Number(dd) > 31) return undefined;
+  return `${mm}/${dd}/20${yy}`;
+}
+
+// Date precedence: a date in the link text (old behavior), then the date in the PDF filename, then today (Court time).
 export function buildOrderPost(link: OrderLink, now: Date): { title: string; body: string } {
-  const date = DATE_IN_TEXT.exec(link.text)?.[1] ?? mmddyyyy(now);
+  const date = DATE_IN_TEXT.exec(link.text)?.[1] ?? dateFromFilename(link.url) ?? mmddyyyy(now);
   const title = ['ORDERS:', ...(link.text ? [link.text] : []), `(${date})`].join(' ');
   const body = [`Date: ${date}`, link.text ? `[${link.text}](${link.url})` : `[Order Document](${link.url})`].join('\n\n');
   return { title, body };
