@@ -1,4 +1,4 @@
-import { RedisLike, isInitialized, isNoted, markNoted } from './dedup';
+import { RedisLike, initialize, isInitialized, isNoted, markNoted } from './dedup';
 import { buildOpinionPost, parseAuthor, parseOpinionFeed, termYear } from './opinions';
 import { OrderLink, buildOrderPost, parseOrderLinks } from './orders';
 import { parseOrderText } from './orderParse';
@@ -32,13 +32,57 @@ async function oncePerHour(d: PollDeps, key: string): Promise<boolean> {
   return true;
 }
 
+async function fetchFeed(d: PollDeps, warn: (m: string) => void) {
+  const feed = await d.fetchText(OPINIONS_FEED);
+  if (feed.status !== 200) {
+    warn(`WARN opinions feed status ${feed.status}`);
+    return null;
+  }
+  return parseOpinionFeed(feed.text);
+}
+
+async function fetchOrderLinks(d: PollDeps, warn: (m: string) => void) {
+  const page = await d.fetchText(ORDERS_PAGE);
+  if (page.status !== 200) {
+    warn(`WARN orders page status ${page.status}`);
+    return null;
+  }
+  const links = parseOrderLinks(page.text);
+  if (links.length === 0) {
+    warn('WARN no order links found on orders page');
+    return null;
+  }
+  return links;
+}
+
+// First run after install: everything already on the Court's site counts as seen and nothing is posted, so a
+// subreddit only gets documents published from now on. Nothing is recorded unless both listings were read, so a
+// Court outage just delays the start (retried every tick, warning at most hourly).
+async function baseline(d: PollDeps): Promise<void> {
+  const warn = async (m: string) => {
+    if (await oncePerHour(d, 'last_uninitialized_warning')) d.log(m);
+  };
+  const pending: string[] = [];
+  const quiet = (m: string) => void pending.push(m);
+  const feed = await fetchFeed(d, quiet);
+  const links = feed ? await fetchOrderLinks(d, quiet) : null;
+  if (!feed || !links) {
+    for (const m of pending) await warn(m);
+    return;
+  }
+  await initialize(d.redis, { cases: feed.opinions.map((o) => o.caseId), orders: links.map((l) => l.id) });
+  const n = feed.opinions.length;
+  d.log(
+    `Initialized: skipped ${n} ${n === 1 ? 'opinion' : 'opinions'} and ${links.length} ${links.length === 1 ? 'order' : 'orders'} ` +
+      "already on the Court's site; posting new ones from now on"
+  );
+}
+
 // The old bot's flow: find_and_post_opinions + post_it + find_and_post_orders. A key is marked noted only after
 // submit resolves, so a failed post is retried on the next tick.
 export async function runPoll(d: PollDeps): Promise<void> {
   if (!(await isInitialized(d.redis))) {
-    if (await oncePerHour(d, 'last_uninitialized_warning')) {
-      d.log('WARN not initialized: poll skipped (run "Initialize dedup" from the mod menu)');
-    }
+    await baseline(d);
     return;
   }
   try {
@@ -69,12 +113,9 @@ async function lookupAuthor(d: PollDeps, caseNum: string, caseJson: any): Promis
 }
 
 async function pollOpinions(d: PollDeps): Promise<void> {
-  const feed = await d.fetchText(OPINIONS_FEED);
-  if (feed.status !== 200) {
-    d.log(`WARN opinions feed status ${feed.status}`);
-    return;
-  }
-  const { opinions, skippedTitles } = parseOpinionFeed(feed.text);
+  const feed = await fetchFeed(d, d.log);
+  if (!feed) return;
+  const { opinions, skippedTitles } = feed;
   for (const t of skippedTitles) d.log(`No case ID found in entry: ${t}`);
 
   for (const opinion of opinions) {
@@ -117,16 +158,8 @@ async function buildOrderPostWithDigest(
 }
 
 async function pollOrders(d: PollDeps): Promise<void> {
-  const page = await d.fetchText(ORDERS_PAGE);
-  if (page.status !== 200) {
-    d.log(`WARN orders page status ${page.status}`);
-    return;
-  }
-  const links = parseOrderLinks(page.text);
-  if (links.length === 0) {
-    d.log('WARN no order links found on orders page');
-    return;
-  }
+  const links = await fetchOrderLinks(d, d.log);
+  if (!links) return;
   for (const link of links) {
     if (await isNoted(d.redis, 'orders', link.id)) continue;
     try {

@@ -1,5 +1,4 @@
-import { initialize, isInitialized, isNoted, markNoted, parseSeedFiles } from '../src/dedup';
-import { seed } from '../src/seed';
+import { initialize, isInitialized, isNoted, markNoted } from '../src/dedup';
 import { fakeRedis } from './helpers';
 
 describe('dedup store', () => {
@@ -36,20 +35,5 @@ describe('dedup store', () => {
     expect(await isNoted(r, 'orders', 'u')).toBe(false);
     await markNoted(r, 'orders', 'u');
     expect(await isNoted(r, 'orders', 'u')).toBe(true);
-  });
-});
-
-describe('parseSeedFiles', () => {
-  test('drops blank lines and trims carriage returns and spaces', () => {
-    expect(parseSeedFiles('24-1\r\n\r\n 24-2 \n', 'u1\r\n\nu2')).toEqual({ cases: ['24-1', '24-2'], orders: ['u1', 'u2'] });
-  });
-});
-
-describe('bundled seed snapshot', () => {
-  test('is non-empty and contains clean ids', () => {
-    expect(seed.cases.length).toBeGreaterThan(0);
-    expect(seed.orders.length).toBeGreaterThan(0);
-    for (const id of [...seed.cases, ...seed.orders]) expect(id).toBe(id.trim());
-    expect(seed.orders.every((u) => u.startsWith('https://www.supremecourt.gov/'))).toBe(true);
   });
 });

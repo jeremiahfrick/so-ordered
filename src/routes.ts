@@ -1,7 +1,5 @@
 export type RouteDeps = {
   poll: () => Promise<void>;
-  initSeed: () => Promise<void>;
-  initEmpty: () => Promise<void>;
   log: (m: string) => void;
 };
 
@@ -13,12 +11,6 @@ export async function route(path: string, d: RouteDeps): Promise<Result> {
       case '/internal/scheduler/poll':
         await d.poll();
         return { status: 200, body: {} };
-      case '/internal/menu/init-seed':
-        await d.initSeed();
-        return { status: 200, body: { showToast: 'Dedup initialized from the bundled snapshot.' } };
-      case '/internal/menu/init-empty':
-        await d.initEmpty();
-        return { status: 200, body: { showToast: 'Dedup initialized empty. Posting starts on the next tick.' } };
       default:
         return { status: 404, body: { error: 'not found' } };
     }

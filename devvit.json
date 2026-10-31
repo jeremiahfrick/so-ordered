@@ -25,22 +25,6 @@
   "scripts": {
     "build": "esbuild src/server/index.ts --bundle --platform=node --format=cjs --minify --outfile=dist/server/index.js"
   },
-  "menu": {
-    "items": [
-      {
-        "label": "Initialize dedup (import snapshot)",
-        "location": "subreddit",
-        "forUserType": "moderator",
-        "endpoint": "/internal/menu/init-seed"
-      },
-      {
-        "label": "Initialize dedup (start empty)",
-        "location": "subreddit",
-        "forUserType": "moderator",
-        "endpoint": "/internal/menu/init-empty"
-      }
-    ]
-  },
   "marketingAssets": {
     "icon": "assets/icon.png"
   },

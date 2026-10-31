@@ -5,8 +5,6 @@ function fakeDeps(overrides: Partial<RouteDeps> = {}) {
   const logs: string[] = [];
   const deps: RouteDeps = {
     poll: async () => void calls.push('poll'),
-    initSeed: async () => void calls.push('initSeed'),
-    initEmpty: async () => void calls.push('initEmpty'),
     log: (m) => logs.push(m),
     ...overrides,
   };
@@ -18,22 +16,6 @@ describe('route', () => {
     const { deps, calls } = fakeDeps();
     expect(await route('/internal/scheduler/poll', deps)).toEqual({ status: 200, body: {} });
     expect(calls).toEqual(['poll']);
-  });
-
-  test('/internal/menu/init-seed runs only initSeed and answers a toast', async () => {
-    const { deps, calls } = fakeDeps();
-    const res = await route('/internal/menu/init-seed', deps);
-    expect(calls).toEqual(['initSeed']);
-    expect(res.status).toBe(200);
-    expect(typeof res.body.showToast).toBe('string');
-    expect((res.body.showToast as string).length).toBeGreaterThan(0);
-  });
-
-  test('/internal/menu/init-empty runs only initEmpty and answers a toast', async () => {
-    const { deps, calls } = fakeDeps();
-    const res = await route('/internal/menu/init-empty', deps);
-    expect(calls).toEqual(['initEmpty']);
-    expect((res.body.showToast as string).length).toBeGreaterThan(0);
   });
 
   test('an unknown path is a 404 and calls nothing', async () => {

@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { initialize, isNoted } from '../src/dedup';
+import { initialize, isInitialized, isNoted } from '../src/dedup';
 import { PollDeps, runPoll } from '../src/poll';
 import { fakeRedis } from './helpers';
 
@@ -66,15 +66,84 @@ async function setup(routes: Record<string, Res>, opts: SetupOpts = {}) {
 
 const emptyOrders = ok('<html><body></body></html>');
 
-describe('runPoll', () => {
-  test('uninitialized posts nothing and fetches nothing', async () => {
-    const s = await setup({ [RSS]: ok(rss(['A v. B (24A884)'])), [ORDERS]: emptyOrders }, { initialized: false });
+describe('first run on a fresh install', () => {
+  const firstOrder = 'https://www.supremecourt.gov/orders/courtorders/102126zr_5i36.pdf';
+
+  test('marks everything already on the Court site as seen, posts nothing, and starts the app', async () => {
+    const s = await setup(
+      { [RSS]: ok(rss(['A v. B (24A884)'])), [ORDERS]: ok(fixture('orders.html')) },
+      { initialized: false }
+    );
     await runPoll(s.deps);
     expect(s.posts).toEqual([]);
-    expect(s.calls).toEqual([]);
-    expect(s.logs.some((l) => l.includes('WARN not initialized'))).toBe(true);
+    expect(await isInitialized(s.redis)).toBe(true);
+    expect(await isNoted(s.redis, 'cases', '24A884')).toBe(true);
+    expect(await isNoted(s.redis, 'orders', firstOrder)).toBe(true);
+    expect(Object.keys(s.redis.hashes.get('noted_orders') ?? {})).toHaveLength(12);
+    // only the two listing pages are fetched: no case JSON, no PDFs
+    expect(s.calls.map((c) => c.url).sort()).toEqual([ORDERS, RSS].sort());
+    expect(s.pdfCalls).toEqual([]);
+    expect(s.logs).toEqual([expect.stringMatching(/^Initialized: skipped 1 opinion and 12 orders already on the Court's site/)]);
   });
 
+  test('later ticks post only what is new since the first run', async () => {
+    const s = await setup(
+      { [RSS]: ok(rss(['A v. B (24A884)'])), [ORDERS]: ok(fixture('orders.html')) },
+      { initialized: false }
+    );
+    await runPoll(s.deps);
+
+    s.advance(2);
+    const newOrder = 'https://www.supremecourt.gov/orders/courtorders/110226zr_zzzz.pdf';
+    const html = fixture('orders.html').replace('</body>', `<a href="${newOrder}">Miscellaneous Order</a></body>`);
+    const routes = {
+      [RSS]: ok(rss(['A v. B (24A884)', 'C v. D (24-809)'])),
+      [CASE('24-809')]: ok(fixture('case_24-1056.json')),
+      [SLIP]: ok(fixture('slipopinion_24.html')),
+      [ORDERS]: ok(html),
+    };
+    s.deps.fetchText = async (url) => routes[url] ?? { status: 404, text: '' };
+    await runPoll(s.deps);
+    expect(s.posts).toHaveLength(2);
+    expect(s.logs.filter((l) => l.startsWith('Posted opinion 24-809'))).toHaveLength(1);
+    expect(s.logs.filter((l) => l.startsWith('Posted order ') && l.includes('110226zr_zzzz'))).toHaveLength(1);
+  });
+
+  test.each([
+    ['the opinions feed fails', { [RSS]: { status: 500, text: '' }, [ORDERS]: ok(fixture('orders.html')) }, 'WARN opinions feed status 500'],
+    ['the orders page fails', { [RSS]: ok(rss(['A v. B (24A884)'])), [ORDERS]: { status: 500, text: '' } }, 'WARN orders page status 500'],
+    ['the orders page has no order links', { [RSS]: ok(rss(['A v. B (24A884)'])), [ORDERS]: emptyOrders }, 'WARN no order links'],
+  ])('stays uninitialized and marks nothing when %s, then retries', async (_name, routes, warning) => {
+    const s = await setup(routes as Record<string, Res>, { initialized: false });
+    await runPoll(s.deps);
+    expect(await isInitialized(s.redis)).toBe(false);
+    expect(s.redis.hashes.size).toBe(0);
+    expect(s.posts).toEqual([]);
+    expect(s.logs.some((l) => l.includes(warning))).toBe(true);
+  });
+
+  test('a failed first run is retried on the next tick', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: { status: 500, text: '' } }, { initialized: false });
+    await runPoll(s.deps);
+    expect(await isInitialized(s.redis)).toBe(false);
+
+    const routes: Record<string, Res> = { [RSS]: ok(rss([])), [ORDERS]: ok(fixture('orders.html')) };
+    s.deps.fetchText = async (url) => routes[url] ?? { status: 404, text: '' };
+    s.advance(2);
+    await runPoll(s.deps);
+    expect(await isInitialized(s.redis)).toBe(true);
+    expect(s.posts).toEqual([]);
+  });
+
+  test('an empty opinions feed is fine (nothing published yet this term)', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: ok(fixture('orders.html')) }, { initialized: false });
+    await runPoll(s.deps);
+    expect(await isInitialized(s.redis)).toBe(true);
+    expect(s.logs[0]).toMatch(/skipped 0 opinions and 12 orders/);
+  });
+});
+
+describe('runPoll', () => {
   test('new opinion is fetched, posted, then noted; a noted opinion is not posted again', async () => {
     const s = await setup({
       [RSS]: ok(rss(['A v. B (24A884)'])),
@@ -223,18 +292,18 @@ describe('logging', () => {
     expect(s.logs.filter((l) => l.startsWith('Posted order '))).toHaveLength(12);
   });
 
-  test('the not-initialized warning is logged once per hour, not every tick', async () => {
-    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: emptyOrders }, { initialized: false });
+  test('a failing first run warns once per hour, not every tick', async () => {
+    const s = await setup({ [RSS]: { status: 500, text: '' }, [ORDERS]: emptyOrders }, { initialized: false });
     await runPoll(s.deps);
     s.advance(2);
     await runPoll(s.deps);
     s.advance(2);
     await runPoll(s.deps);
-    expect(s.logs.filter((l) => l.includes('WARN not initialized'))).toHaveLength(1);
+    expect(s.logs.filter((l) => l.includes('WARN opinions feed status 500'))).toHaveLength(1);
 
     s.advance(60);
     await runPoll(s.deps);
-    expect(s.logs.filter((l) => l.includes('WARN not initialized'))).toHaveLength(2);
+    expect(s.logs.filter((l) => l.includes('WARN opinions feed status 500'))).toHaveLength(2);
   });
 });
 

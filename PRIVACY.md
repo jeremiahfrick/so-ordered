@@ -13,7 +13,7 @@ Nothing about people. The app does not collect, store or process personal inform
 In Devvit's built-in Redis storage, inside Reddit's infrastructure:
 
 - Identifiers of Court items already posted (case numbers and PDF URLs), so nothing is posted twice
-- A flag that records that setup was completed
+- A flag that records that the first check has run
 - Timestamps used to limit log messages to one per hour
 
 ## What the app sends elsewhere

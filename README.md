@@ -22,7 +22,7 @@ When the Court adds a slip opinion, the app posts `OPINION: <caption>` with a ta
 | Case Link | Link to the docket |
 
 ### Orders
-When the Court posts an Order List or Miscellaneous Order, the app posts `ORDERS: <title> (<date>)` with a link to the PDF.
+When the Court posts an Order List or Miscellaneous Order, the app posts `ORDERS: <title> (<date>)`. A Miscellaneous Order shows the text of the order. An Order List shows a count of each disposition, the grants, summary dispositions and orders in pending cases in detail, and any attached written opinions. Every post links to the PDF, and if the PDF can't be read the post is just the link.
 
 Each opinion and order is posted once. The app remembers what it has posted.
 
@@ -30,19 +30,9 @@ Each opinion and order is posted once. The app remembers what it has posted.
 
 ## Setup
 
-1. Install the app on your subreddit. Posts are made by the app's own account, on the subreddit where it is installed.
-2. From the subreddit menu, run one of:
-   - **Initialize dedup (import snapshot)**: marks the Court items published so far as already posted, so only new items are posted. Use this on a live community.
-   - **Initialize dedup (start empty)**: lets the items currently in the Court's feeds post once. Use this on a test subreddit.
-3. That's it. The app checks the Court's feeds every 2 minutes. Until step 2 is done it posts nothing.
+Install the app on your subreddit. That's all: there is nothing to configure and no menu. Posts are made by the app's own account, on the subreddit where it is installed.
 
-## Menu reference
-
-| Location | Menu item | Who | What it does |
-|---|---|---|---|
-| Subreddit | Initialize dedup (import snapshot) | Moderators | Marks already-published Court items as posted |
-| Subreddit | Initialize dedup (start empty) | Moderators | Starts with no history |
-
+The app checks the Court's site every 2 minutes. On its first check it treats everything already published as seen and posts none of it, so your subreddit only gets opinions and orders published after the app was installed. (If the Court's site can't be reached, the app simply tries again on the next check.)
 ---
 
 ## Fetch Domains
@@ -61,10 +51,11 @@ The app uses Devvit's HTTP fetch to read public documents from one domain.
 - `/orders/ordersofthecourt/`: the public Orders of the Court page
 - `/RSS/Cases/JSON/<case number>.json`: public docket data for a case that has a new opinion
 - `/opinions/slipopinion/<term>`: the public slip-opinion table, used to find the authoring Justice
+- `/orders/...pdf`: the public order PDF linked from the Orders page, read once per new order to show its text in the post
 
 **What is sent.** Only the URL. No user data, subreddit data, or Reddit data is ever sent to the Court's site.
 
-**How often.** Two requests every 2 minutes (the feed and the Orders page), plus one or two extra requests when a new opinion appears. That is roughly 1,500 requests per day.
+**How often.** Two requests every 2 minutes (the feed and the Orders page), plus one or two extra requests when a new opinion appears and one for each new order PDF. That is roughly 1,500 requests per day.
 
 **What is done with the responses.** They are parsed, formatted into a Reddit post, and discarded. Nothing from the responses is stored except an identifier (case number or PDF URL) used to avoid posting an item twice.
 
@@ -75,7 +66,7 @@ The app uses Devvit's HTTP fetch to read public documents from one domain.
 The app stores data only in Devvit's built-in Redis, within Reddit's infrastructure:
 
 - Identifiers of Court items already posted (case numbers and PDF URLs)
-- A flag recording that setup was completed
+- A flag recording that the first check has run
 - Timestamps used to limit log messages to one per hour
 
 It stores no information about Reddit users, moderators or subreddit members, reads no private messages, and sends no data to any server other than the read-only requests to `www.supremecourt.gov` described above. Uninstalling the app removes its data. See [PRIVACY.md](PRIVACY.md) and [TERMS.md](TERMS.md).

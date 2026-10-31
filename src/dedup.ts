@@ -24,7 +24,7 @@ export async function markNoted(r: RedisLike, kind: Kind, id: string): Promise<v
   await r.hSet(HASH[kind], { [id]: '1' });
 }
 
-// Idempotent: re-running with the same seed changes nothing, and items noted since are kept.
+// Marks the given items as already seen, then flags the app as started. Idempotent: items noted since are kept.
 export async function initialize(r: RedisLike, seed?: Seed): Promise<void> {
   if (seed) {
     for (const kind of ['cases', 'orders'] as const) {
@@ -34,14 +34,4 @@ export async function initialize(r: RedisLike, seed?: Seed): Promise<void> {
     }
   }
   await r.set(INITIALIZED, '1');
-}
-
-const lines = (text: string) =>
-  text
-    .split('\n')
-    .map((l) => l.trim())
-    .filter((l) => l.length > 0);
-
-export function parseSeedFiles(casesTxt: string, ordersTxt: string): Seed {
-  return { cases: lines(casesTxt), orders: lines(ordersTxt) };
 }

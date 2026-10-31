@@ -1,10 +1,8 @@
 import { createServer, getServerPort, reddit, redis } from '@devvit/web/server';
-import { initialize } from '../dedup';
 import { fetchPdfBytes } from '../fetchPdf';
 import { pdfToText } from '../pdf';
 import { PollDeps, runPoll } from '../poll';
 import { RouteDeps, route, toHttp } from '../routes';
-import { seed } from '../seed';
 
 const pollDeps: PollDeps = {
   fetchText: async (url, headers) => {
@@ -24,8 +22,6 @@ const pollDeps: PollDeps = {
 
 const routeDeps: RouteDeps = {
   poll: () => runPoll(pollDeps),
-  initSeed: () => initialize(redis, seed),
-  initEmpty: () => initialize(redis),
   log: (m) => console.log(m),
 };
 
