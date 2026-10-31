@@ -320,6 +320,34 @@ describe('logging', () => {
     expect(s.logs.filter((l) => l.startsWith('Posted order '))).toHaveLength(12);
   });
 
+  test('a Court outage while running warns once per hour per problem, not every tick', async () => {
+    const s = await setup({ [RSS]: { status: 503, text: '' }, [ORDERS]: { status: 503, text: '' } });
+    for (let i = 0; i < 5; i++) {
+      await runPoll(s.deps);
+      s.advance(2);
+    }
+    expect(s.logs.filter((l) => l.includes('WARN opinions feed status 503'))).toHaveLength(1);
+    expect(s.logs.filter((l) => l.includes('WARN orders page status 503'))).toHaveLength(1);
+
+    s.advance(60);
+    await runPoll(s.deps);
+    expect(s.logs.filter((l) => l.includes('WARN opinions feed status 503'))).toHaveLength(2);
+    expect(s.logs.filter((l) => l.includes('WARN orders page status 503'))).toHaveLength(2);
+  });
+
+  test('a network error while polling is logged once per hour, and polling carries on', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: ok(fixture('orders.html')) });
+    s.deps.fetchText = async () => {
+      throw new Error('fetch failed');
+    };
+    for (let i = 0; i < 4; i++) {
+      await runPoll(s.deps);
+      s.advance(2);
+    }
+    expect(s.logs.filter((l) => l.startsWith('Exception (pollOpinions): fetch failed'))).toHaveLength(1);
+    expect(s.logs.filter((l) => l.startsWith('Exception (pollOrders): fetch failed'))).toHaveLength(1);
+  });
+
   test('a failing first run warns once per hour, not every tick', async () => {
     const s = await setup({ [RSS]: { status: 500, text: '' }, [ORDERS]: emptyOrders }, { initialized: false });
     await runPoll(s.deps);

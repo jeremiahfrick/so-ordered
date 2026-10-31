@@ -71,24 +71,23 @@ export function termYear(decisionDate: Date): number {
 
 const cellText = (el: { text: string }) => el.text.trim().replace(/\s+/g, ' ');
 
-// Ports the table-reading half of fetch_principal_author. Like pandas' `next(...)` in the old bot, only the
-// first table with a "Docket" column is searched.
+// Ports the table-reading half of fetch_principal_author. The old bot only searched the first table with a
+// "Docket" column, which left the Author blank for cases listed in the page's second table; every table is searched.
 export function parseAuthor(slipPageHtml: string, caseNum: string): string {
   for (const table of parse(slipPageHtml).querySelectorAll('table')) {
     const rows = table.querySelectorAll('tr');
     if (rows.length === 0) continue;
     const header = rows[0].querySelectorAll('th,td').map(cellText);
     const docketCol = header.indexOf('Docket');
-    if (docketCol === -1) continue;
     const jCol = header.indexOf('J.');
+    if (docketCol === -1 || jCol === -1) continue;
     for (const row of rows.slice(1)) {
       const cells = row.querySelectorAll('td');
-      if (cells[docketCol] && cellText(cells[docketCol]) === caseNum.trim() && jCol !== -1 && cells[jCol]) {
+      if (cells[docketCol] && cellText(cells[docketCol]) === caseNum.trim() && cells[jCol]) {
         const code = cellText(cells[jCol]);
         return J_CODE_MAP[code] ?? code;
       }
     }
-    return '';
   }
   return '';
 }

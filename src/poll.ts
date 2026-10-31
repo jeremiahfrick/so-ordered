@@ -42,24 +42,29 @@ async function logVersionChange(d: PollDeps): Promise<void> {
   d.log(`VERSION ${version} running${previous ? ` (was ${previous})` : ' (first run)'}`);
 }
 
-async function fetchFeed(d: PollDeps, warn: (m: string) => void) {
+// Problems that repeat every tick (a Court outage, a layout change) are logged at most once an hour per kind.
+async function warnHourly(d: PollDeps, kind: string, msg: string): Promise<void> {
+  if (await oncePerHour(d, `last_warn_${kind}`)) d.log(msg);
+}
+
+async function fetchFeed(d: PollDeps) {
   const feed = await d.fetchText(OPINIONS_FEED);
   if (feed.status !== 200) {
-    warn(`WARN opinions feed status ${feed.status}`);
+    await warnHourly(d, 'opinions_feed', `WARN opinions feed status ${feed.status}`);
     return null;
   }
   return parseOpinionFeed(feed.text);
 }
 
-async function fetchOrderLinks(d: PollDeps, warn: (m: string) => void) {
+async function fetchOrderLinks(d: PollDeps) {
   const page = await d.fetchText(ORDERS_PAGE);
   if (page.status !== 200) {
-    warn(`WARN orders page status ${page.status}`);
+    await warnHourly(d, 'orders_page', `WARN orders page status ${page.status}`);
     return null;
   }
   const links = parseOrderLinks(page.text);
   if (links.length === 0) {
-    warn('WARN no order links found on orders page');
+    await warnHourly(d, 'no_order_links', 'WARN no order links found on orders page');
     return null;
   }
   return links;
@@ -67,19 +72,11 @@ async function fetchOrderLinks(d: PollDeps, warn: (m: string) => void) {
 
 // First run after install: everything already on the Court's site counts as seen and nothing is posted, so a
 // subreddit only gets documents published from now on. Nothing is recorded unless both listings were read, so a
-// Court outage just delays the start (retried every tick, warning at most hourly).
+// Court outage just delays the start (retried every tick).
 async function baseline(d: PollDeps): Promise<void> {
-  const warn = async (m: string) => {
-    if (await oncePerHour(d, 'last_uninitialized_warning')) d.log(m);
-  };
-  const pending: string[] = [];
-  const quiet = (m: string) => void pending.push(m);
-  const feed = await fetchFeed(d, quiet);
-  const links = feed ? await fetchOrderLinks(d, quiet) : null;
-  if (!feed || !links) {
-    for (const m of pending) await warn(m);
-    return;
-  }
+  const feed = await fetchFeed(d);
+  const links = feed ? await fetchOrderLinks(d) : null;
+  if (!feed || !links) return;
   await initialize(d.redis, { cases: feed.opinions.map((o) => o.caseId), orders: links.map((l) => l.id) });
   const n = feed.opinions.length;
   d.log(
@@ -99,12 +96,12 @@ export async function runPoll(d: PollDeps): Promise<void> {
   try {
     await pollOpinions(d);
   } catch (e) {
-    d.log(`Exception (pollOpinions): ${message(e)}`);
+    await warnHourly(d, 'exception_opinions', `Exception (pollOpinions): ${message(e)}`);
   }
   try {
     await pollOrders(d);
   } catch (e) {
-    d.log(`Exception (pollOrders): ${message(e)}`);
+    await warnHourly(d, 'exception_orders', `Exception (pollOrders): ${message(e)}`);
   }
   // Idle ticks are silent; this hourly line is the only sign of life (there is no external heartbeat).
   if (await oncePerHour(d, 'last_heartbeat')) d.log(`HEARTBEAT v${d.appVersion()} polling ok at ${d.now().toISOString()}`);
@@ -124,7 +121,7 @@ async function lookupAuthor(d: PollDeps, caseNum: string, caseJson: any): Promis
 }
 
 async function pollOpinions(d: PollDeps): Promise<void> {
-  const feed = await fetchFeed(d, d.log);
+  const feed = await fetchFeed(d);
   if (!feed) return;
   const { opinions, skippedTitles } = feed;
   for (const t of skippedTitles) d.log(`No case ID found in entry: ${t}`);
@@ -169,7 +166,7 @@ async function buildOrderPostWithDigest(
 }
 
 async function pollOrders(d: PollDeps): Promise<void> {
-  const links = await fetchOrderLinks(d, d.log);
+  const links = await fetchOrderLinks(d);
   if (!links) return;
   for (const link of links) {
     if (await isNoted(d.redis, 'orders', link.id)) continue;

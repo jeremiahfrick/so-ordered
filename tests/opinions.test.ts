@@ -59,6 +59,17 @@ describe('parseAuthor', () => {
     expect(parseAuthor(page, '24-809')).toBe('Per Curiam');
   });
 
+  test('finds a case listed in the second table of the page', () => {
+    // 23-1187 (FDA v. R. J. Reynolds) is only in the second of the page's two opinion tables
+    expect(parseAuthor(page, '23-1187')).toBe('Justice Amy Coney Barrett');
+    expect(parseAuthor(page, '23-7483')).toBe('Justice Amy Coney Barrett');
+  });
+
+  test('keeps looking in later tables when an earlier one does not have the case', () => {
+    const t = (docket: string, j: string) => `<table><tr><th>Docket</th><th>J.</th></tr><tr><td>${docket}</td><td>${j}</td></tr></table>`;
+    expect(parseAuthor(t('1-1', 'T') + t('2-2', 'EK'), '2-2')).toBe('Justice Elena Kagan');
+  });
+
   test('returns the raw code when it is unmapped', () => {
     const html = '<table><tr><th>Docket</th><th>J.</th></tr><tr><td>99-1</td><td>ZZ</td></tr></table>';
     expect(parseAuthor(html, '99-1')).toBe('ZZ');
