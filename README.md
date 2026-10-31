@@ -21,6 +21,8 @@ When the Court adds a slip opinion, the app posts `OPINION: <caption>` with a ta
 | Amicus | Link to the U.S. amicus brief, when there is one |
 | Case Link | Link to the docket |
 
+Below the table is the opinion's lineup, read from the syllabus of the opinion PDF: a table of who wrote and who joined the majority, each concurrence and each dissent, followed by the Court's own sentences. A lineup that can't be fully understood (for example a plurality opinion) is shown as the sentences alone, and if the PDF can't be read the post simply has no lineup.
+
 ### Orders
 When the Court posts an Order List or Miscellaneous Order, the app posts `ORDERS: <title> (<date>)`. A Miscellaneous Order shows the text of the order. An Order List shows a count of each disposition, the grants, summary dispositions and orders in pending cases in detail, and any attached written opinions. Every post links to the PDF, and if the PDF can't be read the post is just the link.
 
@@ -52,10 +54,11 @@ The app uses Devvit's HTTP fetch to read public documents from one domain.
 - `/RSS/Cases/JSON/<case number>.json`: public docket data for a case that has a new opinion
 - `/opinions/slipopinion/<term>`: the public slip-opinion table, used to find the authoring Justice
 - `/orders/...pdf`: the public order PDF linked from the Orders page, read once per new order to show its text in the post
+- `/opinions/...pdf`: the public opinion PDF linked from the opinion feed, read once per new opinion to show who wrote and joined it
 
 **What is sent.** Only the URL. No user data, subreddit data, or Reddit data is ever sent to the Court's site.
 
-**How often.** Two requests every 2 minutes (the feed and the Orders page), plus one or two extra requests when a new opinion appears and one for each new order PDF. That is roughly 1,500 requests per day.
+**How often.** Two requests every 2 minutes (the feed and the Orders page), plus one or two extra requests when a new opinion appears and one for each new order or opinion PDF. That is roughly 1,500 requests per day.
 
 **What is done with the responses.** They are parsed, formatted into a Reddit post, and discarded. Nothing from the responses is stored except an identifier (case number or PDF URL) used to avoid posting an item twice.
 

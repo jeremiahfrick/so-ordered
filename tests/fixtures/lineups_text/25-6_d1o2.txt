@@ -1,0 +1,365 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+KEATHLEY v. BUDDY AYERS CONSTRUCTION, INC.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE FIFTH CIRCUIT
+No. 25–6. Argued March 24, 2026—Decided June 11, 2026
+Thomas Keathley and his wife filed a Chapter 13 bankruptcy petition in
+U. S. Bankruptcy Court in December 2019. The Bankruptcy Code re-
+quires debtors to file bankruptcy schedules listing their property, in-
+cluding “[c]laims against third parties, whether or not [the debtor]
+ha[s] filed a lawsuit or made a demand for payment.” Official Form
+106A/B, Schedule A/B: Property, Pt. 4, Question 33. Debtors must
+swear “[u]nder penalty of perjury” that the information provided is
+“true and correct.” Official Form 106Dec, Declaration About an Indi-
+vidual Debtor’s Schedules. In April 2020, based on the Keathley’s dis-
+closures, the Bankruptcy Court confirmed an amended repayment
+plan providing for interest-free repayment of 100% of creditors’ claims
+over five years. In August 2021, while the bankruptcy case remained
+open, Keathley was involved in a car accident in Mississippi with a
+driver employed by Buddy Ayers Construction, Inc. Keathley retained
+a personal-injury attorney and informed his bankruptcy counsel that
+he intended to sue Buddy Ayers Construction. Neither Keathley nor
+his bankruptcy counsel disclosed the potential personal-injury claim to
+the Bankruptcy Court. Keathley then filed a personal-injury action in
+U. S. District Court in December 2021, asserting negligence claims
+against the company, again without notifying the Bankruptcy Court.
+In March 2023, Buddy Ayers Construction moved for summary judg-
+ment on grounds of judicial estoppel based on Keathley’s failure to dis-
+close his personal-injury claims in the pending bankruptcy proceeding.
+Keathley immediately filed an amended schedule notifying the Bank-
+ruptcy Court of his pending claims. He then submitted affidavits in
+response to the motion for summary judgment, explaining that his
+omission had been inadvertent. The District Court, relying on Fifth
+Circuit precedent, found that Keathley knew of the facts underlying
+2 KEATHLEY v. BUDDY AYERS CONSTRUCTION, INC.
+Syllabus
+his claims and hypothetically had a motive to conceal, and therefore
+held the omission was not inadvertent or a mistake, entering summary
+judgment for Buddy Ayers Construction. The Fifth Circuit affirmed,
+with one judge concurring but expressing doubt that judicial estoppel’s
+goals were advanced by its application given evidence the omission was
+an “honest mistake.”
+Held: To determine whether an omission of a claim in the bankruptcy
+context was inadvertent or mistaken for purposes of judicial estoppel,
+courts should look to the totality of the circumstances surrounding the
+omission; the Fifth Circuit erred by artificially narrowing its inquiry
+to whether the debtor had knowledge of the underlying facts or a po-
+tential motive to conceal the claim. Pp. 6–9.
+(a) Judicial estoppel is an “equitable doctrine” intended “to protect
+the integrity of the judicial process” by “prohibiting parties from delib-
+erately changing positions according to the exigencies of the moment”
+and preventing the “risk of inconsistent court determinations.” New
+Hampshire v. Maine, 532 U. S. 742, 749–751 (internal quotation marks
+omitted). Some lower courts apply judicial estoppel to bar lawsuits by
+debtors who fail to disclose claims in bankruptcy proceedings, viewing
+the failure to disclose as an “implicit representation” that the claim
+does not exist. 18B C. Wright, A. Miller, & E. Cooper, Federal Practice
+and Procedure §4477.9. Pp. 6–7.
+(b) Assuming without deciding that judicial estoppel can apply in the
+bankruptcy context and that “inadvertence or mistake” can function as
+an exception to that application, the Fifth Circuit’s rule is both too
+rigid and too broad. The rigidity comes from the Fifth Circuit’s failure
+to fully recognize that “judicial estoppel is an equitable doctrine.” New
+Hampshire, 532 U. S., at 750 (internal quotation marks omitted). Eq-
+uity “eschews mechanical rules; it depends on flexibility,” Holmberg v.
+Armbrecht, 327 U. S. 392, 396, and when a court conducts an equitable
+inquiry, it must act “on a case-by-case basis,” considering all relevant
+facts and circumstances, Holland v. Florida, 560 U. S. 631, 649–650
+(internal quotation marks omitted). The Fifth Circuit’s rule allows
+courts to consider only two circumstances—whether the debtor knew
+of the underlying facts and whether there was a potential motive to
+conceal—and does not permit courts to look at any other evidence tend-
+ing to show the omission was inadvertent. That rigidity is out of step
+with equity. The Fifth Circuit’s rule is also overly broad because it
+holds that an omission falls outside the exception any time a debtor
+knows certain facts or could potentially benefit from nondisclosure, cir-
+cumstances that will almost always be true, as the Fifth Circuit recog-
+nized. A near-dispositive criterion is a poor fit for a fair inquiry into
+whether an omission is actually the result of inadvertence or mistake.
+Pp. 7–9.
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+Vacated and remanded.
+JACKSON, J., delivered the opinion for a unanimous Court. THOMAS, J.,
+filed a concurring opinion, in which GORSUCH, J., joined. SOTOMAYOR, J.,
+filed a concurring opinion.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 25–6
+THOMAS KEATHLEY, PETITIONER v. BUDDY AYERS
+CONSTRUCTION, INCORPORATED
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE FIFTH CIRCUIT
+[June 11, 2026]
+JUSTICE JACKSON delivered the opinion of the Court.
+After commencing a bankruptcy case, the debtor must
+disclose his assets to the bankruptcy court to facilitate the
+creation of an accurate bankruptcy estate. These assets in-
+clude any claims the debtor has against third parties, re-
+gardless of whether those claims have already been filed as
+part of an active lawsuit. The debtor also avers that he has
+no relevant assets other than those disclosed.
+Occasionally, a debtor who has failed to disclose a claim
+to the bankruptcy court will later attempt to press that
+claim in court. When that happens, some lower courts have
+considered whether the lawsuit should be dismissed under
+the doctrine of judicial estoppel, which generally prevents a
+party from assuming inconsistent positions in successive
+litigation.
+This Court has never applied judicial estoppel in the
+bankruptcy context. But we have suggested in other situa-
+tions that judicial estoppel may be inapposite where the in-
+consistent position was the result of “inadvertence or mis-
+take.” New Hampshire v. Maine, 532 U. S. 742, 753 (2001).
+In this case, the Fifth Circuit applied a follow-on rule that
+the omission of a claim in the bankruptcy context will be
+2 KEATHLEY v. BUDDY AYERS CONSTRUCTION, INC.
+Opinion of the Court
+considered inadvertent or a mistake in only two circum-
+stances: (1) when the debtor was unaware of the underlying
+facts of his claim, or (2) where there was no hypothetical
+motive to conceal the claim.
+We reject that approach. To determine whether an omis-
+sion was inadvertent or mistaken for purposes of judicial
+estoppel, courts should look to the totality of the circum-
+stances surrounding the omission. Thus, we hold that the
+Fifth Circuit’s less holistic formulation was erroneous.
+I
+A
+When a debtor files for bankruptcy, a bankruptcy estate
+is created comprising the debtor’s property. 11 U. S. C.
+§541(a). That property encompasses “all legal or equitable
+interests of the debtor in property as of the commencement”
+of the bankruptcy case, including pending and unliquidated
+claims against third parties. §541(a)(1); see 5 Collier on
+Bankruptcy ¶541.07 (R. Levin & H. Sommer eds., 16th ed.
+2026) (Collier). As relevant here, for bankruptcy cases pro-
+ceeding under Chapter 13, the estate also includes prop-
+erty—and therefore claims—that the debtor acquires after
+the bankruptcy case commences but before it is closed, dis-
+missed, or converted to a case under another chapter.
+§1306(a)(1); see also Harris v. Viegelahn, 575 U. S. 510, 514
+(2015).
+An accurate bankruptcy estate is necessary for orderly
+bankruptcy proceedings. Chapter 13 allows a debtor to re-
+tain his property if he proposes, and a bankruptcy court
+confirms, a plan for debt repayment over a 3- to 5-year pe-
+riod. §§1306(b), 1322(d), 1327(b). Creditors and the trustee
+(who helps administer the bankruptcy proceedings) must
+understand the full scope of the debtor’s assets to determine
+whether to support or object to the proposed repayment
+plan. See §§1302(b)(2)(B), 1324(a), 1325(b); 8 Collier
+¶1302.03, at 1302–8 to 1302–9. The estate also provides
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+valuable information to the bankruptcy court because the
+court may confirm the debtor’s repayment plan only if the
+proposed repayments are “not less than the amount that
+would be paid” to creditors if the estate were liquidated un-
+der Chapter 7. §1325(a)(4). In addition, the value of the
+estate helps the court evaluate whether to require the
+debtor to pay creditors back on a more accelerated timeline
+or with interest. See §1322(b).
+To facilitate the creation of an accurate bankruptcy es-
+tate, the Bankruptcy Code imposes disclosure obligations
+on debtors. For instance, debtors must file bankruptcy
+schedules listing their property. See §521(a)(1)(B); Fed.
+Rule Bkrtcy. Proc. 1007(b)(1). One such schedule requires
+debtors to disclose all “[c]laims against third parties,
+whether or not [the debtor] ha[s] filed a lawsuit or made a
+demand for payment.” Official Form 106A/B, Schedule A/B:
+Property, Pt. 4, Question 33. The schedule lists “[a]cci-
+dents” and “rights to sue” as “[e]xamples” of possible claims.
+Ibid. (emphasis deleted). Debtors must swear, “[u]nder
+penalty of perjury,” that the information provided is “true
+and correct.” Official Form 106Dec, Declaration About an
+Individual Debtor’s Schedules.1
+B
+Thomas Keathley and his wife filed a Chapter 13 bank-
+ruptcy petition in the U. S. Bankruptcy Court for the East-
+ern District of Arkansas in December 2019. In April 2020,
+that court confirmed an amended repayment plan, provid-
+ing for interest-free repayment of 100% of the creditors’
+claims over the course of five years.
+——————
+1 The parties here have proceeded on the understanding that the
+debtor has a continuing duty to disclose assets that arise after the initial
+filing of the bankruptcy petition (and therefore are part of the Chapter
+13 estate). See Brief for Petitioner 5–6. We presume the same and do
+not opine on whether such a duty exists. See Brief for National Con-
+sumer Bankruptcy Rights Center et al. as Amici Curiae 6–12 (noting
+split on continuing duty to disclose).
+4 KEATHLEY v. BUDDY AYERS CONSTRUCTION, INC.
+Opinion of the Court
+In August 2021, Keathley was involved in a car accident
+in Mississippi with a driver employed by respondent Buddy
+Ayers Construction, Inc. Keathley retained a personal-
+injury attorney and informed his bankruptcy counsel that
+he intended to sue Buddy Ayers Construction. Even though
+Keathley’s bankruptcy case remained open, neither Keath-
+ley nor his bankruptcy counsel disclosed the potential
+personal-injury claims to the Bankruptcy Court. Keathley
+then filed the instant personal-injury action in the U. S.
+District Court for the Northern District of Mississippi in
+December 2021, asserting claims for negligence against the
+company. Keathley did not notify the Bankruptcy Court of
+the existence of his claims at this point, either.
+In March 2023, Buddy Ayers Construction moved for
+summary judgment on grounds of judicial estoppel based on
+Keathley’s failure to disclose his personal-injury claims in
+the open bankruptcy proceeding. Keathley immediately
+filed an amended schedule notifying the Bankruptcy Court
+of his personal-injury claims. Then, in response to the
+pending motion for summary judgment in the personal-
+injury suit, Keathley explained that the omission had been
+inadvertent. In support, he submitted an affidavit attest-
+ing that, after he told his bankruptcy counsel about his
+personal-injury claims, he “believed [he] had done every-
+thing [he] needed to do.” App. 184. He also filed an affida-
+vit from his bankruptcy counsel noting that Keathley “re-
+ceived no benefit monetarily, or otherwise, from the
+nondisclosure.” Id., at 182. Based on this evidence, he ar-
+gued that judicial estoppel was inappropriate.
+The District Court disagreed. Relying on Fifth Circuit
+precedent, the court explained that the omission of a claim
+on the bankruptcy schedules will be considered the result
+of inadvertence or mistake only if (1) the debtor did not
+know the facts underlying the claim, or (2) there was no po-
+tential motive to conceal the claim. 686 F. Supp. 3d 495,
+497, 500–501 (ND Miss. 2023) (citing United States ex rel.
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+Long v. GSDMIdea City, LLC, 798 F. 3d 265, 273 (CA5
+2015); Love v. Tyson Foods, Inc., 677 F. 3d 258, 262 (CA5
+2012)). Applying that rule, the District Court found that
+Keathley concededly knew of the facts underlying his
+personal-injury claims and had a hypothetical motive to
+conceal: Keathley might have had to pay interest on his
+debts had the Bankruptcy Court and creditors known of the
+personal-injury lawsuit. The District Court therefore held
+that Keathley’s omission was not inadvertent or a mistake
+and entered summary judgment for Buddy Ayers Construc-
+tion based on judicial estoppel. 686 F. Supp. 3d, at 501,
+503.2
+The Fifth Circuit affirmed, relying on the same precedent
+as the District Court. 2025 WL 673434 (Mar. 3, 2025)
+(per curiam). Judge Haynes concurred based on her agree-
+ment that Fifth Circuit precedent dictated this outcome.
+But she expressed “doubt that the goals” of judicial estoppel
+were advanced by its application to Keathley’s claims, given
+her view that there was evidence his omission was, in fact,
+an “honest mistake.” Id., at *8. Judge Haynes further
+noted that “[o]ther circuits take a more holistic approach
+than” the Fifth Circuit does when assessing the application
+of judicial estoppel in the bankruptcy context. Ibid. (collect-
+ing cases).
+Much like the Fifth Circuit, the Tenth Circuit also con-
+siders an omission to be inadvertent only if the debtor
+lacked knowledge of the underlying claim or had no poten-
+tial motive to conceal the claim.3 But five other Courts of
+——————
+2 Keathley moved for reconsideration based on an affidavit he submit-
+ted from the staff attorney for the Chapter 13 Trustee in his bankruptcy
+case. The affidavit explained that it is common practice in the Eastern
+District of Arkansas for debtors to amend their filings to disclose postpe-
+tition personal-injury claims shortly before settlement or other disposi-
+tion of the claims. The District Court denied the motion. 706 F. Supp. 3d
+628, 630 (ND Miss. 2023).
+3 Eastman v. Union Pacific R. Co., 493 F. 3d 1151, 1157 (CA10 2007).
+6 KEATHLEY v. BUDDY AYERS CONSTRUCTION, INC.
+Opinion of the Court
+Appeals conduct a more fact-specific inquiry and do not so
+stringently limit the analysis.4 We granted certiorari to re-
+solve this conflict. 607 U. S. 992 (2025).
+II
+A
+Judicial estoppel is an “equitable doctrine” intended “to
+protect the integrity of the judicial process,” both by “pro-
+hibiting parties from deliberately changing positions ac-
+cording to the exigencies of the moment,” and by preventing
+the “risk of inconsistent court determinations.” New Hamp-
+shire, 532 U. S., at 749–751 (internal quotation marks omit-
+ted).
+Sometimes, as happened here, a debtor seeks to litigate a
+claim against a third party that he failed to disclose in his
+bankruptcy proceedings. Some lower courts apply judicial
+estoppel to bar such lawsuits, reasoning that application of
+the doctrine “raises the cost of lying” and “induces debtors
+to be truthful in their bankruptcy filings.” Cannon-Stokes
+v. Potter, 453 F. 3d 446, 448 (CA7 2006) (internal quotation
+marks omitted).
+The courts that apply judicial estoppel to claims in the
+bankruptcy context view the debtor’s failure to disclose a
+particular claim as an “implicit representation” that the
+claim does not exist. 18B C. Wright, A. Miller, & E. Cooper,
+Federal Practice and Procedure §4477.9 (3d ed. 2019 and
+Supp. 2026) (collecting cases). On this view, when the
+debtor files a lawsuit based on that claim, he has taken in-
+consistent positions in the two judicial proceedings “by as-
+serting in the civil lawsuit that he has a claim against the
+defendant while denying under oath in the bankruptcy
+——————
+4 Martineau v. Wier, 934 F. 3d 385, 393–396 (CA4 2019); Stanley v. FCA
+US, LLC, 51 F. 4th 215, 221 (CA6 2022); Spaine v. Community Contacts,
+Inc., 756 F. 3d 542, 548 (CA7 2014); Ah Quin v. County of Kauai Dept. of
+Transp., 733 F. 3d 267, 276–277 (CA9 2013); Slater v. United States Steel
+Corp., 871 F. 3d 1174, 1189, and n. 17 (CA11 2017) (en banc).
+7Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+proceeding that the claim exists.” Slater v. United States
+Steel Corp., 871 F. 3d 1174, 1176 (CA11 2017) (en banc).
+Based on that understanding, those lower courts have de-
+veloped a general rule for the application of judicial estop-
+pel in the bankruptcy context: “If a plaintiff-debtor omits a
+pending (or soon-to-be-filed) lawsuit from the bankruptcy
+schedules and obtains a discharge (or plan confirmation),
+judicial estoppel bars the action.” Ah Quin v. County of Ka-
+uai Dept. of Transp., 733 F. 3d 267, 271 (CA9 2013).
+B
+While this Court has never applied judicial estoppel in
+the bankruptcy context, in a different context we left open
+whether it “may be appropriate to resist application of judi-
+cial estoppel” when the party’s prior inconsistent position
+was due to “inadvertence or mistake.” New Hampshire, 532
+U. S., at 753. For purposes of this opinion, we assume with-
+out deciding that judicial estoppel can apply in the bank-
+ruptcy context and that “inadvertence or mistake” can func-
+tion as an exception to that application. Operating under
+those assumptions, the Fifth Circuit’s understanding of “in-
+advertence or mistake” is simultaneously too rigid and too
+broad.
+The rigidity comes from the Fifth Circuit’s failure to fully
+recognize that “judicial estoppel is an equitable doctrine.”
+Id., at 750 (internal quotation marks omitted). As such, its
+“examination must be made in the light of the recognized
+principles of equity.” United States Nat. Bank v. Chase Nat.
+Bank, 331 U. S. 28, 36 (1947). Equity, we have said, “es-
+chews mechanical rules; it depends on flexibility.”
+Holmberg v. Armbrecht, 327 U. S. 392, 396 (1946). Thus,
+when a court conducts an equitable inquiry, it must act “on
+a case-by-case basis,” considering all relevant facts and cir-
+cumstances. Holland v. Florida, 560 U. S. 631, 649–650
+(2010) (internal quotation marks omitted). In other words,
+8 KEATHLEY v. BUDDY AYERS CONSTRUCTION, INC.
+Opinion of the Court
+equitable doctrines require room to consider all of the par-
+ticulars.
+By contrast, the Fifth Circuit’s rule allows courts to con-
+sider only two circumstances when assessing inadvertence
+or mistake: whether the debtor knew of the underlying facts
+of the claim, and whe

@@ -1,0 +1,353 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+ENBRIDGE ENERGY, LP, ET AL. v. NESSEL,
+ATTORNEY GENERAL OF MICHIGAN, ON BEHALF OF
+THE PEOPLE OF THE STATE OF MICHIGAN
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE SIXTH CIRCUIT
+No. 24–783. Argued February 24, 2026—Decided April 22, 2026
+Petitioners (collectively Enbridge) own and operate Line 5, a 645-mile
+petroleum pipeline, 4 miles of which traverse the Straits of Mackinac
+pursuant to a 1953 easement granted to Enbridge’s predecessor by the
+State of Michigan. On June 27, 2019, the Michigan Attorney General
+filed suit in Michigan state court seeking to halt Enbridge’s operation
+of Line 5 by having the 1953 easement declared void and Enbridge’s
+continuing operations declared unlawful. Enbridge was served with
+the complaint on July 12, 2019. Rather than removing the case to fed-
+eral court within the 30-day deadline required by 28 U. S. C.
+§1446(b)(1), Enbridge litigated in state court for months. In November
+2020, more than a year after Enbridge’s removal deadline had lapsed,
+the Michigan Governor issued a notice revoking the 1953 easement
+and filed a separate lawsuit in state court against Enbridge. In that
+suit, unlike in the Attorney General’s suit, Enbridge timely removed
+to federal court, and the parties agreed to hold the Attorney General’s
+case in abeyance while federal proceedings progressed. After the Dis-
+trict Court denied the Governor’s motion to remand, finding federal-
+question jurisdiction satisfied, the Governor voluntarily dismissed her
+lawsuit. On December 15, 2021—887 days after receiving the Attorney
+General’s complaint—Enbridge removed this action to federal court.
+The Attorney General moved to remand, arguing that removal was un-
+timely under §1446(b)’s 30-day deadline. The District Court denied
+the motion, holding that equitable principles justified excusing
+Enbridge’s untimely removal, and certified its order for interlocutory
+appeal. The Sixth Circuit reversed, holding that although
+2 ENBRIDGE ENERGY, LP v. NESSEL
+Syllabus
+§1446(b)(1)’s deadline is nonjurisdictional, several features of
+§1446(b)(1) and the overall removal scheme rebutted any presumption
+of equitable tolling. Thus, the lawsuit had to be remanded to the Mich-
+igan state court. This Court granted certiorari to resolve a divide
+among the Courts of Appeals on whether §1446(b)(1) is subject to eq-
+uitable tolling.
+Held: Because §1446(b)(1)’s text, structure, and context are inconsistent
+with equitable tolling, Enbridge’s removal was untimely. Pp. 5–14.
+(a) The fact that the 30-day removal deadline in §1446(b)(1) is non-
+jurisdictional does not automatically render it subject to equitable toll-
+ing. While jurisdictional requirements “cannot be waived or forfeited”
+and “do not allow for equitable exceptions,” Boechler v. Commissioner,
+596 U. S. 199, 203, “[t]he mere fact that a time limit lacks jurisdic-
+tional force . . . does not render it malleable in every respect,”
+Nutraceutical Corp. v. Lambert, 586 U. S. 188, 192. Some nonjurisdic-
+tional rules remain “mandatory” and “are not susceptible” of equitable
+tolling. Ibid.
+The Court need not decide whether §1446(b)(1) qualifies as a statute
+of limitations subject to a presumption of equitable tolling because,
+even if the presumption applies, it can be “rebutted if ‘there [is] good
+reason to believe that Congress did not want the equitable tolling doc-
+trine to apply.’ ” Arellano v. McDonough, 598 U. S. 1, 7. Here, the text,
+structure, and context of §1446(b)(1) demonstrate that Congress did
+not want the 30-day deadline to be equitably tolled.
+The text of §1446(b)(1) speaks in strict, mandatory terms, requiring
+that a notice of removal “shall be filed within 30 days.” Although such
+mandatory language alone is not sufficient to rebut the presumption
+of equitable tolling, it is consistent with treating the deadline as man-
+datory and not subject to equitable tolling. Cf. Boechler, 596 U. S., at
+204, 211.
+More important, and decisive here, is §1446(b)(1)’s structure. An
+“explicit listing of exceptions,” set forth in a detailed manner, strongly
+indicates “that Congress did not intend courts to read other unmen-
+tioned, open-ended, ‘equitable’ exceptions into the statute.” United
+States v. Brockamp, 519 U. S. 347, 352. That is especially so when the
+“specific exceptions” already “reflect equitable considerations.” Arel-
+lano, 598 U. S., at 7. There are several such exceptions here. First,
+and functioning much like an equitable discovery rule, §1446(b)(3) pro-
+vides an extension when a case at first appears unremovable but it is
+later “ascertained that the case is” (or has become) removable. Con-
+gress thus “has already effectively allowed for equitable tolling” in one
+respect but not others. United States v. Beggerly, 524 U. S. 38, 48.
+Section 1446(c)(1) also imposes a one-year cap on this rule in diversity
+cases, but creates an exception if a plaintiff acted in “bad faith,”
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+specifically “account[ing] for equitable factors” in a way that would be
+superfluous if §1446(b)(1) already provided for equitable tolling more
+broadly. Arellano, 598 U. S., at 10.
+Exceptions to the 30-day deadline outside of §1446 confirm the point.
+For actions against foreign states, Congress specifically allowed “the
+time limitations of §1446(b) . . . [to] be enlarged at any time for cause
+shown.” §1441(d). Similar provisions exist for certain intellectual-
+property cases, see §1454(b)(2), and cases involving fatal accidents, see
+§1441(e)(1). Each provision explicitly incorporates §1446(b)(1)’s time
+limit but modifies it to allow equitable, case-specific exceptions that
+would be inexplicable and unnecessary if Congress already understood
+§1446(b)(1) to contain a cross-cutting equitable-tolling rule. Con-
+gress’s treatment of removal in criminal proceedings provides addi-
+tional confirmation. Under §1455(b)(1), a criminal defendant must
+generally remove within 30 days after arraignment, but “for good
+cause shown [a court] may . . . gran[t] . . . leave to file . . . at a later
+time.” For civil cases, by contrast, Congress did not provide courts with
+a similar general power to extend the 30-day removal deadline.
+“[T]he nature of the subject matter” here further underscores the
+unavailability of equitable tolling. Arellano, 598 U. S., at 14. The fed-
+eral civil removal statutes have an “obvious concern with efficiency,”
+BP p.l.c. v. Mayor and City Council of Baltimore, 593 U. S. 230, 245,
+and a “general interest in avoiding prolonged litigation on threshold
+nonmerits questions,” Powerex Corp. v. Reliant Energy Services, Inc.,
+551 U. S. 224, 237. Allowing equitable tolling would undermine Con-
+gress’s manifest interest in resolving threshold removal questions
+early and conclusively, generating uncertainty and risking significant
+waste of resources. Cf. Beggerly, 524 U. S., at 49. Pp. 5–10.
+(b) Enbridge’s counterarguments are not persuasive. Enbridge’s ar-
+gument that rebutting the presumption of equitable tolling requires
+the “clearest command” from Congress conflicts with the Court’s re-
+peated holdings that the presumption is rebutted where “Congress’s
+choice is evident,” Arellano, 598 U. S., at 14; where tolling would be
+“inconsistent with the text of the relevant statute,” Beggerly, 524 U. S.,
+at 48; and where there is “good reason to believe Congress did not want
+equitable tolling to apply,” Brockamp, 519 U. S., at 350. None of these
+decisions required the “clearest command” that Enbridge demands.
+Enbridge’s attempt to characterize §1446(b)(3) as an accrual rule ra-
+ther than an exception does not account for the separate “bad faith”
+exception in §1446(c)(1) or the many other provisions outside §1446
+that expressly allow courts to toll §1446(b)(1)’s deadline “for cause
+shown.” The fact that these provisions are located outside of §1446
+itself does not diminish their force; courts must consider equitable toll-
+ing’s “incongruen[ce] with the statutory scheme” overall. Arellano, 598
+4 ENBRIDGE ENERGY, LP v. NESSEL
+Syllabus
+U. S., at 13. Enbridge cannot identify any sensible reason why Con-
+gress would have adopted so many express, specific equitable excep-
+tions to §1446(b)(1) if equitable tolling was already available for be-
+lated removals across the board. Finally, Enbridge’s argument based
+on §1447(c)’s treatment of defects in subject-matter jurisdiction does
+not support equitable tolling. Pp. 11–14.
+104 F. 4th 958, affirmed.
+SOTOMAYOR, J., delivered the opinion for a unanimous Court.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–783
+ENBRIDGE ENERGY, LP, ET AL., PETITIONERS v.
+DANA NESSEL, ATTORNEY GENERAL OF
+MICHIGAN, ON BEHALF OF THE PEOPLE
+OF THE STATE OF MICHIGAN
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE SIXTH CIRCUIT
+[April 22, 2026]
+JUSTICE SOTOMAYOR delivered the opinion of the Court.
+Under 28 U. S. C. §1446(b)(1), a party sued in state court
+who prefers to proceed in federal court generally has 30
+days after receiving notice of the state-court action to re-
+move the lawsuit to federal court (if there are grounds for
+doing so). In this case, petitioners (collectively Enbridge)
+unquestionably did not meet §1446(b)(1)’s 30-day deadline,
+instead waiting 887 days after being served with the Mich-
+igan Attorney General’s state-court complaint before re-
+moving the case to federal court. Enbridge argues that the
+District Court nevertheless had equitable discretion to toll
+§1446(b)(1)’s deadline and excuse this late filing. This
+Court disagrees. Because §1446(b)(1)’s text, structure, and
+context are inconsistent with equitable tolling, Enbridge’s
+removal was untimely and remand to the Michigan state
+court is required.
+2 ENBRIDGE ENERGY, LP v. NESSEL
+Opinion of the Court
+I
+A
+The right to remove a lawsuit from state to federal court
+“is entirely a creature of statute[,] and ‘a suit commenced in
+a state court must remain there until cause is shown for its
+transfer under some act of Congress.’ ” Syngenta Crop Pro-
+tection, Inc. v. Henson, 537 U. S. 28, 32 (2002). Congress
+provided one such basis for removal in §1441(a), which au-
+thorizes removal if a civil action “brought in a State court”
+is one over “which the district courts of the United States
+have original jurisdiction.” For example, if a plaintiff sues
+in state court bringing federal claims or if the plaintiff and
+defendant are from different States and there is a sufficient
+amount in controversy, the defendant may remove to fed-
+eral court. See §§1331, 1332(a).
+For defendants seeking to remove under §1441(a), the
+procedures for doing so are largely set forth in §1446. Key
+here as to timing, the “notice of removal of a civil action or
+proceeding shall be filed within 30 days after the receipt” of
+the “initial pleading” in that action, “or within 30 days after
+the service of summons upon the defendant[,] . . . whichever
+period is shorter.” §1446(b). This 30-day default rule is
+subject to several exceptions in §1446 and elsewhere. Sec-
+tion 1446(b)(3), for instance, extends the 30-day deadline if
+an initial pleading did not provide a basis for removal but
+it is later “ascertained that the case is one which is or has
+become removable.” As detailed below, this rule, in turn, is
+subject to an exception (which itself has yet another excep-
+tion). §1446(c)(1); see infra, at 8. Outside of §1446 itself,
+Congress has also allowed later removal, for cause shown,
+in specific scenarios. See, e.g., §1441(d) (suits against for-
+eign states); §1441(e)(1) (certain suits involving mass acci-
+dents with more than 75 fatalities); §1454(b)(2) (certain
+suits involving intellectual property); see also §1455(b) (re-
+moval of criminal actions).
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+After a case is removed, any motion to remand the case
+to state court must be filed within 30 days of the notice of
+removal. §1447(c). An order remanding a case generally “is
+not reviewable on appeal or otherwise.” §1447(d).
+B
+Enbridge1 owns and operates the 645-mile-long Line 5
+pipeline, which runs from northwestern Wisconsin through
+Michigan and into Canada. Line 5 is part of a pipeline net-
+work that transports petroleum products to refineries
+across the Midwestern United States, Ontario, and Quebec.
+Between Michigan’s Upper and Lower Peninsulas, a 4-mile
+strip of Line 5 traverses the Straits of Mackinac pursuant
+to a 1953 easement granted to Enbridge’s predecessor by
+the State of Michigan, which has long owned the Strait’s
+bottomlands.
+On June 27, 2019, the Michigan Attorney General filed
+this lawsuit in Michigan state court, seeking to halt
+Enbridge’s operation of Line 5. She alleged that the 1953
+easement is void and that Enbridge’s operations violate
+Michigan law, given the risk of an oil spill from the pipeline.
+On July 12, 2019, the Attorney General served Enbridge
+with a complaint. Over the following months, Enbridge did
+not remove the case to federal court and instead briefed
+cross-motions for summary disposition and participated in
+oral argument on those motions, all in state court.
+Enbridge argued, among other things, that the state-law
+claims against it were preempted by federal law.
+On November 13, 2020, more than a year after Enbridge’s
+30-day deadline to remove had lapsed, Michigan Governor
+Gretchen Whitmer issued a notice of revocation of the 1953
+easement, calling for Line 5 to be shut down. At the same
+time, the Governor filed a separate lawsuit in Michigan
+——————
+1 Petitioners are Enbridge Energy, LP, Enbridge Energy Co., Inc., and
+Enbridge Energy Partners, L.P. For simplicity, the Court refers to them
+together as Enbridge.
+4 ENBRIDGE ENERGY, LP v. NESSEL
+Opinion of the Court
+state court against Enbridge to enforce the notice, bringing
+state-law claims very similar to those in the Attorney Gen-
+eral’s lawsuit. Instead of litigating the Governor’s suit in
+state court, Enbridge timely removed that action to federal
+court, arguing that the Federal District Court had jurisdic-
+tion under §1331 because the case involved a substantial
+federal question. See Grable & Sons Metal Products, Inc. v.
+Darue Engineering & Mfg., 545 U. S. 308, 314 (2005) (rec-
+ognizing a limited category of state-law claims that support
+federal-question jurisdiction because they necessarily raise
+substantial questions of federal law). Enbridge did not re-
+move the Attorney General’s suit at that time; instead, the
+parties agreed to hold the Attorney General’s case (that is,
+this case) in abeyance while federal proceedings progressed
+in the Governor’s suit.
+The Governor moved to remand her case to state court,
+arguing that the case did not raise a significant federal is-
+sue. Soon after, the Government of Canada submitted ami-
+cus filings arguing that shutting down Line 5 would impli-
+cate a 1977 treaty between Canada and the United States
+and impair foreign relations between the two countries. On
+November 16, 2021, the District Court denied the Gover-
+nor’s motion to remand, concluding that federal-question
+jurisdiction was satisfied because the claims necessarily
+implicated substantial federal questions under two federal
+statutes and the 1977 treaty. The Governor voluntarily dis-
+missed her lawsuit not long after that ruling.2
+On December 15, 2021, following the District Court’s fa-
+vorable remand ruling in the Governor’s suit, Enbridge re-
+moved this action to federal court. At that point, 887 days
+——————
+2 Similar issues remain pending in another federal action. In Novem-
+ber 2020, Enbridge sued the Governor seeking affirmative relief, and in
+December 2025, the District Court granted summary judgment to
+Enbridge, concluding that the Governor’s efforts to shut down Line 5
+were preempted. See Enbridge Energy, LP v. Whitmer, 2025 WL
+3707609, *7 (WD Mich.).
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+had elapsed from when Enbridge received the Attorney
+General’s complaint. The Attorney General moved to re-
+mand, arguing, as relevant here, that removal was un-
+timely under §1446(b)’s 30-day deadline. The District
+Court denied the motion, holding that equitable principles
+justified excusing Enbridge’s untimely removal. It then cer-
+tified its order denying remand for interlocutory appeal un-
+der §1292(b).
+After accepting the interlocutory appeal, the Sixth Cir-
+cuit reversed. 104 F. 4th 958 (2024). Enbridge, the Circuit
+held, unquestionably missed the 30-day removal deadline.
+As for the District Court’s conclusion that §1446(b)(1)’s
+deadline should be equitably tolled, the Circuit held that
+although statutes of limitations are presumptively subject
+to such tolling, several features of §1446(b)(1) and the over-
+all removal scheme rebutted that presumption. Section
+1446(b)(1) thus could not be equitably tolled, and the law-
+suit had to be remanded to the Michigan state court.
+Enbridge filed a timely petition for a writ of certiorari,
+seeking review of the Sixth Circuit’s holding that §1446(b)
+is not subject to equitable tolling. Other Courts of Appeals
+have held that equitable tolling is available under
+§1446(b)(1) in at least some circumstances. See Gillis v.
+Louisiana, 294 F. 3d 755, 759 (CA5 2002); Loftin v. Rush,
+767 F. 2d 800, 805 (CA11 1985). This Court granted certi-
+orari to resolve the divide among the Courts of Appeals. 606
+U. S. 930 (2025).
+II
+Enbridge’s argument proceeds in three steps, each criti-
+cal to prevailing here. First, it contends that §1446(b)(1)’s
+30-day removal deadline is not jurisdictional. Second, be-
+cause the deadline is nonjurisdictional, Enbridge argues
+that it is presumptively subject to equitable tolling. Third,
+according to Enbridge, nothing rebuts the presumption that
+this deadline can be equitably tolled.
+6 ENBRIDGE ENERGY, LP v. NESSEL
+Opinion of the Court
+At the first step, there is rightly no dispute. “No one con-
+tends that [§1446(b)(1)] is jurisdictional,” given that “it
+‘does not expressly refer to subject-matter jurisdiction or
+speak in jurisdictional terms.’ ” McIntosh v. United States,
+601 U. S. 330, 337 (2024); see 104 F. 4th, at 969 (explaining
+why §1446(b)(1) is not jurisdictional). That much is crucial
+for Enbridge’s case, as “[j]urisdictional requirements can-
+not be waived or forfeited, must be raised by courts
+sua sponte, and, as relevant to this case, do not allow for
+equitable exceptions.” Boechler v. Commissioner, 596 U. S.
+199, 203 (2022). “The mere fact that a time limit lacks ju-
+risdictional force, however, does not render it malleable in
+every respect.” Nutraceutical Corp. v. Lambert, 586 U. S.
+188, 192 (2019). Some nonjurisdictional rules remain
+“mandatory” and “are not susceptible of the equitable ap-
+proach” that Enbridge urges. Ibid.
+That brings us to steps two and three in Enbridge’s argu-
+ment. The Attorney General argues that, at each step,
+Enbridge confronts an independent reason why §1446(b)(1),
+though nonjurisdictional, is not subject to equitable tolling.
+First, she disagrees that any presumption of equitable toll-
+ing applies to §1446(b)(1). This Court “ha[s] only applied
+[the presumption of equitable tolling] to statutes of limita-
+tions.” Lozano v. Montoya Alvarez, 572 U. S. 1, 13–14
+(2014); see Hallstrom v. Tillamook County, 493 U. S. 

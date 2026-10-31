@@ -1,0 +1,246 @@
+1Cite as: 608 U. S. ____ (2026)
+Per Curiam
+SUPREME COURT OF THE UNITED STATES
+DAREN K. MARGOLIN, DIRECTOR OF THE
+EXECUTIVE OFFICE FOR IMMIGRATION
+REVIEW v. NATIONAL ASSOCIATION OF
+IMMIGRATION JUDGES
+ON PETITION FOR WRIT OF CERTIORARI TO THE UNITED
+STATES COURT OF APPEALS FOR THE FOURTH CIRCUIT
+No. 25–767. Decided May 26, 2026
+PER CURIAM.
+After the Executive Office for Immigration Review
+adopted a policy regulating immigration judges’ work-
+related speech, an association of such judges (respondent
+here) challenged the policy in federal district court. The
+District Court held that respondent’s challenge must pro-
+ceed through the administrative review scheme established
+by the Civil Service Reform Act. But the Fourth Circuit va-
+cated and remanded based on an issue the parties had not
+raised. That decision violated the principle of party presen-
+tation, and we reverse.
+I
+The Executive Office for Immigration Review sets policies
+governing the immigration courts. See 8 CFR §1003.0
+(2024). In October 2021, it implemented a rule requiring
+immigration judges to obtain supervisory approval for pub-
+lic speeches relating to their official duties. Joint App. in
+No. 23–2235 (CA4), pp. 56–62. The policy was meant to en-
+sure that employee speech which may be seen as bearing
+the “imprimatur” of the Office is consistent with its official
+positions. Id., at 57.
+Respondent challenged the policy in the Eastern District
+of Virginia, asserting violations of its members’ First and
+Fifth Amendment rights. This Court has held that, under
+the Civil Service Reform Act of 1978 (CSRA), 92 Stat. 1122,
+2 MARGOLIN v. NAIJ
+Per Curiam
+1125, 5 U. S. C. §§1205, 1206, Congress intended federal
+employees to bring most work-related grievances to the
+Merit Systems Protection Board (MSPB) and the Special
+Counsel—not to federal district court. See United States v.
+Fausto, 484 U. S. 439, 455 (1988); Elgin v. Department of
+Treasury, 567 U. S. 1, 11–12 (2012). Respondent thus ac-
+cepted that “the CSRA channels judicial review of chal-
+lenges to covered employment actions” to the MSPB. Oppo-
+sition to Motion to Dismiss in No. 1:20–cv–731 (ED Va.),
+ECF Doc. 72, pp. 2–3. It argued only that its members’ con-
+stitutional claims were not the kind of work-related claims
+that Congress intended to steer out of district court. See
+id., at 21–30.
+The District Court dismissed respondent’s claims. The
+court, like respondent, acknowledged that “Congress in-
+tended to preclude district-court jurisdiction” over “covered
+actions” brought by federal employees. National Assn. of
+Immigration Judges v. Neal, 693 F. Supp. 3d 549, 569 (ED
+Va. 2023). And it held that respondent’s claims were indeed
+“covered” by the CSRA. Id., at 569–581.
+Respondent appealed. It did “no[t] dispute that the
+CSRA provides the exclusive avenue for review of certain
+employment-related claims.” Brief for Appellant in No. 23–
+2235 (CA4), ECF Doc. 11–1, p. 18; see also id., at 21–22
+(“Congress’s intent to preclude district court jurisdiction is
+. . . manifest in the CSRA” (internal quotation marks omit-
+ted)). It again argued only that its specific claims were not
+covered under the CSRA’s claim-channeling scheme. See
+id., at 21–39.
+The Fourth Circuit vacated and remanded. National
+Assn. of Immigration Judges v. Owen, 139 F. 4th 293
+(2025). Like the District Court, it held that respondent’s
+claims were covered by the CSRA. Id., at 308–313. And the
+court recognized our precedent holding that “Congress de-
+signed the CSRA to divest district courts of jurisdiction to
+review legal challenges” like respondent’s. Id., at 313.
+3Cite as: 608 U. S. ____ (2026)
+Per Curiam
+Nonetheless, it held that factual circumstances had “called
+into question” whether the CSRA was “functioning as Con-
+gress intended.” Id., at 304. Specifically, the court believed
+that legal challenges to the tenure protection afforded
+MSPB members and the Special Counsel, and the MSPB’s
+lack of a quorum, may require a “new examination of Con-
+gressional intent” to channel covered claims out of district
+court. Id., at 308. The court thus remanded for factfinding
+into the current operation of the MSPB. Id., at 305, 313.
+The Court of Appeals denied rehearing en banc. National
+Assn. of Immigration Judges v. Owen, 160 F. 4th 100 (CA4
+2025). Judge Quattlebaum, joined by three judges, dis-
+sented.* He criticized the panel for “shirk[ing] party
+presentation principles” by deciding the case on a novel
+ground “without any party raising the issue and without
+requesting supplemental briefing.” Id., at 107–108, 118.
+II
+Federal courts adhere to the principle of party presenta-
+tion. See Clark v. Sweeney, 607 U. S. 7, 9–10 (2025) (per
+curiam). That principle—the “rule that points not argued
+will not be considered”—distinguishes our adversarial sys-
+tem of justice from an inquisitorial one. United States v.
+Burke, 504 U. S. 229, 246 (1992) (Scalia, J., concurring in
+judgment). Because courts are “essentially passive instru-
+ments of government,” we rely on the parties to “frame the
+issues for decision” and decide “only the questions pre-
+sented.” United States v. Sineneng-Smith, 590 U. S. 371,
+375–376 (2020) (internal quotation marks omitted).
+We recently reversed the Fourth Circuit for violating this
+party-presentation principle. In Clark, a state prisoner
+seeking federal habeas relief argued that his trial counsel
+was ineffective for failing to investigate whether the entire
+jury had been tainted by one juror’s unauthorized crime-
+——————
+*Chief Judge Diaz and Judge Niemeyer voted to grant rehearing en
+banc but did not join Judge Quattlebaum’s dissent.
+4 MARGOLIN v. NAIJ
+Per Curiam
+scene visit. 607 U. S., at 8–9. The District Court denied
+relief, but the Fourth Circuit reversed and granted a new
+trial. It did so based not on the prisoner’s ineffective-
+assistance claim, but instead on “a combination of extraor-
+dinary failures from juror to judge to attorney” that de-
+prived the prisoner of his confrontation and impartial-jury
+rights. Id., at 9 (internal quotation marks omitted). We
+summarily reversed. By “granting relief ” based on a claim
+that the prisoner “never asserted and that the State never
+had the chance to address,” the Fourth Circuit “trans-
+gressed the party-presentation principle.” Ibid.
+So too here. The Fourth Circuit violated the party-
+presentation principle when it decided “a case different
+from the one [respondent] advanced.” 160 F. 4th, at 118
+(Quattlebaum, J., dissenting from denial of rehearing en
+banc). As respondent conceded below, our precedent estab-
+lishes that Congress, through the CSRA, intended to chan-
+nel covered claims to the MSPB. ECF Doc. 72, pp. 8–9; ECF
+Doc. 11–1, p. 18. The parties thus confined their arguments
+to the narrow question whether respondent’s claims were,
+in fact, covered. Unsatisfied with rejecting respondent’s ar-
+guments on that question, however, the Fourth Circuit
+sua sponte addressed a much broader one and remanded for
+further proceedings on that question. The court trans-
+formed respondent’s argument that the CSRA did not chan-
+nel its claims into one that the CSRA might not—in light of
+current conditions—channel any claims. And the court did
+so without giving either side a chance to address its theory.
+See Clark, 607 U. S., at 9. That “ ‘drasti[c]’ ” departure from
+the principle of party presentation “ ‘constitute[d] an abuse
+of discretion.’ ” Id., at 10 (quoting Sineneng-Smith, 590
+U. S., at 375).
+Federal courts are not “roving commissions,” Broadrick
+v. Oklahoma, 413 U. S. 601, 611 (1973), licensed to “ ‘sally
+forth each day looking for wrongs to right,’ ” Sineneng-
+Smith, 590 U. S., at 376 (quoting United States v. Samuels,
+5Cite as: 608 U. S. ____ (2026)
+Per Curiam
+808 F. 2d 1298, 1301 (CA8 1987) (Arnold, J., concurring in
+denial of rehearing en banc)). The Court of Appeals lost
+sight of those principles here.
+The petition for a writ of certiorari is granted, the judg-
+ment of the Fourth Circuit is reversed, and the case is re-
+manded for further proceedings consistent with this opin-
+ion.
+It is so ordered.
+1Cite as: 608 U. S. ____ (2026)
+THOMAS, J., concurring
+SUPREME COURT OF THE UNITED STATES
+DAREN K. MARGOLIN, DIRECTOR OF THE
+EXECUTIVE OFFICE FOR IMMIGRATION
+REVIEW v. NATIONAL ASSOCIATION OF
+IMMIGRATION JUDGES
+ON PETITION FOR WRIT OF CERTIORARI TO THE UNITED
+STATES COURT OF APPEALS FOR THE FOURTH CIRCUIT
+No. 25–767. Decided May 26, 2026
+JUSTICE THOMAS, with whom JUSTICE BARRETT joins,
+concurring.
+I agree with the Court that the Fourth Circuit erred by
+disregarding traditional party-presentation principles. I
+write separately to explain why the Fourth Circuit’s deci-
+sion was also wrong on the merits.
+As the Fourth Circuit seemed to acknowledge, this
+Court’s precedent establishes that the District Court lacked
+jurisdiction over this challenge to a federal workplace pol-
+icy. The Civil Service Reform Act of 1978, 5 U. S. C. §1101
+et seq., provides a statutory review scheme through which
+certain federal employees must raise certain workplace
+complaints. The scheme authorizes judicial review only af-
+ter the employees have had their claims heard by the Merit
+Systems Protection Board (and sometimes the Office of the
+Special Counsel). §§1214, 7512, 7703; 28 U. S. C.
+§1295(a)(9). In Elgin v. Department of Treasury, 567 U. S.
+1 (2012), this Court held that “covered employees appealing
+covered agency actions” must “proceed exclusively through
+the statutory review scheme.” Id., at 10. Respondent con-
+cedes that its members are covered employees. The Fourth
+Circuit agreed that the workplace policy at issue is a cov-
+ered agency action. National Assn. of Immigration Judges
+v. Owen, 139 F. 4th 293, 308–313 (2025). Thus, the Fourth
+Circuit had to acknowledge that, under Elgin, “the National
+Association of Immigration Judges would be required to
+2 MARGOLIN v. NAIJ
+THOMAS, J., concurring
+bring its case through [this] administrative scheme,” which
+would require the dismissal of this case. 139 F. 4th, at 299;
+see also id., at 305.
+Nevertheless, the Fourth Circuit strained to avoid dis-
+missal of the case based on its belief that new political con-
+siderations changed the governing law. The court ex-
+plained that it would not allow its “black robes to insulate
+[it] from taking notice of items in the public record.” Id., at
+313. Specifically, the Fourth Circuit worried that because
+“the President removed the Special Counsel” and “two
+members of the MSPB,” there were now “serious questions
+as to whether the CSRA’s adjudicatory scheme continues to
+function as intended.” Id., at 305. Congress designed the
+CSRA to rely on MSPB independence, the Fourth Circuit
+claimed, so now that “the Government has questioned the
+constitutionality of the removal protections enshrined in
+the CSRA,” it was no longer clear that the statutory scheme
+was functioning as Congress intended. Id., at 308. If it
+were not, the court reasoned, Congress might not have in-
+tended for such claims to be channeled to the MSPB any
+longer. The Fourth Circuit thus remanded to the District
+Court for factfinding as to how the CSRA scheme is func-
+tioning and whether a “new examination of Congressional
+intent may be required in light of changing circumstances.”
+Ibid.
+The Fourth Circuit’s analysis bears little resemblance to
+legal interpretation. Neither the President’s view that he
+can remove federal executive officials, see Myers v. United
+States, 272 U. S. 52 (1926), nor his having done so, change
+the meaning of the statute or the binding nature of this
+Court’s interpretation of it. “Conditions may have changed,
+but the statute has not.” United States ex rel. Marcus v.
+Hess, 317 U. S. 537, 547 (1943). Courts may not “rewrite
+the statutory scheme in order to approximate what we
+think Congress might have wanted had it known that” the
+President or courts may conclude that its removal
+3Cite as: 608 U. S. ____ (2026)
+THOMAS, J., concurring
+restrictions were “beyond its authority.” Seminole Tribe of
+Fla. v. Florida, 517 U. S. 44, 76 (1996). Statutes change
+only when Congress changes them, not when judges decide
+that they no longer vindicate Congress’s purposes. See
+U. S. Const., Art. I, §§1, 7.
+As Judge Quattlebaum wrote in dissent, the Fourth Cir-
+cuit’s decision below “undermines important principles of
+our system of justice,” including that law remains law de-
+spite the “political controversies of the day.” National Assn.
+of Immigration Judges v. Owen, 160 F. 4th 100, 118 (2025)
+(en banc).

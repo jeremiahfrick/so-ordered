@@ -1,0 +1,348 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+T. M. v. UNIVERSITY OF MARYLAND MEDICAL
+SYSTEM CORPORATION ET AL.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE FOURTH CIRCUIT
+No. 25–197. Argued April 20, 2026—Decided June 18, 2026
+The Rooker-Feldman doctrine bars federal district courts from exercising
+jurisdiction over cases brought by state-court losers seeking review
+and rejection of state-court judgments rendered before district court
+proceedings commenced. See Exxon Mobil Corp. v. Saudi Basic Indus-
+tries Corp., 544 U. S. 280, 284. This case asks whether the doctrine
+applies only to final judgments rendered by the highest court of a State
+in which a decision could be had, or whether it also bars suit when the
+state-court judgment at issue remains subject to further review in
+state appellate proceedings.
+Petitioner T. M. alleges that she has a medical condition that causes
+changes in her mental status, including psychosis, when she ingests
+gluten. In March 2023, T. M. accidentally ingested gluten and was
+taken to the emergency room at Baltimore Washington Medical Cen-
+ter, where, after an administrative hearing and over her and her fa-
+ther’s objections, she was involuntarily committed for about three
+months. During her stay, T. M.’s treating psychiatrist and the medical
+center obtained an order authorizing the facility to forcibly inject T. M.
+with antipsychotic medication. These events prompted a flurry of liti-
+gation, with T. M. and her parents filing several state and federal law-
+suits seeking T. M.’s release and to avoid the forced injections. T. M.
+and respondents negotiated a settlement agreement to facilitate
+T. M.’s discharge, and the state judge presiding over T. M.’s state ha-
+beas petition entered the agreement as a consent order on June 12,
+2023. The consent order provided for T. M.’s immediate release subject
+to several conditions, including that T. M. obtain a new treating psy-
+chiatrist, continue taking her prescribed medications, and dismiss
+2 T. M. v. UNIVERSITY OF MD. MEDICAL SYSTEM
+CORPORATION
+Syllabus
+with prejudice all pending actions against respondents. Ten days after
+the state court entered the consent order, T. M. and her parents ob-
+tained new counsel and sued respondents in Federal District Court for
+the District of Maryland, seeking a declaration that the consent order
+violated T. M.’s federal and state due-process rights, a declaration that
+the order was obtained under duress, and an injunction preventing its
+enforcement. Meanwhile, T. M. appealed the consent order to the Ap-
+pellate Court of Maryland and raised similar arguments. T. M. later
+successfully moved to stay the state-court appeal to prevent incon-
+sistent rulings. The District Court dismissed the complaint sua sponte
+for lack of subject matter jurisdiction under the Rooker-Feldman doc-
+trine. The Fourth Circuit affirmed, rejecting T. M.’s argument that
+Rooker-Feldman applies only to judgments that are final judgments
+from the highest court of a State in which the decision could be had.
+Held: The Rooker-Feldman doctrine bars federal district court jurisdic-
+tion over cases brought by state-court losers complaining of injuries
+caused by state-court judgments rendered before the district court pro-
+ceedings commenced and seeking district court review and rejection of
+those judgments, regardless of whether the state-court judgment re-
+mains subject to further review in state appellate proceedings. Pp. 5–
+18.
+(a) Federal district courts generally lack “any power to review di-
+rectly cases from state courts.” Atlantic Coast Line R. Co. v. Locomo-
+tive Engineers, 398 U. S. 281, 286. The Supreme Court is the only fed-
+eral court with appellate jurisdiction to review state-court judgments,
+and that jurisdiction extends only to “[f]inal judgments or decrees ren-
+dered by the highest court of a State in which a decision could be had,”
+28 U. S. C. §1257(a). In Rooker v. Fidelity Trust Co., 263 U. S. 413, the
+Court held that a Federal District Court lacked jurisdiction to declare
+a state-court judgment “null and void” because doing so would be “an
+exercise of appellate jurisdiction,” which only the Supreme Court pos-
+sesses, and the “jurisdiction possessed by the District Courts is strictly
+original.” Id., at 414–416. In District of Columbia Court of Appeals v.
+Feldman, 460 U. S. 462, the Court held that a Federal District Court
+lacked jurisdiction to “review” a final judicial determination of the
+D. C. high court because such “[r]eview . . . can be obtained only in [the
+Supreme] Court” under §1257. Id., at 476, 482.
+Rooker and Feldman rest on two closely related bases of reasoning.
+First, when plaintiffs “essentially invit[e] federal courts of first in-
+stance to review and reverse unfavorable state-court judgments,” they
+are seeking an exercise of appellate jurisdiction. Exxon, 544 U. S., at
+283–284. Second, such “appellate jurisdiction to reverse or modify a
+state-court judgment is lodged, . . . by 28 U. S. C. §1257, exclusively in
+[the Supreme] Court.” 544 U. S., at 283. This Court has since refused
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+to expand the Rooker-Feldman doctrine but has also reaffirmed its rule
+in the narrow ground it occupies. Exxon, 544 U. S., at 284. Pp. 5–8.
+(b) T. M.’s case falls within “the narrow ground occupied by Rooker-
+Feldman,” Exxon, 544 U. S., at 284, because she is complaining of in-
+juries caused by, and seeking relief from, the state-court judgment it-
+self, arguing that the consent order violates her federal and state due
+process rights and was entered into under duress. The consent order
+was rendered 10 days before T. M. commenced this federal lawsuit,
+and she plainly seeks “review and rejection” of the “ ‘Consent Order’ ”
+by asking the District Court to declare it “unconstitutional, unenforce-
+able, and void ab initio” and to enjoin its “enforcement.” 139 F. 4th
+344, 347. P. 8.
+(c) The Court rejects T. M.’s argument that Rooker-Feldman should
+apply only to final judgments rendered by the highest court of a State
+in which a decision could be had, i.e., the kinds of judgments that
+strictly fall within this Court’s jurisdiction under 28 U. S. C. §1257.
+Pp. 9–18.
+(1) T. M.’s theory cannot be squared with the Court’s precedents.
+T. M. reads the Court’s prior Rooker-Feldman cases not to evince any
+concern about district courts exercising what amounts to appellate ju-
+risdiction over state-court judgments, but instead as relying on a strict
+negative inference from §1257: when this Court has jurisdiction over a
+state-court judgment, district courts must not. But this Court’s prece-
+dents plainly adopted a more functional view of what constitutes orig-
+inal and appellate jurisdiction under §1331. In Rooker, nothing in the
+Court’s reasoning suggested the outcome would have been different
+had the judgment still been on appeal; the Court held that seeking to
+“reverse or modify the [state-court] judgment” would be an “exercise of
+appellate jurisdiction,” which the District Court lacks because it has
+“strictly original” jurisdiction. 263 U. S., at 416. Later cases confirmed
+that Rooker-Feldman bars suits in federal district court that “see[k]
+what in substance would be appellate review of [a] state judgment,”
+regardless of whether the judgment formally falls within this Court’s
+§1257 jurisdiction. Johnson v. De Grandy, 512 U. S. 997, 1005–1006.
+In fact, Feldman explicitly rejected the notion that district courts have
+jurisdiction to review state-court judgments so long as the judgments
+are not yet within this Court’s §1257 jurisdiction. 460 U. S., at 483–
+484, n. 16 (explaining that irrespective of the Court’s “jurisdiction to
+review a final state court judgment . . . ‘lower federal courts possess
+no power whatever to sit in direct review of state court decisions’ ”).
+Pp. 9–13.
+(2) If departure from this Court’s precedents alone were not
+enough to affirm the dismissal of T. M.’s suit under Rooker-Feldman,
+adopting T. M.’s rule would also create anomalous outcomes and
+4 T. M. v. UNIVERSITY OF MD. MEDICAL SYSTEM
+CORPORATION
+Syllabus
+undermine federalism principles. Allowing federal district courts to
+review state-court judgments while they are on appeal in the state-
+court system would undermine the “[c]ooperation and comity” on
+which the Nation’s federal system is built. Ruhrgas AG v. Marathon
+Oil Co., 526 U. S. 574, 586. T. M.’s rule would also produce arbitrarily
+different results depending on when a federal suit seeking review of a
+state-court judgment is filed, encouraging parties to file earlier in fed-
+eral court while the state appellate proceedings are pending, and to
+duplicate their efforts even though the state process may resolve the
+dispute in their favor.
+T. M.’s contention that abstention and preclusion doctrines can do
+nearly all of the work that Rooker-Feldman does is unavailing. It is
+unclear if such doctrines even apply in cases where a plaintiff com-
+plains of injuries that stem directly from a state-court judgment rather
+than attempting to relitigate the same claims. Federalism principles
+are thus best served by continuing to apply Rooker-Feldman to federal
+plaintiffs seeking review of state-court judgments, regardless of
+whether those judgments are final trial-court judgments or those of a
+State’s highest court. Pp. 13–16.
+(3) T. M. contends that the Court should adopt her position be-
+cause it will generally cabin Rooker-Feldman, a doctrine she claims
+has caused confusion and is overused as a docket-clearing mechanism
+in the lower courts. T. M.’s proposed rule would fail to address the
+source of confusion in current Rooker-Feldman doctrine—determining
+when a plaintiff is seeking federal review and rejection of a state-court
+judgment—and would add a new source of confusion by requiring
+courts to determine whether a state-court judgment is a reviewable
+final judgment under §1257(a). In any event, the animating force be-
+hind T. M.’s arguments is the belief that Rooker and Feldman were
+wrongly decided, but this issue is not fairly included in the question
+presented. The Court today neither expands nor constrains Rooker-
+Feldman but leaves the doctrine as it found it. Pp. 16–18.
+139 F. 4th 344, affirmed.
+SOTOMAYOR, J., delivered the opinion of the Court, in which THOMAS,
+ALITO, KAVANAUGH, and JACKSON, JJ., joined. THOMAS, J., filed a concur-
+ring opinion. BARRETT, J., filed a dissenting opinion, in which ROBERTS,
+C. J., and KAGAN and GORSUCH, JJ., joined.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 25–197
+T. M., PETITIONER v. UNIVERSITY OF MARYLAND
+MEDICAL SYSTEM CORPORATION, ET AL.
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE FOURTH CIRCUIT
+[June 18, 2026]
+JUSTICE SOTOMAYOR delivered the opinion of the Court.
+Under what has become known as the Rooker-Feldman
+doctrine, federal district courts lack jurisdiction over “cases
+brought by state-court losers complaining of injuries caused
+by state-court judgments rendered before the district court
+proceedings commenced and inviting district court review
+and rejection of those judgments.” Exxon Mobil Corp. v.
+Saudi Basic Industries Corp., 544 U. S. 280, 284 (2005).
+This case asks whether this rule bars suit when the state-
+court judgment at issue is subject to further review in state
+appellate proceedings. A straightforward application of the
+logic and reasoning underlying Rooker-Feldman leads to
+one conclusion: It does. Because this suit falls within the
+narrow doctrine’s limits, the Court of Appeals for the
+Fourth Circuit properly affirmed its dismissal.
+I
+A
+Petitioner T. M. alleges that she has a medical condition
+that “ ‘causes changes in [her] mental status upon ingesting
+any amount of gluten’ and can result in ‘episodes of psycho-
+sis.’ ” 139 F. 4th 344, 347 (CA4 2025) (alteration in
+2 T. M. v. UNIVERSITY OF MD. MEDICAL SYSTEM
+CORPORATION
+Opinion of the Court
+original). In March 2023, T. M. accidentally ingested glu-
+ten and was taken to the emergency room at Baltimore
+Washington Medical Center. After an administrative hear-
+ing before a Maryland administrative law judge (ALJ), and
+over her and her father’s objection, she was involuntarily
+committed to the facility, where she stayed for about three
+months. During her stay, T. M.’s treating psychiatrist and
+the medical center sought, and were granted by a clinic re-
+view panel, an order authorizing the facility forcibly to in-
+ject T. M. with antipsychotic medication. That order was
+later affirmed by an ALJ.
+These events jumpstarted a flurry of litigation, with T. M.
+and her parents filing several state and federal lawsuits
+seeking to have T. M. released from involuntary commit-
+ment and to avoid the forced injections. In state court,
+T. M. filed two petitions for judicial review of the ALJ deci-
+sions allowing her involuntary admission and upholding
+the forced-injection order. She also filed a state habeas pe-
+tition and a separate civil action, with several emergency
+motions, seeking release from the medical center. In fed-
+eral court, T. M. filed a due-process suit seeking damages
+and an injunction requiring her discharge. T. M.’s father,
+for his part, filed a state-court action against respondents
+seeking an order requiring them to recognize T. M.’s pur-
+ported advance medical directive listing him as T. M.’s
+healthcare agent if she became incompetent to make deci-
+sions.
+In the midst of those lawsuits, T. M. and respondents ne-
+gotiated a settlement agreement to facilitate T. M.’s dis-
+charge, and the state judge presiding over the state habeas
+petition entered the agreement as a consent order. The con-
+sent order provided for T. M.’s immediate release subject to
+several conditions, including that T. M. would “(1) obtain a
+new treating psychiatrist and continue to take her hospital-
+prescribed medications; (2) regularly meet and consult with
+a third-party provider regarding her treatment and
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+medication; (3) accept a referral to [an outpatient clinic] and
+follow their recommendations; (4) take all prescribed medi-
+cations; and (5) dismiss with prejudice all of her [and her
+parents’] pending actions against [respondents].” App. to
+Pet. for Cert. 24a. The consent order also required T. M.’s
+parents to monitor her use of her medications and report if
+she stopped taking them. The state court, counsel for T. M.,
+and respondents signed the consent order on June 12, 2023,
+and respondents discharged T. M.
+B
+Unfortunately, the consent order did not end the parties’
+dispute in either state or federal court. Ten days after the
+state court entered the consent order, T. M. and her parents
+obtained new counsel and sued respondents in the District
+Court for the District of Maryland. This lawsuit is now be-
+fore the Court. The complaint sought a declaration that the
+consent order violated T. M.’s federal and state due-process
+rights, a declaration that the order was obtained under du-
+ress, and an injunction preventing the order’s enforcement.
+Meanwhile, back in state court, T. M. appealed the con-
+sent order to the Appellate Court of Maryland and raised
+similar arguments. About four months later, T. M. moved
+to stay the pending appeal in the Appellate Court of Mary-
+land, contending that a stay was warranted to “prevent in-
+consistent rulings” because both the state appeal and the
+pending federal lawsuit were “based on the same facts and
+events.” Motion to Stay in No. 1:23–cv–1684, ECF Doc. 81–
+1, p. 1. The Appellate Court of Maryland granted the stay,
+which remains in effect.
+In the federal case, the Maryland District Court dis-
+missed the complaint sua sponte for lack of subject matter
+jurisdiction, holding that T. M.’s claims were barred by the
+Rooker-Feldman doctrine. That doctrine, addressed in de-
+tail below, generally holds that federal courts lack jurisdic-
+tion over lawsuits brought by parties who received adverse
+4 T. M. v. UNIVERSITY OF MD. MEDICAL SYSTEM
+CORPORATION
+Opinion of the Court
+judgments in state courts and then turn to federal courts
+seeking “review and rejection of ” those judgments. Exxon,
+544 U. S., at 284.1
+The Fourth Circuit affirmed. The panel observed that in
+Rooker v. Fidelity Trust Co., 263 U. S. 413 (1923), this Court
+held that a Federal District Court lacked jurisdiction to
+“ ‘declar[e]’ that [a] state court’s judgment was ‘null and
+void’ ” under the Federal Constitution because doing so
+“ ‘would be an exercise of appellate jurisdiction,’ ” which only
+the Supreme Court possesses. 139 F. 4th, at 348 (quoting
+263 U. S., at 414–415, 416). Because T. M. was asking the
+District Court here to do precisely that, the Fourth Circuit
+reasoned that this “case is too much like Rooker to justify a
+different” conclusion and thus required dismissal based on
+Rooker-Feldman. 139 F. 4th, at 346. In so holding, the
+Fourth Circuit also rejected T. M.’s argument that Rooker-
+Feldman applies only to judgments that are “‘final judg-
+ment[s] from the highest court of a State in which the deci-
+sion could be had,’ ” reasoning that this Court has never im-
+posed such a requirement. 139 F. 4th, at 353–354.
+T. M. filed a timely petition for a writ of certiorari seeking
+review of the Fourth Circuit’s conclusion that the Rooker-
+Feldman doctrine can be triggered by a state-court judg-
+ment that remains subject to further review in state court.
+The Sixth Circuit has taken the same position as the Fourth
+Circuit. See RLR Invs., LLC v. Pigeon Forge, 4 F. 4th 380,
+389–390, 396 (2021). Other Circuits have held that Rooker-
+Feldman applies only if the state-court proceedings have
+“ended.” See, e.g., Federación de Maestros de P. R. v. Junta
+de Relaciones del Trabajo de P. R., 410 F. 3d 17, 24–25 (CA1
+2005) (outlining three-part test to determine whether state
+——————
+1 The District Court also granted respondents’ motion to dismiss
+T. M.’s parents’ claims on the merits.
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+proceedings have functionally “ended”).2 The Court granted
+certiorari to resolve the conflict among the Courts of Ap-
+peals. 607 U. S. 1079 (2025).
+II
+A
+“Federal courts are courts of limited jurisdiction and gen-
+erally can resolve only the cases that Congress grants them
+power to hear.” Hain Celestial Group, Inc. v. Palmquist,
+607 U. S. 421, 424 (2026). As relevant here, Congress in 28
+U. S. C. §1331 granted federal district courts “original ju-
+risdiction of all civil actions” raising federal questions. Dis-
+trict courts generally lack “any power to review directly
+cases from state courts.” Atlantic Coast Line R. Co. v. Lo-
+comotive Engineers, 398 U. S. 281, 286 (1970). Instead, this
+Court is the only federal court with appellate jurisdiction to
+review state-court judgments, and that jurisdiction extends
+only to “[f]inal judgments or decrees rendered by the high-
+est court of a State in which a decision could be had.”
+§1257(a). Thus, “from the beginning we have had in this
+country two essentially separate legal systems” with “[e]ach
+system proceed[ing] independently of the other with ulti-
+mate review in this Court of the federal questions raised in
+either system.” Atlantic Coast Line, 398 U. S., at 286.3
+The Court delineated some of the bo

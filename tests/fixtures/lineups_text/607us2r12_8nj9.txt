@@ -1,0 +1,324 @@
+P R E L I M I N A R Y P R I N T
+Volume 607 U. S. Part 2
+Pages 229–390
+OFFICIAL REPORTS
+OF
+THE SUPREME COURT
+February 20, 2026
+REBECCA A. WOMELDORF
+reporter of decisionsPage Proof Pending Publication
+NOTICE: This preliminary print is subject to formal revision before
+the bound volume is published. Users are requested to notify the Reporter
+of Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+Page Proof Pending PublicationOCTOBER TERM, 2025 229
+Syllabus
+LEARNING RESOURCES, INC., et al. v. TRUMP,
+PRESIDENT OF THE UNITED STATES, et al.
+certiorari before judgment to the united states court
+of appeals for the district of columbia circuit
+No. 24–1287. Argued November 5, 2025—Decided February 20, 2026*
+The question presented is whether the International Emergency Economic
+Powers Act (IEEPA) authorizes the President to impose tariffs. See
+91 Stat. 1626. Shortly after taking offce, President Trump sought to
+address two foreign threats: the infux of illegal drugs from Canada,
+Mexico, and China, Presidential Proclamation No. 10886, 90 Fed. Reg.
+8327; Exec. Order No. 14193, 90 Fed. Reg. 9113; Exec. Order No. 14194,
+90 Fed. Reg. 9117; Exec. Order No. 14195, 90 Fed. Reg. 9121, and “large
+and persistent” trade defcits, Exec. Order No. 14257, 90 Fed. Reg.
+15041. The President determined that the drug infux had “created a
+public health crisis,” 90 Fed. Reg. 9113, and that the trade defcits had
+“led to the hollowing out” of the American manufacturing base and “un-
+dermined critical supply chains,” id., at 15041. The President declared
+a national emergency as to both threats, deeming them “unusual and
+extraordinary,” and invoked his authority under IEEPA to respond.
+He imposed tariffs to deal with each threat. As to the drug traffck-
+ing tariffs, the President imposed a 25% duty on most Canadian and
+Mexican imports and a 10% duty on most Chinese imports. Id., at 9114,
+9118, 9122–9123. As to the trade defcit (“reciprocal”) tariffs, the Presi-
+dent imposed a duty “on all imports from all trading partners” of at
+least 10%, with dozens of nations facing higher rates. Id., at 15045,
+15049. Since imposing each set of tariffs, the President has issued sev-
+eral increases, reductions, and other modifcations.
+Petitioners in Learning Resources and respondents in V.O.S. Selec-
+tions fled suit, alleging that IEEPA does not authorize the reciprocal or
+drug traffcking tariffs. The Learning Resources plaintiffs—two small
+businesses—sued in the United States District Court for the District of
+Columbia. That court denied the Government's motion to transfer the
+case to the United States Court of International Trade (CIT) and
+granted the plaintiffs' motion for a preliminary injunction, concluding
+that IEEPA did not grant the President the power to impose tariffs.
+*Together with No. 25–250, Trump, President of the United States, et al.
+v. V.O.S. Selections, Inc., et al., on certiorari to the United States Court
+of Appeals for the Federal Circuit.
+Page Proof Pending Publication230 LEARNING RESOURCES, INC. v. TRUMP
+Syllabus
+The V.O.S. Selections plaintiffs—fve small businesses and 12 States—
+sued in the CIT. That court granted summary judgment for the plain-
+tiffs. And the Federal Circuit, sitting en banc, affrmed in relevant
+part, concluding that IEEPA's grant of authority to “regulate . . . impor-
+tation” did not authorize the challenged tariffs, which “are unbounded
+in scope, amount, and duration.” 149 F. 4th 1312, 1338. The Govern-
+ment fled a petition for certiorari in V.O.S. Selections, and the Learning
+Resources plaintiffs fled a petition for certiorari before judgment. The
+Court granted the petitions and consolidated the cases.
+Held: IEEPA does not authorize the President to impose tariffs. The
+judgment in No. 24–1287 is vacated, and the case is remanded with in-
+structions to dismiss for lack of jurisdiction; the judgment in No. 25–250
+is affrmed.
+No. 24–1287, 784 F. Supp. 3d 209, vacated and remanded; No. 25–250, 149
+F. 4th 1312, affrmed.
+The Chief Justice delivered the opinion of the Court with respect
+to Parts I and II–A–1:
+Article I, Section 8, of the Constitution specifes that “The Congress
+shall have Power To lay and collect Taxes, Duties, Imposts and Excises.”
+The Framers recognized the unique importance of this taxing power—
+a power which “very clear[ly]” includes the power to impose tariffs.
+Gibbons v. Ogden, 9 Wheat. 1, 201. And they gave Congress “alone . . .
+access to the pockets of the people.” The Federalist No. 48, p. 310
+(J. Madison). The Framers did not vest any part of the taxing power
+in the Executive Branch. See Nicol v. Ames, 173 U. S. 509, 515.
+The Government thus concedes that the President enjoys no inherent
+authority to impose tariffs during peacetime. It instead relies exclu-
+sively on IEEPA to defend the challenged tariffs. It reads the words
+“regulate” and “importation” to effect a sweeping delegation of Con-
+gress's power to set tariff policy—authorizing the President to impose
+tariffs of unlimited amount and duration, on any product from any coun-
+try. 50 U. S. C. § 1702(a)(1)(B). Pp. 240–242.
+The Chief Justice, joined by Justice Gorsuch and Justice Bar-
+rett, concluded in Part II–A–2:
+The Court has long expressed “reluctan[ce] to read into ambiguous
+statutory text” extraordinary delegations of Congress's powers. West
+Virginia v. EPA, 597 U. S. 697, 723 (quoting Utility Air Regulatory
+Group v. EPA, 573 U. S. 302, 324). In several cases described as involv-
+ing “major questions,” the Court has reasoned that “both separation
+of powers principles and a practical understanding of legislative intent”
+suggest Congress would not have delegated “highly consequential power”
+through ambiguous language. 597 U. S., at 723–724. These consider-
+Page Proof Pending PublicationCite as: 607 U. S. 229 (2026) 231
+Syllabus
+ations apply with particular force where, as here, the purported delega-
+tion involves the core congressional power of the purse. Congressional
+practice confrms as much. When Congress has delegated its tariff
+powers, it has done so in explicit terms and subject to strict limits.
+Against that backdrop of clear and limited delegations, the Govern-
+ment reads IEEPA to give the President power to unilaterally impose
+unbounded tariffs and change them at will. That view would represent
+a transformative expansion of the President's authority over tariff pol-
+icy. It is also telling that in IEEPA's half century of existence, no Pres-
+ident has invoked the statute to impose any tariffs, let alone tariffs of
+this magnitude and scope. That “ `lack of historical precedent,' coupled
+with the breadth of authority” that the President now claims, suggests
+that the tariffs extend beyond the President's “legitimate reach.” Na-
+tional Federation of Independent Business v. OSHA, 595 U. S. 109, 119
+(quoting Free Enterprise Fund v. Public Company Accounting Over-
+sight Bd., 561 U. S. 477, 505). The “ `economic and political signif-
+cance' ” of the authority the President has asserted likewise “provide[s]
+a `reason to hesitate before concluding that Congress' meant to confer
+such authority.” West Virginia, 597 U. S., at 721 (quoting FDA v.
+Brown & Williamson Tobacco Corp., 529 U. S. 120, 159–160). The
+stakes here dwarf those of other major questions cases. And as in
+those cases, “a reasonable interpreter would [not] expect” Congress to
+“pawn[ ]” such a “big-time policy call[ ] . . . off to another branch.”
+Biden v. Nebraska, 600 U. S. 477, 515 (Barrett, J., concurring).
+There is no exception to the major questions doctrine for emergency
+statutes. Nor does the fact that tariffs implicate foreign affairs render
+the doctrine inapplicable. The Framers gave “Congress alone” the
+power to impose tariffs during peacetime. Merritt v. Welsh, 104 U. S.
+694, 700. And the foreign affairs implications of tariffs do not make it
+any more likely that Congress would relinquish its tariff power through
+vague language, or without careful limits. Accordingly, the President
+must “point to clear congressional authorization” to justify his extraor-
+dinary assertion of that power. Nebraska, 600 U. S., at 506 (internal
+quotation marks omitted). He cannot. Pp. 242–248.
+The Chief Justice delivered the opinion of the Court with respect
+to Part II–B, concluding:
+(a) IEEPA authorizes the President to “investigate, block during the
+pendency of an investigation, regulate, direct and compel, nullify, void,
+prevent or prohibit . . . importation or exportation.” § 1702(a)(1)(B).
+Absent from this lengthy list of specifc powers is any mention of tariffs
+or duties. Had Congress intended to convey the distinct and extraordi-
+nary power to impose tariffs, it would have done so expressly, as it
+consistently has in other tariff statutes.
+232 LEARNING RESOURCES, INC. v. TRUMP
+Syllabus
+The power to “regulate . . . importation” does not fll that void. The
+term “regulate,” as ordinarily used, means to “fx, establish, or control;
+to adjust by rule, method, or established mode; to direct by rule or
+restriction; to subject to governing principles or laws.” Black's Law
+Dictionary 1156. The facial breadth of this defnition places in stark
+relief what ”regulate” is not usually thought to include: taxation. Many
+statutes grant the Executive the power to “regulate.” Yet the Govern-
+ment cannot identify any statute in which the power to regulate includes
+the power to tax. The Court is therefore skeptical that in IEEPA—
+and IEEPA alone—Congress hid a delegation of its birth-right power
+to tax within the quotidian power to “regulate.”
+While taxes may accomplish regulatory ends, it does not follow that
+the power to regulate includes the power to tax as a means of regula-
+tion. Indeed, when Congress addresses both the power to regulate and
+the power to tax, it does so separately and expressly. That it did not
+do so here is strong evidence that “regulate” in IEEPA does not in-
+clude taxation.
+A contrary reading would render IEEPA partly unconstitutional.
+IEEPA authorizes the President to “regulate . . . importation or expor-
+tation.” § 1702(a)(1)(B). But taxing exports is expressly forbidden by
+the Constitution. Art. I, § 9, cl. 5.
+The “neighboring words” with which “regulate” “is associated” also
+suggest that Congress did not intend for “regulate” to include the
+revenue-raising power. United States v. Williams, 553 U. S. 285, 294.
+Each of the nine verbs in § 1702(a)(1)(B) authorizes a distinct action a
+President might take in sanctioning foreign actors or controlling domes-
+tic actors engaged in foreign commerce, as Presidential practice con-
+frms. And none of the listed authorities includes the distinct and ex-
+traordinary power to raise revenue—a power which no President has
+ever found in IEEPA. Pp. 248–251.
+(b) Several arguments marshaled in response are unpersuasive.
+First, the contention that IEEPA confers the power to impose tariffs
+because early commentators and the Court's cases discuss tariffs in the
+context of the Commerce Clause answers the wrong question. The
+question is not whether tariffs can ever be a means of regulating com-
+merce. It is instead whether Congress, when conferring the power to
+“regulate . . . importation,” gave the President the power to impose
+tariffs at his sole discretion. And Congress's pattern of usage is plain:
+When Congress grants the power to impose tariffs, it does so clearly
+and with careful constraints. It did neither in IEEPA.
+Second, the argument that “regulate” naturally includes tariffs be-
+cause the term lies between two poles in IEEPA—“compel” on the af-
+frmative end and “prohibit” on the negative end—is unavailing. Al-Page Proof Pending Publication
+Cite as: 607 U. S. 229 (2026) 233
+Syllabus
+though tariffs may be less extreme than an outright compulsion or
+prohibition, it does not follow that tariffs lie on the spectrum between
+those poles; they are different in kind, not degree, from the other au-
+thorities in IEEPA. Tariffs operate directly on domestic importers to
+raise revenue for the Treasury and are “very clear[ly] . . . a branch of
+the taxing power.” Gibbons, 9 Wheat., at 201. Thus, they fall outside
+the spectrum entirely.
+Third, the argument based on IEEPA's predecessor, the Trading with
+the Enemy Act (TWEA), and the Court of Customs and Patent Appeals'
+decision in United States v. Yoshida Int'l, Inc., 526 F. 2d 560, cannot
+bear the weight placed on it. A single, expressly limited opinion from a
+specialized intermediate appellate court does not establish a well-settled
+meaning that the Court can assume Congress incorporated into
+IEEPA.
+Fourth, the historical argument based on the Court's wartime prece-
+dents fails. Those precedents are facially inapposite, as all agree the
+President lacks inherent peacetime authority to impose tariffs. And
+the attenuated chain of inferences from wartime precedents through
+multiple iterations of TWEA to IEEPA cannot support—much less
+clearly support—a reading of IEEPA that includes the distinct power
+to impose tariffs.
+Finally, arguments relying on this Court's precedents lack merit.
+Federal Energy Administration v. Algonquin SNG, Inc., 426 U. S. 548,
+bears little on the meaning of IEEPA. Section 232(b) of the Trade
+Expansion Act of 1962 contains sweeping, discretion-conferring lan-
+guage that IEEPA does not contain, and the explicit reference to duties
+in Section 232(a) renders it natural for Section 232(b) itself to authorize
+duties. Nor does Dames & Moore v. Regan, 453 U. S. 654, offer sup-
+port because that case was exceedingly narrow, did not address the
+President's power to “regulate,” and did not involve tariffs at all.
+Pp. 251–255.
+Justice Kagan, joined by Justice Sotomayor and Justice Jack-
+son, agreed that IEEPA does not authorize the President to impose
+tariffs, but concluded that the Court need not invoke the major ques-
+tions doctrine because the ordinary tools of statutory interpretation
+amply support that result. Pp. 304–310.
+Justice Jackson would also consult legislative history—in particu-
+lar, the House and Senate Reports that accompanied IEEPA and its
+predecessor statute, TWEA—to determine that Congress did not intend
+for IEEPA to authorize the Executive to impose tariffs. Pp. 310–313.
+Roberts, C. J., announced the judgment of the Court and delivered the
+opinion of the Court with respect to Parts I, II–A–1, and II–B, in whichPage Proof Pending Publication
+234 LEARNING RESOURCES, INC. v. TRUMP
+Syllabus
+Sotomayor, Kagan, Gorsuch, Barrett, and Jackson, JJ., joined, and
+an opinion with respect to Parts II–A–2 and III, in which Gorsuch and
+Barrett, JJ., joined. Gorsuch, J., post, p. 255, and Barrett, J., post, p.
+300, fled concurring opinions. Kagan, J., fled an opinion concurring in
+part and concurring in the judgment, in which Sotomayor and Jackson,
+JJ., joined, post, p. 304. Jackson, J., fled an opinion concurring in part
+and concurring in the judgment, post, p. 310. Thomas, J., fled a dissent-
+ing opinion, post, p. 313. Kavanaugh, J., fled a dissenting opinion, in
+which Thomas and Alito, JJ., joined, post, p. 330.
+Solicitor General Sauer argued the cause for the federal
+parties in both cases. With him on the briefs were Assist-
+ant Attorney General Shumate, Deputy Solicitor General
+Harris, Sopan Joshi, Mark R. Freeman, Michael S. Raab,
+Brad Hinshelwood, and Daniel Winik.
+Neal Kumar Katyal argued the cause for the private par-
+ties in both cases. With him on the brief in No. 25–250 were
+Colleen E. Roh Sinzdak, Jeffrey M. Schwab, Michael W. Mc-
+Connell, Steffen N. Johnson, and Ilya Somin. On the brief
+in No. 24–1287 were Pratik A. Shah, James E. Tysse, Mat-
+thew R. Nicely, Daniel M. Witkowski, Kristen E. Loveland,
+and Margaret O. Rusconi.
+Benjamin Gutman, Solicitor General of Oregon, argued
+the cause for state respondents in No. 25–250. With him
+on the brief were Dan Rayfeld, Attorney General, Dustin
+Buehler, and Brian Simmonds Marshall, Christopher A.
+Perdue, and Leigh Salmon, Senior Assistant Attorneys Gen-
+eral, and by the Attorneys General and other offcials for
+their respective States as follows: Kristin K. Mayes of Ari-
+zona, Joshua D. Bendor, Solicitor General, Alexander W.
+Samuels, Principal Deputy Solicitor General, and Syreeta A.
+Tyrell, Assistant Attorney General, by Philip J. Weiser of
+Colorado, and Sarah H. Weiss, Senior Assistant Attorney
+General, by William Tong of Connecticut, and Michael K.
+Skold, Solicitor General, by Kathleen Jennings of Delaware,
+and Ian R. Liston and Vanessa L. Kassab, Deputy Attorneys
+General, by Kwame Raoul of Illinois, and Jane Elinor Notz,
+Solicitor General, by Aaron M. Frey of Maine, and VivianPage Proof Pending Publication
+Cite as: 607 U. S. 229 (2026) 235
+Counsel
+A. Mikhail, Deputy Attorney General, by Keith Ellison of
+Minnesota, and Pete J. Farrell, Deputy Solicitor General, by
+Aaron D. Ford of Nevada, and Heidi Parry Stern, Solicitor
+General, by Raúl Torrez of New Mexico, and James W. Gray-
+son, by Letitia James of New York, Ester Murdukhayeva,
+Deputy Solicitor General, and Rabia Muqaddam, and by
+Charity R. Clark of Vermont, and Ryan P. Kane, Deputy
+Solicitor General.†
+†Briefs of amici curiae urging affrmance in both cases were fled for
+the State of California et al. by Rob Bonta, Attorney General of California,
+Samuel T. Harbourt, Solicitor General, Helen H. Hong, Principal Deputy
+Solicitor General, Thomas S. Patterson, Senior Assistant Attorney Gen-
+eral, and Julie Veroff and Diana L. Kim, Deputy Solicitors General, Lara
+Haddad, Supervising Deputy Attorney General, and Shiwon Choe, Zelda
+Vassar, and Carolyn F. Downs, Deputy Attorneys General; for BRB Man-
+agement, LLC, by Philip J. De Koster and John G. De Koster; for the
+Brennan Center for Justice by Leah J. Tulin and Elizabeth Goitein; for
+the Constitutional Accountability Center by Elizabeth B. Wydra, Brianne
+J. Gorod, and Brian R. Frazelle; for Economists by Adam G. Unikowsky,
+Holger Spamann, and Debbie L. Berman; for Emily Ley Paper, Inc., et al.
+by John J. Vecchione, Andrew J. Morris, and Markham S. Chenoweth; for
+Former Government Offcials et al. by Matthew A. Seligman, Mark Lem-
+ley, William H. Neukom, Norman L. Eisen, and Stephen A. Jonas; for
+the Goldwater Institute et al. by Timothy Sandefur and Jonathan Riches;
+for National Security Offcials by Meaghan VerGow and Noah B. Bokat-
+Lindell; for the Washington Legal Foundation by Cory L. Andrews and
+Zac Morgan; for We Pay The Tariffs by Gilbert Lee Sandler and Jason
+M. Kenner; for Vikram David Amar et al. by Tadhg Dooley; and for Julian
+Arato et al. by Timothy Meyer, pro se.
+Briefs of amici curiae were fled in both cases for Advancing American
+Freedom et al. by J. Marc Wheat; for the America First Policy Institute
+by Michael J. Jones and Alan Dershowitz; for the American College of
+Tax Counsel by John M. Colvin and Theodore P. Seto; for Consumer
+Watchdog by Alan B. Morrison, R. Will Planert, Donald B. Cameron,
+Harvey Rosenfeld, William Pletcher, and Benjamin Powell; for Former
+Senior Military Offcials et al. by Jacob W. Buchdahl; for the Institute for
+Policy Integrity at New York University School of Law by Richard L.
+Revesz, Donald L. R. Goodson, and Max Sarinsky; for Members of the
+U. S. Congress by William Fred Norton, Nathan L. Walker, Josephine K.
+Petrick, Celine G. Purcell, Rebecca Kutlow, Jennifer Hillman, and PeterPage Proof Pending Publication
+Page Proof Pending Publication236 LEARNING RESOURCES, INC. v. TRUMP
+Opinion of the Court
+Chief Justice Roberts announced the judgment of the
+Court and delivered the opinion of the Court, except as to
+Parts II–A–2 and III.*
+We decide whether the International Emergency Eco-
+nomic Powers Act (IEEPA) authorizes the President to im-
+pose tariffs.
+Harrell; for the National Taxpayers Union Foundation by Joseph D.
+Henchman; for Professors of Administrative Law et al. by Vincent Levy
+and Samuel Estreicher, pro se; for Scholars of the History of Constitu-
+tional Law et al. by Paul R. Q. Wolfson, Pooja A. Boisture, 

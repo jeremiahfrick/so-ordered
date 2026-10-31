@@ -1,0 +1,354 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+FEDERAL COMMUNICATIONS COMMISSION, ET AL. v.
+AT&T, INC.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE FIFTH CIRCUIT
+No. 25–406. Argued April 21, 2026—Decided June 4, 2026*
+The Communications Act of 1934, as amended, authorizes the Federal
+Communications Commission to investigate regulated parties for sus-
+pected violations of the communications laws and to seek monetary
+forfeitures for violations of those laws. 47 U. S. C. §503(b). In these
+cases, the Commission investigated cellular service providers AT&T
+and Verizon (collectively, the carriers) regarding their treatment of
+customer location data. Believing that the carriers had violated laws
+and regulations requiring them to take reasonable steps to keep loca-
+tion data confidential, the FCC sought forfeitures from the carriers.
+The Commission first issued the carriers notices of apparent liability
+under §503(b)(4), which specified the factual and legal bases for the
+forfeitures the Commission sought. After reviewing the carriers’ re-
+sponses, the Commission “determined” that the carriers were liable
+and “assessed” penalties of roughly $57 million against AT&T and $47
+million against Verizon. §§503(b)(1), (b)(2)(E).
+Once the Commission issues an order, the recipient has two options.
+First, it may seek review in the court of appeals under the Hobbs Act.
+See 28 U. S. C. §2342(1). The court of appeals, sitting without a jury,
+then reviews the order on the administrative record under the stand-
+ards set forth in the Administrative Procedure Act. 47 U. S. C. §402(a);
+——————
+*Together with No. 25–567, Verizon Communications, Inc. v. Federal
+Communications Commission, et al., on certiorari to the United States
+Court of Appeals for the Second Circuit.
+2 FCC v. AT&T, INC.
+Syllabus
+28 U. S. C. §2347(a); 5 U. S. C. §551 et seq., and §701 et seq. The recip-
+ient may also opt to do nothing. In the event of nonpayment of a for-
+feiture penalty “determined under [§503(b)(4)],” the penalty “shall be
+recoverable . . . in a civil suit in the name of the United States.” 47
+U. S. C. §504(a). The Commission may then refer the matter to the
+Department of Justice, which in turn may—but need not—bring a civil
+suit within five years of the issuance of the order. 28 U. S. C. §2462.
+That suit “shall be a trial de novo.” 47 U. S. C. §504(a). The regulated
+party may, of course, pay the forfeiture voluntarily. But until it does,
+or the court in a §504 enforcement action orders payment, the Com-
+mission may not use the “notice of apparent liability . . . to the preju-
+dice of” the party in other Commission proceedings. §504(c).
+Here, the carriers paid their penalties and filed petitions for review
+in their respective Courts of Appeals. They argued that requiring for-
+feiture without the opportunity for a jury trial violates the Seventh
+Amendment. The Fifth Circuit granted AT&T’s petition for review and
+vacated the Commission’s order. The court held that the FCC’s en-
+forcement procedures violate the Seventh Amendment because by the
+time the Commission issues a forfeiture order, it “has already found
+the facts, interpreted the law, adjudged guilt, and levied punish-
+ment”—all without the involvement of a jury. 149 F. 4th 491, 503. The
+Second Circuit denied Verizon’s petition for review on the ground that
+the FCC’s forfeiture order did not itself compel payment; the Depart-
+ment of Justice “needs to initiate a collection action” under §504 before
+the carrier can be made to pay. 156 F. 4th 86, 106. The court thus
+held that the Commission does not violate the Seventh Amendment
+when it issues forfeiture orders without a jury. See id., at 107. This
+Court granted certiorari as to both decisions to resolve the conflict.
+Held: Because forfeiture orders issued under §503(b)(4) do not defini-
+tively resolve the parties’ legal obligations, and the FCC’s factual find-
+ings in its forfeiture proceedings are not conclusive, it does not violate
+the Seventh Amendment for the Commission to issue forfeiture orders
+without the involvement of a jury. Pp. 6–14.
+(a) The FCC’s forfeiture proceedings fit comfortably within the
+Court’s Seventh Amendment precedents. The Seventh Amendment
+“preserve[s]” the right to trial by jury in “Suits at common law,” and
+applies in all proceedings in which “legal rights” are to be “settle[d],”
+Parsons v. Bedford, 3 Pet. 433, 447. It does not, however, “prescribe at
+what stage” of a legal dispute “a trial by jury must, if demanded, be
+had.” Capital Traction Co. v. Hof, 174 U. S. 1, 23. The Amendment
+requires only that, before legal rights and obligations are conclusively
+“ascertained and determined,” Parsons, 3 Pet., at 447, a party has the
+chance to insist that a jury make the “ultimate determination of issues
+of fact,” Ex parte Peterson, 253 U. S. 300, 310. Consistent with these
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+principles, this Court has upheld nonjury adjudications making initial
+findings of fact that are subject to de novo review in a subsequent jury
+trial. See, e.g., Meeker v. Lehigh Valley R. Co., 236 U. S. 412; Peterson,
+253 U. S., at 310. Given the similar features of the Commission’s en-
+forcement scheme, the Commission may issue forfeiture orders with-
+out the involvement of a jury.
+The forfeiture orders at issue in these cases did not settle the carri-
+ers’ legal obligations because they did not create an obligation to pay.
+The statute nowhere gives the Commission the authority to execute on
+a forfeiture order; a recipient of a forfeiture order incurs no penalties
+for nonpayment; interest does not accrue on the sum; and under
+§504(c) the Commission cannot hold “the existence of a notice of liabil-
+ity or an order of forfeiture” against a regulated party “unless the for-
+feiture has been paid or a court” has ordered payment. Pleasant
+Broadcasting Co. v. FCC, 564 F. 2d 496, 500 (CADC); see also 15 FCC
+Rcd. 303, 304. The statute thus prevents the Commission from penal-
+izing a party for failing to act in response to the mere existence of a
+forfeiture order, which in turn suggests that the party need not comply
+in the first place.
+The orders also did not reflect the ultimate determination of any
+fact. The statute provides that forfeitures under §503(b)(4) “shall be
+recoverable,” exclusively, in a “trial de novo.” §504(a). Thus, for the
+purpose of a §504 trial—the only means by which the Government can
+collect a penalty—it is as if the Commission never found any facts at
+all. Before a regulated party can be made to pay, the jury gets the last
+word. Pp. 6–9.
+(b) The carriers insist that they actually must pay because §503 uses
+words that sound mandatory—the Commission “determine[s]”
+whether a forfeiture is appropriate, “assesse[s]” the “amount” of such
+a penalty, and “impose[s]” that penalty. §§503(b)(1), (b)(2)(E), (b)(4).
+But the proper understanding of such statutory terms depends on
+“their place in the overall statutory scheme.” Turkiye Halk Bankasi
+A.S. v. United States, 598 U. S. 264, 275 (internal quotation marks
+omitted). And under the statute at issue here, the Commission is pow-
+erless to visit any adverse consequences on a regulated party who re-
+ceives a forfeiture order.
+SEC v. Jarkesy, 603 U. S. 109, proves the point. In Jarkesy, the
+Court held that the Securities and Exchange Commission (SEC) could
+not impose civil penalties using its in-house administrative process.
+Those penalties were immediately enforceable; the SEC could garnish
+the recipient’s wages or deduct a portion of the forfeiture from his tax
+return. See 17 CFR §§204.50, 204.52, 204.54–204.56, 204.60–204.65.
+And if the SEC were required to resort to judicial means of enforce-
+ment, no jury was available—at least as to the underlying legal
+4 FCC v. AT&T, INC.
+Syllabus
+violation. See 15 U. S. C. §78u(e); see, e.g., SEC v. Gerasimowicz, 9
+F. Supp. 3d 378, 381–382 (SDNY). That means that, unlike here, the
+ultimate determination of the facts giving rise to the obligation to pay
+rested with the agency alone.
+The carriers argue that even if the Commission’s orders do not re-
+quire payment, the Seventh Amendment nonetheless applies because
+forfeiture orders have legal effect—namely, they enable the Depart-
+ment of Justice to initiate a §504 suit. But the Seventh Amendment
+“secure[s] a right to the individual,” Parsons v. Armor, 3 Pet. 413, 425,
+that attaches when “legal rights” are to be “determined,” Lorillard v.
+Pons, 434 U. S. 575, 583. A forfeiture order under 47 U. S. C.
+§503(b)(4) does not determine legal rights; it is simply a “prerequi-
+site[ ] to suit” that must be met before the Department may bring a
+collection action. The Seventh Amendment does not extend to such
+“preliminary” procedures. Peterson, 253 U. S., at 310.
+Finally, the carriers argue that FCC forfeiture orders cause reputa-
+tional and practical harms entitling them to a jury, “even where no
+money is at stake.” Brief for AT&T, Inc., et al. 35–36. This argument
+is hard to square with the text of the Seventh Amendment, and in any
+event proves too much. Reputational harm may befall any party in the
+preliminary stage of a legal proceeding, yet this has never been
+thought to pose a Seventh Amendment problem. Pp. 9–11.
+(c) The Court’s unconstitutional conditions doctrine—which “vindi-
+cates the Constitution’s enumerated rights by preventing the govern-
+ment from coercing people into giving them up,” Koontz v. St. Johns
+River Water Management Dist., 570 U. S. 595, 604—is a poor fit for this
+case. The Seventh Amendment applies only to “[s]uits,” and the only
+suit in the statutory scheme is a §504 enforcement action. If the car-
+riers elect not to pay and await an enforcement action, and the Depart-
+ment of Justice decides never to bring one, then the carriers’ jury right
+does not attach.
+The carriers argue that if they insist upon their jury right and wait
+for an enforcement suit, the Commission will use the existence of the
+order and the fact of nonpayment against them. But §504(c) prohibits
+the Commission from using unresolved forfeiture proceedings to a reg-
+ulated party’s prejudice in subsequent Commission proceedings.
+While the Commission may consider the facts underlying the unre-
+solved forfeiture in a future proceeding, see 12 FCC Rcd. 17087, 17103,
+the regulated party will have a chance to contest those facts anew. And
+before any asserted fact can be used to support a binding order to pay,
+the Government must prove it to a jury. Finally, the carriers contend
+that the risk of reputational harm unduly burdens their jury right, but
+the uncertain prospect of such harm does not improperly “discourag[e]
+the exercise” of that right. Chaffin v. Stynchcombe, 412 U. S. 17, 30.
+Pp. 12–14.
+5Cite as: 608 U. S. ___ (2026)
+Syllabus
+No. 25–406, 149 F. 4th 491, reversed and remanded; No. 25–567, 156
+F. 4th 86, affirmed.
+ROBERTS, C. J., delivered the opinion of the Court, in which ALITO,
+SOTOMAYOR, KAGAN, GORSUCH, KAVANAUGH, BARRETT, and JACKSON, JJ.,
+joined. THOMAS, J., filed a dissenting opinion.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+Nos. 25–406 and 25–567
+FEDERAL COMMUNICATIONS COMMISSION, ET AL.,
+PETITIONERS
+25–406 v.
+AT&T, INC.
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE FIFTH CIRCUIT
+VERIZON COMMUNICATIONS, INC., PETITIONER
+25–567 v.
+FEDERAL COMMUNICATIONS COMMISSION, ET AL.
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE SECOND CIRCUIT
+[June 4, 2026]
+CHIEF JUSTICE ROBERTS delivered the opinion of the
+Court.
+The Communications Act authorizes the Federal Com-
+munications Commission to investigate regulated parties
+for suspected violations of the communications laws. The
+Commission does so in an administrative process in which
+no jury is available. But before the Government can collect
+a penalty, it must prove its case to a jury in a trial de novo.
+We decide whether that enforcement structure violates the
+Seventh Amendment, which provides that “[i]n Suits at
+common law, where the value in controversy shall exceed
+twenty dollars, the right of trial by jury shall be preserved.”
+2 FCC v. AT&T, INC.
+Opinion of the Court
+I
+A
+The Communications Act of 1934 established the Federal
+Communications Commission. Ch. 652, 48 Stat. 1064. The
+Act empowers the Commission to regulate “communication
+by wire and radio,” and tasks it with making effective “wire
+and radio communication service” available nationwide at
+reasonable cost. Ibid. Today, the Commission oversees
+electronic communications in contexts ranging from satel-
+lites to smart phones.
+As amended, the Act authorizes the Commission to seek
+monetary forfeitures for violations of the communications
+laws. An entity which the Commission “determine[s]” has
+“willfully or repeatedly failed to comply” with those laws or
+the Commission’s rules “shall be liable to the United States
+for a forfeiture penalty.” 47 U. S. C. §503(b). The Commis-
+sion can choose between two paths to seek forfeitures.
+The first path is a formal adjudication. See §503(b)(3); 5
+U. S. C. §554. An administrative law judge (or the Commis-
+sion itself ) holds a hearing and may impose a penalty, with
+limited judicial review in the court of appeals only. 47
+U. S. C. §503(b)(3)(A). In practice, the Commission does not
+use this process.
+The second path—the one relevant here—is a more infor-
+mal proceeding. See §503(b)(4). The Commission first is-
+sues a “notice of apparent liability.” §503(b)(4)(A). The no-
+tice must specify the laws or regulations the Commission
+suspects the recipient to have violated, and the factual ba-
+sis for those allegations. §503(b)(4). The Commission must
+give the recipient the chance to “show, in writing,” “why no
+such forfeiture penalty should be imposed.” §503(b)(4)(C).
+After reviewing the recipient’s response, the Commission
+then issues an order that “determine[s]” whether the recip-
+ient is liable and, if so, “assesse[s]” a penalty. §§503(b)(1),
+(b)(2)(E).
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+Once the Commission issues an order, the recipient has
+two options. First, it may seek review in the court of ap-
+peals under the Hobbs Act. See 28 U. S. C. §2342(1). The
+court of appeals, sitting without a jury, then reviews the
+order on the administrative record under the standards set
+forth in the Administrative Procedure Act. 47 U. S. C.
+§402(a); 28 U. S. C. §2347(a); 5 U. S. C. §551 et seq., and
+§701 et seq.
+The recipient’s other option is to do nothing. See Action
+for Children’s Television v. FCC, 59 F. 3d 1249, 1261
+(CADC 1995). In the event of nonpayment of a forfeiture
+penalty “determined under [§503(b)(4)],” the penalty “shall
+be recoverable . . . in a civil suit in the name of the United
+States.” 47 U. S. C. §504(a). The Commission thus may re-
+fer the matter to the Department of Justice, which then
+may—but need not—bring a civil suit within five years of
+the issuance of the order. See ibid.; 28 U. S. C. §2462. That
+suit “shall be a trial de novo.” 47 U. S. C. §504(a).
+Absent a successful enforcement suit (and resulting court
+order), the statute provides no other mechanism for the
+Commission to collect the forfeiture. The regulated party
+may, of course, pay the forfeiture voluntarily. But until it
+does, or the court in a §504 enforcement action orders pay-
+ment, the Commission may not use the “notice of apparent
+liability . . . to the prejudice of ” the party in other Commis-
+sion proceedings. §504(c).
+B
+AT&T and Verizon (collectively, the carriers) are cellular
+service providers. Cellular service allows customers, using
+cell phones connected to the carriers’ networks, to talk, text,
+and exchange data with one another. To receive cellular
+service, the phone must periodically connect to—or “ping”—
+the nearest cell site in the carrier’s network. See Carpenter
+v. United States, 585 U. S. 296, 300–301 (2018). Every ping
+registers the phone’s location. See ibid. Carriers know the
+4 FCC v. AT&T, INC.
+Opinion of the Court
+locations of their cell sites, so they can be reasonably confi-
+dent about the location of any given customer’s cell phone
+at any given time. See id., at 301. And because cell phones
+are generally with their owners—almost as “feature[s] of
+human anatomy”—the carriers in turn have a good sense of
+where their customers are located. Id., at 311 (quoting Ri-
+ley v. California, 573 U. S. 373, 385 (2014)).
+Location data, by its nature, implicates serious privacy
+concerns. See Carpenter, 585 U. S., at 311, 315. But it can
+also provide significant benefits. For example, some com-
+panies provide location-based services. These services, like
+roadside assistance, require accurate location information;
+a tow truck is not much good if it cannot find the broken-
+down car. Access to location data thus enhances the quality
+of the providers’ service.
+Until 2019, the carriers operated location-based services
+programs. See 156 F. 4th 86, 92 (CA2 2025); 149 F. 4th 491,
+495–496 (CA5 2025). Under those programs, the carriers
+sold users’ location data (through intermediaries) to service
+providers, who used the data to deliver location-based ser-
+vices. See 156 F. 4th, at 92; 149 F. 4th, at 496.
+In 2018, however, news reports revealed security
+breaches in the carriers’ location-based services programs.
+156 F. 4th, at 93; 149 F. 4th, at 496. One high-profile inci-
+dent involved a provider called Securus. Securus provided
+location-finding services to law enforcement officers, who in
+theory were required to upload legal authorization, like a
+warrant, to obtain location data. 156 F. 4th, at 93; 149
+F. 4th, at 496. According to reports, however, a Missouri
+sheriff was able to access location data despite uploading
+“utterly irrelevant materials.” 156 F. 4th, at 93; see 149
+F. 4th, at 496, n. 2.
+The Commission’s Enforcement Bureau launched an in-
+vestigation into the carriers’ practices. Believing that the
+carriers had violated laws and regulations requiring them
+to take reasonable steps to keep location data confidential,
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+the FCC issued notices of apparent liability under
+§503(b)(4). See In re Verizon Communications, 35 FCC Rcd.
+1698, 1712 (2020) (citing 47 U. S. C. §222; 47 CFR
+§64.2010(a) (2014)); In re AT&T Inc., 35 FCC Rcd. 1743,
+1756 (2020) (same). After reviewing the carriers’ responses,
+the Commission reduced the amount of Verizon’s penalty.
+In re Verizon Communications, 39 FCC Rcd. 4259, 4260
+(2024). But otherwise finding “no reason to cancel” the for-
+feitures, the Commission issued orders assessing penalties
+of roughly $57 million against AT&T and $47 million
+against Verizon. In re AT&T Inc., 39 FCC Rcd. 4216, 4216–
+4217 (2024); 39 FCC Rcd., at 4260.
+The carriers paid their penalties and filed petitions for
+review in their respective Courts of Appeals. The carriers
+raised multiple challenges to the Commission’s orders, in-
+cluding that requiring forfeiture without the opportunity
+for a jury trial violates the Seventh Amendment.
+The Fifth Circuit granted AT&T’s petition for review and
+vacated the Commission’s order. 149 F. 4th 491. The court
+held that the FCC’s enforcement procedures violate the
+Seventh Amendment because, when the Commission issues
+an order at the end of forfeiture proceed

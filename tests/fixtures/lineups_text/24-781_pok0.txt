@@ -1,0 +1,365 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+FIRST CHOICE WOMEN’S RESOURCE CENTERS, INC.
+v. DAVENPORT, ATTORNEY GENERAL OF NEW
+JERSEY
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE THIRD CIRCUIT
+No. 24–781. Argued December 2, 2025—Decided April 29, 2026
+First Choice Women’s Resource Centers, Inc., is a religious nonprofit or-
+ganization that has provided counseling and resources to pregnant
+women in New Jersey since 1985. Believing that life begins at concep-
+tion, the group does not provide abortions or refer clients to others for
+abortions. In 2022, New Jersey’s Attorney General established a “Re-
+productive Rights Strike Force” that issued a consumer alert accusing
+groups like First Choice of seeking to prevent people from accessing
+reproductive health care by providing false or misleading abortion in-
+formation. The Attorney General served a subpoena on First Choice,
+commanding the group to produce 28 categories of documents, includ-
+ing documents reflecting the names, phone numbers, addresses, and
+places of employment of all individuals who had made donations to
+First Choice by any means other than through one specific webpage.
+Effectively, that demand required First Choice to provide personal in-
+formation about donors who gave through two other websites, through
+the group’s various social media pages, by mail, in person, or by any
+other means. The subpoena warned twice that failure to comply may
+render the group liable for contempt of court and other penalties.
+First Choice filed suit in federal district court under 42 U. S. C.
+§1983, seeking to prevent the Attorney General from enforcing the doc-
+ument demands and arguing that the demand for donor information
+violated its First Amendment rights. First Choice alleged that its in-
+ability to guarantee its donors’ anonymity in the face of the Attorney
+General’s demands injured the group by discouraging donors from as-
+sociating with it.
+2 FIRST CHOICE WOMEN’S RESOURCE CENTERS, INC. v.
+DAVENPORT
+Syllabus
+The district court denied First Choice’s motion for a preliminary in-
+junction and dismissed its complaint, holding that the group failed to
+state a justiciable claim as a matter of law because, absent any state
+court order compelling production, First Choice had yet to suffer an
+injury from the subpoena and thus lacked Article III standing. A di-
+vided panel of the Third Circuit affirmed.
+Held: First Choice has established a present injury to its First Amend-
+ment associational rights sufficient to confer Article III standing.
+Pp. 5–22.
+(a) Article III’s “standing” requirement consists of three elements:
+“injury in fact, causation, and redressability.” Diamond Alternative
+Energy, LLC v. EPA, 606 U. S. 100, 110–111. This case centers on the
+injury-in-fact element, which requires “an injury that is concrete, par-
+ticularized, and actual or imminent.” Id., at 111. Here, the Attorney
+General’s subpoena has caused First Choice to suffer an ongoing injury
+to its First Amendment rights. Pp. 5–13.
+(1) The First Amendment guarantees all Americans the rights to
+speak, worship, publish, assemble, and petition their government
+freely. Each of these rights necessarily carries with it “ ‘a correspond-
+ing right to associate with others.’ ” Americans for Prosperity Founda-
+tion v. Bonta, 594 U. S. 595, 606. Associational rights carry special
+significance for political, social, religious, and other minorities, pro-
+tecting “dissident expression” from marginalization or outright “sup-
+pression by the majority.” Roberts v. United States Jaycees, 468 U. S.
+609, 622.
+This Court has long held that “compelled disclosure of affiliation
+with groups engaged in advocacy may constitute as effective a re-
+straint on freedom of association” as more direct forms of suppression,
+NAACP v. Alabama ex rel. Patterson, 357 U. S. 449, 462, and thus has
+repeatedly subjected demands for private donor or member infor-
+mation to heightened First Amendment scrutiny. Throughout, the
+Court has recognized the critical role privacy plays in preserving pro-
+tected association, and it has acknowledged that official demands for
+private donor information “inevitabl[y]” carry with them a “deterrent
+effect on the exercise of First Amendment rights.” Buckley v. Valeo,
+424 U. S. 1, 65. Pp. 6–10.
+(2) Against this backdrop, First Choice has established a present
+injury to its First Amendment associational rights and therefore has
+standing. An injury in fact arises when a defendant burdens a plain-
+tiff’s constitutional rights, and government demands for a charity’s pri-
+vate donor information have just that effect. Such demands inevitably
+discourage association with groups engaged in protected First Amend-
+ment advocacy and encourage groups to cease or modify protected ad-
+vocacy the government disfavors. All this occurs not just when a
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+demand is enforced but when it is made and for as long as it remains
+outstanding. Pp. 10–13.
+(b) The Attorney General’s three reasons why First Choice has not
+suffered any injury sufficient to maintain this lawsuit each fails.
+Pp. 13–22.
+(1) It does not matter that subpoenas issued by the Attorney Gen-
+eral are purportedly “non-self-executing” such that any legal duty to
+produce records arises only when a state court agrees to enforce the
+subpoena. Whether the subpoena’s demands and penalties were im-
+mediately enforceable or contingent on future court action, donors
+would reasonably fear disclosure and hesitate to associate, and a rea-
+sonable recipient of the Attorney General’s subpoena would be induced
+to trim its protected advocacy knowing it now stands in the govern-
+ment’s crosshairs. This Court’s precedents do not impose—and in fact
+foreclose—a rule that would nonetheless require First Choice to await
+a state court order enforcing the subpoena before the group could chal-
+lenge the Attorney General’s demands in federal court. Pp. 15–19.
+(2) It is of no moment that the subpoena allows First Choice to
+solicit funds through one specific website without disclosing the iden-
+tities of those who donate through it. By restricting how First Choice
+may interact privately with its donors, the Attorney General’s sub-
+poena burdened First Choice’s associational rights. Were the rule oth-
+erwise, the government could channel the ability of disfavored groups
+to associate through narrow and state-preferred forms and achieve ex-
+actly what the First Amendment forbids. Pp. 19–21.
+(3) It makes no difference that a state court may soon, and with
+the Attorney General’s assent, issue a protective order requiring the
+Attorney General to keep confidential any documents First Choice pro-
+duces pursuant to the subpoena. Putting aside the uncertainties about
+any prospective protective order, demands for private donor infor-
+mation burden First Amendment rights “[e]ven if there [is] no disclo-
+sure to the general public.” Shelton v. Tucker, 364 U. S. 479, 486. An
+official demand for private donor information is enough to discourage
+reasonable individuals from associating with a group and to discourage
+groups from expressing dissident views. So long as the demand re-
+mains outstanding, “the pressure” to avoid ties and speech that “might
+displease” officials demanding disclosure can “be constant and heavy.”
+Ibid. Pp. 21–22.
+Reversed and remanded.
+GORSUCH, J., delivered the opinion for a unanimous Court.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–781
+FIRST CHOICE WOMEN’S RESOURCE CENTERS,
+INC., PETITIONER v. JENNIFER DAVENPORT,
+ATTORNEY GENERAL OF NEW JERSEY
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE THIRD CIRCUIT
+[April 29, 2026]
+JUSTICE GORSUCH delivered the opinion of the Court.
+New Jersey’s Attorney General served a subpoena on a
+nonprofit organization demanding the identities of its fi-
+nancial supporters. We consider whether that organization
+may challenge the subpoena’s constitutionality in federal
+court.
+I
+A
+First Choice Women’s Resource Centers, Inc., is a reli-
+gious nonprofit organization that has provided counseling
+and resources to pregnant women in New Jersey since
+1985. See App. to Pet. for Cert. 115a–117a (Pet. App.). Be-
+lieving that “life begins at conception,” and seeking “to pro-
+tect and honor life in all stages of development,” the group
+does not provide abortions or refer clients to others for abor-
+tions. Id., at 116a–117a.
+In 2022, New Jersey’s Attorney General, Matthew Plat-
+kin, established a “Reproductive Rights Strike Force.”
+Press Release, N. J. Office of the Attorney General, AG
+Platkin Announces Actions To Protect Reproductive Health
+2 FIRST CHOICE WOMEN’S RESOURCE CENTERS, INC. v.
+DAVENPORT
+Opinion of the Court
+Care Providers and Those Seeking Reproductive Care in
+New Jersey (Dec. 7, 2022).1 Shortly after its creation, the
+Strike Force issued a “consumer alert” in which it accused
+groups like First Choice of “seek[ing] to prevent people from
+accessing comprehensive reproductive health care” by
+“provid[ing] false or misleading information about abor-
+tion.” App. 357–358. The alert concluded by directing
+women to abortion providers and asking members of the
+public who believed they were “victim[s] of fraudulent, de-
+ceptive, misleading, or unlawful conduct” to “please file a
+complaint with the New Jersey Division of Consumer Af-
+fairs.” App. 361–362.
+Neither that division nor the Attorney General’s office re-
+ceived any complaints from the public about First Choice.
+Tr. of Oral Arg. 81–84. Even so, the Attorney General
+served a subpoena on the group in 2023. The subpoena
+stated that it had been issued pursuant to several New Jer-
+sey laws, including the State’s Consumer Fraud Act. Pet.
+App. 90a. The subpoena “commanded” First Choice to pro-
+duce various documents within 30 days and warned the
+group (twice) that “[f]ailure to comply with this Subpoena
+may render you liable for contempt of Court and such other
+penalties as are provided by law.” Id., at 89a–110a.
+In all, the Attorney General demanded production of 28
+categories of documents (categories that themselves in-
+cluded as many as 29 subcategories). Most relevant for our
+purposes, the subpoena directed First Choice to disclose
+documents reflecting the names, phone numbers, ad-
+dresses, and places of employment of all individuals who
+had made “donations . . . to First Choice by any means other
+than through” one specific webpage. Id., at 98a, 110a. Ef-
+fectively, that demand required First Choice to provide
+——————
+1 Jennifer Davenport’s name appears in the caption of this case because
+she succeeded Mr. Platkin as New Jersey’s Attorney General after this
+case was argued and submitted for decision.
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+personal information about donors who gave through two
+other websites, through the group’s various social media
+pages, by mail, in person, or by any other means. See id.,
+at 95a–101a, 110a. The subpoena sought documents about
+donations received over the span of multiple years—begin-
+ning “from January 1, 2021” and extending “to the date of
+[First Choice’s] response.” Id., at 91a.
+Though the subpoena did not explain why the Attorney
+General sought First Choice’s donor records, Mr. Platkin
+later represented that his office hoped to “contact a repre-
+sentative sample [of donors to] determine” if they had “been
+misled” by First Choice about its “mission and operations.”
+App. 345–346. In his view, First Choice’s solicitation mate-
+rials—including a donation webpage featuring pictures of
+parents holding infants and young children, id., at 383—
+could mislead donors into thinking First Choice provides
+abortions, see id., at 43, 308–310.
+B
+Two days before the deadline to produce documents, First
+Choice filed suit in federal district court seeking to prevent
+the Attorney General from enforcing his document de-
+mands. Pet. App. 111a–147a. Shortly after that, the Attor-
+ney General responded with his own suit in state court.
+There, he accused First Choice of violating state law by fail-
+ing to comply with his subpoena. App. 50–63. Between the
+two suits, much litigation followed.
+In the federal case at issue here, matters unfolded this
+way. A federal law—42 U. S. C. §1983—authorizes suits
+against any person who, under color of state law, deprives
+another of his federal constitutional rights. First Choice
+filed a complaint under that statute, arguing, among other
+things, that the Attorney General’s demand for information
+about its donors violated its First Amendment rights. Pet.
+App. 114a, 136a–138a. Specifically, First Choice observed
+that the First Amendment “prohibits the government from
+4 FIRST CHOICE WOMEN’S RESOURCE CENTERS, INC. v.
+DAVENPORT
+Opinion of the Court
+discouraging people from associating with others” “in pur-
+suit of many political, social, economic, educational, reli-
+gious, and cultural ends.” Id., at 136a. And, First Choice
+alleged, the Attorney General’s subpoena had just that im-
+permissible effect. Id., at 136a–138a. For its donors, the
+group represented, “anonymity is of paramount im-
+portance,” and its inability to guarantee that anonymity in
+the face of the Attorney General’s demands injured the
+group by discouraging donors from associating with it. Id.,
+at 130a, 136a–137a.
+In addition to its complaint, First Choice filed a motion
+seeking a preliminary injunction prohibiting the Attorney
+General from enforcing his subpoena. In support of its mo-
+tion, First Choice tendered two declarations. In one, anon-
+ymous donors represented that, if they “had known infor-
+mation about the[ir] donation[s] might be disclosed to an
+official hostile to pro-life organizations,” “[e]ach of [them]
+would have been less likely to donate to First Choice.” Id.,
+at 177a. The donors added that they submitted their dec-
+laration anonymously because they believed they might
+face retribution otherwise “given [the Attorney General’s]
+record of hostility toward pro-life groups.” Id., at 175a. In
+the second declaration, the group’s executive director simi-
+larly represented that the Attorney General’s request
+threatened to “weaken [First Choice’s] ability to recruit new
+donors . . . as prospective partners would be hesitant to risk
+the revelation of their personal information through gov-
+ernment investigation.” Id., at 183a.
+Ultimately, the district court issued an opinion both
+denying First Choice’s motion for a preliminary injunction
+and dismissing its complaint. Without questioning First
+Choice’s allegations or evidence, the court held that the
+group failed to state a justiciable claim as a matter of law.
+Id., at 57a. In reaching that conclusion, the court pointed
+to the ongoing state court suit. In it, a judge had directed
+the Attorney General and First Choice to negotiate their
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+disagreements over the subpoena but had not yet compelled
+First Choice “to disclose materials that [the group] believes
+are constitutionally protected.” Id., at 31a; see also id., at
+23a, 155a–156a.
+Given the absence of any state court order compelling
+production, the district court reasoned, First Choice had yet
+to suffer any injury from the subpoena and thus lacked Ar-
+ticle III standing to challenge it in federal court. Id., at 23a,
+31a–32a, 38a–39a, n. 20. To be sure, the district court rec-
+ognized, an argument could be made that the subpoena “it-
+self . . . by virtue of being issued” was causing First Choice
+an “ongoing injury” to its First Amendment rights. Id., at
+49a–50a. But, the court held, that injury was insufficient
+to confer standing. Indeed, the court worried that allowing
+the federal litigation to proceed while state proceedings re-
+mained ongoing would “not [be] tolerable to our Nation’s
+federalism.” Id., at 56a.
+A divided panel of the Third Circuit affirmed. Much like
+the district court, the majority reasoned that First Choice
+had not established “enough of an injury” to permit its case
+to proceed. Id., at 4a. Judge Bibas dissented. He would
+have found the case justiciable because the subpoena’s is-
+suance burdened First Choice’s present ability to associate
+freely with its donors. See id., at 3a, n.
+II
+This case presents a narrow question. We are not asked
+to decide the merits of First Choice’s federal lawsuit, only
+whether it may proceed. Article III of the Constitution
+vests federal courts with the “judicial Power” to decide
+“Cases” and “Controversies.” §2, cl. 1. Inherent in that as-
+signment is a “standing” requirement consisting of three el-
+ements: “injury in fact, causation, and redressability.” Di-
+amond Alternative Energy, LLC v. EPA, 606 U. S. 100, 110–
+111 (2025). Together, these elements help us distinguish
+cases and controversies fit for judicial resolution from
+6 FIRST CHOICE WOMEN’S RESOURCE CENTERS, INC. v.
+DAVENPORT
+Opinion of the Court
+questions of public policy reserved to the elected branches
+or abstract disputes better left to the debating hall. See
+ibid.
+As this case comes to us, it centers on the injury-in-fact
+element. To satisfy that element, a case must involve “an
+injury that is concrete, particularized, and actual or immi-
+nent.” Id., at 111 (internal quotation marks omitted). Be-
+cause this standard tolerates suits involving “actual or im-
+minent” injuries, a party need not always wait for the
+government to take coercive action against it before filing
+suit to challenge the government’s conduct. Instead, a liti-
+gant may bring a pre-enforcement suit seeking prospective
+relief against government officials so long as it faces “a cred-
+ible threat of enforcement.” See Susan B. Anthony List v.
+Driehaus, 573 U. S. 149, 161, 164–167 (2014).
+Before us, First Choice advances two arguments for why
+it can satisfy the injury-in-fact requirement. First, the
+group submits that the Attorney General’s subpoena it-
+self—and specifically its demand for donor information—
+has caused it to suffer an actual and ongoing injury to its
+First Amendment rights by deterring donors from associat-
+ing with it. Second, First Choice contends that it faces an
+imminent future injury because with the subpoena came a
+credible threat that the Attorney General would seek to en-
+force it in state court if the group failed to comply. For our
+purposes, it suffices to address only the first theory as it is
+enough to carry the day.
+A
+The First Amendment guarantees all Americans the
+rights to speak, worship, publish, assemble, and petition
+their government freely. Each of these rights, this Court
+has “ ‘long understood,’ ” necessarily carries with it “ ‘a cor-
+responding right to associate with others.’ ” Americans for
+Prosperity Foundation v. Bonta, 594 U. S. 595, 606 (2021)
+(AFP) (quoting Roberts v. United States Jaycees, 468 U. S.
+7Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+609, 622 (1984)). Without such a right, no two men could
+safely share the same soapbox, no two women the same
+church. The government could reduce any assembly to a
+party of one, and the right to petition would amount to noth-
+ing more than the power to sign one’s own name alone. Ap-
+preciating all this, we have held that government actions
+tending to “curtai[ l] the freedom to associate” warrant “the
+closest scrutiny” under the F

@@ -1,0 +1,361 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+HIKMA PHARMACEUTICALS USA INC. ET AL. v.
+AMARIN PHARMA, INC., ET AL.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE FEDERAL CIRCUIT
+No. 24–889. Argued April 29, 2026—Decided June 4, 2026
+Once the Food and Drug Administration (FDA) has approved a new drug,
+federal law authorizes other manufacturers to seek approval for mar-
+keting generic versions so long as they do not infringe on any patented
+uses. All 50 states and the District of Columbia permit (or require)
+medical providers to substitute the brand-name drug with the cheaper
+generic version. Still, generic manufacturers may be subject to liabil-
+ity under federal law if they actively induce infringement of the brand
+manufacturer’s patent. See 35 U. S. C. §271(b).
+Amarin Pharma, Inc. developed Vascepa, a drug containing the ac-
+tive ingredient icosapent ethyl. In 2012, the FDA approved Vascepa
+for the treatment of severe hypertriglyceridemia (the “SH indication”).
+In 2019, the FDA approved Vascepa for a second, more common use:
+reducing cardiovascular risk in hypertriglyceridemia patients who al-
+ready take statins (the “CV indication”). Amarin obtained two method-
+of-use patents for this indication.
+Hikma Pharmaceuticals USA Inc., a generic drug manufacturer,
+submitted an abbreviated new drug application for generic icosapent
+ethyl in 2016. It initially filed a paragraph IV certification, see 21
+U. S. C. §355(j)(2)(A)(vii)(IV), asserting that Amarin’s SH-indication
+patents were invalid. After a district court invalidated Amarin’s SH-
+indication patents, Hikma supplemented its application with a section
+viii statement, see §355(j)(2)(A)(viii), seeking approval of a skinny la-
+bel that included only the SH indication and carved out Vascepa’s still-
+patented CV-indication method of use. In 2020, the FDA approved
+Hikma’s application with the skinny label and assigned an “AB” rating
+2 HIKMA PHARMACEUTICALS USA INC. v. AMARIN
+PHARMA, INC.
+Syllabus
+indicating therapeutic equivalence to Vascepa when used according to
+its labeling.
+Amarin filed suit in the District of Delaware, alleging that Hikma
+actively induced others to infringe Amarin’s CV-indication patents
+based on the totality of Hikma’s statements across the skinny label,
+the patient information leaflet, Hikma’s website, and its press re-
+leases. The District Court granted Hikma’s motion to dismiss for fail-
+ure to state a claim, explaining that none of these statements consti-
+tuted active steps to encourage infringement. The Federal Circuit
+reversed, finding it at least plausible that a physician could read the
+relevant statements as an instruction or encouragement to infringe.
+Held: Amarin has failed to state a claim for active inducement in viola-
+tion of §271(b), so its complaint cannot withstand Hikma’s motion to
+dismiss. The central question is whether Amarin plausibly alleged
+that Hikma actively encouraged infringing use, not merely whether
+doctors could plausibly read the alleged statements as instructions to
+infringe. Pp. 7–14.
+(a) A claim for active inducement of infringement under §271(b) re-
+quires three elements: direct infringement by a third party, Limelight
+Networks, Inc. v. Akamai Technologies, Inc., 572 U. S. 915, 920–921;
+knowledge that “the induced acts constitute patent infringement,”
+Global-Tech Appliances, Inc. v. SEB S. A., 563 U. S. 754, 766; and “ac-
+tive steps . . . to encourage direct infringement,” Metro Goldwyn Mayer
+Studios Inc. v. Grokster, Ltd., 545 U. S. 913, 936 (internal quotation
+marks omitted). Pp. 4–5.
+(b) This case concerns the third element—“active steps.” Active
+steps involve “purposeful, culpable expression and conduct,” Grokster,
+545 U. S., at 937, i.e., “affirmative,” as opposed to passive, actions “to
+bring about the desired result” of patent infringement, Global-Tech.,
+563 U. S., at 760. We have defined “active steps” to exclude “ordinary
+acts incident to product distribution,” Grokster, 545 U. S., at 937; those
+are insufficient to support liability. Pp. 8–9.
+(c) Given these standards, Amarin misses the mark in arguing that
+it need not do more than “allege . . . a plausible chain of events through
+which statements made by [Hikma] could lead a healthcare provider
+. . . to prescribe or dispense Hikma’s drug to reduce a patient’s cardio-
+vascular risk.” Brief for Respondents 21 (alterations and internal quo-
+tation marks omitted). Allegations of “active steps” cannot be based
+only on “vague” language “combined with speculation about how [oth-
+ers] may act.” Takeda Pharmaceuticals U. S. A., Inc. v. West-Ward
+Pharmaceutical Corp., 785 F. 3d 625, 632. Pp. 8–10.
+(d) Applying these standards, Amarin fails to allege “more than a
+sheer possibility” that Hikma actively induced infringement. Ashcroft
+v. Iqbal, 556 U. S. 662, 678. Pp. 10–14.
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+(1) Several of Hikma’s statements have an “obvious alternative ex-
+planation”: compliance with the law or standard industry practice.
+Bell Atlantic Corp. v. Twombly, 550 U. S. 544, 567. Hikma’s label re-
+tained information about a clinical study, but that is because by stat-
+ute Hikma’s label must be identical to Amarin’s except for the carved-
+out use, 21 U. S. C. §355(j)(2)(A)(v). Further, describing a drug as the
+“ ‘generic equivalent’ ” to the brand-name comparator is “normal indus-
+try practice.” Inwood Laboratories, Inc. v. Ives Laboratories, Inc., 456
+U. S. 844, 847–848. Pp. 10–11.
+(2) Because the court looks for affirmative statements or actions
+to induce liability, Amarin may not rely on “mere omissions, inactions,
+or nonfeasance”—such as the skinny label’s omission of the CV Limi-
+tation of Use or the press releases’ failure to “mentio[n ] that [Hikma’s]
+approved use was limited to the far-lesser-known SH indication,” Brief
+for Respondents 23, 26—to plausibly allege active inducement, Twit-
+ter, Inc. v. Taamneh, 598 U. S. 471, 489. Pp. 11–12.
+(3) Hikma’s remaining statements are too vague to support in-
+ducement liability. The patient information leaflet’s warning about
+side effects for people with cardiovascular disease and its disclaimer
+that medicines are sometimes prescribed for other purposes are im-
+plausibly roundabout ways to induce medical providers to infringe.
+The website’s description of the therapeutic category as “hypertriglyc-
+eridemia” and the indication that the drug is “AB” rated do not plausi-
+bly constitute statements designed “to stimulate others to commit” in-
+fringement, Grokster, 545 U. S., at 937, especially where the website
+clarifies that Hikma’s generic is indicated for fewer than all approved
+indications of Vascepa. Finally, the sales figures in Hikma’s press re-
+leases—the vaguest of the statements alleged—require a “possib[le]”
+but not “ ‘plausible’ ” chain of events to occur for a medical provider to
+draw encouragement to infringe. Iqbal, 556 U. S., at 678. Pp. 12–14.
+104 F. 4th 1370, reversed and remanded.
+JACKSON, J., delivered the opinion for a unanimous Court.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–889
+HIKMA PHARMACEUTICALS USA INC., ET AL.,
+PETITIONERS v. AMARIN PHARMA,
+INC., ET AL.
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE FEDERAL CIRCUIT
+[June 4, 2026]
+JUSTICE JACKSON delivered the opinion of the Court.
+Federal law allows pharmaceutical manufacturers to
+market generic versions of brand-name drugs, so long as
+they obtain approval from the Food and Drug Administra-
+tion (FDA) and do not infringe on any patented uses. Be-
+cause a generic drug is, by definition, “biologically equiva-
+lent to . . . the brand-name drug,” Caraco Pharmaceutical
+Laboratories, Ltd. v. Novo Nordisk A/S, 566 U. S. 399, 405
+(2012), many medical providers use brand-name and ge-
+neric drugs interchangeably, regardless of whether the in-
+tended use is covered by a patent. Such substitution is al-
+lowed (and sometimes required) by state laws across the
+Nation, but generic manufacturers may be subject to liabil-
+ity under federal law if they “actively induc[e] infringement
+of [the brand manufacturer’s] patent.” 35 U. S. C. §271(b).
+Respondent Amarin Pharma, Inc., the manufacturer of
+brand-name icosapent ethyl, brought an induced-infringe-
+ment claim against petitioner Hikma Pharmaceuticals
+USA Inc., a manufacturer of generic icosapent ethyl. Ama-
+rin relied on a combination of Hikma’s statements across its
+skinny label (an abbreviated label used for generic drugs),
+2 HIKMA PHARMACEUTICALS USA INC. v. AMARIN
+PHARMA, INC.
+Opinion of the Court
+its website, and its press releases to allege that Hikma took
+“active steps” to induce infringement of Amarin’s patented
+uses. After the District Court dismissed the complaint for
+failure to state a claim, the Court of Appeals for the Federal
+Circuit reversed, finding it “at least plausible that a physi-
+cian could read” the relevant statements “as an instruction
+or encouragement to” infringe. 104 F. 4th 1370, 1380
+(2024).
+That was error. The central question is whether Amarin
+plausibly alleged that Hikma actively encouraged infring-
+ing uses, not merely whether doctors could plausibly read
+the alleged statements as instructions to infringe. We
+therefore reverse the judgment of the Federal Circuit and
+remand the case for further proceedings.
+I
+A
+The FDA must approve new and generic drugs before
+they go to market. See Caraco, 566 U. S., at 404–405. For
+approval to market a new drug, the manufacturer must
+submit a new drug application (NDA) with at least three
+types of supporting documents: (1) reports setting forth suf-
+ficient information to establish the drug’s safety and effi-
+cacy for its intended uses; (2) “the labeling proposed to be
+used for such drug”; and (3) the relevant drug patents,
+whether they protect the drug itself or the manufacturer’s
+exclusive rights over a particular “method of using such
+drug.” 21 U. S. C. §§355(b)(1)(A)(i), (vi), (viii); see Caraco,
+566 U. S., at 404–405.
+Once the FDA has approved a new drug, federal law au-
+thorizes other manufacturers to seek approval for market-
+ing generic versions. In particular, the Hatch-Waxman
+Amendments “allow a generic competitor to file an abbrevi-
+ated new drug application (ANDA) piggy-backing on the
+brand’s NDA.” Id., at 404–405 (citing §§355(j)(2)(A)(ii), (iv)
+(2012 ed.)). “[T]he typical ANDA shows that the generic
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+drug has the same active ingredients as, and is biologically
+equivalent to, the brand-name drug.” Id., at 405. The ge-
+neric manufacturer can thereby “avoid the costly and time-
+consuming studies required for a pioneer drug.” Eli Lilly &
+Co. v. Medtronic, Inc., 496 U. S. 661, 676 (1990).
+But the FDA cannot authorize a generic drug that would
+infringe a patent. So, while the FDA does not control the
+approval of drug patents, it keeps track of them in a volume
+called Approved Drug Products With Therapeutic Equiva-
+lence Evaluations, or more memorably, the Orange Book. A
+manufacturer seeking to market a generic version of a drug
+that appears in the Orange Book has two options. The first
+is to file a “paragraph IV certification,” which states that a
+patent “is invalid or will not be infringed by the manufac-
+ture, use, or sale of the [generic] drug.”
+§355(j)(2)(A)(vii)(IV). Such filing is an act of infringement
+under patent law, and it gives the brand-name manufac-
+turer the right to file a lawsuit against the generic manu-
+facturer to determine the validity and scope of the patent.
+Caraco, 566 U. S., at 407 (citing 35 U. S. C. §271(e)(2)(A)
+(2012 ed.)). The generic manufacturer that chooses this ap-
+proach wagers that it will eventually be able to “market its
+drug for all approved uses,” not just the unpatented ones.
+Caraco, 566 U. S., at 408.
+The second option is to submit a “section viii statement,”
+and assert “that the generic manufacturer will market the
+drug for one or more methods of use not covered by the
+brand’s patents.” Id., at 406; see 21 U. S. C.
+§355(j)(2)(A)(viii). This less confrontational path may be
+available if, for example, “the brand’s patent on the drug
+compound has expired and the brand holds patents on only
+some approved methods of using the drug.” Caraco, 566
+U. S., at 406. A manufacturer that selects the section viii
+option must file with its ANDA a proposed “skinny label”
+that “ ‘carves out’ from the brand’s approved label the still-
+patented methods of use.” Ibid.; see 21 CFR
+4 HIKMA PHARMACEUTICALS USA INC. v. AMARIN
+PHARMA, INC.
+Opinion of the Court
+§314.94(a)(8)(iv) (2025). In other words, the skinny label
+may not give instructions for uses that would infringe the
+patented methods of use.
+These provisions do not foreclose the possibility that an
+approved ANDA may still interfere with a patented method
+of use. Because a generic drug is, by definition, “biologically
+equivalent to . . . the brand-name drug,” Caraco, 566 U. S.,
+at 405, medical professionals routinely prescribe (and phar-
+macists routinely dispense) the former interchangeably
+with the latter, including for patented methods of use, see
+Inwood Laboratories, Inc. v. Ives Laboratories, Inc., 456
+U. S. 844, 847, n. 4 (1982). They do so with the blessing of
+their States’ generic substitution laws, which, depending on
+the State, permit or require providing the cheaper generic
+version to patients. See, e.g., Tex. Occ. Code Ann.
+§562.008(b) (West 2018) (permitting); Fla. Stat. §465.025(2)
+(2025) (requiring).
+Given that all 50 States and the District of Columbia
+have such laws, see Brief for United States as Amicus Cu-
+riae 7–8 (collecting statutes), generic manufacturers surely
+know (and perhaps even expect) that their products will be
+put to infringing use. But “mere knowledge of infringing
+potential or of actual infringing uses [is] not . . . enough . . .
+to subject a distributor to liability.” Metro-Goldwyn-Mayer
+Studios Inc. v. Grokster, Ltd., 545 U. S. 913, 937 (2005); see
+also Cox Communications, Inc. v. Sony Music Entertain-
+ment, 607 U. S. ___, ___ (2026) (slip op., at 8). Still, a ge-
+neric manufacturer can cross the line into liability if it “ac-
+tively induces infringement of [the brand manufacturer’s]
+patent.” 35 U. S. C. §271(b).
+A trio of our patent cases illuminates the required ele-
+ments of an induced-infringement claim. First, there must
+be direct infringement by a third party. Limelight Net-
+works, Inc. v. Akamai Technologies, Inc., 572 U. S. 915,
+920–921 (2014). Second, the inducer must know that “the
+induced acts constitute patent infringement.” Global-Tech
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+Appliances, Inc. v. SEB S. A., 563 U. S. 754, 766 (2011).
+Third, and most relevant here, the inducer must take “ac-
+tive steps . . . to encourage direct infringement.” Grokster,
+545 U. S., at 936 (internal quotation marks omitted).
+B
+Amarin developed a drug called Vascepa, which contains
+the active ingredient icosapent ethyl. See 104 F. 4th, at
+1372. “In 2012, the [FDA] approved Vascepa for the treat-
+ment of severe hypertriglyceridemia (‘the SH indication’),”
+a condition characterized by very high blood triglyceride
+levels. Ibid. Vascepa’s label disclosed that its effect “on
+cardiovascular mortality and morbidity in patients with se-
+vere hypertriglyceridemia has not been determined” (the
+“CV Limitation of Use”) because Vascepa was not yet ap-
+proved for other uses. Ibid. (internal quotation marks omit-
+ted). In the meantime, Amarin continued its research into
+Vascepa’s potential cardiovascular uses.
+Hikma is a generic drug manufacturer. In 2016, Hikma
+submitted an ANDA for approval of its generic icosapent
+ethyl. Hikma opted to file a paragraph IV certification, as-
+serting that Amarin’s method-of-use patents for the SH in-
+dication was invalid. Ibid., n. 4. Amarin sued Hikma, and
+a district court invalidated Amarin’s SH-indication method-
+of-use patents. Ibid.
+But that decision did not spell doom for Amarin. In 2019,
+before the invalidation of Amarin’s SH-indication patents,
+and while Hikma’s ANDA remained pending, the FDA ap-
+proved Vascepa for a second, much more common use: as a
+treatment to reduce cardiovascular risk in hypertriglycer-
+idemia patients who already take statins (the “CV indica-
+tion”). Id., at 1372. Amarin removed the CV Limitation of
+Use from Vascepa’s label and obtained two method-of-use
+patents for the CV indication. Ibid.
+Hikma responded to these new developments by supple-
+menting its pending ANDA with a section viii statement.
+6 HIKMA PHARMACEUTICALS USA INC. v. AMARIN
+PHARMA, INC.
+Opinion of the Court
+Hikma now sought approval of a skinny label that included
+only the SH indication (no longer protected by a method-of-
+use patent). Id., at 1373. To ensure that its labeling other-
+wise mirrored Vascepa’s, see 21 U. S. C. §355(j)(2)(A)(v) (re-
+quiring generic labeling to be the “same” as the brand-name
+labeling with a few exceptions), Hikma also removed the CV
+Limitation of Use from its proposed label. In 2020, the FDA
+approved Hikma’s ANDA with the skinny label, and as-
+signed Hikma’s generic drug an “AB” rating, indicating that
+it is therapeutically equivalent to Vascepa when used ac-
+cording to its labeling. 104 F. 4th, at 1373–1374.
+Soon after Hikma began marketing its generic drug, Am-
+arin filed suit in the District of Delaware, alleging that
+Hikma had actively induced others to infringe Amarin’s pa-
+tent for the CV-indication method of use. Amarin alleged
+that the totality of Hikma’s statements across several doc-
+uments encouraged infringing uses. 578 F. Supp. 3d 642,
+645–647 (2022). First, the label omitted the CV Limitation
+of Use and retained information about a clinical study in
+which some of the patients were taking statins.1 Second,
+the patient information leaflet that accompanied the label
+warned against possible side effects for “people who have
+heart (cardiovascular) disease”—the target population for
+Vascepa’s patented CV-indication method of use—and
+noted that “[m]edicines are sometimes prescribed for pur-
+poses other than those listed in a Patient Information leaf-
+let.” 2 App. 124–125. Third, Hikma’s website described its
+generic drug as “AB” rated, and listed the drug’s therapeu-
+tic category as “[h]ypertriglyceridemia,” a category that in-
+cludes but is broader than SH. Id., at 195. Finally, prior to
+the launch of its generic drug, Hikma issued a series of
+press releases describing the product as “ ‘generic Vascepa’
+——————
+1 Recall that the CV-indication method of use that Amarin successfully
+patented was the concurrent taking of Vascepa with statins. See supra,
+at 5.
+7Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+without mentioning that th[e] approved use was limited to
+the far-lesser-known SH indication,” and touting Vascepa’s
+U. S. sales figures attributable to both the SH and CV indi-
+cations. Brief for Respondents 23–24. In response to Ama-
+rin’s complaint, Hikma filed a motion to dismiss under Fed-
+eral Rule of Civil Procedure 12(b)(6), for failure to state a
+claim for induced infringement.
+The District Court granted Hikma’s motion to dismiss,
+explaining that none of Hikma’s statements constituted ac-
+tive steps to encourage infringing Amarin’s method-of-use
+patents for the CV indication. 578 F. Supp.

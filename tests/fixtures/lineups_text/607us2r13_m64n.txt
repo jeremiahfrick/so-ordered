@@ -1,0 +1,350 @@
+Page Proof Pending PublicationP R E L I M I N A R Y P R I N T
+Volume 607 U. S. Part 2
+Pages 391–420
+OFFICIAL REPORTS
+OF
+THE SUPREME COURT
+February 24, 2026
+REBECCA A. WOMELDORF
+reporter of decisions
+NOTICE: This preliminary print is subject to formal revision before
+the bound volume is published. Users are requested to notify the Reporter
+of Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+Page Proof Pending Publication391OCTOBER TERM, 2025
+Syllabus
+UNITED STATES POSTAL SERVICE et al. v. KONAN
+certiorari to the united states court of appeals for
+the fth circuit
+No. 24–351. Argued October 8, 2025—Decided February 24, 2026
+Respondent Lebene Konan and the local post office in Euless, Texas, had
+an extended dispute concerning mail delivery to two rental properties
+owned by Konan. Konan alleged that, among other things, United
+States Postal Service employees intentionally withheld her mail and
+interfered with its delivery. After administrative complaints proved
+unsuccessful, Konan sued the United States in federal court, bringing
+various state-law tort claims alleging that the United States Postal
+Service intentionally and wrongfully withheld her mail. The District
+Court dismissed Konan’s complaint pursuant to the Federal Tort Claims
+Act’s postal exception, under which the United States retains sovereign
+immunity for all claims “arising out of the loss, miscarriage, or negligent
+transmission of letters or postal matter,” 28 U. S. C. § 2680(b). The Dis-
+trict Court concluded that the United States enjoys sovereign immunity
+from Konan’s claims because they all relate to personal or financial
+harms arising from nondelivery of mail. The District Court further
+held that the postal exception is not limited to merely negligent failure
+to properly carry the mail. The Fifth Circuit reversed, holding that
+the terms “loss,” “miscarriage,” and “negligent transmission” do not
+encompass the intentional act of not delivering the mail at all. In con-
+trast, the First and Second Circuits have interpreted the postal excep-
+tion to apply to suits even when they arise from harms caused by inten-
+tional misconduct. The Court granted certiorari to resolve the split.
+Held: The United States retains sovereign immunity for claims arising out
+of the intentional nondelivery of mail because both “miscarriage” and
+“loss” of mail under the FTCA’s postal exception can occur as a result of
+the Postal Service’s intentional failure to deliver the mail. Pp. 398–406.
+(a) The postal exception reflects Congress’s judgment that redress for
+“harms” of “the sort primarily identified with the Postal Service’s func-
+tion of transporting mail throughout the United States” should not come
+from potentially burdensome tort suits. Dolan v. Postal Service, 546
+U. S. 481, 489. P. 398.
+(b) Both “miscarriage” and “loss” of mail under the postal exception
+can occur as a result of the Postal Service’s intentional failure to deliver
+the mail. Pp. 399–404
+Page Proof Pending Publication392 POSTAL SERVICE v. KONAN
+Syllabus
+(1) The Court interprets statutory terms according to the ordinary
+meanings they had when they were enacted. Wisconsin Central Ltd.
+v. United States, 585 U. S. 274, 277. When Congress enacted the FTCA
+in 1946, the “miscarriage” of mail ordinarily included any failure of mail
+to properly arrive at its intended destination. Dictionaries published
+around that time confirm that a “miscarriage” of mail happened when
+mail failed to arrive at its destination. The Court declines to limit “mis-
+carriage” to negligent failures, as no dictionaries cited impose this limi-
+tation, and ordinary speakers used “miscarriage” to refer to problems
+with mail caused by intentional misconduct, such as when mail was sto-
+len or burned. The Court also declines to limit “miscarriage” to when
+mail goes to the wrong address, as speakers used the term when mail
+failed to reach its intended destination regardless of where the mail
+ended up, including when mail was delayed, came too late, or was left
+in the post office. Pp. 399–401.
+(2) When Congress enacted the FTCA, the “loss” of mail ordinarily
+meant a deprivation of mail, regardless of how the deprivation was
+brought about. Contemporary dictionaries defined “loss” as the act or
+fact of losing or suffering deprivation, and one can suffer a deprivation
+of something when another intentionally keeps that thing for himself.
+Konan alleged that she was entitled to possession of her mail but that
+the Postal Service converted it, meaning she was “deprived of the use
+and possession of the property,” Black’s Law Dictionary 421, so her
+claims arise out of the loss of her mail. The Court disagrees with the
+attempt by Konan to limit “loss” to only inadvertent losses. A loss can
+be the result of another person’s intentional misconduct, and ordinary
+speakers commonly described a “loss” of mail from theft, including theft
+by the carrier. The Court also disagrees with the argument that the
+postal exception applies only when the Postal Service lost the mail, be-
+cause Congress applied the postal exception to all “claim[s] arising out
+of the loss, miscarriage, or negligent transmission” of mail, describing
+kinds of harms, not kinds of actions by the postal workers. This inter-
+pretation is consistent with the principal provision of the FTCA, which
+includes losses caused by intentional misconduct and does not require
+that the Government lost anything. The Court rejects Konan’s pro-
+posal to limit “loss” to only “destruction.” Ordinary speakers referred
+to losses of mail even when the mail was not destroyed, and the diction-
+ary definitions Konan pointed to were listed first because they were the
+oldest, not because they were primary. Pp. 401–404.
+(c) The Court rejects Konan’s remaining arguments that her claims
+must not be barred by the postal exception. Pp. 404–406.
+Page Proof Pending Publication393Cite as: 607 U. S. 391 (2026)
+Syllabus
+(1) Konan argues that the postal exception’s “negligent transmis-
+sion” category narrows the meaning of “miscarriage” and “loss,” but
+Congress intentionally limited the “negligent” qualifier to “transmis-
+sion” and did not use it to qualify “loss” or “miscarriage.” An adjective
+before the final noun in a list cannot be transplanted to qualify the pre-
+ceding nouns. See Barnhart v. Thomas, 540 U. S. 20, 26. The Court
+does not think that the “negligent” qualifier suggests that Congress was
+trying to enable suits involving intentional misconduct. Instead, the
+inclusion of “negligent” to qualify “transmission” forecloses claims in-
+volving mail even though nothing went wrong with its transport or de-
+livery, keeping the focus of the postal exception on mail-delivery prob-
+lems. Pp. 404–405.
+(2) Konan also argues that the Court’s interpretations of “miscar-
+riage” and “loss” run afoul of the presumption against surplusage, be-
+cause many claims—including Konan’s here—will arise from both a
+“miscarriage” and a “loss” of mail. But Konan’s proposal to solve the
+surplusage—three nonoverlapping definitions of the statutory terms—
+is inconsistent with ordinary meaning, which shows that these terms
+are often used in an overlapping manner. In Dolan, the Court inter-
+preted the terms in the postal exception to substantially overlap, 546
+U. S., at 487, and the canon against surplusage is subordinate to the
+cardinal canon that “a legislature says in a statute what it means and
+means in a statute what it says there,” Connecticut Nat. Bank v. Ger-
+main, 503 U. S. 249, 253–254. Congress likely used broad, overlapping
+terms to better keep complaints about mail delivery out of court.
+Pp. 405–406.
+(d) The Court does not decide whether all of Konan’s claims are
+barred by the postal exception, or which arguments Konan adequately
+preserved. P. 406.
+96 F. 4th 799, vacated and remanded.
+Thomas, J., delivered the opinion of the Court, in which Roberts, C. J.,
+and Alito, Kavanaugh, and Barrett, JJ., joined. Sotomayor, J., filed
+a dissenting opinion, in which Kagan, Gorsuch, and Jackson, JJ., joined,
+post, p. 406.
+Frederick Liu argued the cause for petitioners. On the
+briefs were Solicitor General Sauer, Assistant Attorney
+General Shumate, Deputy Solicitor General Mooppan, Urja
+Mittal, Thomas J. Marshall, Stephan J. Boardman, Michael
+D. Weaver, and Joshua J. Hofer.
+Page Proof Pending Publication394 POSTAL SERVICE v. KONAN
+Opinion of the Court
+Easha Anand argued the cause for respondent. With her
+on the brief were Jeffrey L. Fisher, Pamela S. Karlan, and
+Robert Clary.*
+Justice Thomas delivered the opinion of the Court.
+The United States enjoys sovereign immunity and cannot
+be sued without its consent. By means of the Federal Tort
+Claims Act, Congress waived that sovereign immunity for
+certain tort suits based on the conduct of Government em-
+ployees. See 28 U. S. C. §§ 2674, 1346(b). But, in the provi-
+sion at issue in this case, Congress retained sovereign immu-
+nity for a wide range of claims about mail. Specifically, the
+FTCA’s postal exception retains sovereign immunity for all
+claims “arising out of the loss, miscarriage, or negligent
+transmission of letters or postal matter.” § 2680(b). This
+case concerns whether this exception applies when postal
+workers intentionally fail to deliver the mail. We hold that
+it does.
+I
+A
+The United States Postal Service is a frequent point of
+contact between citizens and the Federal Government. In
+2024, the Postal Service’s more than 600,000 employees deliv-
+ered more than 112 billion pieces of mail—over 300 million a
+day—to more than 165 million delivery points. See United
+States Postal Service, Fiscal Year 2024 Annual Report to
+Congress 3, 29, 32, 34. Unsurprisingly, given this volume,
+not all mail arrives properly and on time. The Postal Serv-
+ice reports receiving approximately 335,000 customer com-
+plaints per year. See Brief for Petitioners 24.
+*Briefs of amici curiae urging affirmance were filed for APA Watch by
+Lawrence J. Joseph; for the Institute for Justice by Jaba Tsitsuashvili,
+Anya Bidwell, and Patrick Jaicomo; and for the Taxpayers Protection
+Alliance by Erik S. Jaffe.
+Page Proof Pending Publication395Cite as: 607 U. S. 391 (2026)
+Opinion of the Court
+Because it is a Government agency, recourse against the
+Postal Service in the form of lawsuits for money damages is
+limited. As part of “the executive branch of the Govern-
+ment of the United States,” 39 U. S. C. § 201, “the Postal
+Service enjoys federal sovereign immunity absent a waiver,”
+Dolan v. Postal Service, 546 U. S. 481, 484 (2006). Before
+1946, that sovereign immunity generally prevented those in-
+jured by Government employees from receiving compensa-
+tion through lawsuits. See Molzof v. United States, 502
+U. S. 301, 304 (1992). That year, Congress enacted a “lim-
+ited waiver” of immunity through the FTCA. Id., at 305.
+Subject to enumerated exceptions, the FTCA allows a plain-
+tiff to sue the Government for injuries or loss of property
+“caused by the negligent or wrongful act or omission of ” a
+federal employee “acting within the scope of his office or
+employment.” 28 U. S. C. § 1346(b)(1).
+The FTCA’s postal exception retains the Government’s
+sovereign immunity for lawsuits about failing to properly
+carry or deliver mail. It forecloses “[a]ny claim arising out
+of the loss, miscarriage, or negligent transmission of letters
+or postal matter.” § 2680(b). This Court has interpreted
+the postal exception to apply when the plaintiff is harmed
+“because mail either fails to arrive at all or arrives late, in
+damaged condition, or at the wrong address.” Dolan, 546
+U. S., at 489.
+B
+This case arises from the dismissal of a complaint, so we
+accept the complaint’s allegations as true, although the Gov-
+ernment disputes them. National Rifle Association of
+America v. Vullo, 602 U. S. 175, 181 (2024). Respondent
+Lebene Konan owns two houses a block apart in Euless,
+Texas—one on Saratoga Drive and the other on Trenton
+Lane. Konan leases rooms to tenants in both houses and
+occasionally stays at them herself. The Postal Service de-
+livers mail for all the houses in the neighborhood to a central
+Page Proof Pending Publication396 POSTAL SERVICE v. KONAN
+Opinion of the Court
+structure with a box for each house. The Postal Service
+distributes keys to the owners of the houses so that they can
+retrieve their mail. As the homeowner, Konan received the
+keys to the boxes for both houses. Konan kept the keys and
+distributed the mail to her tenants daily, and she also re-
+ceived some of her own mail at the Saratoga address.
+Konan’s grievances with her mail service began in May
+2020. After Konan noticed that no mail had arrived at her
+Saratoga house in several days, she learned that the assigned
+carrier had changed the listed owner from Konan’s name to
+a tenant’s name. The same carrier then authorized a change
+of the lock to allow the tenant to have his own mail key
+without Konan’s consent. Konan confronted the employees
+at the local post office about these changes. A supervisor
+at the local post office explained to Konan that the Postal
+Service would stop delivering mail to her Saratoga address
+until the Postal Service Inspector General’s office investi-
+gated and determined the proper owner. Konan then re-
+ceived no mail to the Saratoga address for a couple of months
+before service resumed.
+Konan then learned that the same carrier had mail ad-
+dressed to her and her tenants returned to senders as “unde-
+liverable.” As a result, Konan and her tenants did not re-
+ceive important mail. Konan resorted to private carriers.
+The disruptions in mail service resulted in the loss of tenants
+and made it more difficult for Konan to attract new tenants.
+The carrier also taped a red notice inside the mailbox stating
+that mail addressed to some, but not all, of the Saratoga resi-
+dents could be delivered to the box. In 2021, postal workers
+also allegedly stopped delivering mail to the Trenton house
+after discovering that Konan owned it as well.
+In response, Konan signed up for the Postal Service’s “In-
+formed Delivery” service, which allows customers to view
+scans of incoming mail. When she discovered that mail on its
+way to her addresses was not being delivered, she requested
+that the mail for the Saratoga residence be held at the post
+Page Proof Pending Publication397Cite as: 607 U. S. 391 (2026)
+Opinion of the Court
+office so that she could retrieve it in person. But the postal
+employees did not give her the mail because Konan failed to
+provide identification for the addressees. In addition to these
+efforts, Konan also filed administrative complaints, but with-
+out success.
+C
+In January 2022, Konan sued the United States in federal
+court. Konan alleged that the Postal Service intentionally
+and wrongfully withheld her mail. As relevant here, Konan
+brought claims under state law for nuisance, tortious inter-
+ference with prospective business relations, conversion, and
+intentional infliction of emotional distress. She sought dam-
+ages for loss of rental income, the deprivation of her rightful
+mail, and the distress that the postal workers caused her.*
+The District Court dismissed Konan’s complaint based on
+sovereign immunity. Relying on the postal exception, it
+concluded that the United States enjoys sovereign immunity
+from her claims “because they all relate to ‘personal or fi-
+nancial harms arising from nondelivery . . . of sensitive mate-
+rials or information . . .’ and other mail.” 652 F. Supp. 3d
+721, 731 (ND Tex. 2023) (quoting Dolan, 546 U. S., at 489).
+The District Court held that the postal exception is not lim-
+ited to merely negligent failure to properly carry the mail.
+652 F. Supp. 3d, at 730–731.
+The Court of Appeals for the Fifth Circuit reversed. It
+held that “the terms ‘loss,’ ‘miscarriage,’ and ‘negligent
+transmission’ do not encompass the intentional act of not de-
+livering the mail at all.” 96 F. 4th 799, 804 (2024). It
+reasoned that Konan’s claims did not arise out of the “loss”
+*Konan also brought discrimination claims against the postal workers
+under 42 U. S. C. §§ 1981 and 1985, alleging that they were motivated by
+racial animus. The District Court dismissed these claims. 652 F. Supp.
+3d 721, 731–732 (ND Tex. 2023). The Court of Appeals affirmed. 96
+F. 4th 799, 804–805 (CA5 2024). We denied Konan’s cross-petition for cer-
+tiorari regarding those claims, so they are not before us. 604 U. S. 1256
+(2025).
+Page Proof Pending Publication398 POSTAL SERVICE v. KONAN
+Opinion of the Court
+of mail “because the mail was not destroyed or misplaced by
+unintentional action.” Id., at 802 (emphasis added). It
+also reasoned that Konan’s claims did not arise from the
+“miscarriage” of mail “because there was no attempt at a
+carriage.” Ibid. And it reasoned that Konan’s claims did
+not arise from the “negligent transmission” of mail because
+“the postal workers’ actions were intentional.” Ibid.
+The Fifth Circuit’s decision conflicts with those of the
+First and Second Circuits, which have interpreted the postal
+exception to apply to suits even when they arise from harms
+caused by intentional misconduct. See Levasseur v. United
+States Postal Serv., 543 F. 3d 23, 23–24 (CA1 2008) (per cu-
+riam); Marine Ins. Co. v. United States, 378 F. 2d 812, 813–
+814 (CA2 1967). We granted certiorari to resolve the split.
+604 U. S. 1256 (2025).
+II
+The postal exception retains the Federal Government’s
+sovereign immunity for “[a]ny claim arising out of the loss,
+miscarriage, or negligent transmission of letters or postal
+matter.” 28 U. S. C. § 2680(b). The postal exception re-
+flects Congress’s judgment that redress for “harms” of “the
+sort primarily identified with the Postal Service’s function
+of transporting mail throughout the United States” should
+not come from tort suits. Dolan, 546 U. S., at 489. Given
+the frequency of postal workers’ interactions with citizens,
+those suits would arise so often that they would create a
+significant burden for the Government and the courts. And
+their cost to taxpayers would depend on the value and impor-
+tance of the mail’s contents, over which the Government typ-
+ically has no control. See, e. g., Marine Ins. Co., 378 F. 2d,
+at 813 (theft from mail of six emeralds valued at $152,190 in
+1967 dollars).
+According to Konan and the dissent, the postal exception
+does not apply to Konan’s claims because she alleges that
+postal workers intentionally refused to deliver her mail.
+Page Proof Pending Publication399Cite as: 607 U. S. 391 (2026)
+Opinion of the Court
+We disagree. Both “miscarriage” and “loss” of mail under
+the postal exception can occur as a result of the Postal Serv-
+ice’s intentional failure to deliver the mail.
+A
+Absent a reason to think otherwise, we interpret statutory
+terms according to the ordinary meanings they had when
+they were enacted. Wisconsin Central Ltd. v. United
+States, 585 U. S. 274, 277 (2018). When Congress enacted
+the FTCA in 1946, the “miscarriage” of mail ordinarily in-
+cluded any failure of mail to properly arrive at its intended
+destination. Konan would limit “miscarriage” to uninten-
+tional failures or failures where the mail went to the wrong
+address. Neither limitation is well founded.
+Dictionaries published around the time Congress enacted
+the FTCA confirm that a “miscarriage” of mail happened
+when mail failed to arrive properly. Two dictionaries indi-
+cate that “miscarriage” of mail meant the “failure of a letter
+. . . to reach its destination.” 2 New Century Dictionary of
+the English Language 1069 (1927); accord, 6 Oxford English
+Dictionary 497 (1933) (“The failure (of a letter, etc.) to reach
+its destination”). In a third, “miscarriage” meant the “[f]ail-
+ure (of something sent) to arrive.” Webster’s New Interna-
+tional Dictionary 1568 (2d ed. 1934) (Webster’s Second).
+Definitions of “miscarry” were similarly broad. Ibid. (“To
+fail of reaching the destination”); 6 Oxford English Diction-
+ary, at 498 (“To fail to reach its proper destination”

@@ -1,5 +1,6 @@
 import { RedisLike, initialize, isInitialized, isNoted, markNoted } from './dedup';
-import { buildOpinionPost, parseAuthor, parseOpinionFeed, termYear } from './opinions';
+import { extractLineupBlock, renderSection } from './lineup';
+import { FeedOpinion, buildOpinionPost, parseAuthor, parseOpinionFeed, termYear } from './opinions';
 import { OrderLink, buildOrderPost, parseOrderLinks } from './orders';
 import { parseOrderText } from './orderParse';
 import { renderOrder } from './orderRender';
@@ -120,6 +121,19 @@ async function lookupAuthor(d: PollDeps, caseNum: string, caseJson: any): Promis
   }
 }
 
+// The lineup (who wrote and joined each opinion) is read from the opinion's own PDF. Like the author lookup it is a
+// bonus: any problem logs one line and the post goes out without it.
+async function lookupLineup(d: PollDeps, opinion: FeedOpinion): Promise<string | null> {
+  try {
+    const res = await d.fetchBytes(opinion.link);
+    if (res.status !== 200) throw new Error(`PDF status ${res.status}`);
+    return renderSection(extractLineupBlock(await d.pdfText(res.bytes)));
+  } catch (e) {
+    d.log(`Lineup skipped (${opinion.caseId}): ${message(e)}`);
+    return null;
+  }
+}
+
 async function pollOpinions(d: PollDeps): Promise<void> {
   const feed = await fetchFeed(d);
   if (!feed) return;
@@ -136,7 +150,12 @@ async function pollOpinions(d: PollDeps): Promise<void> {
       }
       const caseJson = JSON.parse(res.text.replace(/^﻿/, ''));
       const author = await lookupAuthor(d, opinion.caseNum, caseJson);
-      const { title, body } = buildOpinionPost(opinion, caseJson, author);
+      const post = buildOpinionPost(opinion, caseJson, author);
+      const lineup = await lookupLineup(d, opinion);
+      // The post's table ends with a newline and the lineup section starts with one: together, the blank line
+      // Reddit needs before a new table.
+      const { title } = post;
+      const body = lineup ? `${post.body}\n${lineup}` : post.body;
       await d.submit(title, body);
       await markNoted(d.redis, 'cases', opinion.caseId);
       d.log(`Posted opinion ${opinion.caseId}: ${title}`);

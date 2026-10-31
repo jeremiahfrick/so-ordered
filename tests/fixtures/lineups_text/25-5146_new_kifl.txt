@@ -1,0 +1,352 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+ABOUAMMO v. UNITED STATES
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE NINTH CIRCUIT
+No. 25–5146. Argued March 30, 2026—Decided June 11, 2026
+This case presents the question whether a defendant charged with vio-
+lating 18 U. S. C. §1519—which makes it a crime to knowingly falsify
+a document with the intent to obstruct a federal investigation—must
+be tried in the district where the falsification occurred, or whether he
+may alternatively be tried in the district where the federal investiga-
+tion was located.
+While employed by Twitter at its San Francisco office, petitioner Ah-
+mad Abouammo provided confidential information to a high-level
+Saudi official about Saudi dissidents posting on the company’s plat-
+form. In exchange, the official wired Abouammo $300,000. Around
+the same time, Abouammo left Twitter and relocated to Seattle, where
+he started a social-media consulting business. Two San Francisco-
+based FBI agents, who were investigating unauthorized disclosures of
+Twitter account information, later flew to Seattle to interview
+Abouammo at his home. During the interview, Abouammo denied giv-
+ing the Saudi official confidential information, claiming that the pay-
+ments were for consulting work. When the agents asked for support-
+ing documentation, Abouammo went upstairs, created a fake invoice,
+and emailed it to one of the agents. Back in San Francisco, the agents
+discovered from the emailed document’s date-and-time metadata what
+Abouammo had just done.
+Abouammo was indicted in the Northern District of California for
+falsifying a record under §1519. He moved to dismiss the charge for
+improper venue, arguing that he could be tried only where the alleged
+falsification occurred. The District Court denied the motion, finding
+venue also proper in the place where the FBI investigation was located,
+and a jury convicted Abouammo. The Ninth Circuit affirmed, reason-
+ing that §1519’s intent requirement—“with the intent” to “obstruct” an
+2 ABOUAMMO v. UNITED STATES
+Syllabus
+investigation—made the “contemplated effects” of the falsification part
+of the “essential conduct” of the offense, thereby permitting trial
+“where the investigation” the defendant “intended to stymie [was] on-
+going or contemplated.” 122 F. 4th 1072, 1092–1093.
+Held: A defendant charged with violating §1519 must be tried in the dis-
+trict where the falsification occurred; he cannot be tried in a different
+district where the investigation was located because no “conduct con-
+stituting the offense” happened there.
+The Constitution twice safeguards a defendant’s venue right: Article
+III instructs that “Trial of all Crimes” shall “be held in the State where
+the Crimes shall have been committed,” §2, cl. 3, and the Sixth Amend-
+ment entitles criminal defendants to a jury “of the State and district
+wherein the crime shall have been committed.” To implement that
+constitutional rule, courts generally determine the location of the of-
+fense’s “essential conduct elements” by identifying “the conduct consti-
+tuting the offense”—the things a defendant must do to violate the stat-
+ute—and then ascertaining the place where those criminal acts
+occurred. United States v. Rodriguez-Moreno, 526 U. S. 275, 279–280.
+Under this framework, the venue for trying a §1519 offense must be
+where the document’s falsification happened—which here was in Se-
+attle. Section 1519 imposes criminal liability on a person who know-
+ingly “falsifies” a “record [or] document” “with the intent to impede [or]
+obstruct” a federal investigation. The only prohibited act is the falsifi-
+cation of a document; once a person has committed that act with the
+requisite intent, he need do nothing more to violate the law. Because
+the only proscribed conduct is falsification, venue must be where falsi-
+fication occurred.
+Contrary to the Ninth Circuit’s view, §1519’s special intent provision
+does not lead to a different result. This Court has never looked to a
+statute’s mens rea elements in considering venue, nor would it make
+much sense to do so. A falsification with the intent to obstruct an in-
+vestigation occurs at the same place as a falsification without that in-
+tent—which is to say, at the place of falsification. The mens rea re-
+quirement thus adds nothing to the conduct-focused analysis. The
+Ninth Circuit treated the “contemplated effects” of the falsification as
+part of §1519’s “essential conduct” elements, 122 F. 4th, at 1092, but
+that is not so: The statute’s concern with effects is instead confined to
+the defendant’s mens rea. Section 1519, unlike laws barring actual
+obstruction, does not require that falsifying a document have any im-
+pact on an investigation. Whatever obstructive effects Abouammo’s
+false invoice may have had in northern California, they were not ele-
+ments of his crime and cannot figure in determining where his crime
+was committed.
+The Government, for its part, declares §1519 an “inchoate offense,”
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+with some integral relationship to another (though unspecified) ob-
+struction-of-justice crime. But §1519 is an independent crime, not an
+inchoate offense. Inchoate offenses are necessarily “[a] step toward the
+commission of another crime.” Black’s Law Dictionary 1297. But a
+person can commit a §1519 crime without taking any steps toward an-
+other crime—for example, by falsifying a document with the requisite
+intent and then putting the document away in a drawer without ever
+using it to obstruct an investigation. Rather than define an inchoate
+offense tethered to a crime of actual obstruction, §1519 spells out a
+standalone crime for falsifying documents. Accordingly, venue for it
+must be based on the conduct that §1519 itself proscribes, not on the
+conduct some other law does.
+The trial for falsifying a document must take place where the de-
+fendant falsified the document. Here that was in Seattle—in venue
+terms, the Western District of Washington. The trial should not have
+occurred in the Northern District of California because no “conduct
+constituting the offense” happened in that location. Pp. 3–9.
+122 F. 4th 1072, reversed and remanded.
+KAGAN, J., delivered the opinion for a unanimous Court.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 25–5146
+AHMAD ABOUAMMO, PETITIONER v.
+UNITED STATES
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE NINTH CIRCUIT
+[June 11, 2026]
+JUSTICE KAGAN delivered the opinion of the Court.
+The question presented concerns the proper venue for
+trying an alleged violation of 18 U. S. C. §1519. That stat-
+ute makes it a crime to knowingly falsify a document with
+the intent to obstruct a federal investigation. We hold that
+a defendant charged with violating §1519 must be tried in
+the district where the falsification occurred; he cannot be
+tried in a different district where the investigation was lo-
+cated.
+I
+While employed by Twitter at its San Francisco office, pe-
+titioner Ahmad Abouammo provided confidential infor-
+mation to a high-level Saudi official about two Saudi dissi-
+dents posting on the company’s platform. In return, the
+official wired Abouammo a total of $300,000. At around the
+same time, Abouammo left Twitter and relocated to Seattle,
+where he started a social-media consulting company.
+Two San Francisco-based FBI agents, who were investi-
+gating unauthorized disclosures of Twitter account infor-
+mation, flew to Seattle to interview Abouammo at his home.
+During that hours-long talk, Abouammo denied giving the
+2 ABOUAMMO v. UNITED STATES
+Opinion of the Court
+Saudi official confidential information. The payments, he
+told the agents, were instead for consulting work he did for
+the official after leaving Twitter. When the agents asked
+Abouammo for documents supporting his story, he said he
+had retained an invoice and would retrieve it from a com-
+puter upstairs. While the agents waited for him to return,
+Abouammo created a fake invoice and emailed it to one of
+the agents. After concluding the interview, the agents re-
+turned to San Francisco, where they discovered from the
+emailed document’s date-and-time metadata what
+Abouammo had just done.
+Abouammo was indicted in the Northern District of Cali-
+fornia (which includes San Francisco) for falsifying a record
+under 18 U. S. C. §1519. That statute makes it a crime to
+knowingly “falsif[y]” (or similarly, “alter[ ], destroy[ ], muti-
+late[ ]” and so forth) a “record [or] document” “with the in-
+tent to impede [or] obstruct” an ongoing or contemplated
+federal investigation.1 The indictment alleged that
+Abouammo had “creat[ed] and provid[ed] by email to the
+[FBI] a fabricated, false, and backdated invoice” with the
+requisite intent to obstruct. Superseding Indictment in No.
+19–621 (ND Cal.), ECF Doc. 53, p. 18.
+Abouammo moved to dismiss the §1519 charge for im-
+proper venue, contending that he could be tried only in the
+district encompassing Seattle (the Western District of
+Washington), where the alleged falsification of the invoice
+——————
+1 The full text of the statute reads as follows: “Whoever knowingly al-
+ters, destroys, mutilates, conceals, covers up, falsifies, or makes a false
+entry in any record, document, or tangible object with the intent to im-
+pede, obstruct, or influence the investigation or proper administration of
+any matter within the jurisdiction of any department or agency of the
+United States or any case filed under title 11, or in relation to or contem-
+plation of any such matter or case, shall be fined under this title, impris-
+oned not more than 20 years, or both.” 18 U. S. C. §1519. In this opinion,
+we refer only to the falsification of a document, because that is what
+Abouammo did. But everything we say applies as well to a document’s
+“alter[ation], destr[uction], mutilat[ion]” and so forth.
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+had occurred. The District Court denied the motion, finding
+venue also proper in the place where the FBI investigation
+had been located. A jury then convicted Abouammo of the
+§1519 charge. And the court, in ruling on post-trial mo-
+tions, again rejected Abouammo’s venue argument. See
+2022 WL 17584238, *17 (ND Cal., Dec. 12, 2022).
+The Court of Appeals for the Ninth Circuit affirmed,
+agreeing that venue was proper in California’s Northern
+District because the FBI investigation took place there.
+Under this Court’s precedents, the Ninth Circuit explained,
+venue is determined by identifying the “conduct constitut-
+ing the offense”: A trial can be held wherever that pro-
+scribed conduct, in whole or part, took place. See 122 F. 4th
+1072, 1090 (2024) (quoting United States v. Rodriguez-
+Moreno, 526 U. S. 275, 279 (1999)). One “essential conduct
+element[ ]” of §1519, the Ninth Circuit noted, is falsification
+of a document; here, that element would point to Seattle as
+a proper place for trial. 122 F. 4th, at 1090; see id., at 1092–
+1093. But (the court maintained) §1519’s intent require-
+ment—i.e., “with the intent” to “obstruct” an investiga-
+tion—makes the “contemplated effects” of the falsification
+another “part of the essential conduct of [a §1519] offense.”
+Id., at 1092. And that aspect of the offense, the court rea-
+soned, permits trial as well “where the investigation” the
+defendant “intended to stymie is ongoing or contemplated.”
+Id., at 1092–1093. Here, that place was San Francisco,
+where the agents investigating Abouammo worked.
+We granted certiorari, 607 U. S. 1079 (2025), and now re-
+verse the Ninth Circuit’s judgment. The venue for trying a
+§1519 offense is, and is only, where the defendant falsified
+a document, because that is the only conduct proscribed by
+the statute.
+II
+Venue in criminal cases mattered more than might be
+supposed to the Nation’s Founders. Prior to the Revolution,
+4 ABOUAMMO v. UNITED STATES
+Opinion of the Court
+Parliament enacted measures to try allegedly treasonous
+colonists in England, rather than in their home colonies.
+The legislation was so roundly despised as to make it into
+the Declaration of Independence. Among the “injuries and
+usurpations” listed there was the practice of “transporting
+us beyond Seas to be tried for pretended offences.” Decla-
+ration of Independence ¶21; see Smith v. United States, 599
+U. S. 236, 246–247 (2023). After the Revolution, of course,
+the Founders no longer had to fear transportation overseas.
+But they retained strong feelings about “the unfairness and
+hardship involved when an accused is prosecuted in a re-
+mote place.” United States v. Cores, 356 U. S. 405, 407
+(1958).
+As a result, the Constitution not once but “twice safe-
+guards the defendant’s venue right.” United States v. Ca-
+brales, 524 U. S. 1, 6 (1998). Article III instructs that “Trial
+of all Crimes” shall “be held in the State where the said
+Crimes shall have been committed.” §2, cl. 3. And the Sixth
+Amendment reinforces that command, entitling criminal
+defendants to a jury “of the State and district wherein the
+crime shall have been committed.”
+To implement that constitutional rule—meaning, to de-
+cide where the crime was committed—courts generally
+must determine the location of the offense’s “essential con-
+duct elements.” Rodriguez-Moreno, 526 U. S., at 280. A
+court, that is, “must initially identify the conduct constitut-
+ing the offense”—the things a defendant must do to violate
+the statute at issue. Id., at 279. And then the court must
+ascertain the “location” of those “criminal acts”—the place
+where their “commission” occurred. Ibid.; see United States
+v. Anderson, 328 U. S. 699, 703 (1946) (“[T]he locus delicti
+must be determined” from “the location of the act or acts
+constituting” the “crime alleged”). Sometimes that inquiry
+points to a single district. See, e.g., Cabrales, 524 U. S., at
+6–7. Sometimes it points to more than one, because the
+proscribed acts happen in multiple locations. See, e.g.,
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+Rodriguez-Moreno, 526 U. S., at 281–282.2 But either way,
+the inquiry remains one into the place of the crime’s con-
+duct elements—the acts that the prosecution must prove to
+secure a conviction.3
+Under that framework, the venue for trying a §1519 of-
+fense must be where a document’s falsification happened—
+which here was in Seattle. Recall the terms of the statute:
+It imposes criminal liability on a person who knowingly
+“falsifies” a “record [or] document” “with the intent to im-
+pede [or] obstruct” a federal investigation. See supra, at 2,
+and n. 1. The only prohibited act in that statute is the fal-
+sification of a document. Once a person has committed that
+act (with the requisite intent), he need do nothing more to
+violate the law. He need not, for example, transmit the doc-
+ument to anyone else, nor must he use it in any particular
+——————
+2 Congress has codified that principle as follows: Any offense “begun in
+one district and completed in another, or committed in more than one
+district,” may be prosecuted “in any district in which such offense was
+begun, continued, or completed.” 18 U. S. C. §3237(a).
+3 There is an important qualification to this general statement. The
+cases in which we have used the “conduct elements” test are all ones in
+which Congress did not specify a venue rule to accompany a given of-
+fense. See, e.g., United States v. Cores, 356 U. S. 405, 407 (1958) (using
+that test when “there is an absence” in the “statutory offense[ ]” of a “spe-
+cific provision fixing venue”); Travis v. United States, 364 U. S. 631, 635
+(1961) (using the test “[w]here Congress is not explicit” about the appli-
+cable venue rule); Rodriguez-Moreno, 526 U. S., at 279, n. 1 (noting that
+the test arose from a case in which Congress did not “indicate where [it]
+considered the place of committing the crime to be”). Of course, the
+venue rule is constitutional, and Congress lacks the power to finally de-
+cide what it means or when it is violated. But we have sometimes sug-
+gested that Congress’s view of appropriate venue, even if not coincident
+with our “conduct elements” test, may make a difference to the analysis.
+See United States v. Johnson, 323 U. S. 273, 274–275 (1944). The matter
+is of no importance here because §1519 has no associated venue provi-
+sion. But other obstruction-of-justice statutes do. See 18 U. S. C.
+§1512(i) (venue provision applying to substantive offenses in §1503 and
+§1512). Nothing we say today is meant to address that statutorily cre-
+ated venue scheme.
+6 ABOUAMMO v. UNITED STATES
+Opinion of the Court
+way. As both Abouammo and the Government agree, the
+crime is complete upon falsification (again, with the speci-
+fied intent). See Tr. of Oral Arg. 4–5, 41, 53. And that fact
+makes the venue inquiry straightforward. Because the only
+proscribed conduct is falsification, venue must be where fal-
+sification occurred. Here, that means venue must be in the
+district encompassing Seattle, where Abouammo created
+the false invoice. It could not be in the Northern District of
+California, hundreds of miles away from that prohibited
+conduct.
+Contrary to the Ninth Circuit’s view, §1519’s special in-
+tent provision does not lead to a different result. This Court
+has never looked to a statute’s mens rea elements in consid-
+ering venue. Nor would it make much sense to do so. Take
+the first (and more typical) of §1519’s mens rea require-
+ments: that the falsification be undertaken “knowingly.” A
+knowing falsification occurs at the same place as an un-
+knowing falsification—which is to say, at the place of the
+falsification. The mens rea element thus adds nothing to
+the conduct-focused analysis. The same is true of §1519’s
+demand that the falsification be done with the intent to ob-
+struct an investigation. A falsification with that intent (like
+a falsification without it) again occurs wherever the falsifi-
+cation does—which here was in Abouammo’s Seattle home.
+The Ninth Circuit treated that second mens rea element dif-
+ferently, on the theory that it made the falsification’s “con-
+templated effects” part of §1519’s “essential conduct” ele-
+ments. 122 F. 4th, at 1092; see supra, at 3. But that is not
+so: The statute’s concern with effects is instead confined to
+the defendant’s mens rea (or as the Ninth Circuit might put
+it, his “contemplat[ion]”). Section 1519 does not require
+that falsifying a document have any impact at all on an in-
+vestigation—that it in fact obstruct or impede an investiga-
+tion, present or future. (The statute thus differs from many
+federal laws barring actual obstruction. See, e.g., 18
+U. S. C. §1512(c)(2).) So whatever obstructive effects
+7Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+Abouammo’s false invoice may have had in northern Cali-
+fornia, they were not elements of his crime. And because
+that is so, those effects cannot figure in determining where
+Abouammo’s “crime [was] committed.” Amdt. 6.
+Our “seminal” decision in United States v. Johnson, 323
+U. S. 273 (1944), was based on much the same principles. 4
+W. LaFave, Criminal Procedure §16.2(b) (4th ed. 2025,
+Supp.). We there considered the place in which a prosecu-
+tion brought under the Federal Denture Act should be tried.
+That now-defunct statute barred a person from “us[ing] the
+mails” “for the pu

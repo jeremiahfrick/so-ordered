@@ -1,0 +1,356 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+FS CREDIT OPPORTUNITIES CORP. ET AL. v. SABA
+CAPITAL MASTER FUND, LTD., ET AL.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE SECOND CIRCUIT
+No. 24–345. Argued December 10, 2025—Decided June 11, 2026
+The Investment Company Act (ICA) comprehensively regulates invest-
+ment companies. The ICA designates the Securities and Exchange
+Commission as its primary enforcer and expressly permits sharehold-
+ers and issuers of securities to enforce two of its provisions. The ques-
+tion presented in this case is whether Section 47(b) of the ICA im-
+pliedly empowers private parties to sue for rescission of any contract
+that allegedly violates the Act.
+Petitioners (“Funds”) are investment companies that manage closed-
+end mutual funds. These funds are “closed” because each contains a
+fixed number of shares issued at one time, and the price of each share
+is determined by trading on the open market. Respondents Saba Cap-
+ital Master Fund, Ltd., and Saba Capital Management, L. P., (collec-
+tively, Saba) engage in activist investing—a practice that involves
+identifying low-performing closed-end funds and purchasing a large
+enough stake to alter the funds’ investment strategies. The Funds are
+incorporated in Maryland, which has enacted the Maryland Control
+Share Acquisition Act (MCSAA), and have adopted resolutions opting
+into MCSAA provisions that limit voting rights for shareholders hold-
+ing a disproportionate number of shares (like activist investors) unless
+other shareholders approve. In June 2023, Saba sued the Funds, al-
+leging that the Funds’ resolutions violate the ICA’s requirement that
+every share of stock shall be a voting stock with equal voting rights.
+Saba’s suit invoked Section 47(b) of the ICA, which provides that “a
+court may not deny rescission” of contracts that violate the ICA “at the
+instance of any party” unless the court finds that doing so would be
+consistent with equity and the ICA’s goals. 15 U. S. C. §80a–46(b)(2).
+2 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL
+MASTER FUND, LTD.
+Syllabus
+The District Court held that Section 47(b) creates an implied private
+right of action to sue for contract rescission and granted Saba sum-
+mary judgment. The Second Circuit summarily affirmed.
+Held: Section 47(b) of the ICA does not impliedly empower private par-
+ties to sue for rescission of contracts that allegedly violate the Act. Pp.
+3–10.
+(a) Congress, not the Judiciary, decides who may enforce federal law;
+when Congress creates a private right of action, it usually does so ex-
+pressly. The Court has rejected the practice of fashioning rights of
+action, Alexander v. Sandoval, 532 U. S. 275, 287, because judicially
+created causes of action are difficult to reconcile with “ ‘the Constitu-
+tion’s separation of legislative and judicial power,’ ” Egbert v. Boule,
+596 U. S. 482, 491. If a statute does not spell out a right of action,
+courts examine its text and structure to determine whether it implic-
+itly provides one.
+To create a private right, a statute must use “ ‘rights-creating’ lan-
+guage” aimed at protecting “ ‘a particular class of persons.’ ” Sandoval,
+532 U. S., at 288–289. Language that “focus[es] on the person regu-
+lated rather than the individuals protected” does not suffice. Id., at
+289. And the existence of an express “remedial schem[e]” elsewhere in
+the statute may “foreclose a private cause of action to enforce even
+those statutes that admittedly create substantive private rights.” Id.,
+at 290. Pp. 3–4.
+(b) Section 47 of the ICA—entitled “[v]alidity of contracts”—provides
+that any contractual waiver of compliance with the ICA “shall be void,”
+§80a–46(a), and that contracts made in violation of the ICA are gener-
+ally unenforceable unless specific circumstances are met, §80a–
+46(b)(1). Relevant here, if such a contract “has been performed, a court
+may not deny rescission at the instance of any party unless such court
+finds that under the circumstances the denial of rescission would pro-
+duce a more equitable result than its grant and would not be incon-
+sistent with the purposes of this subchapter.” §80a–46(b)(2).
+The phrase “rescission at the instance of any party” does not imply
+that private parties may sue. Section 47(b) is a “mandate directed to
+. . . courts,” rather than a provision that “confer[s] a right on a specified
+class of persons.” Thompson v. Thompson, 484 U. S. 174, 183. The key
+actor is a court, not an individual, §80a–46(b)(2), and it is instructed
+not to deny the remedy of rescission to parties who request it for per-
+formed contracts unless the equities and ICA’s goals favor a different
+result, ibid. Section 47(b)’s wording presupposes that parties are al-
+ready before the court and directs the court’s use of its remedial au-
+thority; it says nothing about individual rights.
+Statutory structure points in the same direction. The Securities and
+Exchange Commission bears primary responsibility for ensuring
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+compliance with the ICA and may investigate and bring enforcement
+actions in response to violations. §80a–41(a). Congress’s decision to
+create a comprehensive agency enforcement scheme supports the con-
+clusion that private parties generally cannot enforce the ICA. North-
+west Airlines, Inc. v. Transport Workers, 451 U. S. 77, 94. Pp. 4–8.
+(c) Saba’s counterarguments are unpersuasive. The phrase “at the
+instance of any party” ordinarily means “at the solicitation” or “sug-
+gestion of,” 7 Oxford English Dictionary 1040, directing a court’s reme-
+dial power when a party before it is urging rescission; the phrase says
+nothing about conferring a right to sue in the first place. Saba’s reli-
+ance on Transamerica Mortgage Advisors, Inc. v. Lewis (TAMA), 444
+U. S. 11, which holds that the Investment Advisers Act (IAA) creates
+an implied right of action based on the phrase “shall be void,” §80b–
+15(b), is unavailing because Congress amended Section 47(b) in 1980,
+deleting the “shall be void” language on which TAMA’s reasoning turns
+and shifting the focus toward regulating a court’s remedial authority.
+Congress made these changes despite retaining the phrase “shall be
+void” in the immediately preceding provision, §47(a), and in the IAA
+itself. Changed language typically indicates changed meaning, and
+that is true here. Even if TAMA applied, it blesses only a “limited
+private remedy . . . to void an investment advisers contract,” 444 U. S.,
+at 24 (emphasis added); Saba would wield Section 47(b) to void any
+type of contract that violates the ICA. TAMA is thin support for such
+a sweeping right. Pp. 8–10.
+Reversed and remanded.
+BARRETT, J., delivered the opinion of the Court, in which ROBERTS,
+C. J., and THOMAS, ALITO, GORSUCH, and KAVANAUGH, JJ., joined.
+KAGAN, J., filed a dissenting opinion. JACKSON, J., filed a dissenting opin-
+ion, in which SOTOMAYOR, J., joined, and in which KAGAN, J., joined as to
+Parts I and II.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–345
+FS CREDIT OPPORTUNITIES CORP., ET AL.,
+PETITIONERS v. SABA CAPITAL MASTER
+FUND, LTD., ET AL.
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE SECOND CIRCUIT
+[June 11, 2026]
+JUSTICE BARRETT delivered the opinion of the Court.
+Congress, not the Judiciary, decides who may enforce the
+law. The Investment Company Act designates the Securi-
+ties and Exchange Commission as its primary enforcer and
+expressly permits shareholders and issuers of securities to
+enforce two of its provisions. We must decide whether an-
+other provision of the Act impliedly empowers private par-
+ties to sue for rescission of any contract that allegedly vio-
+lates the Act. The answer is no.
+I
+The Investment Company Act (ICA) comprehensively
+regulates investment companies. Petitioners, whom we
+will call the “Funds,” are investment companies that man-
+age closed-end mutual funds. These funds are called
+“closed” because they contain a fixed number of shares is-
+sued at one time. After shares are issued, capital does not
+regularly flow into the funds when investors buy shares,
+nor does it flow out when they sell. Instead, shares trade
+on the open market, which determines their price. Even
+though the net-asset value of the holdings may be lower due
+2 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL
+MASTER FUND, LTD.
+Opinion of the Court
+to market fluctuations, long-term investors (like individu-
+als saving for retirement) often favor closed-end funds.
+Respondents Saba Capital Master Fund, Ltd., and Saba
+Capital Management, L. P., whom we will call “Saba,” man-
+age open-end mutual funds. Unlike their closed-end coun-
+terparts, open-end funds continually issue new shares to in-
+vestors. These funds do not trade on the market and their
+shares are priced daily based on the net-asset value of the
+underlying holdings. Because capital continually flows into
+and out of these funds as trading occurs, they are highly
+liquid. Saba’s investment strategy includes identifying low-
+performing closed-end funds and purchasing a large enough
+stake to change the funds’ behavior. Brief for Respondents
+17–18. Known as activist investing, this practice allows
+Saba to alter closed-end funds’ investment strategies to
+make short-term profit or to convert them into open-end
+funds. Brief for Petitioners 11; Saba Capital CEF Oppor-
+tunities 1, Ltd. v. Nuveen Floating Rate Income Fund, 88
+F. 4th 103, 108 (CA2 2023).
+To avoid activist-investor takeovers, closed-end funds
+generally incorporate in jurisdictions with laws that favor
+them. The Funds are incorporated in Maryland, which has
+enacted the Maryland Control Share Acquisition Act
+(MCSAA). The MCSAA limits voting rights for sharehold-
+ers holding a disproportionate number of shares (like activ-
+ist investors) unless other shareholders approve. See Md.
+Corp. & Assns. Code Ann. §3–702(a)(1) (2026). In this way,
+it prevents rapid shifts in fund control. The Funds have
+adopted resolutions opting into the MCSAA.
+In June 2023, Saba sued the Funds over those resolu-
+tions. Saba alleged that they violate the ICA’s requirement
+that “every share of stock . . . shall be a voting stock and
+have equal voting rights with every other outstanding
+stock.” 15 U. S. C. §80a–18(i). For a right of action, Saba
+invoked Section 47(b) of the ICA. That section provides that
+“a court may not deny rescission” of contracts that violate
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+the ICA “at the instance of any party” unless the court finds
+that doing so would be consistent with equity and the ICA’s
+goals. §80a–46(b)(2).
+The District Court, following the Second Circuit’s deci-
+sion in Oxford University Bank v. Lansuppe Feeder, LLC,
+933 F. 3d 99 (2019), held that Section 47(b) creates an im-
+plied private right of action to sue for contract rescission
+and granted Saba summary judgment. The Second Circuit
+summarily affirmed. We granted certiorari to resolve a cir-
+cuit split over whether Section 47(b) contains an implied
+private right of action.1 606 U. S. 930 (2025).
+II
+Congress determines who may sue to enforce federal law.
+Touche Ross & Co. v. Redington, 442 U. S. 560, 579 (1979);
+Alexander v. Sandoval, 532 U. S. 275, 286 (2001). When
+Congress creates a private right of action, it usually does so
+expressly. For example, “[a] person whose religious exer-
+cise has been burdened in violation of [the Religious Free-
+dom Restoration Act] may assert that violation as a claim
+or defense in a judicial proceeding.” 42 U. S. C. §2000bb–
+1(c). A “person aggrieved” by discrimination may “insti-
+tut[e]” a “civil action for preventative relief.” §2000a–3(a).
+And so on.
+Private litigants sometimes sue to enforce statutes that
+lack comparable language. At one point in time, the Court
+stood ready to let them; it reasoned that courts should “be
+alert to provide such remedies as are necessary to make ef-
+fective the congressional purpose” underlying a statute.
+J. I. Case Co. v. Borak, 377 U. S. 426, 433 (1964). But we
+have since rejected the practice of fashioning rights of
+——————
+1 Compare Oxford Univ. Bank, 933 F. 3d, at 105, with Santomenno
+ex rel. John Hancock Trust v. John Hancock Life Ins. Co. (U. S. A.), 677
+F. 3d 178, 186–187 (CA3 2012); Steinberg v. Janus Capital Mgmt., LLC,
+457 Fed. Appx. 261, 267 (CA4 2011) (per curiam); UFCW Local 1500 Pen-
+sion Fund v. Mayer, 895 F. 3d 695, 699–701 (CA9 2018).
+4 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL
+MASTER FUND, LTD.
+Opinion of the Court
+action as we see fit. Central Bank of Denver, N. A. v. First
+Interstate Bank of Denver, N. A., 511 U. S. 164, 170 (1994);
+Sandoval, 532 U. S., at 287. Home-grown causes of action
+are difficult to reconcile with “the Constitution’s separation
+of legislative and judicial power.” Egbert v. Boule, 596 U. S.
+482, 491 (2022) (internal quotation marks omitted). Rather
+than augmenting statutes, we interpret them. If a statute
+does not spell out a right of action, we examine the statute’s
+text and structure to determine whether it implicitly pro-
+vides one.
+To create a private right, a statute must use “rights-cre-
+ating language” aimed at protecting “a particular class of
+persons.” Sandoval, 532 U. S., at 288–289 (internal quota-
+tion marks omitted); Gonzaga Univ. v. Doe, 536 U. S. 273,
+284 (2002) (statutes create private rights when they are
+“ ‘phrased in terms of the persons benefited’”). Language
+that “focus[es] on the person regulated rather than the in-
+dividuals protected” does not fit the bill. Sandoval, 532
+U. S., at 289. And language establishing an express “reme-
+dial schem[e]” elsewhere in the statute may “foreclose a pri-
+vate cause of action to enforce even those statutes that ad-
+mittedly create substantive private rights.” Id., at 290;
+Middlesex County Sewerage Authority v. National Sea
+Clammers Assn., 453 U. S. 1, 13–14 (1981) (existence of
+“elaborate enforcement provisions” forecloses the “implica-
+tion [of] additional judicial remedies”). So we also examine
+whether Congress has provided other mechanisms for en-
+forcing the provision at issue. Northwest Airlines, Inc. v.
+Transport Workers, 451 U. S. 77, 93–94 (1981).
+With this framework in mind, we turn to the ICA. Sec-
+tion 47—entitled “[v]alidity of contracts”—contains two
+parts. The first provides that any contractual waiver of
+compliance with the ICA “shall be void.” 15 U. S. C. §80a–
+46(a). The second provides that contracts made in violation
+of the ICA are “unenforceable by either party . . . unless a
+court finds that under the circumstances enforcement
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+would produce a more equitable result . . . and would not be
+inconsistent with the purposes of this subchapter.” §80a–
+46(b)(1). And if such a contract “has been performed, a
+court may not deny rescission at the instance of any party
+unless such court finds that under the circumstances the
+denial of rescission would produce a more equitable result
+than its grant and would not be inconsistent with the pur-
+poses of this subchapter.” §80a–46(b)(2). The question is
+whether the phrase “rescission at the instance of any party”
+implies that private parties may sue. It does not.
+Section 47(b) is a “mandate directed to . . . courts,” rather
+than a provision that “confer[s] a right on a specified class
+of persons.” Thompson v. Thompson, 484 U. S. 174, 183
+(1988); cf. Sandoval, 532 U. S., at 289 (provision “ ‘phrased
+as a directive to federal agencies’ ” does not create a private
+right or remedy). The key actor is “a court,” not an individ-
+ual. §80a–46(b)(2). And a court is told that it “may not
+deny” the remedy of rescission to parties who request it for
+performed contracts unless the equities and statutory pur-
+poses favor a different result. Ibid. Section 47(b)’s wording
+thus presupposes that parties are already before the court
+and directs the court’s use of its remedial authority. It says
+not a word about individual rights.
+It bears emphasis that contract law treats rescission as a
+remedy, not a cause of action. See H. Black, Rescission of
+Contracts and Cancellation of Written Instruments §1
+(1916) (Black). Suits seeking rescission end up before
+courts in various ways. A party to a contract may bring an
+action under state law—say, for breach of contract—and
+ask the court to undo the contract. See 26 R. Lord, Williston
+on Contracts §68:22 (4th ed. 2019). Or she may seek rescis-
+sion when raising an affirmative defense such as fraud,
+mistake, or duress in a breach-of-contract suit. See 27 id.,
+§69:48 (2020); Brief for United States as Amicus Curiae 19.
+Or a nonparty, such as a shareholder, may seek rescission
+alleging that corporate officers violated their fiduciary
+6 FS CREDIT OPPORTUNITIES CORP. v. SABA CAPITAL
+MASTER FUND, LTD.
+Opinion of the Court
+duties. §80a–35(b). Regardless, other sources of law typi-
+cally supply the right of action in suits requesting rescis-
+sion.2
+Section 47(b)’s function underscores the provision’s focus
+on a court’s remedial power. The common law makes it dif-
+ficult to obtain rescission if a contract has been performed.
+If a contract formed in violation of a statute “has been fully
+executed on the part of the plaintiff,” then neither “a court
+of law nor a court of equity will assist the plaintiff to recover
+back the property conveyed or money paid under the con-
+tract.” St. Louis, V. & T. H. R. Co. v. Terre Haute & Indi-
+anapolis R. Co., 145 U. S. 393, 407–408 (1892); Black §313;
+see 15 W. Jaeger, Williston on Contracts §1787 (3d ed.
+1972). In that circumstance, the common law denies rescis-
+sion and leaves the parties “where their own acts have
+placed them.” Black §313; see also id., §318 (discussing re-
+scission in the context of contracts formed in violation of
+statutes); Restatement (First) of Contracts §598 (1932)
+(similar). Section 47(b) deviates from that common-law
+rule by instructing that courts “may not deny rescission” on
+the basis that a contract has been performed. By overriding
+the common-law default, it unlocks remedies that would
+otherwise be unavailable. It does not create a cause of ac-
+tion.
+Statutory structure points in the same direction. As the
+principal dissent concedes, post, at 10 (opinion of JACKSON,
+J.) (hereinafter the dissent), the Securities and Exchange
+Commission bears primary responsibility for ensuring
+——————
+2 Insisting that rescission signals a cause of action, the dissent quotes
+from Black’s treatise, which states that “ ‘a party . . . may invoke the aid
+of a court of equity and obtain a decree for . . . rescission.’ ” Post, at 9
+(opinion of JACKSON, J.) (quoting Black §1). Elsewhere, however, the
+treatise explains that a party may obtain equitable rescission only if “he
+is able to show the existence of some well-recognized title to equitable
+relief, such as fraud, mistake, or duress.” Id., §14. Consistent with our
+view, then, the treatise frames rescission as a remedy that may be
+granted to a party with an underlying claim in equity.
+7Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+compliance with the ICA. It may investigate and bring en-
+forcement actions in response to violations of “any provision
+of [the ICA] or of any rule, regulation, or order” issued un-
+der the Act. §80a–41(a). It may

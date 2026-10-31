@@ -1,0 +1,370 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+SRIPETCH v. SECURITIES AND EXCHANGE
+COMMISSION
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE NINTH CIRCUIT
+No. 25–466. Argued April 20, 2026—Decided June 4, 2026
+Ongkaruck Sripetch engaged in numerous fraudulent schemes involving
+at least 20 penny-stock companies. On discovering the schemes, the
+Securities and Exchange Commission (SEC) brought a civil enforce-
+ment action against Mr. Sripetch, charging him with six counts of se-
+curities fraud and one count of selling unregistered securities. Mr.
+Sripetch consented to the entry of judgment against him and agreed
+that the court could order disgorgement. When the SEC proceeded to
+seek over $4.1 million in disgorgement, however, Mr. Sripetch ob-
+jected. He argued that the SEC’s request violated Liu v. SEC, 591
+U. S. 71, because the SEC lacked evidence that his schemes caused
+investors to suffer any financial losses. On appeal, the Ninth Circuit
+rejected Mr. Sripetch’s argument, deepening a split among the Courts
+of Appeals.
+Held: A showing of pecuniary loss to investors is not required before the
+SEC may obtain a disgorgement award. Pp. 6–13.
+(a) The Court’s analysis begins with two statutory provisions, 15
+U. S. C. §§78u(d)(5) and 78u(d)(7). Section 78u(d)(5) allows the SEC to
+obtain “any equitable relief that may be appropriate or necessary for
+the benefit of investors.” Liu held this provision permits a court to
+order disgorgement so long as the remedy adheres to traditional equi-
+table principles. 591 U. S., at 85. After Liu, Congress adopted
+§78u(d)(7), which expressly allows the SEC to seek disgorgement in
+enforcement proceedings. The Court need not decide whether or how
+§78u(d)(7) affects the scope of the SEC’s disgorgement powers. Even
+assuming that disgorgement under §78u(d)(7) remains an equitable
+2 SRIPETCH v. SEC
+Syllabus
+remedy that must comply with traditional equitable rules, a showing
+of pecuniary loss to investors is not required before the SEC may ob-
+tain disgorgement. Pp. 6–8.
+(b) Courts sitting in equity have long issued remedies designed to
+“depriv[e] wrongdoers of their net profits from unlawful activity.” Liu,
+591 U. S., at 79. Under traditional equitable principles, a person seek-
+ing that kind of remedy does not need to prove he has “suffered a cor-
+responding loss or,” indeed, “any loss.” Restatement (First) of Restitu-
+tion §1, Comment e. Rather, when a person “has suffered an
+interference with protected interests,” he may be entitled to “restitu-
+tion of [the defendant’s] wrongful gain” from that interference even
+when he has suffered “no measurable loss whatsoever.” Restatement
+(Third) of Restitution and Unjust Enrichment, §3, Reporter’s Note a.
+The point of the remedy is for “the defendant . . . to give to the plaintiff
+the amount by which he has been enriched” from the wrongful invasion
+of the plaintiff’s legally protected interests, not to compensate the
+plaintiff for a financial loss. Restatement (First) of Restitution §1,
+Comment e. Numerous cases illustrate this principle. See, e.g., Raven
+Red Ash Coal Co. v. Ball, 185 Va. 534, 39 S. E. 2d 231; Edwards v.
+Lee’s Adm’r, 265 Ky. 418, 96 S. W. 2d 1028. Pp. 8–11.
+(c) The Court rejects Mr. Sripetch’s arguments to the contrary. He
+contends that Liu announced a rule requiring the SEC to make a show-
+ing of pecuniary loss before securing disgorgement. It did not. While
+Liu held that disgorgement must be “awarded for victims,” 591 U. S.,
+at 79, it drew this requirement from traditional equitable principles,
+and those principles do not demand a showing of pecuniary loss before
+a person may qualify as a “victim” entitled to an award of a wrong-
+doer’s profits.
+Mr. Sripetch submits that failing to require pecuniary loss would be
+inconsistent with Liu’s description of disgorgement as a remedy de-
+signed to “restor[e] the status quo.” Id., at 80. That is incorrect. In
+some instances, a defendant can unjustly enrich himself even without
+leaving a plaintiff worse off financially, and in those instances, a court
+must choose between two status quos: It can either restore the defend-
+ant to his prior position by stripping him of his unjust gains, or it can
+allow the defendant to benefit from his misconduct because the plain-
+tiff’s financial position has not changed. Equity traditionally prefers
+the first outcome, not the second.
+Mr. Sripetch expresses concern that, without a pecuniary loss re-
+quirement, the SEC might lose sight of traditional equitable principles
+and use §78u(d)(7) to seek penalties for the Treasury rather than com-
+pensation for victims. Should the SEC do so, that development would
+raise questions about whether and to what degree §78u(d)(7) permits
+deviation from equitable principles. But that does not mean this Court
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+should hold that the SEC’s disgorgement remedy requires proof of pe-
+cuniary loss—a requirement foreign to Liu and to traditional equitable
+principles alike.
+Amici’s concern that the SEC might seek disgorgement even for se-
+curities-law violations that do not invade the legally protected inter-
+ests of investors is beside the point in this case, as Mr. Sripetch has
+not disputed that his victims suffered a violation of their legally pro-
+tected interests. Pp. 11–13.
+154 F. 4th 980, affirmed.
+GORSUCH, J., delivered the opinion for a unanimous Court. THOMAS,
+J., filed a concurring opinion.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 25–466
+ONGKARUCK SRIPETCH, PETITIONER v.
+SECURITIES AND EXCHANGE
+COMMISSION
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE NINTH CIRCUIT
+[June 4, 2026]
+JUSTICE GORSUCH delivered the opinion of the Court.
+The Securities and Exchange Commission (SEC) may
+sometimes seek a court order directing those who violate
+federal securities laws to disgorge their ill-gotten gains to
+wronged investors. This case presents the question
+whether, as a condition of securing that relief, the SEC
+must prove victims of the securities-law violation have suf-
+fered pecuniary loss.
+I
+A
+The SEC’s disgorgement powers have a long and nuanced
+history. When Congress created the SEC in the 1930s, it
+did not authorize the Commission to seek monetary awards
+for violations of federal securities laws. Instead, “the only
+statutory remedy” the SEC could pursue was a judicial “in-
+junction barring future violations of securities laws.”
+Kokesh v. SEC, 581 U. S. 455, 458 (2017). With time, that
+changed. In 1990, for example, Congress provided the Com-
+mission with “a full panoply” of additional enforcement
+tools, including the power to “seek monetary penalties” for
+2 SRIPETCH v. SEC
+Opinion of the Court
+certain violations. Id., at 459. But even then, nothing in
+statutory law expressly authorized the SEC to seek and re-
+ceive a judicial order directing a defendant to disgorge his
+ill-gotten gains to wronged investors. See id., at 458–459.
+Instead, that remedy emerged like this. Beginning in the
+1970s, the SEC persuaded lower courts to order those who
+had violated federal securities laws to disgorge their unlaw-
+fully earned gains “as an exercise of th[e] [courts’] ‘inherent
+equity power to grant relief ancillary to an injunction.’ ” Id.,
+at 458 (quoting SEC v. Texas Gulf Sulphur Co., 312
+F. Supp. 77, 91 (SDNY 1970)). At first, some courts seemed
+to conceive of this remedy as a type of “restitution” to vic-
+tims. SEC v. Texas Gulf Sulphur Co., 446 F. 2d 1301, 1307–
+1308 (CA2 1971). But eventually, the SEC began routinely
+seeking and obtaining disgorgement awards that went “be-
+yond compensati[ng]” victims by sending disgorged funds
+“to the United States Treasury.” Kokesh, 581 U. S., at 465,
+467 (internal quotation marks omitted). Not only that, the
+sums disgorged often “exceed[ed] the profits” the defendant
+had “gained as a result of [his] violation.” Id., at 466.
+This Court first addressed these developments in 2017 in
+Kokesh. There, the SEC argued that no statute of limita-
+tions applied to its actions seeking disgorgement. We disa-
+greed, observing instead that 28 U. S. C. §2462 imposes a
+5-year limitations period for “ ‘any civil fine, penalty, or for-
+feiture.’ ” 581 U. S., at 457 (quoting §2462). Given what
+disgorgement had become, we held, the remedy amounted
+to a civil penalty subject to §2462’s limitations period. Id.,
+at 461–467. In reaching that holding, though, we expressed
+no “opinion on whether courts possess authority to order
+disgorgement in SEC enforcement proceedings” to begin
+with, nor did we express any “opinion . . . on whether courts
+have properly applied disgorgement principles in this con-
+text.” Id., at 461, n. 3.
+We agreed to answer those questions three years later in
+Liu v. SEC, 591 U. S. 71 (2020). While the term
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+“disgorgement” still appeared nowhere on the list of its stat-
+utory remedies, the SEC stressed that Congress had en-
+acted 15 U. S. C. §78u(d)(5) in 2002, a provision allowing it
+to seek “any equitable relief that may be appropriate or nec-
+essary for the benefit of investors.” And, the Commission
+argued, that statute’s reference to “equitable relief ” was
+broad enough to authorize its existing practice of seeking
+disgorgement awards. See Liu, 591 U. S., at 76–77.
+We agreed in part. Yes, we held, “equitable relief ” can
+encompass a disgorgement remedy. See id., at 85–87. But
+no, we added, the term “equitable relief ” does not capture
+the kind of disgorgement the SEC had often sought in lower
+courts. See id., at 85–92. And though we did not purport
+to set forth all “the bounds of traditional equity practice”
+applicable under §78u(d)(5), id., at 87, we did identify some
+key limitations on the disgorgement remedy authorized by
+that statute’s “equitable relief ” language.
+Among those limitations were these two. First, because
+equity seeks to “depriv[e] wrongdoers of their . . . profits
+from unlawful activity,” we held that any remedy must be
+limited to the defendant’s net profits (not total revenues)
+derived from his securities-law violations. Id., at 79; see
+also id., at 85, 91–92. Second, because equity aims to de-
+liver “wrongful gains” to “wronged victims”—a point rein-
+forced by §78u(d)(5)’s focus on “investors”—we concluded
+that any amounts the SEC secures must be “awarded for
+victims.” Id., at 79, 82–85, 89–90. Accordingly, we held
+that the SEC must “return a defendant’s gains to wronged
+investors,” contrary to its “practice of depositing a defend-
+ant’s gains with the Treasury.” Id., at 88.
+As much as it resolved, Liu left some questions unan-
+swered. We did not decide whether the SEC may seek dis-
+gorgement when it is “infeasible to distribute the collected
+funds to investors.” Id., at 89. Nor did we decide what
+showing the Commission might have to make to prove
+“[in]feasibility.” Ibid., n. 5. (Those questions remain for
+4 SRIPETCH v. SEC
+Opinion of the Court
+another day yet, as they have no bearing on this case.) Liu
+also left unaddressed what statute of limitations might ap-
+ply to disgorgement actions under §78u(d)(5). True, Kokesh
+had held that §2462’s 5-year limitations period governed ac-
+tions seeking disgorgement because, at that time, the rem-
+edy amounted to a civil penalty. See 581 U. S., at 467. But
+going forward, Liu clarified, disgorgement would need to
+follow “traditional equitable principles,” which do not con-
+fer the power to impose a “penalty.” 591 U. S., at 85, 90; see
+also Marshall v. Vicksburg, 15 Wall. 146, 149 (1873) (“Eq-
+uity never . . . lends its aid to enforce a . . . penalty”). So the
+question of what limitations period, if any, might attach to
+SEC disgorgement actions once again became uncertain.
+Six months after Liu, Congress again addressed the
+SEC’s remedial powers. In doing so, it left intact the Com-
+mission’s authority to seek “equitable relief ” in §78u(d)(5).
+But, in §78u(d)(7), Congress now explicitly added “disgorge-
+ment” to the SEC’s list of enforcement tools. And it pro-
+vided that the SEC may seek “disgorgement under para-
+graph (7) of any unjust enrichment by the person who
+received such unjust enrichment as a result of ” his securi-
+ties-law violation. §78u(d)(3)(A)(ii). Finally, Congress
+added two new statutes of limitations—one governing equi-
+table relief generally and another expressly addressing dis-
+gorgement. See §78u(d)(8).
+B
+All that brings us to this case. Ongkaruck Sripetch “ ‘en-
+gage[d] in numerous fraudulent schemes . . . involving at
+least 20 penny stock companies.’ ” 154 F. 4th 980, 984 (CA9
+2025). Some were classic “pump and dump” operations in
+which Mr. Sripetch and his co-conspirators obtained shares
+of penny-stock companies, promoted the companies to oth-
+ers, watched the share price rise, and then promptly sold.
+App. to Pet. for Cert. 25a–26a (Pet. App.). On discovering
+the schemes, the SEC brought a civil enforcement action
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+against Mr. Sripetch, charging him in court with six counts
+of securities fraud and one count of selling unregistered se-
+curities. Mr. Sripetch consented to the entry of judgment
+against him and agreed that the court could order disgorge-
+ment.
+When the SEC proceeded to seek over $4.1 million in dis-
+gorgement, however, Mr. Sripetch objected. As relevant
+here, he argued that the SEC’s request violated Liu for a
+very specific reason: The Commission lacked evidence that
+his schemes caused investors to suffer any “financial
+losses,” so there were no “victims” for whom disgorgement
+could be awarded under Liu. No. 3:20–cv–01864 (SD Cal.),
+ECF Doc. 142–1, pp. 9–10. The SEC disagreed, arguing
+that investors could qualify as “victims” under Liu even if
+they lost no money. No. 3:20–cv–01864 (SD Cal.), ECF Doc.
+145, pp. 2–5. And the Commission asserted that, regard-
+less, its evidence demonstrated that investors had suffered
+pecuniary loss “as a result of Sripetch’s wrongdoing.” Id.,
+at 5–6.
+The district court accepted the Commission’s second ar-
+gument. As it saw things, the SEC had done enough to
+show that Mr. Sripetch’s investors had suffered pecuniary
+loss. Pet. App. 30a. Accordingly, the district court did not
+decide whether such a showing was required in the first
+place. Ibid.
+When Mr. Sripetch appealed, however, the Ninth Circuit
+proceeded differently. Accepting the SEC’s threshold argu-
+ment, it held that “a finding of pecuniary harm is not re-
+quired” before a court orders disgorgement. 154 F. 4th, at
+985. The Ninth Circuit acknowledged that, under Liu, dis-
+gorgement “must be ‘awarded for victims.’ ” 154 F. 4th, at
+986 (quoting 591 U. S., at 75). But it rejected Mr. Sripetch’s
+submission that “ ‘victim’ ” must be “narrowly defined as an
+individual or entity that has suffered pecuniary harm.” 154
+F. 4th, at 986. As support, the court pointed to common law
+sources indicating that “a claimant seeking disgorgement
+6 SRIPETCH v. SEC
+Opinion of the Court
+need only show ‘an actionable interference by the defendant
+with the claimant’s legally protected interests.’ ” Ibid.
+(quoting Restatement (Third) of Restitution and Unjust En-
+richment §51(1) (2010) (Third Restatement)). Given its con-
+clusion that the SEC did not need to show pecuniary loss at
+all, the court declined to decide whether the SEC had in fact
+“made a showing of pecuniary harm.” 154 F. 4th, at 985,
+n. 4.
+The Ninth Circuit’s decision deepened a split among the
+Courts of Appeals. See id., at 985. While the First and
+Ninth Circuits have held that the SEC may obtain disgorge-
+ment without proving investors have suffered pecuniary
+loss, the Second Circuit has taken the opposite view. Com-
+pare SEC v. Navellier & Assoc., 108 F. 4th 19, 41, and n. 14
+(CA1 2024), and 154 F. 4th, at 985, with SEC v. Govil, 86
+F. 4th 89, 106 (CA2 2023). We granted certiorari to resolve
+that disagreement. 607 U. S. 1120 (2026).
+II
+We begin with two statutory provisions, §§78u(d)(5) and
+78u(d)(7). Enacted in 2002, §78u(d)(5) allows the SEC to
+obtain “any equitable relief that may be appropriate or nec-
+essary for the benefit of investors.” Liu held this provision
+permits a court to order disgorgement so long as the remedy
+adheres to traditional equitable principles. 591 U. S., at 85.
+After Liu, Congress adopted §78u(d)(7), which expressly al-
+lows the Commission to seek disgorgement in enforcement
+proceedings.
+Before us, the parties spill much ink debating how the
+addition of §78u(d)(7) affects the scope of the SEC’s dis-
+gorgement powers. Mr. Sripetch contends that the same
+equitable constraints Liu held applicable to disgorgement
+under §78u(d)(5) also apply under §78u(d)(7). See Brief for
+Petitioner 20–21. That is so, he says, because Congress
+meant simply to codify Liu when it adopted §78u(d)(7) and
+expressly authorized a disgorgement remedy for the first
+7Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+time. Beyond that, Mr. Sripetch argues, the primary func-
+tion of Congress’s work was to resolve what limitations pe-
+riod should apply to the SEC’s disgorgement remedy after
+the unsettling effect Liu had on that question. See
+§78u(d)(8).
+The Commission sees things differently. It concedes that
+under §78u(d)(7), as under §78u(d)(5), the SEC may seek
+disgorgement of only (1) a defendant’s net profits that were
+(2) causally connected to his unlawful conduct. See Brief
+for Respondent 33–35; Liu, 591 U. S., at 83–84, 90–92;
+Third Restatement §51, Comment f. After all, Congress’s
+new statutory language authorizing disgorgement permits
+the Commission to seek no more than the “unjust enrich-
+ment” a defendant “received . . . as a result of ” his securi-
+ties-law violations. §78u(d)(3)(A)(ii). At the same time, the
+SEC claims that §78u(d)(7) differs from §78u(d)(5) in one
+important respect. While we held in Liu that disgorgement
+under §78u(d)(5) must be “awarded for victims” of the de-
+fendant’s securities-law violations, 591 U. S., at 79, the
+SEC argues this constraint does not apply when it seeks
+disgorgement under the new provision Congress added af-
+ter Liu. As a result, the Commission says, in actions under
+§78u(d)(7), it does not have to connect the unlawful profits
+it seeks to any specific victims and the government may re-
+sume its former practice of keeping disgorgement awards
+for itself. Brief for Respondent 35.
+To decide this case, we need not resolve that dispute. The
+question we face is not whether Congress’s recent amend-
+ments free the SEC from the traditional equitable rule that
+disgorgement must be “awarded for victims.” Liu, 591
+U. S., at 79. The only question we took this case to resolve
+is whether the SEC must show that an investor suffered a
+pecuniary loss before it may secure a disgorgement remedy
+under either §78u(d)(5) or §78u(d)(7). And to answer that
+question, we can simply assume without deciding that dis-
+gorgement under §78u(d)(7) remains an equitable
+8 SRIPETCH v. SEC
+Opinion of the Court
+remedy—so that it must comply with traditional equitable
+rules, including the rule that disgorgement must be
+awarded for victims. Even assuming all that to be true, we
+conclude that a showing of pecuniary loss is not required
+before an investor may qualify as a victim of an offender’s
+wrongdoing entitled to compensation.
+A
+Perha

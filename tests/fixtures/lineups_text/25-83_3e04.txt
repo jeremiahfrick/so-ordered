@@ -1,0 +1,342 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+JULES v. ANDRE BALAZS PROPERTIES ET AL.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE SECOND CIRCUIT
+No. 25–83. Argued March 30, 2026—Decided May 14, 2026
+This case presents the question whether a federal court that has previ-
+ously stayed claims in a pending action under §3 of the Federal Arbi-
+tration Act (FAA) has jurisdiction to confirm or vacate a resulting ar-
+bitral award on those claims, even when the motion to confirm under
+§9 or the motion to vacate under §10 does not independently present a
+basis for federal jurisdiction on its face.
+Between 2017 and 2020, petitioner Adrian Jules worked at the Cha-
+teau Marmont Hotel in Los Angeles, California. When the hotel ended
+his employment in March 2020, Jules sued in Federal District Court
+in New York, alleging that respondents unlawfully discriminated
+against him in violation of federal and state law. Citing an arbitration
+agreement Jules had signed before beginning work at the hotel, re-
+spondents moved to stay federal proceedings pending arbitration un-
+der §3 of the FAA. The District Court held that the arbitration agree-
+ment covered Jules’s claims and stayed proceedings. Jules then
+commenced arbitration against respondents. The arbitrator issued a
+final award, ruling against Jules on all claims and awarding approxi-
+mately $34,500 in sanctions to respondents. Back in the same District
+Court that had previously stayed Jules’s claims pending arbitration,
+respondents moved to confirm the award under §9. Jules opposed con-
+firmation while cross-moving to vacate the arbitral award under §10
+on various grounds. Jules argued that, under Badgerow v. Walters,
+596 U. S. 1, the District Court lacked jurisdiction to confirm the award
+because the §9 and §10 motions neither presented federal questions
+nor satisfied the requirements for diversity jurisdiction. The District
+Court disagreed and confirmed the arbitral award. The Second Circuit
+affirmed, reasoning that Badgerow involved a freestanding action com-
+menced for the sole purpose of vacating an arbitral award, but that the
+2 JULES v. ANDRE BALAZS PROPERTIES
+Syllabus
+present action was distinct because it started as a federal-question suit
+before it was stayed pending arbitration. The Second Circuit held that
+a court with the power to stay an action under §3 has the further power
+to confirm any ensuing arbitration award, regardless of whether there
+is an independent jurisdictional basis for the §9 and §10 proceedings.
+Held: A federal court that has previously stayed claims in a pending ac-
+tion under §3 of the FAA has jurisdiction to confirm or vacate a result-
+ing arbitral award on those claims as prescribed in §9 and §10 of the
+FAA; nothing in the FAA precludes the normal operation of federal
+jurisdiction regarding live claims pending before a federal court. Pp.
+7–16.
+(a) Unlike with the freestanding applications at issue in Vaden v.
+Discover Bank, 556 U. S. 49, and Badgerow, assessing jurisdiction over
+a §9 or §10 motion in a case originally filed in federal court does not
+require “ ‘looking through’ ” the filed action “to the parties’ underlying
+substantive controversy” outside of court. Vaden, 556 U. S., at 62. In-
+stead, the court may assess its jurisdiction by looking at the suit that
+is already before it. As Badgerow explained, “[j]urisdiction to decide
+[a] case includes jurisdiction to decide [a] motion” within that case, and
+usually “there is no need to ‘look through’ the motion in search of a
+jurisdictional basis outside the court.” 596 U. S., at 15.
+The District Court had original jurisdiction, under 28 U. S. C. §1331,
+over Jules’s federal claims, and it was that very jurisdiction which au-
+thorized the court to adjudicate the arbitrability of Jules’s claims un-
+der the parties’ contract before staying litigation pending arbitration
+pursuant to §3. Nothing in the FAA eliminated that jurisdiction while
+the parties arbitrated. When the parties returned to court after arbi-
+tration with §9 and §10 motions, the court had the same “jurisdiction
+to decide the case,” and thus “jurisdiction to decide th[ose] motion[s],”
+that it possessed from the start. Badgerow, 596 U. S., at 15.
+This case therefore is not, as petitioner asserts, “Badgerow all over
+again.” In Badgerow, the first and only thing that had occurred in
+federal court was the confirm-or-vacate dispute under §9 and §10. In
+that circumstance, there were only two places a court could look to find
+federal jurisdiction: the face of the FAA motions or the underlying dis-
+pute that “was not before” the court. Id., at 9. Here, however, there is
+an obvious third place to look for jurisdiction: the original claims them-
+selves, which were sufficient to establish the District Court’s jurisdic-
+tion under 28 U. S. C. §1331.
+The fact that the arbitral award may have resolved Jules’s original
+claims only underscores why the District Court’s original jurisdiction
+extended to the parties’ §9 and §10 motions. Those motions required
+the District Court to assess whether there were grounds to vacate the
+award. The motions were thus integral to determining whether the
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+award would continue to serve as a valid defense to the original claims
+that had been stayed, but were still pending, in District Court until
+the court confirmed the award.
+Jules notes that, unlike dismissal based on an affirmative defense,
+a §9 motion goes further and asks a court to convert an arbitral award
+into a judgment of the court. That is correct, but federal courts have
+the power to incorporate private settlements into orders of the court
+when resolving claims that are the subject of those settlements, as rec-
+ognized in Kokkonen v. Guardian Life Ins. Co. of America, 511 U. S.
+375, as well as in the context of consent judgments and class-action
+settlements.
+The FAA’s structure further confirms jurisdiction here. In Smith v.
+Spizzirri, 601 U. S. 472, the Court held that §3 requires a stay rather
+than dismissal, which “comports with the supervisory role that the
+FAA envisions for the courts,” including “assist[ing] parties in arbitra-
+tion . . . and facilitating recovery on an arbitral award.” Id., at 478.
+Under the rule the Court adopts today, this scheme continues to work
+well: The FAA requires a stay so that a court that has granted a §3
+stay can superintend the arbitration to the end, including through con-
+firmation or vacatur under §9 or §10. Pp. 7–11.
+(b) Jules’s remaining counterarguments are without merit. First,
+Jules overreads Badgerow, which did not convert the nonjurisdictional
+FAA into a comprehensive jurisdictional scheme that requires an in-
+dependent jurisdictional basis for all §9 and §10 motions. The problem
+for the losing party in Badgerow was that, without the look-through
+approach authorized by §4, there was no federal jurisdiction to be
+found in the case. See 596 U. S., at 9, 12. Because §9 and §10, unlike
+§4, did not provide a textual basis for applying the look-through ap-
+proach, the Court held that it was not available. Id., at 14. Respond-
+ents here, to the contrary, are not asking for any “highly unusual” look-
+through rule, id., at 12, but merely ask the District Court to use the
+tools provided by the FAA to finally resolve the federal claims Jules
+filed in federal court under 28 U. S. C. §1331.
+Second, Jules argues that §9 and §10 applications should be treated
+as entirely “new federal actions” for purposes of assessing jurisdiction,
+even when filed in pre-existing suits, because §9 and §12 of the FAA
+require service and notice of such applications. That argument fails.
+The Court has explained that §3’s mandatory stay is aimed at
+“avoid[ing] [the] costs and complications” of “bring[ing] a new suit.”
+Spizzirri, 601 U. S., at 478. Jules concedes, moreover, that service of
+§9 and §10 motions is not required in all cases. The service provisions
+in §9 and §12 do not impose the strict jurisdictional rule he favors.
+Third, Jules’s reliance on §8 of the FAA, which governs certain mar-
+itime arbitrations, is unavailing. Section 8 merely instructs that in
+4 JULES v. ANDRE BALAZS PROPERTIES
+Syllabus
+one class of admiralty cases involving in rem jurisdiction over a vessel,
+the court holding the vessel must retain jurisdiction to confirm or va-
+cate such award. It does not shed light on how jurisdiction should
+function in other FAA disputes.
+Finally, Jules’s policy concerns lack force. His concerns about en-
+couraging parties to engage in useless federal litigation to create a ju-
+risdictional anchor are conjectural, and there is no evidence suggesting
+that his concerns about manufactured federal jurisdiction will come to
+pass. Moreover, it is not anomalous for federal jurisdiction to turn on
+how litigation proceeded, as “actual litigation” generally “define[s] the
+parties’ controversy.” Vaden, 556 U. S., at 68. In any event, counter-
+vailing policy concerns favor the Court’s rule. Jules’s rule would sig-
+nificantly diminish “the supervisory role that the FAA envisions for
+the courts,” Spizzirri, 601 U. S., at 478, and would undermine the effi-
+ciency interests at the heart of the FAA by forcing parties to launch a
+fresh state-court proceeding to secure confirmation or vacatur of an
+arbitral award. Jules’s approach could also lead to unnecessarily com-
+plex dual-track litigation where confirm-or-vacate proceedings com-
+mence in state court just as arbitrability appeals begin in federal court.
+Pp. 11–16.
+Affirmed.
+SOTOMAYOR, J., delivered the opinion for a unanimous Court.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 25–83
+ADRIAN JULES, PETITIONER v. ANDRE
+BALAZS PROPERTIES, ET AL.
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE SECOND CIRCUIT
+[May 14, 2026]
+JUSTICE SOTOMAYOR delivered the opinion of the Court.
+This case addresses whether a federal court that has pre-
+viously stayed claims in a pending action under §3 of the
+Federal Arbitration Act (FAA), 9 U. S. C. §1 et seq., has ju-
+risdiction to confirm or vacate a resulting arbitral award as
+to those claims under §9 and §10. The Court holds that it
+does. Because a federal court in this scenario has jurisdic-
+tion over the original claims and does not lose that jurisdic-
+tion while the case is stayed pending arbitration, it retains
+jurisdiction to determine whether the arbitral award re-
+solving those claims is valid and should be confirmed. The
+judgment of the Court of Appeals for the Second Circuit is
+therefore affirmed.
+I
+A
+The FAA “authorizes a party to an arbitration agreement
+to seek several kinds of assistance from a federal court.”
+Badgerow v. Walters, 596 U. S. 1, 4 (2022). At the front end,
+§3 of the FAA directs federal courts to stay any lawsuit that
+involves an issue that is “referable to arbitration,” and §4
+allows federal courts to compel arbitration if a party to an
+2 JULES v. ANDRE BALAZS PROPERTIES
+Opinion of the Court
+arbitration agreement refuses to arbitrate. During arbitra-
+tion, federal courts may facilitate the proceedings, includ-
+ing by appointing an arbitrator under §5 and enforcing sub-
+poenas under §7. On the back end, and central here, after
+an arbitral award has issued, federal courts may confirm,
+vacate, or modify such an award under §9, §10, or §11. Un-
+der §9, a court must confirm an award upon request “unless
+the award is vacated, modified, or corrected as prescribed
+in sections 10 and 11.” The grounds for vacatur and modi-
+fication are limited. See §10(a) (allowing vacatur for “cor-
+ruption, fraud, or undue means,” “partiality” or “miscon-
+duct” by an arbitrator, and “where the arbitrators exceeded
+their powers”); §11 (allowing modification of “material mis-
+calculation[s]” and in other narrow circumstances).
+An FAA motion can arrive in federal court in one of two
+ways. Sometimes (like in this case), an FAA motion arises
+in a pre-existing lawsuit. In such cases, one party files a
+federal suit and the other responds by arguing that the dis-
+pute is arbitrable and so should not go forward in court. If
+the latter party is right, the court must stay proceedings
+pending arbitration under §3 and, upon request, must com-
+pel arbitration under §4.1 (What else a court may do in this
+scenario, including with respect to §9 and §10 motions filed
+after arbitration has concluded and the parties return to
+court, is the subject of this appeal.) In other cases, a “free-
+standing” FAA motion can arrive in federal court outside of
+any pre-existing federal case. For example, the parties may
+proceed directly to arbitration under their contract but need
+assistance enforcing a subpoena, and so apply to a court for
+aid under §7. Or one party may refuse to respond to an out-
+of-court arbitration demand at all, and the other side may
+seek an order compelling arbitration under §4.
+——————
+1 As discussed below, see infra, at 10, this Court has held that §3 does
+not authorize a district court to dismiss a case after finding it to be arbi-
+trable; the text of §3 says that a federal court “shall . . . stay” proceedings,
+so a stay is required. Smith v. Spizzirri, 601 U. S. 472, 476 (2024).
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+Regardless of how an FAA dispute begins, federal juris-
+diction is not always a foregone conclusion. For a federal
+court to have jurisdiction over an arbitral dispute, it is not
+enough that the dispute implicates the FAA. That is be-
+cause the FAA is “ ‘something of an anomaly’ in the realm
+of federal legislation.” Vaden v. Discover Bank, 556 U. S.
+49, 59 (2009). Although the FAA is a federal statute that
+provides federal standards, it “does not itself create [fed-
+eral] jurisdiction.” Badgerow, 596 U. S., at 4. Instead,
+given the FAA’s “nonjurisdictional cast,” a federal court
+must have an “ ‘independent jurisdictional basis’ ” for grant-
+ing FAA relief. Vaden, 556 U. S., at 59. That could come,
+for example, in the form of diversity jurisdiction if a dispute
+under the FAA arises between citizens of different States
+with over $75,000 at issue. See 28 U. S. C. §1332(a). Or a
+court may have federal-question jurisdiction if an FAA mo-
+tion implicates a federal issue (other than one under the
+FAA). See §1331.
+In two prior cases, this Court has addressed how to assess
+jurisdiction over FAA motions filed as “freestanding” ac-
+tions in federal court. First, in Vaden v. Discover Bank, the
+Court held that §4 permits courts to assess jurisdiction by
+“ ‘looking through’ ” a motion to compel arbitration to the
+underlying dispute. 556 U. S., at 62. There, the parties be-
+gan with a contract dispute in state court, but after one side
+filed counterclaims, the other side filed a §4 motion in fed-
+eral court invoking the contract’s arbitration agreement.
+Id., at 54–55. The §4 motion itself did not present a federal
+question; it invoked only a contractual right to arbitrate.
+Id., at 63. Nor was diversity jurisdiction available. Id., at
+54, n. 1. Yet this was not the end of the matter. As the
+Court observed, §4’s text authorizes relief if a court, “ ‘save
+for [the arbitration] agreement, would have jurisdiction’ ”
+over the dispute. Id., at 62. The Court thus held that courts
+should determine §4 jurisdiction “by ‘looking through’ a §4
+petition to the parties’ underlying substantive controversy,”
+4 JULES v. ANDRE BALAZS PROPERTIES
+Opinion of the Court
+even though that controversy is not before the federal court.
+Id., at 62–63. If that “ ‘controversy between the parties,’ as
+they have framed it, could be litigated in federal court,”
+even if no such claim was ever filed in federal court, a court
+has jurisdiction to compel arbitration. Id., at 66.
+Second, in Badgerow v. Walters, the Court concluded that
+Vaden’s look-through approach does not apply to freestand-
+ing motions to confirm or vacate arbitral awards under §9
+or §10. 596 U. S., at 5. The parties in Badgerow began by
+proceeding directly to an arbitration of federal claims with-
+out filing suit in any court and without filing any §3 or §4
+motion. Ibid. After the arbitration resolved the federal
+claims at issue, one party sought confirmation of the award
+in federal court, while the other sought vacatur. Ibid. Like
+in Vaden, the FAA motions presented no (non-FAA) federal
+question on their face, and the parties were not diverse. 596
+U. S., at 9. The Court thus considered whether Vaden’s
+“ ‘look-through’ approach to jurisdiction applies to requests
+to confirm or vacate arbitral awards under the FAA’s Sec-
+tions 9 and 10.” 596 U. S., at 5.
+The Court held that it does not. The look-through ap-
+proach, the Court emphasized, is a “highly unusual” “juris-
+dictional outlier.” Id., at 12, 14. That is because the look-
+through approach “locates jurisdiction not in the action ac-
+tually before the court, but in another controversy neither
+there nor ever meant to be.” Id., at 12; see id., at 9 (similar).
+Vaden grounded its anomalous approach largely in §4’s
+“ ‘save for’ ” language, whereas “Sections 9 and 10,” the
+Court observed, “contain none of the statutory language on
+which Vaden relied.” 596 U. S., at 10–11. Accordingly,
+Badgerow held that a court presented with a freestanding
+§9 or §10 motion may not look through that motion to a con-
+troversy involving a federal issue that is “not before the
+court” in order to establish jurisdiction. Id., at 5.
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+B
+Between 2017 and 2020, petitioner Adrian Jules worked
+at the Chateau Marmont Hotel in Los Angeles, California.
+In March 2020, the hotel ended his employment, citing
+staffing issues related to the COVID–19 pandemic. Jules
+then sued in Federal District Court in New York (where
+several respondents are domiciled), alleging, among other
+things, that respondents unlawfully discriminated against
+him in violation of federal and state law.
+Jules, however, had signed an arbitration agreement be-
+fore beginning work at the hotel, which stated that any dis-
+putes related to his employment or termination thereof that
+could not be resolved by negotiation or mediation must be
+resolved by arbitration. Citing this agreement, respond-
+ents moved, as relevant here, to stay federal proceedings
+pending arbitration under §3. In 2021, the District Court
+held that the arbitration agreement covered Jules’s claims
+and stayed proceedings.
+Jules then commenced arbitration against respondents.
+In 2023, the arbitrator issued a final award ruling against
+Jules on all claims. In addition, the arbitrator awarded
+about $34,500 in sanctions to respondents based on Jules’s
+and his attorney’s misconduct (which included Jules refus-
+ing to participate in the arbitral hearing on Jules’s claims).
+Back in District Court, before the same court that had
+previously stayed Jules’s claims pending arbitration, re-
+spondents moved to confirm the award under §9. Jules op-
+posed confirmation while cross-moving to vacate the arbi-
+tral award under §10 on various grounds. Relevant here,
+Jules argued that, under Badgerow, the District Court
+lacked jurisdiction to confirm the award because the §9 and
+§10 motions did not present federal questions or satisfy the
+requirements for diversity jurisdiction, given that the par-
+ties to the arbitratio

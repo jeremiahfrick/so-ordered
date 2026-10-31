@@ -1,0 +1,357 @@
+Page Proof Pending PublicationA
+P R E L I M I N A R Y P R I N T
+Volume 607 U. S. Part 2
+Pages 537–551
+OFFICIAL REPORTS
+OF
+THE SUPREME COURT
+March 4, 2026
+REBECCA A. WOMELDORF
+reporter of decisions
+NOTICE: This preliminary print is subject to formal revision before
+the bound volume is published. Users are requested to notify the Reporter
+of Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+Page Proof Pending PublicationOCTOBER TERM, 2025 537
+Syllabus
+URIAS-ORELLANA et al. v. BONDI, ATTORNEY
+GENERAL
+certiorari to the united states court of appeals for
+the rst circuit
+No. 24–777. Argued December 1, 2025—Decided March 4, 2026
+This case presents the question whether the courts of appeals must apply
+substantial-evidence review to the Board of Immigration Appeals' de-
+termination whether a given set of undisputed facts constitutes “perse-
+cution” under 8 U. S. C. § 1101(a)(42).
+Petitioners Douglas Humberto Urias-Orellana, his wife Sayra Iliana
+Gamez-Mejia, and their minor child G. E. U. G. are natives of El Salva-
+dor who entered the United States without authorization in 2021.
+After being placed in removal proceedings, petitioners applied for asy-
+lum. Under the Immigration and Nationality Act (INA), the U. S. Gov-
+ernment “may grant asylum” to a noncitizen if it “determines” that he
+“is a refugee.” § 1158(b)(1)(A). An asylum seeker qualifes as a “refu-
+gee” if he “is unable or unwilling to return” to his country of nationality
+“because of persecution or a well-founded fear of persecution on account
+of race, religion, nationality, membership in a particular social group, or
+political opinion.” § 1101(a)(42)(A).
+In support of petitioners' applications for asylum, Urias-Orellana tes-
+tifed that he was being targeted by a hitman in El Salvador. The Im-
+migration Judge (IJ) found Urias-Orellana's testimony credible but con-
+cluded that it did not establish past persecution or a well-founded fear
+of future persecution under the INA. The IJ accordingly denied peti-
+tioners' asylum applications and ordered their removal. The Board of
+Immigration Appeals (BIA) affrmed. On petition for review, the U. S.
+Court of Appeals for the First Circuit also affrmed, holding that, under
+the substantial-evidence standard of review, the record did not compel
+a contrary fnding.
+Held: The INA requires application of the substantial-evidence standard
+to the agency's determination whether a given set of undisputed facts
+rises to the level of persecution under § 1101(a)(42)(A). Pp. 543–551.
+(a) Section 1252(b)(4) sets forth the scope and standard of review for
+courts of appeals evaluating IJ and BIA removal orders; subparagraph
+(B) provides that “administrative fndings of fact are conclusive unless
+any reasonable adjudicator would be compelled to conclude to the con-
+trary.” The Court has previously interpreted this provision to pre-
+scribe a deferential, “substantial-evidence standard,” Nasrallah v. Barr,
+Page Proof Pending Publication538 URIAS-ORELLANA v. BONDI
+Syllabus
+590 U. S. 573, 584, meaning “ `such relevant evidence as a reasonable
+mind might accept as adequate to support a conclusion,' ” Biestek v. Ber-
+ryhill, 587 U. S. 97, 103. The courts of appeals have split over the ex-
+tent to which this standard applies to the agency's determination that
+an asylum applicant has established persecution. Pp. 543–545.
+(b) Though the courts of appeals apply varying standards, the Court
+has already concluded that the persecution determination—including
+both the underlying factual fndings and the application of the INA to
+those fndings—receives substantial-evidence review. In INS v. Elias-
+Zacarias, 502 U. S. 478, the Court held that to obtain judicial reversal
+of the agency's persecution determination, an asylum applicant must
+show that the evidence presented was “so compelling that no reasonable
+factfnder could fail to fnd the requisite fear of persecution.” Id., at
+484. Congress amended the INA shortly after the Court's decision, but
+those amendments—and the addition of § 1252(b)(4)(B) in particular—
+codifed the Elias-Zacarias standard. The statute as it reads today
+therefore requires substantial-evidence review. Pp. 545–549.
+(c) The Court rejects petitioners' arguments that de novo review
+should apply because § 1252(b)(4)(B) requires deference only for “fnd-
+ings of fact” and no subparagraph explicitly addresses the mixed ques-
+tion of law and fact that is the determination of persecution. However,
+Elias-Zacarias and the subsequent statutory history suggest that Con-
+gress meant for the entirety of this “mixed” determination to receive
+deference under § 1252(b)(4)(B). The Court's decisions in Wilkinson v.
+Garland, 601 U. S. 209, and Guerrero-Lasprilla v. Barr, 589 U. S. 221,
+are not to the contrary. Those cases addressed whether a mixed ques-
+tion qualifes as a “question of law” exempt from § 1252(a)'s bar on judi-
+cial review, 601 U. S., at 212; 589 U. S., at 225; but whether a given
+issue is treated as a question of law exempt from the INA's jurisdiction-
+stripping provisions says nothing about the type of review the court
+must afford to that issue under other provisions of the statute.
+Pp. 549–550.
+121 F. 4th 327, affrmed.
+Jackson, J., delivered the opinion for a unanimous Court.
+Nicholas Rosellini argued the cause for petitioners.
+With him on the briefs were S. Y. Jessica Hui, Gregory G.
+Garre, and Christine C. Smith.
+Joshua Y. Dos Santos argued the cause for respondent.
+With him on the brief were Solicitor General Sauer, Assist-
+Page Proof Pending PublicationCite as: 607 U. S. 537 (2026) 539
+Opinion of the Court
+ant Attorney General Shumate, Deputy Solicitor General
+Gannon, John W. Blakeley, Melissa Neiman-Kelting, and
+Bryan S. Beier.*
+Justice Jackson delivered the opinion of the Court.
+Petitioners Douglas Humberto Urias-Orellana, his wife
+Sayra Iliana Gamez-Mejia, and their minor child G. E. U. G.
+are Salvadoran natives who sought asylum after entering the
+United States without authorization. An Immigration
+Judge (IJ) denied their applications and ordered their re-
+moval, determining that they had neither demonstrated past
+“persecution” nor established a “well-founded fear” of future
+“persecution” as required under the Immigration and Na-
+tionality Act (INA), 66 Stat. 163, 8 U. S. C. § 1101(a)(42)(A).
+After unsuccessfully challenging their removal order with
+the Board of Immigration Appeals (BIA), petitioners sought
+review in federal court. The Court of Appeals affrmed the
+BIA's ruling, holding that “substantial evidence” supported
+the agency's persecution determination. Urias-Orellana v.
+Garland, 121 F. 4th 327, 335–338 (CA1 2024).
+We granted certiorari to determine whether the Court of
+Appeals applied the appropriate standard of review under
+the INA. We conclude that the statute requires application
+of the substantial-evidence standard to the agency's conclu-
+sion that a given set of undisputed facts does not constitute
+persecution. Accordingly, we affrm.
+*Briefs of amici curiae urging reversal were fled for the Center for
+Individual Rights by Jonathan C. Bond, Trenton J. Van Oss, Lavi M. Ben
+Dor, and Caleb Kruckenberg; for Former Executive Offce for Immigration
+Review Judges by Richard W. Mark and Amer S. Ahmed; for Immigration
+Law Professors by Minh Nguyen-Dang; and for Legal Services Providers
+et al. by Ethan Nutter, Melissa Crow, Robert Pauw, and Matthew X. Et-
+chemendy. Briefs of amici curiae urging vacatur were fled for Immigra-
+tion Law Scholars et al. by Peter E. Davis; and for Nancy Morawetz by
+Eugene A. Sokoloff.
+Page Proof Pending Publication540 URIAS-ORELLANA v. BONDI
+Opinion of the Court
+I
+A
+Petitioners entered the United States without authoriza-
+tion in 2021. Soon after they arrived, the Government
+served petitioners with notices to appear in federal immigra-
+tion court for a removal hearing. When they appeared as
+scheduled in an immigration court in Boston, petitioners con-
+ceded their removability but claimed asylum (along with
+other forms of relief from removal that are no longer at
+issue).
+Petitioner Urias-Orellana was the sole witness at the re-
+moval hearing. He testifed that a “sicario” (i. e., hitman)
+from his hometown had been targeting him since 2016.
+That year, the sicario shot two of Urias-Orellana's half-
+brothers and vowed to kill every member of his family. Id.,
+at 332. To escape the sicario's threats, Urias-Orellana,
+Gamez-Mejia, and G. E. U. G. relocated within El Salvador
+several times over the next few years. After each move,
+Urias-Orellana was threatened by men who demanded
+money and warned that they would leave him like his broth-
+ers if he did not pay up. One of the men even physically
+assaulted Urias-Orellana when he returned to his hometown
+for a brief visit. Id., at 333.
+The last straw came soon after Urias-Orellana's fourth and
+fnal move in 2021, when he learned that men had been ask-
+ing around town about the arrival of any newcomers. It
+was at this point that Urias-Orellana, Gamez-Mejia, and
+G. E. U. G. left El Salvador for the United States.
+Under the INA, the U. S. Government “may grant asylum”
+to a noncitizen if it “determines” that he “is a refugee.” 8
+U. S. C. § 1158(b)(1)(A). An asylum seeker qualifes as a
+“refugee,” and is thus eligible for asylum, if he “is unable or
+unwilling to return” to his country of nationality “because of
+persecution or a well-founded fear of persecution on account
+of race, religion, nationality, membership in a particular so-
+cial group, or political opinion.” § 1101(a)(42)(A). An asy-
+Page Proof Pending PublicationCite as: 607 U. S. 537 (2026) 541
+Opinion of the Court
+lum seeker can submit an affrmative application to the De-
+partment of Homeland Security, see § 1158(a), or raise asylum
+eligibility as a defense to removal proceedings before an IJ,
+see § 1229a(c)(4). Urias-Orellana and his family chose the
+latter path: When the Government initiated removal pro-
+ceedings against them, they defended by asserting asylum
+eligibility.
+The IJ credited Urias-Orellana's account of the facts but
+concluded that those facts were insuffcient to establish
+either past persecution or a well-founded fear of future per-
+secution. The IJ explained that, under First Circuit prece-
+dent, death threats may establish past persecution only when
+they are “ `so menacing as to cause signifcant actual suffer-
+ing or harm.' ” App. to Pet. for Cert. 31a (quoting Bonilla
+v. Mukasey, 539 F. 3d 72, 77 (CA1 2008)). The IJ concluded
+that Urias-Orellana's past-persecution claim failed under
+that standard, as he had not submitted any medical, psychi-
+atric, or psychological evaluations indicating that he had ex-
+perienced such suffering or harm. App. to Pet. for Cert.
+31a–32a. The IJ further found the evidence regarding
+Urias-Orellana's alleged fear of future persecution to be lack-
+ing. He observed that Urias-Orellana had successfully es-
+caped danger after many of his relocations and that any risk
+resurfaced only when Urias-Orellana returned to his home-
+town or nearby areas. Id., at 32a–35a.
+Given the dearth of evidence establishing past or future
+persecution, the IJ determined that Urias-Orellana did not
+qualify as a refugee eligible for asylum under § 1101(a)(42).
+See id., at 44a. The IJ determined that Gamez-Mejia and
+G. E. U. G. were likewise ineligible for asylum, as their claims
+were “derivativ[e]” of Urias-Orellana's. Id., at 28a. So, the
+IJ ordered all three petitioners' removal. Id., at 44a.
+B
+Petitioners appealed the IJ's ruling to the BIA. See 8
+CFR § 1003.1(b) (2025) (providing authority for such an ap-
+peal). But the BIA affrmed the IJ's conclusion that Urias-
+Page Proof Pending Publication542 URIAS-ORELLANA v. BONDI
+Opinion of the Court
+Orellana's testimony “did not establish that he suffered past
+harm in the aggregate rising to the level of persecution.”
+App. to Pet. for Cert. 21a. It also agreed that because
+Urias-Orellana “only had problems when he returned to his
+hometown,” his testimony did not establish a well-founded
+fear of future persecution. Id., at 22a.
+Petitioners then sought further review in the U. S. Court
+of Appeals for the First Circuit pursuant to 8 U. S. C.
+§ 1252(b)(2). See 121 F. 4th, at 331. Petitioners did not dis-
+pute that death threats may establish past persecution only
+when they are “so menacing as to cause signifcant actual
+suffering or harm.” Opening Brief for Petitioners in No.
+24–1042 (CA1), pp. 9–10 (internal quotation marks omitted).
+Instead, they argued that the undisputed facts of this case
+met that standard. The Court of Appeals emphasized that
+its review was “cabin[ed]” to “whether the Agency conclu-
+sion [that petitioners] had not demonstrated past persecution
+or a well-founded fear of future persecution was supported
+by substantial evidence.” 121 F. 4th, at 335. Under that
+standard, reversal was warranted only “if, in reviewing the
+record as a whole, any reasonable adjudicator would be com-
+pelled to conclude to the contrary.” Ibid. (internal quota-
+tion marks omitted).
+The Court of Appeals ultimately affrmed, concluding that
+Urias-Orellana's testimony did not compel a fnding of either
+past persecution or a well-founded fear of future persecution.
+See id., at 336–338. In particular, it determined that “[t]he
+Agency reasonably concluded that the threats experienced
+by Urias-Orellana” were not “so menacing as to cause sig-
+nifcant actual suffering or harm.” Id., at 336 (internal quo-
+tation marks omitted). It similarly determined that, be-
+cause “Urias-Orellana was able to live in towns across El
+Salvador for years without harassment and only encountered
+diffculties once he returned to his hometown,” a reasonable
+factfnder would not be compelled to fnd a well-founded fear
+of future persecution. Id., at 338.
+Page Proof Pending PublicationCite as: 607 U. S. 537 (2026) 543
+Opinion of the Court
+We granted certiorari, 606 U. S. 930 (2025), to evaluate
+whether the Court of Appeals applied the appropriate stand-
+ard of review when evaluating Urias-Orellana's asylum
+claim.1
+II
+Section 1252(b)(4) does not use the phrase “substantial evi-
+dence.” But it does specifcally address the “[s]cope and
+standard for review” that the courts of appeals must apply
+when evaluating IJ and BIA removal orders.
+As relevant here, each of § 1252(b)(4)'s four subparagraphs
+truncates the court's review in a particular manner. Sub-
+paragraph (A) states that “the court of appeals shall decide
+the petition only on the administrative record on which the
+order of removal is based.” Subparagraph (C) says that “a
+decision [by the agency] that [a noncitizen] is not eligible for
+admission to the United States is conclusive unless mani-
+festly contrary to law.” And, per subparagraph (D), “the
+Attorney General's discretionary judgment whether to grant
+relief under section 1158(a) of this title shall be conclusive
+unless manifestly contrary to the law and an abuse of
+discretion.”
+This case involves subparagraph (B), which provides that
+“the administrative fndings of fact are conclusive unless any
+reasonable adjudicator would be compelled to conclude to
+the contrary.” § 1252(b)(4)(B). This Court has previously
+interpreted subparagraph (B) to prescribe a deferential,
+“substantial-evidence standard” for review of agency factual
+1 Because petitioners have not challenged the standard of persecution
+that the agency applied—i. e., that death threats are suffcient to establish
+past persecution only when they are so menacing as to cause signifcant
+actual suffering or harm, see App. to Pet. for Cert. 31a—we consider only
+the appropriate standard of review for the agency's application of that
+standard to the facts. We note the Solicitor General agrees with petition-
+ers that “purely legal questions about the appropriate standard” of perse-
+cution are subject to de novo review. Brief for Respondent 40; see Tr. of
+Oral Arg. 48.
+Page Proof Pending Publication544 URIAS-ORELLANA v. BONDI
+Opinion of the Court
+fndings. Nasrallah v. Barr, 590 U. S. 573, 584 (2020). Sub-
+stantial evidence, we have long emphasized, is “ `more than
+a mere scintilla,' ” but “means—and means only—`such rele-
+vant evidence as a reasonable mind might accept as adequate
+to support a conclusion.' ” Biestek v. Berryhill, 587 U. S. 97,
+103 (2019) (quoting Consolidated Edison Co. v. NLRB, 305
+U. S. 197, 229 (1938)). Or, to come full circle, “ `fndings of
+fact are conclusive unless any reasonable adjudicator would
+be compelled to conclude to the contrary.' ” Nasrallah, 590
+U. S., at 584 (quoting § 1252(b)(4)(B)).
+Whether a given agency determination fts within the pur-
+view of subparagraph (B)—and is thus reviewed for substan-
+tial evidence—is not always clear. Indeed, the courts of ap-
+peals have split over the standard of review that should
+apply to the agency's determination that an asylum applicant
+has not established past “persecution” or a “well-founded
+fear of [future] persecution” within the meaning of
+§ 1101(a)(42)(A).
+Some courts review the entire inquiry (both the underly-
+ing factual fndings about what happened to the applicant
+in her home country and the agency's application of the stat-
+ute to those fndings) under the substantial-evidence stand-
+ard.2 Other courts break down the inquiry into two parts,
+reviewing the agency's factual fndings for substantial evi-
+dence and its legal conclusions de novo.3 Yet even those
+courts are not always careful when differentiating between
+factual fndings and the application of the law to those fnd-
+2 See Gómez-Medina v. Barr, 975 F. 3d 27, 31, 33 (CA1 2020); Ai Hua
+Chen v. Holder, 742 F. 3d 171, 177–178 (CA4 2014); Yu v. Ashcroft, 364
+F. 3d 700, 702–703 (CA6 2004); Ahmed v. Gonzales, 467 F. 3d 669, 673 (CA7
+2006); Vicente-Elias v. Mukasey, 532 F. 3d 1086, 1091 (CA10 2008).
+3 See Diallo v. INS, 232 F. 3d 279, 287 (CA2 2000); Herrera-Reyes v.
+Attorney Gen., 952 F. 3d 101, 106 (CA3 2020); Lopez-Gomez v. Ashcroft,
+263 F. 3d 442, 444 (CA5 2001) (per curiam); Njong v. Whitaker, 911 F. 3d
+919, 922 (CA8 2018); Kaur v. Wilkinson, 986 F. 3d 1216, 1221 (CA9 2021);
+Mejia v. Attorney Gen., 498 F. 3d 1253, 1256 (CA11 2007).
+Page Proof Pending PublicationCite as: 607 U. S. 537 (2026) 545
+Opinion of the Court
+ings, sometimes applying substantial-evidence review to the
+entire inquiry.4
+Today we resolve the proper-standard question as it re-
+lates to the courts of appeals' review of the agency's persecu-
+tion determination. As explained in Part III, infra, we hold
+that § 1252(b)(4)(B) requires courts to review the entirety of
+the agency's conclusions—both the underlying factual fnd-
+ings and the application of the INA to those fndings—for
+substantial evidence. Thus, in the language of the statute,
+the agency's determination whether a given set of undis-
+puted facts rises to the level of persecution under
+§ 1101(a)(42)(A) is generally “conclusive unless any reason-
+able adjudicator would be compelled to conclude to the con-
+trary.” § 1252(b)(4)(B).
+III
+Though the courts of appeals apply varying standards to
+the agency's persecution determination, we have already
+concluded that these determinations receive substantial-
+evidence review. Specifcally, in INS v. Elias-Zacarias, 502
+U. S. 478 (1992), we held that “to obtain judicial reversal”
+of the agency's persecution determination, an asylum ap-
+plicant “must show that the evidence he presented was
+so compelling that no reasonable factfnder could fail to
+fnd the requisite fear of persecution.” Id., at 483–484. To
+be sure, Congress amended the INA shortly after our de-
+cision. But those amendments—and the addition of
+§ 1252(b)(4) in particular—codifed the Elias-Zacarias stand-
+ard. As such, the statute as it reads today requires
+substantial-evidence review for the entirety of the persecu-
+tion determination.
+4 See Scarlett v. Barr, 957 F. 3d 316, 328, 336 (CA2 2020); Thayalan v.
+Attorney Gen., 997 F. 3d 132, 137–138, n. 1 (CA3 2021); Gjetani v. Barr,
+968 F. 3d 393, 396–39

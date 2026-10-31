@@ -104,7 +104,7 @@ function renderTable(head: string, cert: string, amicus: string, caseLink: strin
   return `\nCaption|${head}\n:--|:--\nSummary|${summary}\nAuthor|${author}\nOpinion|${opinionLink}\nCertiorari|${cert}\n${amicusRow}Case Link|${caseLink}\n`;
 }
 
-// Ports build_opinion_post (without the lineup section, which is v2).
+// Ports build_opinion_post; the lineup section is appended by the poller (see lineup.ts).
 export function buildOpinionPost(opinion: FeedOpinion, caseJson: any, authorName: string): { title: string; body: string } {
   const petitioner = String(caseJson.PetitionerTitle).split(', et al')[0];
   const head =

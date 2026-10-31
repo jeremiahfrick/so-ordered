@@ -1,0 +1,299 @@
+1Cite as: 608 U. S. ____ (2026)
+Per Curiam
+SUPREME COURT OF THE UNITED STATES
+DISTRICT OF COLUMBIA v. R.W.
+ON PETITION FOR WRIT OF CERTIORARI TO THE DISTRICT OF
+COLUMBIA COURT OF APPEALS
+No. 25–248. Decided April 20, 2026
+PER CURIAM.
+In the wee hours of a winter morning in Washington,
+D. C., District of Columbia Metropolitan Police Officer
+Clifford Vanterpool received a radio dispatch call directing
+him to check out a suspicious vehicle at a specific address.
+Officer Vanterpool reached the apartment building at that
+address around 2:00 a.m. As he turned his marked police
+vehicle into the parking lot, he saw two people immediately
+flee from a car, “unprovoked,” after “[p]olice had not done
+anything other than simply pull up.” App. to Pet. for Cert.
+48a. The runners left open at least one of the car doors.
+The driver then began to back out of the parking space, rear
+door still open. Officer Vanterpool decided to investigate.
+He parked directly behind the car, left his own vehicle, or-
+dered the driver, R. W., to put his hands up, and drew his
+service weapon.
+R. W. raised a “single argument” on appeal—that Officer
+Vanterpool lacked reasonable articulable suspicion suffi-
+cient to justify the seizure. In re R.W., 334 A. 3d 593, 599
+(D. C. 2025). The District of Columbia Court of Appeals
+held that Officer Vanterpool, by stopping R. W. without rea-
+sonable suspicion, violated the Fourth Amendment. We
+disagree.
+When an officer makes a “brief investigatory stop[ ] of per-
+sons or vehicles that fall[s] short of [a] traditional arrest,”
+the Fourth Amendment “is satisfied if the officer’s action is
+supported by reasonable suspicion to believe that criminal
+activity ‘ “may be afoot.” ’ ” United States v. Arvizu, 534 U. S.
+266, 273 (2002) (quoting United States v. Sokolow, 490 U. S.
+2 DISTRICT OF COLUMBIA v. R.W.
+Per Curiam
+1, 7 (1989)). In assessing whether an officer had reasonable
+suspicion, a reviewing court must “look at the ‘totality of the
+circumstances’ of each case”—an analysis that precludes
+the “evaluation and rejection” of “factors in isolation from
+each other.” Arvizu, 534 U. S., at 273–274. Because the
+D. C. Court of Appeals departed from these principles—and
+because Officer Vanterpool clearly had reasonable suspi-
+cion to stop R. W.—we reverse.
+I
+Largely based on evidence found after Officer Vanterpool
+told R. W. to put his hands up, the District of Columbia
+charged R. W. (a minor at the time) with unauthorized use
+of a motor vehicle, felony receipt of stolen property, unlaw-
+ful entry of a motor vehicle, and operating a vehicle in the
+District of Columbia without a permit. Before trial, R. W.
+moved to suppress the evidence obtained after he was
+stopped. Following a suppression hearing, the trial court
+denied R. W.’s motion, relying on four facts to conclude that
+the officer had reasonable suspicion to stop R. W.: (1) the
+officer had received a radio dispatch call regarding a suspi-
+cious vehicle at a specified address, (2) the officer saw “ ‘two
+persons fleeing from a vehicle’ ” upon his arrival, (3) “ ‘[i]t
+was almost 2 a.m.,’ ” and (4) as the officer approached the
+car, it began “ ‘backing out of the parking space . . . while
+the rear driver’s side door [was] still open.’ ” 334 A. 3d, at
+599. After a bench trial, the trial court adjudicated R. W.
+delinquent on all counts and assigned R. W. to one year of
+probation with conditions.
+On appeal, the D. C. Court of Appeals reversed the denial
+of the motion to suppress and vacated the delinquency ad-
+judication.* The court “first assess[ed] the legitimacy and
+——————
+*The District of Columbia conceded that “Officer Vanterpool seized
+R. W. when he first asked R. W. to put his hands up,” so the D. C. Court
+of Appeals decided only “whether the facts then known by Officer
+3Cite as: 608 U. S. ____ (2026)
+Per Curiam
+weight of each of the factors bearing on reasonable suspi-
+cion” before “weigh[ing] that information all together.” Id.,
+at 600 (internal quotation marks omitted). In the first step
+of this analysis, it held that the trial court had erred by con-
+sidering two factors: the radio dispatch call and the flight
+of R. W.’s companions. It “excis[ed]” those factors from the
+analysis. Id., at 597. It then concluded that, without more,
+the remaining facts—the late hour and the car’s move-
+ment—did not give rise to reasonable suspicion. After the
+D. C. Court of Appeals ruled, the District of Columbia
+sought certiorari.
+II
+The question is whether the facts available to Officer
+Vanterpool—before he ordered R. W. to put his hands up—
+warranted the stop. In other words, we ask whether Officer
+Vanterpool had a reasonable suspicion that R. W. was en-
+gaged in criminal wrongdoing. Sokolow, 490 U. S., at 7–8.
+Such reasonable suspicion arises when, based on the “ ‘to-
+tality of the circumstances,’ ” the detaining officer had a
+“ ‘particularized and objective basis’ ” for suspecting crimi-
+nal wrongdoing. Arvizu, 534 U. S., at 273 (quoting United
+States v. Cortez, 449 U. S. 411, 417 (1981)). Reasonable sus-
+picion “ ‘depends on the factual and practical considerations
+of everyday life on which reasonable and prudent men, not
+legal technicians, act.’ ” Kansas v. Glover, 589 U. S. 376,
+380 (2020) (quoting Prado Navarette v. California, 572 U. S.
+393, 402 (2014)). It permits officers to make “ ‘commonsense
+judgments and inferences about human behavior.’ ” Glover,
+589 U. S., at 380–381 (quoting Illinois v. Wardlow, 528
+U. S. 119, 125 (2000)).
+On the facts of this case, Officer Vanterpool clearly had
+reasonable suspicion to stop R. W. Already on alert from
+——————
+Vanterpool created an objectively reasonable suspicion that criminal ac-
+tivity was afoot.” 334 A. 3d, at 599 (citing Terry v. Ohio, 392 U. S. 1, 21
+(1968)).
+4 DISTRICT OF COLUMBIA v. R.W.
+Per Curiam
+the late-night dispatch call about a suspicious vehicle, the
+officer observed every person in R. W.’s car respond
+strangely to an approaching police car. Two people took off
+running. We have observed that “unprovoked flight upon
+noticing the police . . . . is certainly suggestive” of wrongdo-
+ing. Id., at 124. The driver, R. W., did not run from the car,
+but his companions’ flight cast his presence in a suspicious
+light. After all, we have observed that “ ‘a car passenger . . .
+will often be engaged in a common enterprise with the
+driver, and have the same interest in concealing the fruits
+or the evidence of their wrongdoing.’ ” Maryland v. Pringle,
+540 U. S. 366, 373 (2003) (quoting Wyoming v. Houghton,
+526 U. S. 295, 304–305 (1999)).
+We need not determine whether that connection alone
+supported reasonable suspicion because R. W. was in the
+driver’s seat and—after the passengers fled from the car—
+began backing out of the parking space, ignoring the car’s
+open back door. For most drivers, it would be a surprising
+event for their back-seat passengers to exit the car and run
+headlong away from them. But we doubt that most would
+respond by putting their car into reverse and attempting to
+drive away without at least checking whether the doors
+were closed. R. W.’s own actions—combined with the pan-
+icked flight of his companions—strongly suggested that he
+was (like them) engaged in unlawful conduct he wished to
+hide from police. See Sibron v. New York, 392 U. S. 40, 66
+(1968) (recognizing that “deliberately furtive actions and
+flight at the approach of . . . law officers are strong indicia
+of mens rea”).
+III
+The D. C. Court of Appeals reached a different conclusion
+by “excis[ing]” the radio dispatch and the conduct of R. W.’s
+companions from the analysis, and considering only “the
+lateness of the hour and the slight movement of the car.”
+334 A. 3d, at 597. The totality-of-the-circumstances test,
+5Cite as: 608 U. S. ____ (2026)
+Per Curiam
+however, “precludes this sort of divide-and-conquer analy-
+sis.” Arvizu, 534 U. S., at 274. As our precedents have rec-
+ognized, “the whole is often greater than the sum of its
+parts—especially when the parts are viewed in isolation.”
+District of Columbia v. Wesby, 583 U. S. 48, 60–61 (2018).
+Indeed, this case reveals the perils of reviewing facts
+piecemeal and without context. Take the passengers’ flight
+from the car. We have little doubt that, in some circum-
+stances, an officer could not reasonably attribute his suspi-
+cion of a fleeing individual to bystanders milling nearby.
+Cf. Ybarra v. Illinois, 444 U. S. 85, 91 (1979) (recognizing
+that “a person’s mere propinquity to others independently
+suspected of criminal activity does not, without more, give
+rise to probable cause to search that person”). But the
+“whole picture” here tells a different story. Cortez, 449
+U. S., at 417.
+After watching two people flee from a suspicious car, a
+reasonable officer surely would question the driver’s next
+move. Why would the driver hurriedly back up the car
+without even closing a car door left open by his fleeing com-
+panions? Perhaps one could imagine an innocent explana-
+tion for such unusual behavior—the court below, for exam-
+ple, surmised that R. W. “may not even have noticed that
+his companions left the door open.” 334 A. 3d, at 605. “But
+we have consistently recognized that reasonable suspicion
+‘need not rule out the possibility of innocent conduct.’ ”
+Navarette, 572 U. S., at 403 (quoting Arvizu, 534 U. S., at
+277). Based on everything the officer observed on the night
+in question, he drew the “commonsense inference” that all
+three people in the car—including the driver—were trying
+to hide wrongdoing from the police. Glover, 589 U. S., at
+381.
+“[T]he Fourth Amendment requires . . . that a court ‘slosh
+[its] way through’ a ‘factbound morass.’ ” Barnes v. Felix,
+605 U. S. 73, 80 (2025) (quoting Scott v. Harris, 550 U. S.
+372, 383 (2007)). There may be no “ ‘easy-to-apply legal
+6 DISTRICT OF COLUMBIA v. R.W.
+Per Curiam
+test’ ” or “ ‘on/off switch’ ” in this context, Barnes, 605 U. S.,
+at 80 (quoting Scott, 550 U. S., at 382–383), but one thing
+is clear: “The ‘totality of the circumstances’ requires courts
+to consider ‘the whole picture,’ ” Wesby, 583 U. S., at 60
+(quoting Cortez, 449 U. S., at 417). The D. C. Court of Ap-
+peals expressly declined to do that. 334 A. 3d, at 599. It
+instead considered only the observations that “(1) it was
+2:00 a.m. and (2) R. W. reversed a few feet in a parking spot
+while the vehicle’s rear door was open.” Id., at 605. Ex-
+pressly “excis[ed]” from its analysis was, for example, the
+compelling fact that two individuals fled the vehicle as soon
+as they spotted the police car. Pretending that the most
+revealing aspect of the encounter did not happen is incom-
+patible with the totality-of-the-circumstances approach re-
+quired by our precedents.
+* * *
+The petition for certiorari and R. W.’s motion to proceed
+in forma pauperis are granted, the judgment of the District
+of Columbia Court of Appeals is reversed, and the case is
+remanded for further proceedings not inconsistent with this
+opinion.
+It is so ordered.
+JUSTICE SOTOMAYOR would deny the petition for a writ of
+certiorari.
+1Cite as: 608 U. S. ____ (2026)
+JACKSON, J., dissenting
+SUPREME COURT OF THE UNITED STATES
+DISTRICT OF COLUMBIA v. R.W.
+ON PETITION FOR WRIT OF CERTIORARI TO THE DISTRICT OF
+COLUMBIA COURT OF APPEALS
+No. 25–248. Decided April 20, 2026
+JUSTICE JACKSON, dissenting.
+The Fourth Amendment may require courts to “slosh . . .
+through a factbound morass.” Ante, at 5 (internal quotation
+marks omitted). It does not require readers of judicial opin-
+ions to do the same. Any readable analysis will, of neces-
+sity, tick through factors, finding some weighty, others less
+so, and still others not at all, before piling them on a scale
+and assessing the result. That is what the court below did
+here, and it was right to do so. Announcing a conclusion
+without providing reasoning along the way is not helpful to
+the parties, the public, or the development of the law.
+To its credit, the Court applies a similar, factor-by-factor
+approach here. That the Court’s analysis is comprehensible
+shows as much. Like the court below, the per curiam takes
+account of the facts in turn: a “late-night dispatch call about
+a suspicious vehicle”; R. W.’s companions’ “unprovoked
+flight”; R. W.’s shift into reverse with a car door still ajar.
+Ante, at 4 (internal quotation marks omitted). And like the
+court below, the per curiam explains how much weight it
+assigns to each. Unprovoked flight, the Court says, is “cer-
+tainly suggestive” of wrongdoing. Ibid. (internal quotation
+marks omitted). “[C]ombined” with the flight, the Court
+continues, R. W.’s abrupt reversal “strongly suggested”
+wrongdoing. Ibid. This is how courts write opinions.
+So I am not sure why our Court sees fit to intervene in
+this case, let alone to do so summarily. If the intervention
+reflects a worry that the District of Columbia Court of Ap-
+peals (DCCA) misunderstands the Fourth Amendment’s to-
+tality-of-the-circumstances analysis, that worry seems
+2 DISTRICT OF COLUMBIA v. R.W.
+JACKSON, J., dissenting
+unfounded. The DCCA has grasped the correct inquiry. Its
+precedents rightly observe that “[t]he issue is not whether
+any one factor individually justifies a stop, but rather
+whether ‘collectively’ the totality of the circumstances sup-
+ports a determination that the officers had reasonable sus-
+picion for an investigatory stop.” Parker v. United States,
+333 A. 3d 1162, 1175 (2025) (citing Mayo v. United States,
+315 A. 3d 606, 637 (2024) (en banc)); see also, e.g., Maye v.
+United States, 260 A. 3d 638, 647 (2021); Golden v. United
+States, 248 A. 3d 925, 941 (2021).
+If today’s decision instead reflects dissatisfaction with the
+DCCA’s comment that it “ ‘excis[ed]’ ” certain factors from
+its analysis, ante, at 4–5, I do not contest that this was poor
+word choice, see United States v. Arvizu, 534 U. S. 266, 274
+(2002) (rejecting a “divide-and-conquer analysis”). But I do
+not think that word choice reflects a methodological error.
+Courts excise facts from their analyses every day. Opinion-
+writing is an exercise in culling the irrelevant; in applica-
+tion, no “totality-of-the-circumstances” test really lives up
+to its name. Indeed, today’s per curiam necessarily omits a
+number of facts the Court finds insignificant—e.g., the
+make and model of the car, the precise location of the stop,
+the color of R. W.’s friends’ clothing. Though it does not say
+so, the Court “excises” those facts, too. It does not thereby
+misapply the Fourth Amendment.
+If, finally, the Court’s decision to intervene reflects disap-
+proval of the DCCA’s assessment of which particular facts
+to weigh and to what extent, I cannot fathom why that kind
+of factbound determination warranted correction by this
+Court. The DCCA assigned no weight to two facts—the dis-
+patch call and the unprovoked flight. The Court does not
+seem to take issue with the first. For good reason: The
+DCCA reasonably applied our decisions explaining that an
+officer may not obtain reasonable suspicion by relying on
+the unsupported hunch of a fellow officer. See Whiteley v.
+Warden, Wyo. State Penitentiary, 401 U. S. 560, 568 (1971);
+3Cite as: 608 U. S. ____ (2026)
+JACKSON, J., dissenting
+United States v. Hensley, 469 U. S. 221, 232 (1985). The
+Court may be right that the second—the unprovoked
+flight—should have borne some rather than no weight. But
+if this context-specific adjustment is all the per curiam
+seeks to achieve, it does not merit the use of our summary
+discretion.
+Even if I would have assigned more heft to a particular
+fact in my own first-instance assessment, I would not word-
+smith a lower court in this fashion. In my view, this is not
+a worthy accomplishment for the unusual step of summary
+reversal. Therefore, I respectfully dissent.

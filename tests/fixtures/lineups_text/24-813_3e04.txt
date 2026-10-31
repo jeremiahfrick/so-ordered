@@ -1,0 +1,355 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+CHEVRON USA INC. ET AL. v. PLAQUEMINES PARISH,
+LOUISIANA, ET AL.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE FIFTH CIRCUIT
+No. 24–813. Argued January 12, 2026—Decided April 17, 2026
+The federal officer removal statute, 28 U. S. C. §1442(a)(1), authorizes
+removal of state-court suits against federal officers or persons “acting
+under” them “for or relating to any act under color of such office.” This
+case concerns whether, for purposes of the statute, a state-court envi-
+ronmental suit challenging Chevron’s crude-oil production during the
+Second World War is “for or relating to” Chevron’s wartime refining of
+crude oil into aviation gasoline for the U. S. military.
+In 1978, Louisiana enacted the State and Local Coastal Resources
+Management Act, which prohibited certain uses of Louisiana’s coastal
+zone, including oil production, without a permit. The Act exempted
+uses legally commenced before 1980. In 2013, Plaquemines Parish and
+other parishes filed 42 state-court suits against oil and gas companies
+under the Act. They alleged that the companies lacked permits and
+that some uses, although initiated before 1980, were illegally com-
+menced and therefore not covered by the exemption. An expert report
+filed by the parish made clear that it intended to challenge certain de-
+fendants’ crude-oil production during the Second World War. The re-
+port alleged that Chevron failed to use steel tanks instead of earthen
+pits, should not have used vertical-drilling methods, and failed to equip
+fields with sufficient roads, using canals instead.
+Chevron removed the suit to federal court under the federal officer
+removal statute, arguing that the suit “relat[ed] to” its contractual du-
+ties to refine crude oil into avgas for the military during the war. The
+District Court rejected this argument and granted the parish’s motion
+to remand to state court. The Fifth Circuit affirmed, agreeing that
+Chevron had “acted under” a federal officer as a military contractor
+2 CHEVRON USA INC. v. PLAQUEMINES PARISH
+Syllabus
+but concluding that the suit was not “for or relating to” those acts be-
+cause Chevron’s refining contract did not specify how to acquire crude
+oil. Judge Oldham dissented, reasoning that crude oil was “indispen-
+sable” to avgas, such that its production necessarily related to Chev-
+ron’s performance of its federal avgas refining duties.
+Held: Chevron has plausibly alleged a close relationship between its
+challenged crude-oil production and the performance of its federal
+avgas refining duties—not a tenuous, remote, or peripheral one—and
+has therefore satisfied the “relating to” requirement of the federal of-
+ficer removal statute. Pp. 7–12.
+(a) The phrase “relating to” sweeps broadly, meaning “ ‘to stand in
+some relation; to have bearing or concern; to pertain; refer; to bring
+into association with or connection with.’ ” Morales v. Trans World
+Airlines, Inc., 504 U. S. 374, 383. One thing can relate to another even
+if the connection is “indirect,” Ingersoll-Rand Co. v. McClendon, 498
+U. S. 133, 139; even if it was “not specifically designed to affect” it,
+ibid.; and even without a “strict causal relationship,” Ford Motor Co.
+v. Montana Eighth Judicial Dist. Court, 592 U. S. 351, 362. Accord-
+ingly, a removing defendant need not show that his federal duties spe-
+cifically required or strictly caused the challenged conduct.
+The ordinary meaning of “relating to,” however, is not “so broad that
+it is meaningless.” Rutledge v. Pharmaceutical Care Management
+Assn., 592 U. S. 80, 93 (THOMAS, J., concurring). The ordinary mean-
+ing requires a connection that is not “ ‘tenuous, remote, or peripheral.’ ”
+Id., at 94. Ordinary readers would not understand the federal officer
+removal statute to reach all suits with any attenuated connection to
+federal duties. Pp. 7–9.
+(b) Chevron’s suit “relat[es] to” the performance of federal duties be-
+cause Chevron has plausibly alleged a close relationship between its
+challenged conduct and the performance of its federal duties. This suit
+implicates Chevron’s wartime efforts to produce and supply avgas’ es-
+sential feedstock, so it is closely connected to Chevron’s wartime avgas
+refining for the military. Much of the crude oil that Chevron produced
+in Plaquemines Parish was ultimately used for its own avgas refining,
+and the suit challenges Chevron’s actions that allowed it to increase
+its production of crude oil during wartime. The parish’s report alleged
+that Chevron’s use of the coastal zone had been illegally commenced
+because of its reliance on vertical-drilling methods, canals, and
+earthen pits—but using vertical-drilling methods maximized crude-oil
+production; using canals saved time and materials resulting in more
+timely oil production; and using earthen pits complied with the Gov-
+ernment’s directive to preserve steel. The Government emphasized
+the importance of increasing Chevron’s crude-oil production to support
+avgas refining as part of the war effort, and it identified the oil field at
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+issue as critical to the war program because it produced a preferential
+kind of crude oil for refining avgas. In this all-hands-on-deck, wartime
+context, Chevron needed to produce more crude oil as quickly as possi-
+ble to facilitate more avgas refining, including its own. Pp. 9–10.
+(c) The Court disagrees with the Fifth Circuit’s two main reasons for
+ruling to the contrary. First, the Fifth Circuit reasoned that Chevron’s
+refining contract did not specify how to obtain or produce crude oil, so
+Chevron’s crude-oil production was unrelated to the performance of its
+federal refining duties. But the ordinary meaning of “relating to” does
+not require the defendant to show that his federal duties specifically
+invited his challenged conduct; Chevron’s contract did not have to ex-
+pressly direct or invite Chevron’s crude-oil production for that conduct
+to “relate to” its avgas refining. Second, the Fifth Circuit reasoned that
+the Government’s allocation of crude oil to refineries severed any rela-
+tion between producing and refining. But an act can relate to its con-
+sequences even when the causal chain includes actions by intermedi-
+aries, see Morales, 504 U. S. 374; producing crude oil relates to refining
+it into avgas, even if the Government acted as an intermediary allocat-
+ing the crude oil to refineries. Pp. 10–11.
+(d) The Court also disagrees with Louisiana’s argument that the re-
+moval statute requires that the defendant was “acting under” a federal
+officer in taking the specific actions challenged in the suit. This theory
+is not consistent with the statutory text, which permits removal of
+suits against officers or their agents for acts that were not done under
+color of their offices, so long as the suits “relat[e] to” such acts. Louisi-
+ana’s interpretation would leave the “relating to” requirement with lit-
+tle, if any, independent function, impermissibly conflating the “acting
+under” and “for or relating to” elements of the federal officer removal
+test. Pp. 11–12.
+103 F. 4th 324, vacated and remanded.
+THOMAS, J., delivered the opinion of the Court, in which ROBERTS, C. J.,
+and SOTOMAYOR, KAGAN, GORSUCH, KAVANAUGH, and BARRETT, JJ.,
+joined. JACKSON, J., filed an opinion concurring in the judgment. ALITO,
+J., took no part in the decision of the case.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–813
+CHEVRON USA INCORPORATED, ET AL.,
+PETITIONERS v. PLAQUEMINES
+PARISH, LOUISIANA, ET AL.
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE FIFTH CIRCUIT
+[April 17, 2026]
+JUSTICE THOMAS delivered the opinion of the Court.
+Congress has long authorized federal officers and their
+agents to remove suits brought against them in state court
+to federal court. The federal officer removal statute author-
+izes an officer or “person acting under that officer” to re-
+move state suits “for or relating to any act under color of
+such office.” 28 U. S. C. §1442(a)(1). In this case, Chevron
+USA Inc. invoked the statute to remove to federal court an
+environmental suit brought against it in Louisiana state
+court. Chevron argued that the suit was removable because
+it implicates Chevron’s crude-oil production during the Sec-
+ond World War, when Chevron also refined crude oil into
+aviation gasoline for the U. S. military. No party disputes
+that Chevron “act[ed] under” federal officers when it per-
+formed its refining duties. We thus decide only whether
+this suit, which implicates Chevron’s wartime production of
+crude oil, “relat[es] to” Chevron’s wartime aviation-gasoline
+refining for the military. We hold that it does.
+2 CHEVRON USA INC. v. PLAQUEMINES PARISH
+Opinion of the Court
+I
+A
+To protect the Federal Government from state-court “in-
+terference with its operations,” Congress has given federal
+courts jurisdiction over some suits against federal officers
+or those acting under them. Watson v. Philip Morris Cos.,
+551 U. S. 142, 150 (2007) (internal quotation marks omit-
+ted). The current federal officer removal statute traces its
+lineage to the Force Bill of 1833, which Congress passed to
+enable federal customs officials to remove suits to federal
+court after South Carolina began prosecuting them for en-
+forcing federal law. See Tennessee v. Davis, 100 U. S. 257,
+268–269 (1880); Brief for U. S. Sen. Mike Lee et al. as Amici
+Curiae 4. Over the next 200 years, Congress expanded the
+scope of federal officer removal beyond suits against cus-
+toms officials. Id., at 4–6. Today, defendants may remove
+to federal court any
+“civil action or criminal prosecution that is commenced
+in a State court and that is against or directed to . . .
+[t]he United States or any agency thereof or any officer
+(or any person acting under that officer) of the United
+States or of any agency thereof . . . for or relating to any
+act under color of such office.” 28 U. S. C. §1442(a)(1).
+Under the federal officer removal statute, a removing de-
+fendant must satisfy three requirements. First, the remov-
+ing defendant must be the United States, a federal agency,
+a federal officer, or a person “acting under” a federal officer,
+such as certain private parties hired to assist federal offic-
+ers. See Watson, 551 U. S., at 148–153. Second, the suit
+must be “for or relating to any act under color of such office.”
+§1442(a)(1). Third, the removing defendant must assert “a
+colorable federal defense.” Mesa v. California, 489 U. S.
+121, 129 (1989); see id., at 136–137 (grounding this require-
+ment in Article III of the Constitution). This case concerns
+the second requirement.
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+B
+When the United States entered the Second World War,
+aviation gasoline—or “avgas”—became critical for the mili-
+tary. The war spurred “a race to gain mastery of the skies.”
+A. Baime, The Arsenal of Democracy 133 (2014). Success
+in the air required high-octane avgas, a “superfuel” for com-
+bat aircraft that helped to produce “more speed, more
+power, [and] quicker take-off.” J. Frey & H. Ide, A History
+of the Petroleum Administration for War, 1941–1945,
+p. 193 (1946) (P. A. W. History). Avgas refining therefore
+had to keep pace with the “astonishing expansion of aerial
+activity” during the war. Ibid. In June 1940, the U. S. mil-
+itary used about 4,000 barrels of avgas per day, while Amer-
+ican industry could refine 30,000 to 40,000 barrels per day.
+Id., at 194. By 1944, at the height of U. S. involvement in
+the war, the U. S. military needed 636,000 barrels per day.
+Ibid.
+President Franklin D. Roosevelt created the Petroleum
+Administration for War (P. A. W.) to ensure that the United
+States would have enough fuel to win the war. See id., at
+14–15, 44–45. The P. A. W. oversaw the entire oil industry,
+from production to transportation to refinement. Within
+two weeks after the attack on Pearl Harbor, the P.A.W. is-
+sued a directive for “the production of 100 octane aviation
+gasoline [to] be greatly increased.” 7 Fed. Reg. 41 (1942).
+The message was clear: “ ‘[F]orget economic considera-
+tions—forget everything except getting out more and more
+100-octane [avgas] as quickly as you can.’ ” P. A. W. History
+199. With the P. A. W.’s assistance, the Federal Govern-
+ment, through the Defense Supplies Corporation, con-
+tracted with dozens of avgas refineries to secure avgas for
+the military.
+4 CHEVRON USA INC. v. PLAQUEMINES PARISH
+Opinion of the Court
+The Government entered an avgas refining contract with
+a predecessor of Chevron, the Texas Company.1 In its con-
+tract with the Government, Chevron agreed to work “day
+and night” to quadruple its avgas refining capacity at its
+Texas refinery. App. to Pet. for Cert. 150–151. It agreed
+that the Government could request that it buy avgas com-
+ponents, including crude oil, from other firms. And, it
+agreed that the Government could “at any time” purchase
+all of Chevron’s excess avgas. Id., at 156.
+The Government knew that to refine crude oil into avgas,
+Chevron needed crude oil. The Government’s contract with
+Chevron adjusted the price of avgas based on the cost of ob-
+taining crude oil. The P. A. W. allocated crude oil to specific
+refiners to maximize output. And, the P. A. W. required
+production methods that increased crude-oil production,
+such as vertical drilling. 8 Fed. Reg. 3955, 3957 (1943).
+At the same time, Chevron produced crude oil in
+Plaquemines Parish, Louisiana, including in two fields rel-
+evant to this case—the Delacroix Island and Delta Duck
+Club fields. Some of the crude oil produced in both fields
+went to the Texas refinery at which Chevron refined crude
+oil into avgas for the military during the war. In 1942,
+Chevron was refining 4,000 barrels of crude oil per day from
+fields in Plaquemines Parish.
+C
+In 1978, Louisiana enacted the State and Local Coastal
+Resources Management Act. La. Rev. Stat. Ann. §49:214.21
+et seq. (West 2023). The Act established a new permitting
+program that took effect in 1980. It prohibits any “[u]ses of
+state concern” of Louisiana’s coastal zone, including oil pro-
+duction, unless the user first obtains a permit.
+§§49:214.25(A)(1)(f ), 49:214.30(A)(1). But, it exempts from
+——————
+1 All agree that as Chevron’s corporate predecessor, the Texas Com-
+pany’s acts were Chevron’s acts for the purposes of this case. We thus
+refer to it as “Chevron.”
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+its permitting requirement “[i]ndividual specific uses le-
+gally commenced or established prior to the effective date
+of the coastal use permit program.” §49:214.34(C)(2).
+In 2013, Plaquemines Parish, along with other parishes,
+filed 42 state-court suits against oil and gas companies un-
+der the Act. The parishes alleged that the companies lacked
+permits for their uses of the coastal zone, and that some of
+these uses, although initiated before 1980, were illegally
+commenced and not covered by the Act’s exemption for uses
+that commenced before 1980. The State of Louisiana and
+its Department of Energy and Natural Resources inter-
+vened in support of the parishes.
+Plaquemines Parish filed an expert report in one of these
+suits that made clear that it intended to challenge certain
+defendants’ crude-oil production during the Second World
+War. The report alleged that several uses had been illegally
+commenced during the war, making them “violations which
+provide the basis for defendant liability.” Preliminary Ex-
+pert Report on Violations, No. 2:18–cv–5256 (ED La.), ECF
+Doc. 1–3, p. 4. As to Chevron, the report identified produc-
+tion activities in the Delacroix Island field, where Chevron
+began drilling in 1941. Specifically, the report alleged that
+Chevron failed to use steel tanks instead of earthen pits. It
+alleged that Chevron should not have used vertical-drilling
+methods, which allegedly harmed the environment more
+than alternative methods. And, it alleged that Chevron
+failed to equip Delacroix Island with sufficient roads for
+transportation and instead primarily used canals. The re-
+port alleged that these production activities showed “bad
+faith” and failed to protect the “marshland from contamina-
+tion and excessive land losses,” making Chevron subject to
+liability under the Act. ECF Doc. 1–5, p. 35. All agree at
+this stage that this report reflects the parishes’ general the-
+ories of liability across the 42 suits.
+Several defendants removed the suits against them un-
+der the federal officer removal statute. 28 U. S. C.
+6 CHEVRON USA INC. v. PLAQUEMINES PARISH
+Opinion of the Court
+§1442(a)(1). The removal effort focused on the connection
+between these 1940s allegations and the defendants’ 1940s
+federal contracts. Because the allegations concerned their
+1940s crude-oil production, the defendants argued that the
+suits “relat[ed] to” their contractual duties to refine crude
+oil into avgas for the military at the same time.
+In this case, the parish’s suit challenged Chevron’s con-
+duct at the Delta Duck Club field, where Chevron drilled
+during the war. Chevron removed on the theory that the
+suit alleged that Chevron illegally produced crude oil in the
+Delta Duck Club field, while it simultaneously served as an
+avgas refiner for the military. The parish’s state-court com-
+plaint, like its expert report in the parallel case, alleged
+that Chevron’s use of the coastal zone had been illegally
+commenced prior to the effective date of the Act, citing its
+crude-oil production processes, use of earthen pits, and
+dredging of canals. Chevron’s notice of removal thus ar-
+gued that the complaint, alongside the parishes’ report,
+showed that the parish would target acts related to its per-
+formance of federal duties during the war. The District
+Court rejected this argument and granted the parish’s mo-
+tion to remand to state court.
+The Fifth Circuit affirmed. The court agreed with Chev-
+ron that it had “acted under” a federal officer because it re-
+fined crude oil into avgas as a military contractor.
+Plaquemines Parish v. BP America Production Co., 103
+F. 4th 324, 334–335 (2024). But, the Fifth Circuit con-
+cluded that the suit was not “for or relating to” those acts.
+It agreed that the complaint, when “read in conjunction
+with the [expert] report,” targeted crude-oil production ac-
+tivities during the war. Id., at 337. Nonetheless, it con-
+cluded that this suit, despite challenging Chevron’s crude-
+oil production, did not relate to the performance of Chev-
+ron’s avgas refining contract because the contract did not
+specify how to acquire crude oil. Id., at 340–341.
+7Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+Judge Oldham dissented. He reasoned that crude oil was
+“indispensable” to avgas, such that its production neces-
+sarily related to Chevron’s performance of its federal avgas
+refining duties. Id., at 348.
+We granted Chevron’s petition for a writ of certiorari.
+605 U. S. 1009 (2025).
+II
+We address whether this suit, which implicates Chev-
+ron’s wartime production of crude oil, is “for or relating to”
+Chevron’s wartime refining of crude oil into avgas for the
+military.2 28 U. S. C. §1442(a)(1). Chevron’s wartime
+crude-oil production was closely connected to its wartime
+avgas refining, so the parish’s suit challenging 

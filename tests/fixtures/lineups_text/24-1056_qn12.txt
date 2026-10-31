@@ -1,0 +1,358 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+RICO v. UNITED STATES
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE NINTH CIRCUIT
+No. 24–1056. Argued November 3, 2025—Decided March 25, 2026
+A criminal defendant, on supervised release from federal prison, must
+comply with various conditions—both mandatory (commit no more
+crimes, see 18 U. S. C. §3583(d)) and discretionary (commonly, “report
+to a probation officer as directed” and “notify the probation officer
+promptly of any change in address,” §§3563(b)(15), (17)). Violating a
+prescribed condition may result in the revocation of supervised release
+and a return to prison, §3583(e)(3), as well as an additional “term of
+supervised release after imprisonment,” §3583(h).
+After petitioner Isabel Rico violated the terms of her supervised re-
+lease conditions, the judge revoked her release and ordered her to
+serve two months of additional imprisonment and a new 42-month
+term of supervised release set to expire in 2021. When released the
+second time, Ms. Rico again violated her conditions by changing her
+residence without notifying her probation officer. A warrant issued for
+her arrest, but federal authorities did not locate her until January
+2023. As relevant here, during her abscondment, Ms. Rico committed
+a state law drug offense in January 2022, which resulted in a convic-
+tion. Back in federal district court, the judge treated Ms. Rico’s drug
+offense as a Grade A violation of her supervised release conditions and
+sentenced her to 16 months of incarceration followed by two more years
+of supervised release. Ms. Rico appealed, arguing that the district
+court lacked authority to treat her drug offense as a supervised release
+violation because that offense occurred after her supervised term ex-
+pired in June 2021. The Ninth Circuit disagreed, describing Ms. Rico’s
+abscondment as having “tolled” the clock so that her term continued to
+run until federal authorities caught up with her in 2023. Because of
+that, the Ninth Circuit held, Ms. Rico’s January 2022 drug offense
+could count as a violation of her federal supervised release. This Court
+2 RICO v. UNITED STATES
+Syllabus
+granted certiorari to resolve a circuit split on whether abscondment
+automatically extends a term of supervised release.
+Held: The Sentencing Reform Act does not authorize a rule automatically
+extending a defendant’s term of supervised release when the defend-
+ant absconds. Pp. 4–12.
+(a) What the Ninth Circuit’s challenged rule really does is use a de-
+fendant’s abscondment to extend (not toll) the period of supervised re-
+lease beyond what a judge has ordered. Automatically extending a
+term of supervised release is not among the many tools the Sentencing
+Reform Act provides courts to address defendants who fail to report or
+otherwise violate their supervised release conditions. The Act in-
+structs that a term of supervised release starts “the day the person is
+released from imprisonment,” §3624(e), and generally sets maximum
+lengths at one, three, or five years depending on the severity of the
+underlying offense, §3583(b). Neither provision hints at an automatic
+extension rule, and the Ninth Circuit’s rule risks permitting courts to
+extend supervised release beyond the statutory maximums set by Con-
+gress. The Act also authorizes courts to revoke supervised release and
+impose additional imprisonment and supervised release for violations,
+but makes no mention of automatic extension for abscondment. Fur-
+ther, an automatic extension rule disregards the limits in the Act’s
+specific extension and tolling rules. Section 3583(e)(2) generally per-
+mits courts to extend supervised release only after holding a hearing
+and considering various sentencing factors, and not beyond statutory
+maximums or after the term has expired. Section 3583(i) allows revo-
+cation proceedings after a defendant’s term of supervised release has
+expired only for matters arising before expiration and only if a warrant
+or summons issued during the term. Section 3624(e) provides a true
+tolling rule, suspending supervised release during imprisonment of 30
+consecutive days or more. The cumulative detail of these instructions
+strongly suggests the absence of anything like the Ninth Circuit’s rule
+is intentional rather than an oversight. Pp. 4–7.
+(b) The government’s arguments fail to support the Ninth Circuit’s
+rule. The government argues because supervision requires “observa-
+tion and direction,” see, e.g., §§3601, 3624(e), 3603(2), (3), and Ms. Rico
+received neither while absconding, she should receive no “credit” for
+that period. But the cited provisions merely describe the probation
+officer’s duties and indicate that supervision occurs only “during the
+term imposed” by the sentencing court, §§3601, 3624(e), which hurts
+rather than helps the government’s cause. Moreover, the govern-
+ment’s theory treats Ms. Rico as off and on supervised release at the
+same time.
+The government’s precedent arguments are also unconvincing.
+Mont v. United States, 587 U. S. 514, simply recognized that §3624(e)’s
+3Cite as: 607 U. S. ___ (2026)
+Syllabus
+express terms suspend a defendant’s term during imprisonment for a
+separate state offense, which highlights the absence of anything like
+the Ninth Circuit’s rule. And United States v. Johnson, 529 U. S. 53,
+rejected an effort to adorn the Act with a rule Congress did not enact,
+much as the Court does today.
+The government’s common-law argument—that courts historically
+held an escaped time on the run from prison does not count toward
+discharge of a sentence—may rest on sound premises but reaches an
+unsound conclusion. The government seeks not a rule that stops the
+clock or ensures a defendant takes no advantage of abscondment, but
+one that imposes new punishment by automatically extending super-
+vised release. Unlike an escaped prisoner who is not serving his sen-
+tence, under the Ninth Circuit’s rule, a defendant who fails to report
+remains bound by release terms and may be punished for violations.
+The Act already provides many ways to ensure defendants do not profit
+from violations without automatically extending the period beyond
+what a judge ordered. Pp. 7–11.
+(c) The government’s policy plea—that §3583(i)’s warrant-or-sum-
+mons requirement may leave courts powerless when probation officers
+do not timely realize a defendant’s absence—is misdirected. The
+proper place to register that complaint is with Congress, as this Court
+is not free to rewrite the directions Congress has provided. P. 11.
+Reversed and remanded.
+GORSUCH, J., delivered the opinion of the Court, in which ROBERTS,
+C. J., and THOMAS, SOTOMAYOR, KAGAN, KAVANAUGH, BARRETT, and
+JACKSON, JJ., joined. ALITO, J., filed a dissenting opinion.
+_________________
+_________________
+1Cite as: 607 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–1056
+ISABEL RICO, PETITIONER v. UNITED STATES
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE NINTH CIRCUIT
+[March 25, 2026]
+JUSTICE GORSUCH delivered the opinion of the Court.
+Today, most criminal defendants sentenced to federal
+prison must also serve a term of supervised release. If a
+defendant on supervised release fails to report to his proba-
+tion officer, serious consequences can follow. This case
+poses a question about one of them.
+I
+Under the Sentencing Reform Act of 1984, supervised re-
+lease serves as a transitional period between incarceration
+and freedom. See Mont v. United States, 587 U. S. 514, 523
+(2019). While on supervised release, a criminal defendant
+must comply with various conditions. Some of those condi-
+tions (like: commit no more crimes) are as mandatory as
+they are obvious. 18 U. S. C. §3583(d). Others may be im-
+posed at the discretion of the sentencing judge. Ibid. Com-
+mon discretionary conditions include “ ‘report[ing] to a pro-
+bation officer as directed’ ” and “ ‘notify[ing] the probation
+officer promptly of any change in address.’ ” Administrative
+Office of the United States Courts, Overview of Probation
+and Supervised Release Conditions 16, 24 (July 2024)
+(quoting §§3563(b)(15), (17)). Should a defendant violate
+any prescribed condition, whether mandatory or
+2 RICO v. UNITED STATES
+Opinion of the Court
+discretionary, a judge may revoke his release and order him
+returned to prison. §3583(e)(3). A judge may also require
+the defendant to serve an additional “term of supervised re-
+lease after [his] imprisonment.” §3583(h).
+Isabel Rico’s encounter with these rules is long and com-
+plex. In 2010, she pleaded guilty to federal drug trafficking
+charges and was sentenced to seven years in prison followed
+by four years of supervised release. App. to Pet. for Cert.
+11a (App.); Brief for Petitioner 8. Only a few months after
+leaving prison in January 2017, Ms. Rico violated her su-
+pervised release conditions. As a result, the judge revoked
+her release, sent her back to prison for two months, and or-
+dered her to serve another 42-month term of supervised re-
+lease. App. 11a. Per the judge’s order, that new supervised
+release term was slated to expire in June 2021 (an im-
+portant date, as we will soon see). See ibid.
+Ms. Rico’s second stint on supervised release went no bet-
+ter than her first. Shortly after leaving prison in December
+2017, she changed her residence without telling her proba-
+tion officer, once again violating a condition of her release.
+Ibid. In response, a judge issued a warrant for her arrest
+in May 2018. Id., at 12a. But federal authorities appar-
+ently didn’t catch up with her until January 2023. Id., at
+3a. In between, too, it turned out that Ms. Rico committed
+new state-law offenses. In January 2021, authorities ar-
+rested her for evading police and driving without a license.
+And in January 2022, she was charged with possessing il-
+licit drugs for sale. Both sets of crimes resulted in convic-
+tions. Brief for Petitioner 9–10.
+Of course, Ms. Rico faced punishment for those offenses
+in state court. But what did they mean for her back in fed-
+eral court? Consulting the sentencing guidelines, the court
+held that Ms. Rico’s failure to report to her probation officer
+and her January 2021 offenses qualified as two independ-
+ent “Grade C violations” of her supervised release condi-
+tions, each carrying an advisory sentencing range of 8 to 14
+3Cite as: 607 U. S. ____ (2026)
+Opinion of the Court
+months of imprisonment. App. 25a–32a. The court also
+held that Ms. Rico’s January 2022 drug offense amounted
+to a “Grade A violation,” with an associated advisory range
+of 33 to 36 months of imprisonment. Ibid. After considering
+these guidelines, and varying downward from them, the
+court sentenced Ms. Rico to another 16 months of incarcer-
+ation, followed by two more years of supervised release. Id.,
+at 5a, 35a.
+Ms. Rico appealed that decision. Perhaps the district
+court could revoke her supervised release based on her fail-
+ure to report and her January 2021 offenses. Perhaps, as
+well, the district court could order her to serve 16 months
+in prison (after all, she committed two Grade C violations,
+each carrying an advisory sentence of 8 to 14 months) and
+a new term of supervised release. But, she insisted, the
+court had no lawful authority to treat her January 2022
+state drug offense as an independent supervised release vi-
+olation. The court could not do so, Ms. Rico argued, because
+that offense occurred after her pre-existing term of federal
+supervised release expired in June 2021.
+The Ninth Circuit disagreed. Without question, Ms.
+Rico’s supervised release term was set to expire in June
+2021 by court order. But, the Ninth Circuit reasoned, Ms.
+Rico’s abscondment “tolled” the clock so that her term con-
+tinued to run until federal authorities caught up with her
+in 2023. Id., at 3a. As a result, her January 2022 drug
+offense occurred while she was on supervised release. And
+because of that, the district court could treat that offense as
+a violation and revoke her supervised release based upon it.
+Ibid.
+We agreed to review this case to resolve a circuit split.
+606 U. S. 930 (2025). Some circuits, like the Ninth, hold
+that a defendant’s failure to report doesn’t just amount to a
+punishable supervised release violation but also automati-
+cally extends his term of supervised release. Others disa-
+gree, taking Ms. Rico’s view that abscondment does not
+4 RICO v. UNITED STATES
+Opinion of the Court
+automatically extend a term of supervised release. Com-
+pare United States v. Crane, 979 F. 2d 687, 691 (CA9 1992);
+and United States v. Buchanan, 638 F. 3d 448, 458 (CA4
+2011), with United States v. Hernandez-Ferrer, 599 F. 3d
+63, 66–69 (CA1 2010); United States v. Talley, 83 F. 4th
+1296, 1297 (CA11 2023).
+II
+In approaching this dispute, a preliminary note on termi-
+nology is warranted. The Ninth Circuit held that a defend-
+ant who absconds during supervised release “tolls” his ex-
+isting, judicially ordered term of supervised release until
+federal authorities find him. This is a misnomer. In legal
+settings, the word “toll” often denotes some stop or pause.
+See Artis v. District of Columbia, 583 U. S. 71, 80–82 (2018).
+But under the Ninth Circuit’s approach, a defendant who
+absconds stops or pauses nothing. Rather, he remains sub-
+ject to the conditions of his supervised release and can be
+held accountable for any violations he commits during his
+abscondment. What the Ninth Circuit’s rule really does is
+extend the period of supervised release beyond what a judge
+has ordered. On its view, an absconding defendant’s term
+of supervised release does not expire when a court has di-
+rected but continues to run so long as the defendant re-
+mains out of contact with his probation officer.
+A
+Whatever the wisdom of a policy like that, we see nothing
+in the law authorizing it. The Sentencing Reform Act pro-
+vides courts with many tools to address defendants who fail
+to report or otherwise violate their supervised release con-
+ditions. But automatically extending a term of supervised
+release is not among them. An array of textual clues proves
+the point.
+Start with what the Act says about when supervised re-
+lease begins and ends. The Act instructs that a term of
+5Cite as: 607 U. S. ____ (2026)
+Opinion of the Court
+supervised release starts “the day the person is released
+from imprisonment.” §3624(e). The Act then tells us when
+a term of supervised release must end, generally setting its
+maximum length at one, three, or five years, depending on
+the severity of the defendant’s underlying offense.
+§3583(b). Neither provision hints at anything like the
+Ninth Circuit’s automatic extension rule. To the contrary,
+that rule risks flouting the Act by permitting courts to ex-
+tend supervised release beyond even the maximum terms
+set by Congress.
+Next, consider how the Act treats absconders. As a con-
+dition of supervised release, a court may order a defendant
+to report to a probation officer and inform authorities if he
+changes his residence. See §§3563(b)(15), (17). Should a
+defendant violate those (or any other) conditions, a court
+may (and sometimes must) revoke his supervised release
+and send him back to prison with a new term of supervised
+release to follow. §§3583(e)(3), (g). That the Act authorizes
+those potent tools for addressing absconders—but makes no
+mention of anything like the Ninth Circuit’s automatic ex-
+tension rule—is telling too.
+Relevant as well, the Act authorizes other extension and
+(true) tolling rules. Take a few examples. Section
+3583(e)(2) permits a court to “extend a term of supervised
+release,” but only subject to important limitations. A court
+must generally hold a hearing and consider various sen-
+tencing factors. See §3583(e)(2); Fed. Rule Crim. Proc. 32.1.
+A court cannot extend supervised release beyond the maxi-
+mum term set by statute. See §3583(e)(2). Nor may a court
+extend a term of supervised release if that term has already
+expired. See ibid.; Brief for United States 8, 38, 45. The
+Ninth Circuit’s automatic extension rule disregards not just
+one but each of these limits. Under its approach, no hearing
+is needed, a term of supervised release may extend beyond
+the statutory maximum, and a court-ordered expiration
+date becomes meaningless.
+6 RICO v. UNITED STATES
+Opinion of the Court
+Section 3583(i) also addresses extensions. It provides
+that a court’s power to revoke supervised release “extends
+beyond the expiration of the term of supervised release for
+any period reasonably necessary for the adjudication of
+matters arising before its expiration if, before its expiration,
+a warrant or summons has been issued on the basis of an
+allegation of such violation.” Here, then, the Act speaks di-
+rectly to what a court may do after the expiration of a de-
+fendant’s judicially ordered term of supervised release. But
+(again) the Act bounds a court’s authority. A court may ad-
+judicate only “matters arising before” the expiration of the
+defendant’s term of supervised release. It may do so only if
+a warrant or summons issued during that term. And noth-
+ing in this provision allows a court to exceed statutory max-
+imums. The Ninth Circuit’s rule, meanwhile, blows past all
+those constraints, allowing courts to revoke supervised re-
+lease for violations arising after the judicially decreed su-
+pervised release term expires—and sometimes even after
+the statutory maximum period—all without the necessity
+of a warrant or summons.
+If more evidence were needed to illustrate how unlikely
+the Ninth Circuit’s rule is, §3624(e) would supply it. That
+provision indicates that a “term of supervised release does
+not run during any period in which the person is imprisoned
+in connection with a conviction” for 30 consecutive days or
+more. This is a true tolling rule, one that stops the clock
+running on a defendant’s term of supervised release. Yet,
+like the Act’s extension rules, it is narrow in scope and noth-
+ing at all like the rule the Ninth Circuit has adopted.
+The quantity of all these instructions has a quality of its
+own, too. Cumulatively, the Act details how long super-
+vised release may run, the tools courts can use to address
+defendants who fail to report or commit other violations,
+when courts may extend and toll terms of supervised re-
+lease, and how they can go about addressing violations even
+after a term of supervised release has expired. To our eyes,
+7Cite as: 607 U. S. ____ (2026)
+Opinion of the Court
+the absence of anything like the Ninth Circuit’s rule in all
+these exacting instructions is striking and strongly sugges-
+tive that the Ninth Circuit’s rule more nearly represents an
+adornment to Congress’s work than a permissible interpre-
+tation of it.
+B
+Seeking to persuade us otherwise, the government starts
+this way. Under §3601, it observes, a defendant on super-
+vised release “shall, during the term imposed, be supervised
+by a probation officer.” Many other provisions speak simi-
+larly. See, e.g., §§3603(2), (3), 3624(e). As a matter of ordi-
+nary meaning, the government submits, supervision “re-
+quires both observation and direction.” Brief for United
+States 12. Because Ms. Rico was subject to neither of those
+things from early 2018 until 2023, the government reasons,
+she should receive no “credit” for serving on supervised re-
+lease during that period. Ibid.

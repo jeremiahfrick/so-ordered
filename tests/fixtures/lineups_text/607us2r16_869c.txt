@@ -1,0 +1,350 @@
+P R E L I M I N A R Y P R I N T
+Volume 607 U. S. Part 2
+Pages 465–491
+OFFICIAL REPORTS
+OF
+THE SUPREME COURT
+February 25, 2026
+REBECCA A. WOMELDORF
+reporter of decisionsPage Proof Pending Publication
+NOTICE: This preliminary print is subject to formal revision before
+the bound volume is published. Users are requested to notify the Reporter
+of Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+OCTOBER TERM, 2025 465
+Syllabus
+VILLARREAL v. TEXAS
+certiorari to the court of criminal appeals of texas
+No. 24–557. Argued October 6, 2025—Decided February 25, 2026
+David Villarreal's murder trial culminated with his own testimony. That
+testimony was interrupted by a 24-hour overnight recess, during which
+the trial judge instructed Villarreal's attorneys not to “manage his testi-
+mony.” 707 S. W. 3d 138, 142. The judge clarifed, however, that Villa-
+rreal was not prohibited from talking to his attorneys and recognized
+Villarreal's constitutional right to confer about certain topics, such as
+possible sentencing issues. Villarreal resumed his testimony 24 hours
+later and was subsequently convicted of murder. On appeal, the Texas
+Court of Criminal Appeals concluded that the order was a permissible
+exercise of the trial court's discretion.
+Held: A qualifed conferral order that prohibits only discussion of the de-
+fendant's testimony for its own sake during a midtestimony overnight
+recess permissibly balances the defendant's Sixth Amendment right to
+counsel against the burden of offering unaltered trial testimony and
+does not violate the Constitution. Pp. 470–480.
+(a) The Sixth Amendment guarantees as “fundamental” a criminal
+defendant's right to consult with counsel. Powell v. Alabama, 287 U. S.
+45, 68. When a defendant takes the witness stand, however, he “[a]s-
+sum[es] the position of a witness,” with its attendant “criticisms and
+burdens.” Reagan v. United States, 157 U. S. 301, 305. These include
+the inability to receive advice from counsel aimed at “infuenc[ing] the
+testimony in light of the testimony already given.” Geders v. United
+States, 425 U. S. 80, 87. In Geders, the Court held that a judge may not
+entirely prevent a testifying defendant from conferring with his lawyer
+during an overnight recess, reasoning that a defendant differs from a
+normal witness because he has matters “other than his own testimony”
+to discuss, such as “tactical decisions,” “strategies,” and the “signif-
+cance of the day's events.” Id., at 88. In Perry v. Leeke, 488 U. S. 272,
+283–284, however, the Court held that a judge may prevent a testifying
+defendant from conferring with his lawyer during a brief daytime recess
+because “there is a virtual certainty that any conversation” during such
+a recess “would relate to the ongoing testimony,” and a defendant does
+not have a protected Sixth Amendment right to discuss ongoing testi-
+mony with his lawyer. Pp. 470–473.
+(b) The line between Geders and Perry is substantive, not merely
+temporal. Perry's premises are content based: A testifying defendantPage Proof Pending Publication
+Page Proof Pending Publication466 VILLARREAL v. TEXAS
+Syllabus
+has a constitutional right to consult about matters such as “the availabil-
+ity of other witnesses, trial tactics, or . . . plea bargain[ing],” 488 U. S.,
+at 284, but where no nontestimony topics are involved, the Sixth Amend-
+ment provides no constitutional right to consultation during breaks in
+testimony, id., at 281. A defense attorney may rehearse a client's testi-
+mony before the client takes the stand and debrief testimony after the
+client leaves the stand for good. But while the defendant is sworn in
+as a witness, consultation about the testimony itself—rather than inci-
+dental discussion of testimony in service of other protected topics—
+sheds its constitutional protection. This conclusion follows from the
+Court's precedents as well as from the basic principles underlying con-
+ferral orders. Conferral orders embody the traditional practice of wit-
+ness sequestration, refashioned to accommodate the special protections
+of a defendant; a rule prohibiting discussion of testimony for its own
+sake mimics sequestration within constitutional bounds and advances
+the central truth-seeking function of the trial, see Portuondo v. Agard,
+529 U. S. 61, 73. Pp. 473–476.
+(c) The trial judge's order here prohibited Villarreal's lawyers from
+“managing” his “ongoing testimony.” This order permissibly balanced
+the truth-seeking function of the trial against Villarreal's right to dis-
+cuss protected topics with his lawyers—things like trial strategy,
+whether to consider a guilty plea, and factual information crucial to
+tactical decisions. A court cannot prohibit a defendant from obtaining
+his attorney's advice on whether and why he should consider a guilty
+plea, even if the “why” includes the impact of ongoing testimony on the
+trial's prospects. But it may, like the court here did, prohibit discussion
+of testimony as such. Pp. 477–478.
+(d) The Court rejects Villarreal's request for a bright-line rule per-
+mitting no restrictions overnight to prevent chilling of protected dis-
+cussion. Courts of appeals that have prohibited uncompromising no-
+testimony-discussion orders reasonably feared that directives prevent-
+ing all discussion of testimony would be impermissibly overbroad. An
+order prohibiting only discussion of “nothing but the testimony,” Perry,
+488 U. S., at 284, does not present the same concern. Consultation
+about testimony itself—practicing it, debriefng it, and the like—is a
+recognized, distinct tool in every trial lawyer's preparatory arsenal, and
+lawyers ordered to sheathe that tool overnight will have no diffculty
+doing so. Pp. 478–480.
+707 S. W. 3d 138, affrmed.
+Jackson, J., delivered the opinion of the Court, in which Roberts, C. J.,
+and Alito, Sotomayor, Kagan, Kavanaugh, and Barrett, JJ., joined.
+Alito, J., fled a concurring opinion, post, p. 481. Thomas, J., fled an
+Page Proof Pending PublicationCite as: 607 U. S. 465 (2026) 467
+Opinion of the Court
+opinion concurring in the judgment, in which Gorsuch, J., joined, post,
+p. 485.
+Stuart Banner argued the cause for petitioner. With him
+on the briefs were Daniel L. Geyser, Michael F. Qian, and
+Edward F. Shaughnessy III.
+Andrew N. Warthen argued the cause for respondent.
+With him on the brief was Joe D. Gonzales.
+Kevin J. Barber argued the cause for the United Sates as
+amicus curiae supporting respondent. With him on the
+brief were Solicitor General Sauer, Acting Assistant Attor-
+ney General Galeotti, Deputy Solicitor General Feigin, and
+Ethan A. Sachs.*
+Justice Jackson delivered the opinion of the Court.
+A criminal defendant has many unassailable rights during
+his trial, including the right not to testify and the right to
+access his lawyer. But if and when a defendant takes the
+witness stand in his own defense, his status shifts. He does
+not shed his rights as a criminal defendant. But he does
+assume some of the burdens of a testifying witness.
+*Briefs of amici curiae urging reversal were fled for the Constitutional
+Accountability Center by Elizabeth B. Wydra, Brianne J. Gorod, and
+Alexis Hoag-Fordjour; for Legal Ethics Scholars by David A. Strauss,
+Sarah M. Konsky, and Matthew S. Hellman; for the National Association
+of Criminal Defense Attorneys by Andrea Roth and Barbara E. Bergman;
+for the National College for DUI Defense by Steven W. Hernandez, Mi-
+chelle Behan, and Donald J. Ramsell; and for Retired Judges by Gregg
+Costa and Ryan Azad.
+A brief of amici curiae urging affrmance was fled for the State of Ohio
+et al. by Dave Yost, Attorney General of Ohio, T. Elliott Gaiser, Solicitor
+General, and Jana M. Bosch, Deputy Solicitor General, and by the Attor-
+neys General for their respective States as follows: Steve Marshall of Ala-
+bama, Tim Griffn of Arkansas, James Uthmeier of Florida, Theodore E.
+Rokita of Indiana, Russell Coleman of Kentucky, Liz Murrill of Louisi-
+ana, Lynn Fitch of Mississippi, Andrew Bailey of Missouri, Austin Knud-
+sen of Montana, Drew H. Wrigley of North Dakota, Gentner Drummond
+of Oklahoma, Alan Wilson of South Carolina, Marty Jackley of South
+Dakota, and Jason Miyares of Virginia.
+468 VILLARREAL v. TEXAS
+Opinion of the Court
+This case requires us to navigate a tension between one
+of those rights and one of those burdens. The right is a
+defendant's entitlement to the advice of counsel unrestricted
+by judicial interference. The burden is a witness's responsi-
+bility to offer sworn testimony uninfuenced by a lawyer's
+midstream tinkering. Both are longstanding and fundamen-
+tal, as the right forms the heart of the Sixth Amendment's
+right to counsel and the burden serves the central truth-
+seeking function of a trial.
+We have twice addressed this tension in the context of a
+trial recess that interrupts a defendant's testimony. We
+held in Geders v. United States, 425 U. S. 80 (1976), that a
+court may not prevent a testifying defendant from confer-
+ring with his lawyer during an overnight recess. We held
+in Perry v. Leeke, 488 U. S. 272 (1989), that a court may
+prevent a testifying defendant from conferring with his law-
+yer during a brief daytime recess. The trial courts in both
+cases had imposed unqualifed bans that separated client
+from counsel entirely.
+This case presents a third scenario: an overnight recess
+that interrupts a defendant's testimony—but one in which
+the court allows counsel to speak with his client while limit-
+ing the content of the discussion. The court here prohibited
+the defendant's lawyer only from “managing” the defendant's
+testimony; it permitted all other discussion. Because we
+conclude that this qualifed conferral order permissibly bal-
+anced the right to counsel against the burden of offering un-
+altered trial testimony, we affrm.
+I
+David Villarreal's murder trial culminated with his own
+testimony. The only defense witness, Villarreal testifed
+that he stabbed the victim in self-defense while the victim
+was trying to choke him to death.
+A 24-hour overnight recess interrupted Villarreal's direct
+testimony. Before the recess, the trial judge gave VillarrealPage Proof Pending Publication
+Cite as: 607 U. S. 465 (2026) 469
+Opinion of the Court
+the instruction that has become the centerpiece of this ap-
+peal. Apparently concerned that Villarreal's counsel might
+coach Villarreal to adjust the remainder of his testimony, the
+judge sought to narrow Villarreal's ability to confer with his
+attorneys overnight.
+The judge and Villarreal's counsel engaged in an extended
+back-and-forth over the scope of the order. In the end, the
+trial judge left Villarreal's attorneys with this directive:
+“[A]sk yourselves before you talk to [Villarreal] about some-
+thing, is this something that—manage[s] his testimony in
+front of the jury?” 707 S. W. 3d 138, 142 (Tex. Crim. App.
+2024). Addressing Villarreal, the judge clarifed: “I'm not
+telling you, you can't talk to them.” Ibid. Indeed, the
+judge recognized that Villarreal had “a constitutional right
+to confer” with his attorneys about certain topics. Ibid.
+“For instance, suppose . . . you need to start talking . . . about
+possible sentencing issues, you can do that.” Ibid. But to
+the extent Villarreal's lawyers wished to “manage” his testi-
+mony, the judge placed that off limits. Ibid.
+Villarreal's lawyers objected under the Sixth Amendment
+but indicated that they understood the order's scope. Id.,
+at 142–143. Villarreal resumed his testimony 24 hours later
+and was subsequently convicted of murder; he received a 60-
+year sentence. Id., at 140, 143. At no point did Villarreal
+or his attorneys suggest that the qualifed conferral order
+had inhibited any conversation they wished to have. See
+id., at 143.
+II
+The Court of Appeals of Texas affrmed Villarreal's convic-
+tion, see 596 S. W. 3d 338 (2019), as did the Texas Court of
+Criminal Appeals (TCCA), see 707 S. W. 3d 138. The TCCA
+understood the challenged conferral order as an effort to
+“preserv[e] the truth-seeking function of trial” and thus con-
+strued the order as prohibiting Villarreal's lawyers from
+“managing” his “ongoing testimony.” Id., at 146. In the
+TCCA's view, the order was a permissible exercise of thePage Proof Pending Publication
+470 VILLARREAL v. TEXAS
+Opinion of the Court
+trial court's discretion because it “only restricted discussions
+of [Villarreal's] ongoing testimony and nothing else.” Ibid.
+Although a defendant must be able to confer with counsel
+about the “effects” of his testimony, the TCCA reasoned, a
+trial court may prohibit more explicit discussion of the de-
+fendant's testimony itself. Id., at 145. The TCCA ex-
+plained that a trial court may, for example, order defense
+counsel not to “coach the testimony to course-correct a disas-
+trous direct examination to brace against the impact of the
+upcoming cross-examination.” Ibid.
+In separate writings, multiple TCCA judges expressed
+hesitation with the “murky” line that emerges from Geders
+and Perry. See 707 S. W. 3d, at 147–148 (Yeary, J., concur-
+ring). They worried that confusion about the proper scope
+of conferral orders risks trenching on a defendant's Sixth
+Amendment right to obtain full, unqualifed advice on mat-
+ters key to the effective assistance of counsel, such as
+whether to plead guilty. See id., at 148 (same); id., at 150
+(Keel, J., concurring).
+Those judges are among many who have struggled with
+the permissibility of similar orders and who have diverged
+both in their bottom-line conclusions and in their reasoning.1
+We granted certiorari to clarify the Sixth Amendment's
+boundaries. 604 U. S. 1241 (2025).
+III
+The Sixth Amendment guarantees as “fundamental” a
+criminal defendant's right to consult with his counsel. See,
+1 Compare, e. g., Martin v. United States, 991 A. 2d 791, 794–795, and
+n. 13 (D. C. 2010) (concluding that an order banning discussion of testimony
+during an overnight recess violated the Sixth Amendment and collecting
+supporting cases), with Beckham v. Commonwealth, 248 S. W. 3d 547, 553
+(Ky. 2008) (allowing an order “permitting the defendant to have contact
+with his attorneys during an overnight recess while limiting that contact
+by telling the attorneys to not discuss their client's ongoing testimony”).
+See also United States v. Triumph Capital Group, Inc., 487 F. 3d 124, 127,
+133 (CA2 2007) (noting that “courts have struggled to defne the constitu-
+tional line between Geders and Perry”).Page Proof Pending Publication
+Cite as: 607 U. S. 465 (2026) 471
+Opinion of the Court
+e. g., Powell v. Alabama, 287 U. S. 45, 68 (1932). When a
+defendant opts to take the witness stand, however, he “[a]s-
+sum[es] the position of a witness,” with its attendant “criti-
+cisms and burdens.” Reagan v. United States, 157 U. S. 301,
+305 (1895). One such burden: Courts may limit advice from
+counsel aimed at “infuenc[ing] the testimony in light of the
+testimony already given.” Geders, 425 U. S., at 87.
+During a normal trial recess—one that does not interrupt
+the defendant's testimony—no such infuence is threatened
+and the Constitution plainly protects a defendant's right to
+access his counsel without judicial interference. But during
+a midtestimony recess (when the defendant not only enjoys
+the Sixth Amendment's protection but also bears a witness's
+burdens), it is less clear whether and to what extent the
+Sixth Amendment permits judge-imposed restrictions on the
+defendant's access to counsel.
+This Court frst encountered that question in Geders. An
+overnight recess divided Geders's direct testimony from his
+cross-examination. Before the recess, the judge ordered
+Geders not to discuss the case overnight with anyone. 425
+U. S., at 82–83, and n. 1. Geders's attorney objected to this
+absolute conferral ban, explaining that he believed his client
+had a right to confer with him “about matters other than the
+imminent cross-examination.” Id., at 82.
+This Court agreed. The trial judge's order, we explained,
+was a species of the traditional practice of witness sequestra-
+tion. “Applied to nonparty witnesses,” the practice is unob-
+jectionable and “within sound judicial discretion.” Id., at
+88. But Geders “was not simply a witness; he was also the
+defendant.” Ibid. And whereas “[a] nonparty witness or-
+dinarily has little, other than his own testimony, to discuss
+with trial counsel” during an overnight recess, the same is
+not true of a defendant: “It is common practice during such
+recesses for an accused and counsel to discuss the events of
+the day's trial.” Ibid. Indeed, we explained,
+“[s]uch recesses are often times of intensive work, with
+tactical decisions to be made and strategies to be re-Page Proof Pending Publication
+472 VILLARREAL v. TEXAS
+Opinion of the Court
+viewed. The lawyer may need to obtain from his client
+information made relevant by the day's testimony, or he
+may need to pursue inquiry along lines not fully ex-
+plored earlier. At the very least, the overnight recess
+during trial gives the defendant a chance to discuss with
+counsel the signifcance of the day's events.” Ibid.
+For those reasons, we held in Geders that the Sixth
+Amendment precludes the judge from keeping a defendant
+and his lawyer apart during that crucial interlude in the de-
+fendant's testimony. We observed that concerns about “the
+problem of possible improper infuence on testimony or
+`coaching' of a witness” can be addressed without so blunt
+an instrument as a complete overnight barrier. Id., at 89.
+And, “[t]o the extent that confict remains” between the Con-
+stitution and the interest in untutored cross-examination, we
+concluded that “the confict must, under the Sixth Amend-
+ment, be resolved in favor of the right to the assistance and
+guidance of counsel.” Id., at 91.
+Geders explicitly reserved judgment regarding the consti-
+tutionality of a shorter conferral restriction, like one govern-
+ing “a brief routine recess during the trial day.” Id., at 89,
+n. 2. But when that question arose 13 years later in Perry,
+we upheld the restriction, emphasizing a defendant's shift in
+status when he takes the stand. “[B]efore he begins to tes-
+tify,” we reasoned, a defendant “has an absolute right” to
+consult with his lawyer. 488 U. S., at 281. When he be-
+comes a witness, however, a competing duty arises: the duty
+to advance “the truth-seeking function of the trial.” Id., at
+282. That function, we explained, is best served when testi-
+mony is unaided by “an opportunity to consult with third
+parties,” such as lawyers, about the course of one's testimony
+once it has begun. Ibid.
+Then, Perry made a key observation: As a practical mat-
+ter, a truth-undermining consultation is exactly the kind of
+communication likely to happen during a brief daytime re-
+cess. That is, during a brief recess, “there is a virtual cer-Page Proof Pending Publication
+Cite as: 607 U. S. 465 (2026) 473
+Opinion of the Court
+tainty that any conversation between the witness and the
+lawyer would relate to the ongoing testimony.” Id., at 283–
+284. Notably, this fact differentiated the Perry recess from
+the Geders one. When (as in Geders) the recess stretches
+overnight, the discussion will likely “encompass matters that
+go beyond the content of the defendant's own testimony—
+matters that the defendant does have a constitutional right
+to discuss with his lawyer, such as the availability of other
+witnesses, trial tactics, or even the possibility of negotiating
+a plea bargain.” Perry, 488 U. S., at 284.
+Perry therefore held that what the Sixth Amendment for-
+bids overnight (a total conferral ban), it permits during a
+brief daytime recess. Perry also suggested that, during
+such a brief recess, trial courts might opt for a lesser in-
+cluded restriction—one that would permit consultation on
+protected topics “but forbid discussion of ongoing testi-
+mony.” Ibid., n. 8.
+We acknowledged in Perry that “the line between the
+facts of Geders and” Perry “is a thin one.” Id., at 280. It
+is nonetheless “a line of constitutiona

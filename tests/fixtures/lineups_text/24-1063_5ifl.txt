@@ -1,0 +1,345 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+HUNTER v. UNITED STATES
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE FIFTH CIRCUIT
+No. 24–1063. Argued March 3, 2026—Decided June 18, 2026
+Petitioner Munson Hunter III was charged with 10 counts of bank and
+wire fraud for a years-long scheme costing various financial institu-
+tions about half a million dollars. He entered into a written plea agree-
+ment with the Government under which he pleaded guilty to one count
+of aiding and abetting wire fraud in exchange for dismissal of the re-
+maining nine charges and a promise not to prosecute him for the de-
+scribed conduct in the future. The agreement included an appeal
+waiver under which Hunter waived the right to appeal his conviction
+and sentence, except that he did not waive the right to raise a claim of
+ineffective assistance of counsel. The agreement further provided that
+“any modification” of its terms “must be in writing and signed by all
+parties.” The District Court accepted the plea after deeming it know-
+ing and voluntary.
+At sentencing, the Probation Office recommended that as a condition
+of supervised release Hunter be required to participate in a mental-
+health treatment program and take all mental-health medications pre-
+scribed by his treating physician. Hunter objected to the mandatory-
+medication part of that condition. The District Court told Hunter that
+if “the treatment provider prescribes drugs, you should take them,”
+while also telling Hunter that he could “address” any future dispute
+about medication “to the probation officer” or, if needed, “to me.” The
+District Court then imposed a sentence of 51 months in prison followed
+by three years of supervised release, including the contested medica-
+tion condition. At the close of the hearing, the court told Hunter: “All
+right. You have a right to appeal. If you wish to appeal, [your trial
+counsel] will continue to represent you.” When asked if either party
+wished to say anything else, Hunter’s lawyer said “Nothing from the
+defense,” and the prosecutor replied: “Your Honor, I believe—well, no.
+2 HUNTER v. UNITED STATES
+Syllabus
+I—no.”
+Hunter appealed, challenging the mandatory-medication condition
+as infringing on his “fundamental due process liberty interest in being
+free of unwanted mental health medication.” The Government sought
+dismissal based on the appeal waiver. Hunter acknowledged he had
+knowingly and voluntarily signed the waiver but argued that an ap-
+peal waiver is unenforceable when the disputed aspect of a sentence
+violates a fundamental constitutional right, and alternatively that the
+District Court’s statement at sentencing about appeal rights, along
+with the prosecutor’s failure to object, voided the waiver. The Court of
+Appeals for the Fifth Circuit dismissed the appeal, holding that the
+District Court’s misstatement “did not impact the validity of the appeal
+waiver” and that under Circuit precedent the “general rule” that ap-
+peal waivers are enforceable has only two exceptions: when the waiver
+was tainted by ineffective assistance of counsel and when the sentence
+exceeded the statutory maximum. Because neither exception applied,
+the Fifth Circuit held that Hunter’s appeal could not go forward.
+Held: An agreement not to appeal a sentence is unenforceable when it
+would result in a miscarriage of justice—meaning, when it would leave
+in place the kind of egregious error that would bring the judicial sys-
+tem into disrepute. Pp. 5–14.
+(a) The District Court’s misstatement at sentencing and the Govern-
+ment’s silence did not negate Hunter’s knowing and voluntary appeal
+waiver. The plea agreement specified that “[a]ny modification” of its
+terms “must be in writing and signed by all parties,” and even assum-
+ing away that provision, nothing that happened in the sentencing
+hearing shows the mutual agreement between parties needed to ac-
+complish a modification. The court’s statement about appeal rights
+could not change the parties’ agreement because it is the parties’ intent
+that matters, and their non-response falls far short of showing agree-
+ment to alter a conflicting term.
+The Government did not waive or forfeit its right to enforce the ap-
+peal waiver by failing to correct the court’s misstatement. Under ordi-
+nary litigation principles, waiver requires some affirmative signal of
+abandonment, and staying silent—as here, not picking a fight—does
+not qualify. Forfeiture generally does happen through silence because
+it is the failure to make the timely assertion of a right, but the proper
+time for the Government to assert its right to enforce an appeal waiver
+is after a defendant files a notice of appeal, not at sentencing. The
+decision that Hunter’s appeal waiver remains valid matches one the
+Court reached in a nearly mirror-image case, Class v. United States,
+583 U. S. 174. Pp. 5–7.
+(b) The question becomes whether the Government’s right to enforce
+an appeal waiver has limits and, if so, what they are. It is common
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+ground that an appeal waiver must be knowing and voluntary to be
+valid and thus to be enforceable, and that an appeal waiver is not
+knowing and voluntary if it was the product of ineffective assistance of
+counsel. Putting that to the side, the Fifth Circuit holds appeal waiv-
+ers unenforceable only when the sentence exceeds the statutory maxi-
+mum. The Government maintains that knowing and voluntary appeal
+waivers are always enforceable. But most courts of appeals have in-
+stead taken a less stringent approach, declining to enforce appeal
+waivers when doing so would produce a “miscarriage of justice.” The
+question for the Court is which position is right.
+The answer stems from the special, and indeed pivotal, role of the
+judiciary in approving and implementing appeal waivers. A district
+court must accept the plea agreement, including any appeal waiver,
+before it can go into effect, and that decision is one given over to “sound
+judicial discretion.” Santobello v. New York, 404 U. S. 257, 261–262.
+An appeal waiver then falls into the lap of a court of appeals, which
+has exclusive control over its operation; the real-world effect of a
+waiver turns only on whether the appeals court decides to enforce it,
+and enforcement will cement into place a district court’s sentence
+whether or not lawful. Because that is so, the standard for enforcing
+appeal waivers implicates the interests not only of the plea agree-
+ment’s parties, but also of the judiciary. If a court always enforces
+appeal waivers regardless of the kind or degree of error tainting a sen-
+tence, the judicial system’s integrity may come into question. The
+Court has recognized when addressing waivers of other rights held by
+criminal defendants that federal courts have an “independent” “insti-
+tutional interest” in ensuring that legal proceedings “appear fair to all
+who observe them,” Wheat v. United States, 486 U. S. 153, 160, and
+that some rules may be “so fundamental” that they could not be waived
+“without irreparably discrediting the federal courts,” United States v.
+Mezzanatto, 513 U. S. 196, 204. Whatever the parties have agreed to,
+the court’s own responsibility when enforcing a waiver is apparent,
+and so automatic enforcement may “risk[ ] institutional harm.” Id., at
+205.
+Accordingly, neither the Government’s nor the Fifth Circuit’s pro-
+posed rule can be the right one. The Government’s position first runs
+into the scenario that even the Fifth Circuit will not tolerate: when a
+judge imposes a sentence beyond what the relevant statute allows.
+Suppose a judge sentences a misdemeanant to life in prison, when the
+applicable law caps a prison term at one year; if an appellate court had
+to dismiss the resulting appeal, it would call into doubt the judicial
+system’s very attachment to law. But so too would a dismissal in cer-
+tain other situations, which fall outside both the Government’s and the
+Fifth Circuit’s rules—for example, if the sentencing judge
+4 HUNTER v. UNITED STATES
+Syllabus
+unconstitutionally considered race or religion, imposed a condition
+that a defendant not become pregnant, or “let an orangutan pick a sen-
+tence out of a hat.” Tr. of Oral Arg. 66. However certain the parties’
+agreement, the courts are too enmeshed in its approval and implemen-
+tation to escape responsibility for such results. Pp. 7–11.
+(c) The Court thus approves the majority view among the courts of
+appeals that an appeal waiver is unenforceable when it would result
+in a miscarriage of justice. The miscarriage-of-justice standard sets a
+high bar. The waiver may be set aside only if the sentence is marred
+by the kind of egregious error that would bring the judicial system into
+disrepute. The error must be obvious—not one a judge could reasona-
+bly make—and must be of the type that would undermine public con-
+fidence in the judiciary. Standard-fare errors in misapplying sentenc-
+ing law cannot cancel an appeal waiver. But a high bar is not the same
+as an insurmountable one; the miscarriage-of-justice limit, as many
+appellate courts have properly applied it, offers a safety valve for ex-
+treme cases when the justice system’s basic integrity is at stake.
+The nature of the miscarriage-of-justice limit precludes any attempt
+to list all the situations in which it will overcome an appeal waiver.
+But a few examples of the kinds of errors that would bring the judiciary
+into disrepute may provide guidance to lower courts: a sentence ex-
+ceeding what the relevant statute allows; a sentence infected with a
+blatant constitutional error, such as when a judge takes account of a
+constitutionally impermissible factor (like race) or imposes a constitu-
+tionally infirm condition of supervised release; and a sentence imposed
+without some minimum of civilized procedure. These examples are
+just examples, not intended to be exclusive, but they serve to illustrate
+the high bar a defendant must surmount to overcome an appeal
+waiver.
+The Court doubts that this confined exception will “open the flood-
+gates” to “waived appeals.” Tr. of Oral Arg. 60, 87. Many Circuits
+already apply a miscarriage-of-justice limit, and the Government has
+offered no evidence those courts are awash with appeals. The Circuits
+using this approach have understood it to erect a substantial barrier,
+and such a hard-to-meet standard presumably deters many appeals
+while those still filed can often be quickly dismissed because the errors
+asserted are uncertain or ordinary. Pp. 11–13.
+(d) The Court declines to decide in the first instance whether
+Hunter’s challenge to the mandatory-medication condition satisfies
+the miscarriage-of-justice standard. The Court of Appeals did not ad-
+dress the question, and this Court is “a court of review, not of first
+view,” Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7. It is therefore up
+to the Fifth Circuit to decide whether enforcing Hunter’s appeal waiver
+would result in a miscarriage of justice. Pp. 13–14.
+5Cite as: 608 U. S. ___ (2026)
+Syllabus
+Vacated and remanded.
+KAGAN, J., delivered the opinion of the Court, in which ROBERTS, C. J.,
+and ALITO, SOTOMAYOR, GORSUCH, KAVANAUGH, BARRETT, and JACKSON,
+JJ., joined. GORSUCH, J., filed a concurring opinion, in which SOTOMAYOR
+and JACKSON, JJ., joined. KAVANAUGH, J., filed a concurring opinion, in
+which ALITO and BARRETT, JJ., joined. BARRETT, J., filed a concurring
+opinion. THOMAS, J., filed a dissenting opinion.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–1063
+MUNSON P. HUNTER, III, PETITIONER v.
+UNITED STATES
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE FIFTH CIRCUIT
+[June 18, 2026]
+JUSTICE KAGAN delivered the opinion of the Court.
+Plea agreements between a criminal defendant and the
+Government often include an appeal waiver—a promise by
+the defendant not to appeal his conviction or eventual sen-
+tence. In this case, we address a dispute about when such
+a promise is unenforceable in the sentencing context. We
+principally hold that an agreement not to appeal a sentence
+is unenforceable when it would result in a miscarriage of
+justice—meaning, when it would leave in place the kind of
+egregious error that would bring the judicial system into
+disrepute.
+I
+Petitioner Munson Hunter III entered into a written plea
+agreement with the Government after he was charged with
+ten counts of bank and wire fraud for a years-long scheme
+costing various financial institutions about half a million
+dollars. Under the agreement, Hunter pleaded guilty to one
+count of aiding and abetting wire fraud. In exchange, the
+Government agreed to dismiss the other nine charges and
+to refrain from prosecuting Hunter in the future for the con-
+duct they described.
+2 HUNTER v. UNITED STATES
+Opinion of the Court
+The agreement also included an appeal waiver, applying
+to both Hunter’s conviction and his still-to-be-decided sen-
+tence. Under that provision, Hunter “knowingly and volun-
+tarily waive[d] the right to appeal” his conviction and sen-
+tence, except that he did “not waive the right to raise a
+claim of ineffective assistance of counsel.” App. to Pet. for
+Cert. 6a. And with specific reference to his sentence,
+Hunter acknowledged his “aware[ness]” of certain facts:
+that the sentence had “not yet been determined” by the Dis-
+trict Court; that the Government had made no “promise or
+representation” about that sentence; and that the “sentence
+to be imposed [was] within the sole discretion of the sen-
+tencing judge.” Id., at 7a, 8a, 10a. The plea agreement fur-
+ther specified what would happen if Hunter nonetheless ap-
+pealed: The Government would “assert its rights under this
+agreement and seek specific performance” of Hunter’s ap-
+peal waiver. Id., at 7a. Finally, the agreement provided
+that “[a]ny modification” of its terms—including of the ap-
+peal waiver—“must be in writing and signed by all parties.”
+Id., at 15a.
+After the agreement was reached, the District Court held
+a hearing to decide whether to accept Hunter’s plea. To en-
+sure that Hunter fully grasped the consequences of the
+agreement, the court went over each of its terms. Upon
+reaching the appeal waiver, the court read it aloud, ex-
+plained what it meant—among other things, that “[b]asi-
+cally you’re agreeing to whatever sentence I impose”—and
+asked Hunter whether he understood. App. 11. When
+Hunter replied “Yes” to that and similar questions, the
+court deemed the plea “knowing and voluntary,” adjudged
+Hunter guilty of aiding and abetting wire fraud, and sched-
+uled a sentencing hearing. Id., at 11, 14–15; see id., at 11–
+15.
+At that hearing, much of the discussion focused on a con-
+dition of supervised release that the Probation Office rec-
+ommended go into effect once Hunter completed his prison
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+sentence. According to the Office’s presentence report,
+Hunter “suffers from symptoms of anxiety and depression”
+and “has refused medication to treat his symptoms.”
+Presentence Report in No. 23–cr–85 (SD Tex.), ECF Doc. 125,
+p. 19. The report thus proposed that, while on supervised
+release, Hunter be required to “participate in a mental-
+health treatment program” and to “take all mental-health
+medications that are prescribed by [his] treating physi-
+cian.” Id., at 24. Hunter objected to the mandatory-medi-
+cation part of that condition, saying that he should not “be
+forced to medicate.” App. to Pet. for Cert. 24a. The judge
+responded that if “the treatment provider prescribes drugs,
+you should take them,” while also telling Hunter that he
+could “address” any future dispute about medication “to the
+probation officer” or, if needed, “to me.” Ibid.
+The District Court later imposed its sentence and made
+closing remarks, including a fairly inexplicable one at issue
+here. Under the sentence, Hunter would have to serve 51
+months in prison, followed by three years of supervised re-
+lease. The release conditions would include the medication
+requirement to which Hunter had objected. After specify-
+ing those terms, the court granted the Government’s motion
+to dismiss the remaining counts in the indictment, con-
+firmed with Hunter’s lawyer that the Government had com-
+plied with the plea agreement, and finally addressed
+Hunter. The court said: “All right. You have a right to ap-
+peal. If you wish to appeal, [your trial counsel] will con-
+tinue to represent you.” Id., at 36a. Then turning back to
+the lawyers, the court asked whether either “wish[ed] to say
+anything else.” Ibid. Hunter’s lawyer answered: “Nothing
+from the defense.” The prosecutor replied: “Your Honor, I
+believe—well, no. I—no.” Ibid. And the hearing adjourned.
+Hunter promptly appealed, challenging the mandatory-
+medication condition. That condition, he argued, “in-
+fringe[d] on [his] fundamental due process liberty interest
+in being free of unwanted mental health medication.” Brief
+4 HUNTER v. UNITED STATES
+Opinion of the Court
+for Appellant in No. 24–20211 (CA5), p. 9. The Government
+sought dismissal, citing the appeal waiver in Hunter’s plea
+agreement. Hunter acknowledged that he had knowingly
+and voluntarily signed on to that provision, but urged two
+reasons for still permitting the appeal to proceed. Most
+broadly, he contended that an appeal waiver is unenforcea-
+ble when the disputed aspect of a sentence “violates a fun-
+damental constitutional right.” Ibid. In the alternative, he
+asserted that the District Court’s representation at sen-
+tencing that he had a right to appeal, along with the prose-
+cutor’s failure to object, voided the appeal waiver he had
+made. See id., at 8–9.
+The Court of Appeals for the Fifth Circuit dismissed
+Hunter’s appeal based on the waiver provision. The court
+first concluded that the District Court’s misstatement at
+sentencing “did not impact the validity of the appeal
+waiver.” 2024 WL 5003582, *1 (Dec. 6, 2024) (per curiam).
+And such a waiver, the court next held, controls even if the
+District Court imposed an “unconstitutional sentence.”
+Ibid. (citing United States v. Barnes, 953 F. 3d 383, 389
+(CA5 2020)). Under Circuit precedent, the “general rule”
+that appeal waivers are enforceable has “only two excep-
+tions”: when the waiver itself was “tainted by ineffective as-
+sistance of counsel” and when the challenged sentence “ex-
+ceed[ed] the statutory maximum.” Id., at 388–389; United
+States v. White, 307 F. 3d 336, 339 (CA5 2002). Because
+neither exception applied, Hunter’s appeal could not go for-
+ward.
+We granted certiorari, 607 U. S. 961 (2025), because the
+Courts of Appeals have differed on when appeal waivers are
+unenforceable in the sentencing context. Most have held
+that a waiver cannot be enforced if doing so would result in
+a miscarriage of justice.1 The Fifth Circuit and a few others
+——————
+1 See United States v. Boudreau, 58 F. 4th 26, 33 (CA1 2023); United
+States v. Khattak, 273 F. 3d 557, 562 (CA3 2001); United States v. Smith,
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+have declined that route, instead specifying just a few dis-
+crete circumstances in which an appeal can occur despite a
+waiver.2 Today, we adopt the “miscarriage of justice” ap-
+proach, and accordingly remand this case to the Fifth Cir-
+cuit to consider whether, under that standa

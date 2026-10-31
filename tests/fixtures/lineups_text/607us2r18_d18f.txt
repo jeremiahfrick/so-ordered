@@ -1,0 +1,326 @@
+P R E L I M I N A R Y P R I N T
+Volume 607 U. S. Part 2
+Pages 509–536
+OFFICIAL REPORTS
+OF
+THE SUPREME COURT
+March 4, 2026
+REBECCA A. WOMELDORF
+reporter of decisionsPage Proof Pending Publication
+NOTICE: This preliminary print is subject to formal revision before
+the bound volume is published. Users are requested to notify the Reporter
+of Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+Page Proof Pending PublicationOCTOBER TERM, 2025 509
+Syllabus
+GALETTE v. NEW JERSEY TRANSIT CORPORATION
+certiorari to the supreme court of pennsylvania,
+eastern district
+No. 24–1021. Argued January 14, 2026—Decided March 4, 2026*
+In 1979, the New Jersey Legislature created the New Jersey Transit Cor-
+poration (NJ Transit) as a “body corporate and politic with corporate
+succession” and constituted it as an “instrumentality of the State exer-
+cising public and essential governmental functions” but “independent of
+any supervision or control” by the New Jersey Department of Transpor-
+tation. N. J. Stat. § 27:25–4(a). The State gave NJ Transit signifcant
+authority, including the power to make bylaws, sue and be sued, make
+contracts, acquire property, raise funds, own corporate entities, adopt
+regulations, and exercise eminent domain powers. §§ 27:25–5, 27:25–13.
+NJ Transit's organic statute provides that “[n]o debt or liability of the
+corporation shall . . . constitute a debt [or] liability of the State,” and
+that “[a]ll expenses . . . shall be payable from funds available to the
+corporation.” § 27:25–17. NJ Transit is governed by a board of direc-
+tors (Board). § 27:25–4(b). The Governor may remove Board mem-
+bers and may veto Board actions; the Legislature may veto some emi-
+nent domain actions. §§ 27:25–4(b), (f); § 27:25–13(h). NJ Transit is
+now the third largest provider of bus, rail, and light rail transit, operat-
+ing within an area that includes New Jersey, New York City, and
+Philadelphia.
+In 2017, Jeffrey Colt was struck by an NJ Transit bus in Midtown
+Manhattan; a year later, Cedric Galette was injured when an NJ Transit
+bus crashed into a car in which he was a passenger in Philadelphia.
+Both sued NJ Transit for negligence in their respective home state
+courts. NJ Transit moved to dismiss both lawsuits, arguing that it is
+an arm of New Jersey entitled to sovereign immunity. The New York
+Court of Appeals held that NJ Transit is not an arm of New Jersey; the
+Pennsylvania Supreme Court held the opposite, concluding NJ Transit is
+an arm of New Jersey. This Court consolidated the cases and granted
+certiorari to resolve the confict.
+Held: NJ Transit Corporation is not an arm of New Jersey and thus is
+not entitled to share in New Jersey's interstate sovereign immunity.
+Pp. 519–536.
+*Together with No. 24–1113, New Jersey Transit Corporation et al. v.
+Colt et al., on certiorari to the Court of Appeals of New York.
+510 GALETTE v. NEW JERSEY TRANSIT CORP.
+Syllabus
+(a) Sovereign immunity is “ `personal' ” to the State and extends only
+to arms of the State itself, College Savings Bank v. Florida Prepaid
+Postsecondary Ed. Expense Bd., 527 U. S. 666, 675, not to legally inde-
+pendent entities that the State creates. Whether an entity is “an arm
+of the State . . . is a question of federal law” answered by considering the
+“provisions of state law that defne the agency's character.” Regents
+of Univ. of Cal. v. Doe, 519 U. S. 425, 429, n. 5. Pp. 519–523.
+(1) The Court's early cases focused on whether an entity was a
+separate legal person from the State, with the corporate form serving
+as a key marker of separate legal personhood. A “corporation” was
+understood as “an artifcial person” that could “sue and be sued by its
+own members” and “contract with them . . . as with any strangers.”
+Trustees of Dartmouth College v. Woodward, 4 Wheat. 518, 667–668.
+In Bank of United States v. Planters' Bank of Ga., 9 Wheat. 904, the
+Court held that a state-chartered bank was not an arm of Georgia be-
+cause it was a “corporation” and judgments would be satisfed by the
+corporation's property, not the State's. Subsequent cases reaffrmed
+this holding even when the State exerted signifcant control over the
+bank. See, e. g., Bank of Kentucky v. Wister, 2 Pet. 318, 323–324. The
+Court also applied the same reasoning to cities and counties created as
+municipal corporations. See Lincoln County v. Luning, 133 U. S. 529,
+530–531. Pp. 520–521.
+(2) Beginning in the mid-20th century, the Court began taking a
+more holistic view of an entity's relationship with the State, but re-
+mained focused on whether the State structured the entity to be legally
+separate, with corporate status remaining central. In Moor v. County
+of Alameda, 411 U. S. 693, 719–721, the Court held that a county was
+not an arm of the State because it was created as a “body corporate and
+politic” with “ `corporate powers' ” and the county alone would be “liable
+for all judgments against it.” In Mt. Healthy City Bd. of Ed. v. Doyle,
+429 U. S. 274, 280, the Court framed the inquiry as asking whether an
+entity is “more like a county or city” than “like an arm of the State,”
+and concluded a local school board was not an arm of the State. In
+Lake Country Estates, Inc. v. Tahoe Regional Planning Agency, 440
+U. S. 391, and Hess v. Port Authority Trans-Hudson Corporation, 513
+U. S. 30, the Court found that two bistate entities were not arms of the
+State where they were created as separate legal entities, judgments
+against the entities were not binding on the States, and the entities
+generated their own revenues and paid their own debts. Pp. 521–523.
+(b) The Court's precedents have consistently and predominantly ex-
+amined whether the State structured the entity as a legally separate
+entity liable for its own judgments. The clearest evidence of legal sepa-
+rateness is when the State created a corporation with traditional corpo-Page Proof Pending Publication
+Page Proof Pending PublicationCite as: 607 U. S. 509 (2026) 511
+Syllabus
+rate powers to sue and be sued, hold property, make contracts, and incur
+debt. A State might create a corporation precisely because of its inde-
+pendent legal status, allowing the State to distance itself from burdens
+the corporate entity may incur. When a State makes such a decision,
+courts should presume the corporation enjoys all the advantages and
+disadvantages of separate legal status, including that it is no longer part
+of the State itself. Other aspects of state law may also indicate legal
+separateness, such as defning the entity as a “separate legal entity” or
+excluding it from the defnition of “State” for other purposes.
+The Court's precedents also focus on whether the entity is liable for
+its own judgments or whether the State is formally liable. One central
+rationale for sovereign immunity is protecting States' “ability to make
+[their] own decisions about `the allocation of scarce resources.' ” Lewis
+v. Clarke, 581 U. S. 155, 167. If the State is formally liable for judg-
+ments against an entity, that entity is more likely an arm of the State.
+An entity's practical fnancial relationship with the State, such as an
+expectation that the State would cover its judgments if needed, or the
+State's history of subsidizing the entity, has less relevance.
+Finally, courts may consider the degree of control the State exerts
+over the entity, but should do so with caution because “ultimate control
+of every state-created entity resides with the State,” even those that
+are not arms of the State. Hess, 513 U. S., at 47. “Gauging actual
+control” can be a “ `perilous' ” and “ `unreliable' ” inquiry. Ibid. The
+Court has never found a corporation liable for its own judgments to be
+an arm of the State, even when the State had signifcant control, includ-
+ing cases where the State was sole shareholder, possessed appointment
+and removal powers, and managed the entity's affairs. See Wister, 2
+Pet., at 323–324. Pp. 523–527.
+(c) Even if an entity is not an arm of the State, a particular suit or
+remedy may require dismissal due to sovereign immunity if the State is
+nevertheless the real party in interest. See, e. g., Hopkins v. Clemson,
+221 U. S. 636. Because NJ Transit never argued that New Jersey is the
+real party in interest in either of these cases, dismissal on this ground
+is not implicated here. Pp. 527–528.
+(d) Applying these principles, NJ Transit is not an arm of New Jersey.
+To start, New Jersey structured NJ Transit as a legally separate entity:
+It was created as a “body corporate and politic with corporate succes-
+sion” possessing typical corporate powers, such as the power to “[s]ue
+and be sued,” “enter into contracts,” and “acquire . . . property.”
+§§ 27:25–4(a), 27:25–5(a), ( j), (r). NJ Transit's corporate status serves
+as strong evidence it is not an arm of the State. Although NJ Transit's
+organic statute labels it an “instrumentality of the State,” § 27:25–4(a),
+that term lacks the historical weight of the corporate form and says
+512 GALETTE v. NEW JERSEY TRANSIT CORP.
+Syllabus
+little about arm-of-the-State status. Other aspects of New Jersey law
+undercut any inference from the term “instrumentality”: The New Jer-
+sey Tort Claims Act and Contractual Liability Act exclude entities with
+sue-and-be-sued authority from the defnition of “State.” §§ 59:1, 59:3,
+59:13–2.
+Second, as NJ Transit concedes, the State is not formally liable for
+any of NJ Transit's debts or liabilities under New Jersey law. § 27:
+25–17.
+Finally, the control New Jersey exerts over NJ Transit does not
+change the conclusion. Although the State exerts substantial control—
+e. g., Governor's appointment and removal powers, § 27:25–4(b); cabinet
+member chairing the Board, § 27:25–4(d); gubernatorial veto power,
+§ 27:25–4(f); legislative veto over some eminent domain actions, § 27:25–
+13(h)—New Jersey law also states NJ Transit “shall be independent of
+any supervision or control by the [transportation] department” and re-
+quires it to “exercise independent judgment.” §§ 27:25–4(a), 27:25–
+4.1(b)(2)(d). This level of control does not meaningfully affect NJ Tran-
+sit's status with respect to the arm-of-the-State analysis given that it is
+a legally separate corporation responsible for its own judgments.
+Pp. 528–530.
+(e) NJ Transit's and its amici's counterarguments are unavailing.
+NJ Transit contends corporate status is not dispositive, but NJ Transit
+is a corporation with all the hallmarks of separate legal personhood, and
+the Court has not previously found a similarly structured corporation
+to be an arm of the State. NJ Transit's reliance on State Highway
+Comm'n of Wyo. v. Utah Constr. Co., 278 U. S. 194, is misplaced because
+that case concerned whether the State was the real party in interest in
+a particular contract dispute, not whether the entity was in the abstract
+an arm of the State.
+NJ Transit argues its description as serving “public and essential gov-
+ernmental functions,” § 27:25–4(a), and its delegation of substantial pub-
+lic powers demonstrate an intent by New Jersey to create it as an arm
+of the State. The arm-of-the-State analysis, however, focuses not on
+whether the entity serves public functions but on whether the State
+chose to serve those functions through its own apparatus or through a
+legally separate entity. Cities and counties serve public functions and
+exercise police powers but are not arms of the State. Assessing what
+qualifes as an essential governmental function can also be “unsound in
+principle and unworkable in practice.” Garcia v. San Antonio Metro-
+politan Transit Authority, 469 U. S. 528, 546.
+NJ Transit also contends that the Court should consider its practical
+fnancial relationship with the State, including the degree of state fund-
+ing and the likelihood the State would pay its judgments. NeitherPage Proof Pending Publication
+Cite as: 607 U. S. 509 (2026) 513
+Syllabus
+Lake Country nor Hess supports this position: Lake Country's discus-
+sion of practical consequences relied on real-party-in-interest cases,
+while its arm-of-the-State analysis discussed only whether the Compact
+expressly provided that obligations would not bind the States. 440
+U. S., at 402. Hess focused on whether the Compact or state laws re-
+quired the States to bear judgments, concentrating on formal liability
+rather than the entity's practical fnancial relationship with the State.
+513 U. S., at 46. Hinging arm-of-the-State status to practical realities
+of state funding also risks arbitrary distinctions and inconsistent treat-
+ment, as illustrated by New Jersey's funding of NJ Transit's operating
+budget oscillating from 15% to 46% over 35 years.
+Finally, NJ Transit points to cases outside the sovereign immunity
+context to argue that the Court should place more weight on the State's
+control over, and practical fnancial relationship with, the entity. Those
+cases, however, warned that an entity can count as part of the State for
+some but not other purposes, and thus have little bearing on the arm-
+of-the-State analysis.
+Amici States urge the Court to adopt a rule that a State's own charac-
+terization of an entity should be dispositive. This position focuses on
+the label the State places on an entity, rather than on whether the State
+structured the entity as legally separate. It also prioritizes one charac-
+terization (“instrumentality”) over another (“body corporate”), and
+there is no good reason to believe the State intended NJ Transit to be
+part of the State itself by using “instrumentality” when it simultane-
+ously used “body corporate,” a term traditionally understood to create
+a “[s]eparate legal personality,” First Nat. City Bank v. Banco Para el
+Comercio Exterior de Cuba, 462 U. S. 611, 625. The States' preferred
+test does not promote predictability because it still requires courts to
+decide which state-law pronouncement is dispositive. Consistency is
+promoted by adhering to the long line of cases fnding state-created
+corporations formally liable for their own judgments not to be arms of
+the States that created them. States maintain the power to structure
+themselves as they wish and are free to amend their laws if they intend
+corporate entities to remain part of the State and for the State to as-
+sume their liabilities. Pp. 530–536.
+No. 24–1021, 332 A. 3d 776, reversed; No. 24–1113, 43 N. Y. 3d 463, 264
+N. E. 3d 774, affrmed; and both cases remanded.
+Sotomayor, J., delivered the opinion for a unanimous Court.
+Michael L. Zuckerman, Deputy Solicitor General of New
+Jersey, argued the cause for New Jersey Transit Corpora-Page Proof Pending Publication
+Page Proof Pending Publication514 GALETTE v. NEW JERSEY TRANSIT CORP.
+Counsel
+tion et al. in both cases. With him on the briefs were Mat-
+thew J. Platkin, Attorney General of New Jersey, Jeremy M.
+Feigenbaum, Solicitor General, Jean P. Reilly and Daniel M.
+Vannella, Assistant Attorneys General, Nathaniel F. Rubin,
+Amy Chung, Marie Cepeda Mekosh, Brett Haroldson, Jona-
+than L. Wang, Jonathan W. Allen, Bethanne Prugh, and Levi
+Klinger-Christiansen, Deputy Attorneys General, Kather-
+ine L. Pringle, and Scott H. Henney.
+Michael B. Kimberly argued the cause for Galette and
+Colt et al. in both cases. With him on the brief were Pat-
+rick G. Simonaitis, Kent Z. Steinberg, and Erica K. Achep-
+ohl. Brian Shoot fled a brief for respondent Jeffrey Colt
+et al. in No. 24–1113. With him on the brief were Easha
+Anand, Brian H. Fletcher, and Pamela S. Karlan.†
+†Briefs of amici curiae urging reversal in No. 24–1021 and affrmance
+in No. 24–1113 were fled for the American Association for Justice by Jef-
+frey R. White and Bruce Plaxen; for the Constitutional Accountability
+Center by Elizabeth B. Wydra, Brianne J. Gorod, and Brian Frazelle; for
+Federal Courts Scholars by Eric F. Citron and Kathleen Foley; for the
+New York State Academy of Trial Lawyers by Michael J. Hutter and
+Andrea E. Bonina; for Public Citizen by Nandan M. Joshi, Allison M.
+Zieve, and Scott L. Nelson; and for William Baude et al. by Stephen E.
+Sachs, pro se.
+Briefs of amici curiae urging reversal in No. 24–1113 and affrmance in
+No. 24–1021 were fled for the State of Missouri et al. by Catherine L.
+Hanaway, Attorney General of Missouri, Louis J. Capozzi III, Solicitor
+General, Daniel J. Feith, Kathleen M. Mueller, and Peter A. Bruland;
+for the Commuter Rail Coalition by Nathaniel H. Hunt and Charles A.
+Spitulnik; and for the National Governors Association by R. Trent
+McCotter.
+A brief of amici curiae was fled in both cases for the State of Texas
+et al. by Ken Paxton, Attorney General of Texas, William R. Peterson,
+Solicitor General, Brent Webster, First Assistant Attorney General, Wil-
+liam F. Cole, Principal Deputy Solicitor General, and Jeffrey A. Stephens,
+Assistant Solicitor General, and by the Attorneys General for their respec-
+tive States as follows: Steve Marshall of Alabama, Stephen J. Cox of
+Alaska, Tim Griffn of Arkansas, James Uthmeier of Florida, Christopher
+M. Carr of Georgia, Raúl Labrador of Idaho, Theodore E. Rokita of Indi-
+ana, Brenna Bird of Iowa, Kris W. Kobach of Kansas, Liz Murrill of Loui-
+Cite as: 607 U. S. 509 (2026) 515
+Opinion of the Court
+Justice Sotomayor delivered the opinion of the Court.
+States are generally entitled to immunity from being sued
+in another State's courts without their consent. That sover-
+eign immunity is personal to the State and thus extends only
+to arms of the State itself, not to legally independent entities
+that the State creates.
+This pair of cases arises out of two accidents, one in New
+York City and one in Philadelphia, in which New Jersey
+Transit buses struck and injured people. Both victims sued
+New Jersey Transit, a corporation created by the New Jer-
+sey Legislature, in their respective home courts in New York
+and Pennsylvania. The highest courts in those States di-
+verged as to whether New Jersey Transit is an arm of New
+Jersey. The Court granted certiorari to resolve whether
+New Jersey Transit is an arm of New Jersey and thus enti-
+tled to the State's sovereign immunity. It is not. Accord-
+ingly, the judgment of the New York Court of Appeals is
+affrmed and the judgment of the Pennsylvania Supreme
+Court is reversed.
+I
+A
+Starting in the 1960s and 1970s, New Jerseyans increas-
+ingly drove to work. This shift led railroads to curtail
+commuter-rail services connecting the New Jersey suburbs
+to New York City and caused signifcant highway congestion.
+The New Jersey Legislature responded by providing heavy
+subsidies and operational assistance to the major private rail
+and bus companies that served the region, but service re-
+mained severely fragmented.
+siana, Dana Nessel of Michigan, Keith Ellison of Minnesota, Lynn Fitch
+of Mississippi, Michael T. Hilgers of Nebraska, Aaron D. Ford of Nevada,
+Drew Wrigley of North Dakota, Dave Yost of Ohio, Dave Sunday of Penn-
+sylvania, Marty Jackley of South Dakota, Jonathan Skrmetti of Tennes-
+see, Jason Miyares of Virginia, and Keith G. Kautz of Wyoming.Page Proof Pending Publication
+516 GALETTE v. NEW JERSEY TRANSIT CORP.
+Opinion of the Court
+In search of a new solution, the Legislature in 1979 created
+the New Jersey Transit Corporation (NJ Transit). See N. J.
+Public Transportation Act of 1979, N. J. Stat. § 27:25–1 et seq.
+(2026). The State structured the entity as a “body corpo-
+rate and politic with corporate succession.” § 27:25–4(a).
+The “corporation” was “constituted as an instrumentality of
+the State exercising public and essential governmental func-
+tions.” Ibid. It was “allocated within the Department of
+Transportation,” but “the corporation” was “independent of
+any supervision or control by the department or by any body
+or offcer thereof.” Ibid.
+The State gave NJ Transit signifcant authority. For in-
+stance, it has the power to: make its own bylaws; sue and be
+sued; enter into contracts; acquire or deal in and with real
+or personal property; raise funds from fares, gifts, grants, or
+loans; own and control any corporate entity acquired or
+formed t

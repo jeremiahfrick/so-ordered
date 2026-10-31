@@ -1,0 +1,356 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+HAVANA DOCKS CORP. v. ROYAL CARIBBEAN
+CRUISES, LTD., ET AL.
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE ELEVENTH CIRCUIT
+No. 24–983. Argued February 23, 2026—Decided May 21, 2026
+In 1928, the United States-based Havana Docks Corporation acquired
+from the Cuban Government a property interest in the development
+and operation of docks at the Port of Havana. That property interest,
+a usufructuary concession, was time-limited and set to expire in 2004.
+The Cuban Government agreed that, if it expropriated the docks before
+2004, it would compensate Havana Docks for the value of the works it
+had constructed. After Fidel Castro seized power in 1959, the new Cu-
+ban Government decreed that it would forcibly take American-owned
+properties and enterprises in Cuba and specifically identified Havana
+Docks. As relevant here, the Cuban Government seized, without com-
+pensation, the docks that Havana Docks had constructed and its prop-
+erty interest in those docks. Havana Docks filed a claim with the For-
+eign Claims Settlement Commission, which certified about $9 million
+in losses, plus six percent annual interest. Despite these certified
+losses, Havana Docks lacked any means to obtain compensation. That
+began to change in 1996, when Congress enacted the Cuban Liberty
+and Democratic Solidarity Act, 22 U. S. C. §6021 et seq., which creates
+a private right of action for United States nationals who own claims to
+“property which was confiscated by the Cuban Government on or after
+January 1, 1959,” §6082(a)(1)(A). Title III of the Act imposes liability
+on those who knowingly and intentionally traffic in such confiscated
+property. §§6023(13)(A)(i), (ii). The Act authorizes the President to
+“suspend” the Title III right of action, §§6085(c)(1), (2), and Presidents
+Clinton, Bush, and Obama continuously suspended the right of action
+from its effective date onward. President Trump allowed the suspen-
+sion of the Title III right of action to expire in May 2019.
+2 HAVANA DOCKS CORP. v. ROYAL CARIBBEAN
+CRUISES, LTD.
+Syllabus
+From 2016 to 2019, four commercial cruise lines—Royal Caribbean
+Cruises, Norwegian Cruise Line Holdings, Carnival Corporation, and
+MSC Cruises—transported nearly a million paid passengers to Cuba,
+using the docks that Havana Docks built to embark and disembark
+their passengers. In 2019, Havana Docks invoked Title III and sued
+the cruise lines in the United States District Court for the Southern
+District of Florida. The cruise lines argued they were not liable be-
+cause Havana Docks’ property interest would have expired in 2004
+even absent confiscation. The District Court rejected that argument
+and entered summary judgment against all four cruise lines, awarding
+Havana Docks more than $100 million from each. A divided panel of
+the Eleventh Circuit reversed. In its view, a defendant is liable for
+trafficking in confiscated property only if its actions would have inter-
+fered with the plaintiff ’s property interest had there been no confisca-
+tion. On that view, because Havana Docks’ concession would have ex-
+pired before 2016, the cruise lines’ challenged conduct from 2016 to
+2019 did not constitute trafficking.
+Held: The cruise lines’ use of the docks is sufficient to establish that they
+used “property which was confiscated by the Cuban Government”; Ha-
+vana Docks is not required to establish that the cruise lines trafficked
+in Havana Dock’s property interest. Pp. 8–16.
+(a) Title III generally makes any person who “traffics in property
+which was confiscated by the Cuban Government . . . liable to any
+United States national who owns the claim to such property.”
+§6082(a)(1)(A). This dispute turns on whether the relevant “property
+which was confiscated” must be Havana Docks’ property interest in the
+docks (the concession), or whether it could instead be the docks them-
+selves.
+Under the plain text of Title III, “property which was confiscated”
+can refer to the physical property in which the plaintiff had an interest,
+and not just the interest itself. Title III makes entities liable for traf-
+ficking in “any property . . . and any . . . interest therein” that the Cu-
+ban Government confiscated, §§6023(12)(A), 6082(a)(1)(A), and the
+Act’s definition of “property” makes clear that the Act imposes liability
+for trafficking in both physical property and property interests. The
+term “any property” includes physical things, as the Court recognized
+when it previously considered Fidel Castro’s expropriations and noted
+that the Cuban Government “nationalize[d] by forced expropriation
+property . . . in which American nationals had an interest.” Banco
+Nacional de Cuba v. Sabbatino, 376 U. S. 398, 401 (emphasis added).
+The relevant “property which was confiscated” is therefore not lim-
+ited to the plaintiff ’s interest in that property; it can refer to the phys-
+ical property in which the plaintiff had an interest when the Cuban
+Government “seiz[ed] . . . control of ” it after January 1, 1959.
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+§6023(4)(A). Confiscated property is, as it were, tainted—off limits—
+such that anyone who uses the property can be liable to those who had
+any interest in the tainted property. Pp. 8–11.
+(b) On that understanding of “property,” Havana Docks has shown
+that the cruise lines used confiscated property in which Havana Docks
+had a property interest and to which it owns a claim. The docks are
+“property which was confiscated” because Havana Docks established
+that the Cuban Government confiscated those docks without compen-
+sation when Castro’s forces physically took possession of the docks and
+expelled Havana Docks’ agents in 1960. The cruise lines “use[d]” or
+“engage[d] in commercial activity using” the docks, §§6023(13)(A)(i),
+(ii), when they transported nearly a million paying passengers to Cuba
+“without the authorization of ” Havana Docks, §6023(13)(A). Finally,
+Havana Docks is a “United States national who owns the claim” to the
+confiscated docks, §6082(a)(1)(A), as its Commission-certified claim is
+“conclusive proof ” that it has satisfied this element, §6083(a)(1).
+Pp. 11–13.
+(c) The Court of Appeals’ analysis and the cruise lines’ arguments
+conflict with Title III’s text. Pp. 13–16.
+(1) The Court of Appeals interpreted the Act to require a counter-
+factual analysis, assuming that there had been no confiscation of the
+owner’s property interest: “[T]he way to give effect to the statutory
+language (‘traffics in property which was confiscated’),” the court said,
+“is to view the property interest at issue in a Title III action as if there
+had been no expropriation and then determine whether the alleged
+conduct constituted trafficking in that interest.” 119 F. 4th, at 1287.
+That counterfactual approach rested on the premise that “property”
+could refer only to present property interests, but this approach is dif-
+ficult to understand and apply, and would foreclose liability in cases
+where the text demands it. If the approach requires courts to assume
+that the original rightsholder retained his legal rights, it would read
+out of the Act cases of trafficking that should be in the heartland of
+Title III, such as when companies sell and purchase confiscated prop-
+erty interests. Title III is instead simply an antitrafficking right of
+action that recognizes that the effect of the Cuban Government’s ex-
+propriation was the destruction of the plaintiff ’s interest in the prop-
+erty. It then provides a right to compensation based on the plaintiff ’s
+former property interest from those who later traffic in the property
+and thereby help to support the Communist Cuban Government.
+Pp. 13–15.
+(2) The cruise lines’ argument that the Cuban Government did not
+confiscate the docks, but only the concession, fails. The Act defines
+“confiscat[ion]” to include the seizure of “control of property,”
+§6023(4)(A), and when armed agents physically occupied the dock
+4 HAVANA DOCKS CORP. v. ROYAL CARIBBEAN
+CRUISES, LTD.
+Syllabus
+facilities, they seized control of the docks. Before the seizure, Havana
+Docks was in possession of the works; after the seizure, the Cuban
+Government stopped Havana Docks from operating, using, enjoying,
+possessing, or otherwise controlling the docks. The Cuban Govern-
+ment thereby extinguished Havana Docks’ concession and physically
+occupied the docks, and those actions constitute confiscation of the
+docks under Title III. Pp. 15–16.
+(d) Because the Court of Appeals wrongfully concluded that the
+cruise lines did not use confiscated property to which Havana Docks
+owns the claim, it did not reach the cruise lines’ remaining arguments
+against liability; those arguments are not before the Court, and the
+Court does not address them. P. 16.
+119 F. 4th 1276, vacated and remanded.
+THOMAS, J., delivered the opinion of the Court, in which ROBERTS, C. J.,
+and ALITO, SOTOMAYOR, GORSUCH, KAVANAUGH, BARRETT, and JACKSON,
+JJ., joined. SOTOMAYOR, J., filed a concurring opinion, in which
+KAVANAUGH, J., joined. KAGAN, J., filed a dissenting opinion.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–983
+HAVANA DOCKS CORPORATION, PETITIONER v.
+ROYAL CARIBBEAN CRUISES, LTD., ET AL.
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE ELEVENTH CIRCUIT
+[May 21, 2026]
+JUSTICE THOMAS delivered the opinion of the Court.
+In 1996, Congress enacted the Cuban Liberty and Demo-
+cratic Solidarity Act. The Act seeks to deter trafficking in
+property that the Cuban Government confiscated from
+Americans after the Communist Revolution of 1959. 22
+U. S. C. §§6081(3)(B), (11). To that end, the Act generally
+imposes liability on those who use confiscated property to
+which an American entity owns a claim. §§6082(a)(1)(A),
+6023(13)(A)(i), (ii).
+This case concerns whether the Act imposes liability on
+four cruise lines that used docks that the Cuban Govern-
+ment took from an American company in 1960. Before the
+Communist Revolution, petitioner Havana Docks Corpora-
+tion built, operated, and held a time-limited property inter-
+est in docks at the Port of Havana. After the Communist
+Revolution, the Cuban Government seized control of those
+docks. Then, between 2016 and 2019, four commercial
+cruise lines used those same docks to embark and disem-
+bark nearly a million passengers. Havana Docks sued the
+cruise lines under the Act and won judgments against each
+of them in the District Court.
+2 HAVANA DOCKS CORP. v. ROYAL CARIBBEAN
+CRUISES, LTD.
+Opinion of the Court
+The Court of Appeals reversed. In its view, a defendant
+is liable for trafficking in confiscated property only if its ac-
+tions would have interfered with the plaintiff ’s property in-
+terest had there been no confiscation. The court held that
+the cruise lines were not liable because Havana Docks’
+property interest in the docks would have expired before
+2016 had the Cuban Government not confiscated the docks.
+We disagree. The Act generally makes those who use
+property tainted by a past confiscation liable to any United
+States national who owns a claim to that property. Havana
+Docks did not have to prove that the cruise lines interfered
+with a property interest that would have existed in the
+counterfactual scenario in which the Cuban Government
+did not confiscate it. Instead, Havana Docks had to prove
+only that the cruise lines used confiscated property—such
+as the docks—to which Havana Docks owns a claim. We
+therefore vacate the Court of Appeals’ decision.
+I
+A
+In 1928, the United States-based Havana Docks Corpo-
+ration acquired a property interest, specifically a “usufruc-
+tuary concession,” that allowed it to develop and operate
+dock facilities at the state-owned Port of Havana. A usu-
+fruct is a right to use, enjoy, or profit from another’s prop-
+erty, 2 G. Cabanellas de las Cuevas & E. Hoague, Butter-
+worths Spanish/English Legal Dictionary 659 (1991); F.
+Moore, The Cyclopedic Law Dictionary 1141 (3d ed. 1940),
+and a concession is a privilege granted by the government,
+Black’s Law Dictionary 361 (rev. 4th ed. 1968). Relying on
+this usufructuary concession from the Cuban Government,
+Havana Docks completed a large terminal building and
+three piers—which we collectively refer to as the “docks”—
+at the Port of Havana.
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+Havana Docks acquired this property interest with cer-
+tain conditions and guarantees. It enjoyed the right to op-
+erate and profit from the docks that it completed. Its prop-
+erty interest was time-limited and set to expire in 2004.
+Havana Docks therefore expected to control, operate, and
+profit from the docks for 76 years. At the end of the conces-
+sion’s term, the Cuban Government would “replace the con-
+cessionaire in possession of the works,” and Havana Docks’
+“enjoyment of it and its proceeds” would come to an end. 1
+App. 454–455. The Cuban Government agreed that, if it
+“expropriated” the docks before 2004, it “w[ould] compen-
+sate [Havana Docks] for the value of all works constructed
+by it.” Id., at 449.
+The Communist Revolution cut Havana Docks’ conces-
+sion short without that compensation. After Fidel Castro
+seized power in 1959, he declared that “it is fundamental
+for the liberation and economic development of our country
+to liquidate the [American] commercial or industrial enter-
+prises” operating in Cuba. Id., at 483. To that end, the new
+Cuban Government decreed that it would forcibly take
+American “properties and enterprises located” in Cuba, tar-
+geting Havana Docks by name. Id., at 483, 487. Under the
+decree, government forces seized the docks in 1960 and con-
+fiscated “all” of Havana Docks’ “assets.” Id., at 497–498; see
+also id., at 257. These assets included, as relevant here, the
+docks that Havana Docks had constructed and its property
+interest in those docks. All agree that this action prema-
+turely destroyed Havana Docks’ concession in 1960 and, by
+extension, its ability to benefit from the docks that it built.
+Brief for Respondents 21; 119 F. 4th 1276, 1286 (CA11
+2024) (opinion below). The Cuban Government has never
+compensated Havana Docks for “the taking of its property,”
+and it continues to operate parts of the docks to this day.
+Id., at 1283.
+4 HAVANA DOCKS CORP. v. ROYAL CARIBBEAN
+CRUISES, LTD.
+Opinion of the Court
+Havana Docks filed a claim with the Foreign Claims Set-
+tlement Commission. Congress had authorized the Com-
+mission to determine “the amount and validity of claims . . .
+for losses resulting from the nationalization, expropriation,
+intervention, or other taking of ” “any property, right, or in-
+terest” by the Cuban Government. 22 U. S. C. §§1643a(3),
+1643b(a). The Commission concluded that Havana Docks
+had “a concession for the construction and operation of ” the
+docks and “real property with all improvements and appur-
+tenances located” at the Port. 1 App. 256–257. It also con-
+firmed that “the facilities of the company were physically
+occupied by agents of the Cuban Government” and that the
+Cuban Government had expropriated Havana Docks’ as-
+sets. Id., at 257. It therefore certified about $9 million in
+losses, plus six percent annual interest. But, despite its cer-
+tified losses, Havana Docks lacked any means to obtain
+compensation.
+B
+That began to change in 1996. On February 24 of that
+year, Cuban fighter jets shot down two unarmed American
+civilian airplanes over international waters. 61 Fed. Reg.
+8843 (1996). In response, Congress promptly enacted the
+Cuban Liberty and Democratic Solidarity (LIBERTAD) Act
+of 1996, 22 U. S. C. §6021 et seq. Among other things, the
+Act codified the longstanding embargo against Cuba and
+set conditions for the normalization of relations between
+the two countries. §§6032(h), 6061, 6064, 6067(d).
+As relevant here, the Act also sought to “deter trafficking
+in wrongfully confiscated property.” §6081(11). Congress
+found that the Cuban Government had allowed foreign in-
+vestors to use confiscated property to secure “badly needed
+financial benefit” for the regime, contrary to the American
+foreign policy goals of undermining the Castro regime and
+compensating United States nationals. §§6081(5), (6). Con-
+gress further found that the “international judicial system”
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+failed to provide “fully effective remedies . . . for unjust en-
+richment from the use of wrongfully confiscated property by
+. . . private entities.” §6081(8). So, in Title III of the Act,
+Congress “endowed” American victims of confiscation “with
+a judicial remedy in the courts of the United States.”
+§6081(11).
+Under Title III, any entity that “traffics in property which
+was confiscated by the Cuban Government on or after Jan-
+uary 1, 1959, shall be liable to any United States national
+who owns the claim to such property.” §§6023(11),
+6082(a)(1)(A). Subject to certain exceptions, someone “ ‘traf-
+fics’ in confiscated property if ” he “knowingly and inten-
+tionally” “sells,” “purchases,” or “uses” the confiscated prop-
+erty or “engages in a commercial activity using or otherwise
+benefiting from confiscated property” without authorization
+from the claimholder. §§6023(13)(A)(i), (ii). “Property” in-
+cludes “any property,” including “real, personal, or mixed,
+and any present, future, or contingent right, security, or
+other interest therein, including any leasehold interest.”
+§6023(12)(A). And, “confiscated” refers to the “nationaliza-
+tion, expropriation, or other seizure by the Cuban Govern-
+ment of ownership or control of property” without compen-
+sation, settlement, or return of the property. §6023(4)(A).
+To prevail, then, a plaintiff must show that (1) the Cuban
+Government confiscated property on or after January 1,
+1959; (2) the defendant trafficked in the property, such as
+by knowingly and intentionally using it without authoriza-
+tion; and (3) the plaintiff is a United States national who
+owns a claim to the property.1
+——————
+1 The definition of “traffics” in Title III includes several exceptions, in-
+cluding one for “transactions and uses of property incident to lawful
+travel to Cuba, to the extent that such transactions and uses of property
+are necessary to the conduct of such travel.” §6023(13)(B)(iii). These
+exceptions are not at issue before this Court. See n. 4, infra, at 12.
+6 HAVANA DOCKS CORP. v. ROYAL CARIBBEAN
+CRUISES, LTD.
+Opinion of the Court
+An entity that traffics in confiscated property is liable for
+“money damages.” §6082(a)(1)(A). Those damages are pre-
+sumptively equal to the amount certified by the Commis-
+sion if the plaintiff has a certified claim.
+§§6082(a)(1)(A)(i)(I), (2). Title III trebles those damages “if
+a United States national owns a claim with respect to that
+property which was certified by the” Commission.
+§6082(a)(3).
+This right of action lay dormant for more than two dec-
+ades. The Act authorizes the President to “suspend” the
+Title III right of action based on a determination that the
+suspension is in the national interest and will “expedite a
+transition to democracy in Cuba.” §§6085(c)(1), (2). Presi-
+dents Clinton, Bush, and Obama continuously suspended
+the right of action from its effective date onward. But, in
+May of 2019, President Trump allowed the suspension to
+expire, permitting the

@@ -1,0 +1,346 @@
+1(Slip Opinion) OCTOBER TERM, 2025
+Syllabus
+NOTE: Where it is feasible, a syllabus (headnote) will be released, as is
+being done in connection with this case, at the time the opinion is issued.
+The syllabus constitutes no part of the opinion of the Court but has been
+prepared by the Reporter of Decisions for the convenience of the reader.
+See United States v. Detroit Timber & Lumber Co., 200 U. S. 321, 337.
+SUPREME COURT OF THE UNITED STATES
+Syllabus
+FERNANDEZ v. UNITED STATES
+CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR
+THE SECOND CIRCUIT
+No. 24–556. Argued November 12, 2025—Decided May 28, 2026
+Joe Fernandez was indicted in 2013 for his role in the assassination of
+two gang members. The prosecution’s theory was that members of a
+drug ring had paid Fernandez to act as the backup shooter, and when
+the primary shooter’s gun jammed, Fernandez fired 14 rounds and
+killed both victims. Fernandez’s alleged co-conspirator, Patrick Darge,
+testified against Fernandez at trial. The jury convicted Fernandez of
+murder for hire and a firearms offense, and the District Court imposed
+two consecutive life sentences.
+Fernandez pursued multiple avenues of relief. He first asked the
+District Court to reconsider, alleging Brady violations related to the
+Government’s failure to disclose that another alleged co-conspirator,
+Luis Rivera, had denied driving the getaway car. The District Court
+reviewed the Government’s notes from interviewing Rivera and con-
+cluded that they did not contain relevant information, though the
+judge noted he was “troubled” by the Government’s lenient treatment
+of Rivera. The Second Circuit affirmed the conviction and sentence,
+rejecting both the Brady claim and Fernandez’s insufficiency-of-evi-
+dence argument. It held that a reasonable jury could credit Darge’s
+testimony and that the evidence was sufficient to support conviction.
+Fernandez then twice moved for postconviction relief under 28 U. S. C.
+§2255. The first motion, arguing actual innocence based on witness
+credibility, was described by the Second Circuit as “plainly meritless.”
+The second succeeded only in vacating his firearms conviction based
+on United States v. Davis, 588 U. S. 445, thus leaving in place Fernan-
+dez’s murder-for-hire conviction. In the order vacating the firearms
+conviction, the District Judge speculated that the Government had of-
+fered Rivera a lenient plea deal because it “kn[ew] something” incon-
+sistent with Darge’s testimony, and pointedly noted that if
+2 FERNANDEZ v. UNITED STATES
+Syllabus
+Fernandez’s life sentence on the murder-for-hire charge “were to be
+commuted, or held unlawful, [Fernandez] would be released immedi-
+ately.” 569 F. Supp. 3d 169, 174, n. 4, 179.
+Fernandez finally filed a motion for compassionate release under 18
+U. S. C. §3582(c)(1)(A)(i), arguing that extraordinary and compelling
+reasons—above all, that he was innocent—warranted a sentencing re-
+duction. The District Court granted the motion, citing unease about
+whether Darge’s testimony had been truthful, concerns about the Gov-
+ernment’s charging decisions, and doubts about the correctness of the
+jury’s verdict. The Second Circuit reversed, holding that challenges to
+the validity of a conviction are not cognizable as “extraordinary and
+compelling reasons” under §3582(c)(1)(A). Seven circuits agree with
+the Second Circuit on that legal issue, while two circuits take the other
+side.
+Held: A prisoner who collaterally attacks the validity of his conviction
+must proceed through 28 U. S. C. §2255, not 18 U. S. C. §3582; the sup-
+posed invalidity of a conviction is not among the “extraordinary and
+compelling reasons” that justify compassionate release. Pp. 5–17.
+(a) Section 2255 governs collateral attacks on federal convictions
+and imposes tight procedural constraints, including: a 1-year statute
+of limitations, §2255(f); a general rule that prisoners get only one shot
+at collateral relief with narrow exceptions, §§2255(h)(1)–(2); a bar on
+relitigating claims already raised and rejected on direct review, see
+Kaufman v. United States, 394 U. S. 217, 227, n. 8; and procedural de-
+fault rules requiring demonstration of “ ‘cause’ ” and “ ‘prejudice’ ” or ac-
+tual innocence for claims not raised on direct review, Bousley v. United
+States, 523 U. S. 614, 622. This case arises because after Fernandez
+lost a challenge to his conviction under §2255, he filed a motion pre-
+senting similar arguments under 18 U. S. C. §3582, which permits
+prisoners to seek compassionate release from prison by showing “ex-
+traordinary and compelling reasons” warrant early release. Unlike the
+procedural constraints on §2255 claims, the sole procedural require-
+ment imposed by §3582 is that the prisoner must first present his re-
+quest to the Bureau of Prisons.
+The Court’s precedents establish that claims “close to the core of ha-
+beas corpus” must be brought under “the specific federal habeas corpus
+statute” prescribed for relief, Preiser v. Rodriguez, 411 U. S. 475, 489,
+and other statutes “must be read in harmony” with the habeas frame-
+work, District Attorney’s Office for Third Judicial Dist. v. Osborne, 557
+U. S. 52, 66. In Preiser, the Court held that even though prisoners’
+claims “came within the literal terms” of 42 U. S. C. §1983, Congress’s
+determination “that habeas corpus is the appropriate remedy for state
+prisoners attacking the validity of the fact or length of their confine-
+ment” “must override the general terms of §1983.” 411 U. S., at 490.
+3Cite as: 608 U. S. ___ (2026)
+Syllabus
+A contrary result would allow prisoners to evade the rigorous require-
+ments of postconviction relief and “wholly frustrate explicit congres-
+sional intent.” Id., at 489. In Gonzalez v. Crosby, 545 U. S. 524, the
+Court held that prisoners may not use Federal Rule of Civil Procedure
+60(b) to argue that a denial of habeas relief was wrong on the merits,
+because allowing such motions would permit movants to “circumvent”
+the strict statutory habeas standards.
+Applying these principles, challenging the validity of a conviction
+through a compassionate release motion circumvents the exacting re-
+quirements of §2255. Fernandez candidly admits that avoiding
+§2255’s procedural and substantive requirements is the benefit of his
+approach. His strategy would enable prisoners to bypass §2255 by
+challenging convictions repeatedly, for years after they became final,
+and regardless whether the issues had already been raised or decided
+in prior proceedings.
+The text and structure of §3582 confirm that the invalidity of a con-
+viction is not among the “extraordinary and compelling reasons” justi-
+fying compassionate release. “Extraordinary” means “most unusual,”
+“far from common,” and “having little or no precedent,” Webster’s
+Third New International Dictionary 807, while “compelling” means
+“tending to convince or convert by or as if by forcefulness of evidence,”
+id., at 463. An argument that is compelling in one context is not nec-
+essarily so in another, and a reason is not “compelling” if Congress has
+channeled it through the postconviction statutes. The name for
+§3582(c)(1)(A)—“Compassionate Release”—highlights its focus on
+granting mercy rather than righting legal wrongs. Congress gives spe-
+cial protection to defendants with “terminal illness,” §3582(d); ex-
+pressly identifies that relief is available for elderly prisoners who have
+served lengthy sentences and are not dangerous, §3582(c)(1)(A)(ii); and
+has permitted the Sentencing Commission to treat rehabilitation as a
+relevant consideration, 28 U. S. C. §994(t). The role of the Bureau of
+Prisons reflects the statute’s focus on a defendant’s personal circum-
+stances such as advanced age, safety risk, illness, and rehabilitation.
+The Bureau’s institutional expertise lies in the daily lives of prisoners,
+so it makes little sense to have the Bureau evaluate legal arguments
+and comb trial records to determine whether a prisoner has a “compel-
+ling” argument that his conviction was wrongful. Regulatory history
+points the same way. For decades, the Sentencing Commission has
+tied the availability of compassionate release to a defendant’s personal
+circumstances and has never said that the invalidity of a conviction can
+be an “extraordinary and compelling reaso[n] warrant[ing]” compas-
+sionate release. Pp. 5–13.
+(b) Fernandez’s argument that §2255 and §3582 offer different forms
+of relief does not help him. The difference in relief highlights the
+4 FERNANDEZ v. UNITED STATES
+Syllabus
+mismatch between the error he alleges and the remedy he seeks.
+When a prisoner persuades a court that his conviction is invalid, the
+remedy of a little less prison time does not redress the wrong. If a
+conviction is invalid, the fitting remedy is to vacate it, as §2255 allows.
+Whether a prisoner’s request for relief serves as a challenge to a con-
+viction often turns on the nature of the arguments presented. See, e.g.,
+Gonzalez, 545 U. S., at 531, 533. If a prisoner moves for relief because
+of alleged problems with the underlying criminal investigation or trial,
+his motion suggests that his conviction is flawed. This case demon-
+strates as much: The District Court found there was reason to question
+the verdict, meaning that it harbored doubts about the soundness of
+the conviction.
+Fernandez’s backup argument—that actual innocence claims must
+be cognizable under §3582 because such claims have never been held
+to state a ground for federal habeas relief absent an independent con-
+stitutional violation—fails. No court has concluded Fernandez was ac-
+tually innocent. In any event, a prisoner asserting actual innocence
+“challenge[s] the validity of his conviction,” Herrera v. Collins, 506
+U. S. 390, 406, and that lies “close to the core of habeas corpus,”
+Preiser, 411 U. S., at 489. Section 3582 does not provide a shortcut
+around the postconviction statutes. Pp. 13–17.
+104 F. 4th 420, affirmed.
+BARRETT, J., delivered the opinion of the Court, in which ROBERTS,
+C. J., and THOMAS, ALITO, GORSUCH, and KAVANAUGH, JJ., joined.
+SOTOMAYOR, J., filed an opinion concurring in the judgment, in which
+KAGAN, J., joined. JACKSON, J., filed a dissenting opinion.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–556
+JOE FERNANDEZ, PETITIONER v. UNITED STATES
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE SECOND CIRCUIT
+[May 28, 2026]
+JUSTICE BARRETT delivered the opinion of the Court.
+A federal statute authorizes district courts to shorten
+prison sentences for “extraordinary and compelling rea-
+sons”—most commonly, conditions like the prisoner’s age
+and infirmity. 18 U. S. C. §3582(c)(1)(A). Petitioner Joe
+Fernandez argues that doubts about a conviction’s validity
+also qualify as “extraordinary and compelling” reasons for
+relief under the statute. We disagree. A prisoner who col-
+laterally attacks the validity of his conviction must proceed
+through 28 U. S. C. §2255, not 18 U. S. C. §3582.
+I
+Fernandez was indicted in 2013 for his role in the assas-
+sination of two gang members. The prosecution’s theory
+was that members of a drug ring had paid Fernandez
+$40,000 to act as the backup shooter. When the primary
+shooter’s gun jammed, Fernandez stepped in. He fired 14
+rounds, killing both victims.
+Fernandez’s cousin and alleged co-conspirator, Patrick
+Darge, testified against him at trial. To discredit Darge,
+Fernandez’s counsel argued that Darge was framing Fer-
+nandez to protect the real second shooter, Darge’s brother.
+Unconvinced, the jury convicted Fernandez of murder for
+2 FERNANDEZ v. UNITED STATES
+Opinion of the Court
+hire and a firearms offense. See 18 U. S. C. §§924(j), 1958.
+The District Court then imposed two consecutive life sen-
+tences.
+Fernandez asked the District Court to reconsider, alleg-
+ing that the prosecution had violated Brady v. Maryland,
+373 U. S. 83 (1963). He pressed that argument several
+times, first in a motion to vacate the verdict, then in a mo-
+tion for new trial, and again in a motion for rehearing. Ac-
+cording to Fernandez, the Government should have dis-
+closed that another alleged co-conspirator, Luis Rivera, had
+denied driving the getaway car. To determine whether Ri-
+vera had in fact denied his involvement, the District Court
+reviewed the Government’s notes from Rivera’s interview;
+it concluded that they “d[id] not contain any relevant infor-
+mation.” United States v. Fernandez, 2014 WL 7180225, *1
+(SDNY, Nov. 25, 2014). There was no evidence that Rivera
+had ever made such a statement, and it was not clear that
+it would have mattered to the jury if he had. Even so, the
+judge noted that he was “troubled” that prosecutors had “al-
+low[ed] Rivera to plead to a lesser narcotics offense and
+[had] dismiss[ed] the murder and gun charges against him.”
+Id., at *3. In the judge’s view, the prosecutors could have
+used the evidence in Fernandez’s case to show that Rivera
+had engaged in similar wrongdoing. Ibid.
+Fernandez appealed, and the Second Circuit affirmed his
+conviction and sentence. See United States v. Fernandez,
+648 Fed. Appx. 56 (2016). Although Fernandez argued that
+the Government had failed to turn over its notes before
+trial, those notes “d[id] not reflect Rivera’s unequivocal de-
+nial of a getaway driver role.” Id., at 61. “[I]n any event,”
+the court said, “Fernandez fails to show how the notes could
+have been ‘useful’” for impeaching any witness. Ibid. Fer-
+nandez also argued that insufficient evidence supported his
+conviction: He insisted that Darge’s testimony was not cred-
+ible and highlighted the Government’s choice not to charge
+Rivera as a co-conspirator in the murder-for-hire plot,
+3Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+which he considered indicative of the weakness of the Gov-
+ernment’s case. But the court rejected the insufficiency
+claim too. It held that a reasonable jury could credit
+Darge’s testimony, that it was corroborated by other evi-
+dence in the record, and that the evidence was sufficient to
+support Fernandez’s conviction.
+Fernandez persisted. He twice moved for postconviction
+relief under 28 U. S. C. §2255. The first time, Fernandez
+argued (among other things) that he was actually innocent
+because the testimony against him was not credible. He
+said that “[e]ven the Government did not fully believe Pat-
+rick Darge,” as shown by the Government’s decision not to
+charge Rivera with murder for hire. Reply Brief in No. 18–
+06 (CA2), pp. 8–9, n. 2. The Second Circuit described this
+argument as “plainly meritless,” concluding that “[t]he jury
+was entitled to credit the witnesses who testified that Fer-
+nandez committed the crimes with which he was charged.”
+Fernandez v. United States, 757 Fed. Appx. 52, 55–56
+(2018). The second collateral challenge succeeded. The Dis-
+trict Court set aside Fernandez’s conviction for a firearms
+offense after United States v. Davis, 588 U. S. 445 (2019),
+held that 18 U. S. C. §924(c)(3)’s residual clause is uncon-
+stitutionally vague. See Fernandez v. United States, 569
+F. Supp. 3d 169 (SDNY 2021).
+Still, the District Judge remained troubled about Fernan-
+dez’s murder-for-hire conviction. No new evidence had sur-
+faced. But the judge continued to focus on Rivera—the get-
+away driver who had pleaded guilty to a less serious charge.
+In his order vacating the firearms conviction, the judge
+speculated that the Government had offered Rivera such a
+lenient plea deal because it “kn[ew] something” incon-
+sistent with Darge’s testimony. Id., at 174, n. 4. And if
+Darge was lying, the judge wondered, “perhaps there is
+something to Petitioner’s argument, that not he, but Pat-
+rick Darge’s brother . . . was the second shooter, and that
+Patrick Darge testified to cover that up.” Ibid. Notably, the
+4 FERNANDEZ v. UNITED STATES
+Opinion of the Court
+Second Circuit had already rejected this argument twice,
+and Fernandez had not briefed it again before the District
+Court. But the judge brought it up anyway, pointedly not-
+ing that if Fernandez’s life sentence on the murder-for-hire
+charge “were to be commuted, or held unlawful, [Fernan-
+dez] would be released immediately.” Id., at 179.
+Fernandez took the hint. Within two weeks, he filed a
+motion for compassionate release under §3582(c)(1)(A)(i).
+See No. 1:10–cr–00863 (SDNY), ECF Doc. 248. He argued
+that extraordinary and compelling reasons—above all, that
+he was innocent—warranted a sentencing reduction. Ac-
+cording to Fernandez, Darge’s testimony was biased and
+uncorroborated by forensic evidence; moreover, his identifi-
+cation of Rivera as the getaway driver was inconsistent
+with a later statement made by Rivera himself. The Gov-
+ernment had not turned over its notes on that statement,
+Fernandez asserted, and had allowed Rivera to plead guilty
+to a lesser charge.
+The District Court granted the motion. Nearly a decade
+after presiding over the trial and sentencing, the judge felt
+“a certain disquiet” about whether Darge’s testimony had
+been truthful and whether the cross-examination had been
+effective. 2022 WL 17039059, *4 (SDNY, Nov. 17, 2022).
+He had “strong concerns” about the Government’s decision
+to charge the getaway driver with a lesser offense and
+“doubt[ed] that the jury’s verdict was correct.” Ibid. Darge
+might have “sacrifice[d]” Fernandez “to save his brother,”
+and Fernandez might not have been the shooter or even “a
+member of the conspiracy.” Ibid. That “disquiet” formed
+the “basis of [the District Court’s] finding that Petitioner
+Joe Fernandez has shown extraordinary and compelling
+circumstances for his release.” Ibid.1
+——————
+1 The District Court also granted compassionate release based on the
+sentencing “disparity between Fernandez’[s] life sentence and the
+5Cite as: 608 U. S. ____ (2026)
+Opinion of the Court
+The Second Circuit reversed, holding that “challenges to
+the validity of a conviction are not cognizable as ‘extraordi-
+nary and compelling reasons’ under section 3582(c)(1)(A).”
+104 F. 4th 420, 431 (2024). Congress has channeled such
+claims into federal postconviction proceedings under 28
+U. S. C. §2255, and by design, compassionate release and
+§2255 do not overlap. “Challenging the validity of a convic-
+tion under the extraordinary-and-compelling-reasons
+prong of section 3582,” the court explained, “would permit
+a defendant to ‘evade the collateral review structure’ of sec-
+tion 2255.” 104 F. 4th, at 430 (alteration omitted).
+While seven other Circuits have reached the same con-
+clusion, two have taken the other side.2 We granted certio-
+rari to resolve the split. 605 U. S. 931 (2025).
+II
+Collateral attacks on federal convictions are governed by
+28 U. S. C. §2255, which imposes tight procedural con-
+straints. It carries a one-year statute of limitations.
+§2255(f ). With very narrow exceptions, a prisoner gets only
+one shot at collateral relief. §§2255(h)(1)–(2). Claims that
+have already been raised and rejected on direct review typ-
+ically cannot be relitigated in §2255 motions. See Kaufman
+v. United States, 394 U. S. 217, 227, n. 8 (1969); Reed v. Far-
+ley, 512 U. S. 339, 358 (1994) (Scalia, J., concurring in part
+and concurring in judgment). And claims not raised on
+——————
+sentences of the co-defendants.” 2022 WL 17039059, *4. The Second
+Circuit concluded that this was an error, 104 F. 4th 420, 429 (2024), and
+the issue is not before us.
+2 Compare United States v. Ferguson, 55 F. 4th 262, 270–272 (CA4
+2022); United States v. Escajeda, 58 F. 4th 184, 186–187 (CA5 2023);
+United States v. West, 70 F. 4th 341, 346–348 (CA6 2023); United States
+v. Von Vader, 58 F. 4th 369, 371 (CA7 2023); United States v. Crandall,
+25 F. 4th 582, 586 (CA8 2022); United States v. Wesley, 60 F

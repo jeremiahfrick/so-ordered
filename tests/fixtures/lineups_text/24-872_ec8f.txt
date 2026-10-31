@@ -1,0 +1,381 @@
+_________________
+_________________
+1(Slip Opinion) Cite as: 608 U. S. ____ (2026)
+Per Curiam
+NOTICE: This opinion is subject to formal revision before publication in the
+United States Reports. Readers are requested to notify the Reporter of
+Decisions, Supreme Court of the United States, Washington, D. C. 20543,
+pio@supremecourt.gov, of any typographical or other formal errors.
+SUPREME COURT OF THE UNITED STATES
+No. 24–872
+JOHN Q. HAMM, COMMISSIONER, ALABAMA DE-
+PARTMENT OF CORRECTIONS, PETITIONER v.
+JOSEPH CLIFTON SMITH
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE ELEVENTH CIRCUIT
+[May 21, 2026]
+PER CURIAM.
+The writ of certiorari is dismissed as improvidently
+granted.
+It is so ordered.
+_________________
+_________________
+1Cite as: 608 U. S. ____ (2026)
+SOTOMAYOR, J., concurring
+SUPREME COURT OF THE UNITED STATES
+No. 24–872
+JOHN Q. HAMM, COMMISSIONER, ALABAMA DE-
+PARTMENT OF CORRECTIONS, PETITIONER v.
+JOSEPH CLIFTON SMITH
+ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF
+APPEALS FOR THE ELEVENTH CIRCUIT
+[May 21, 2026]
+JUSTICE SOTOMAYOR, with whom JUSTICE JACKSON joins,
+concurring.
+I concur in the Court’s decision to dismiss the writ of cer-
+tiorari as improvidently granted. I write separately for two
+reasons. First, based on the evidentiary record and how
+this litigation proceeded below, I explain why the Court
+should not and cannot use this case to address how courts
+must analyze multiple IQ scores under Atkins v. Virginia,
+536 U. S. 304 (2002). Second, I point out how the principal
+dissent’s discussion of this Court’s precedents and the sci-
+entific consensus about how courts should evaluate multi-
+ple IQ scores is incomplete and potentially misleading.
+I
+A
+In 1998, Joseph Smith was convicted of first-degree mur-
+der. At his sentencing hearing, Smith introduced evidence
+of intellectual disability, including an IQ score of 72 and
+testimony from the test’s administrator explaining that the
+test’s standard error of measurement indicated Smith’s IQ
+could be as low as 69 or as high as 75.1 Smith also
+——————
+1 The standard error of measurement reflects the potential error inher-
+ent in an IQ test and is used to calculate a confidence interval, a “range
+2 HAMM v. SMITH
+SOTOMAYOR, J., concurring
+introduced his school records, which showed that he was
+previously administered two IQ tests resulting in scores of
+75 and 74 and that he was classified as “ ‘educable mentally
+retarded’ ” in 7th grade. Smith v. State, 71 So. 3d 12, 19–20
+(Ala. Crim. App. 2008). At the time of Smith’s sentencing,
+this Court had held that it did not violate the Eighth
+Amendment to execute an intellectually disabled person so
+long as the sentencers considered mitigating evidence of the
+defendant’s intellectual disability among other aggravating
+or mitigating evidence. See Penry v. Lynaugh, 492 U. S.
+302, 328, 330–335 (1989). The jury in Smith’s case returned
+an advisory verdict recommending the death penalty, which
+the trial judge imposed. The Alabama Supreme Court af-
+firmed Smith’s sentence.
+A few years later, this Court held in Atkins v. Virginia,
+536 U. S. 304 (2002), that it violates the Eighth Amend-
+ment to execute an individual who is intellectually disabled.
+In so holding, the Court largely left it to the States to “ ‘de-
+velo[p] appropriate ways to enforce’ ” this limitation. Id., at
+317. The Alabama Supreme Court responded by adopting
+a definition of intellectual disability that requires the de-
+fendant to prove three prongs, all by a preponderance of the
+evidence: (1) “significantly subaverage intellectual func-
+tioning (an IQ of 70 or below)”; (2) “significant or substan-
+tial deficits in adaptive behavior”; and (3) manifestation of
+“these problems . . . during the developmental period (i.e.,
+before the defendant reached age 18).” Ex parte Perkins,
+851 So. 2d 453, 456 (2002).
+After Atkins and Perkins were decided, Smith petitioned
+for postconviction relief in Alabama state court, alleging
+that he is intellectually disabled under Alabama’s defini-
+tion and that his execution would violate the Eighth
+Amendment. The trial court denied Smith’s request for an
+——————
+within which one may say an individual’s true IQ score lies.” Hall v.
+Florida, 572 U. S. 701, 713 (2014).
+3Cite as: 608 U. S. ____ (2026)
+SOTOMAYOR, J., concurring
+evidentiary hearing and his petition, the Alabama Court of
+Criminal Appeals affirmed that decision, and the Alabama
+Supreme Court denied review.
+B
+Smith next petitioned for federal habeas relief in the Dis-
+trict Court for the Southern District of Alabama. The Dis-
+trict Court initially denied his petition, but the Eleventh
+Circuit reversed. The Court of Appeals held that the Dis-
+trict Court wrongly deferred to the Alabama Court of Crim-
+inal Appeals’ decision under 28 U. S. C. §2254(d) and re-
+manded for the District Court to conduct a de novo inquiry
+into whether Smith is intellectually disabled under Ala-
+bama’s definition of intellectual disability. Smith v. Camp-
+bell, 620 Fed. Appx. 734 (2015). Alabama did not file a pe-
+tition for a writ of certiorari to this Court.
+On remand in the District Court, Alabama and Smith
+agreed to an evidentiary hearing. See Smith v. Thomas,
+No. 1:05–cv–00474 (SD Ala., July 1, 2016), ECF Doc. 75.
+Both parties hired experts to administer new IQ tests: Dr.
+King for the State and Dr. Fabian for Smith. On the test
+administered by King, Smith scored a 74 with a 95% confi-
+dence interval of 70 to 79. On the test administered by Dr.
+Fabian, Smith scored a 78 with a 95% confidence interval
+of 72 to 83. At this point, Smith had obtained five IQ scores
+ranging from 72 to 78. The District Court then admitted
+expert reports from King, Fabian, and an additional expert
+proffered by Smith, and heard testimony from all three as
+to whether Smith is intellectually disabled.
+The experts each opined on Smith’s intellectual function-
+ing. The State’s expert, King, stated in his report that a
+score of 74 “would technically place [Smith in] the border-
+line range of intellectual functioning,” but that the score “is
+not reflective . . . of his true intellectual functioning,” which
+King described as “in the low average range of ability.” 2
+App. 596. King explained that “a single . . . IQ score” is
+4 HAMM v. SMITH
+SOTOMAYOR, J., concurring
+comprised of multiple subscores, which reflect different as-
+pects of one’s intellectual functioning, and a final score
+“needs to be additionally parsed in order to look at whether
+there is subtest scatter or whether there is consistency.”
+Id., at 596–597. In the IQ test that King administered, the
+scatter in Smith’s subscores was, in King’s view, more “in-
+dicative of . . . a learning disabilit[y]” than of intellectual
+disability. Id., at 598. King testified that, in his view,
+Smith did not have significantly subaverage intellectual
+functioning based “on all the data that [he] collected, all the
+records that [he] reviewed” and “all of the IQ tests that have
+been compiled over a lengthy period of time.” 1 id., at 271.
+He also explained that his conclusion was based in part on
+Smith’s “presentation to” and “ability to interact” with
+King. Id., at 271–272.
+Smith’s experts similarly reviewed all of Smith’s scores
+and records, but came to different conclusions. Fabian tes-
+tified that several of Smith’s prior scores were “in the range
+for intellectual disability,” id., at 244, and that, overall,
+Smith “meets the intellectual deficit prong of the intellec-
+tual disability definition,” id., at 179–180. Fabian ex-
+plained that even though Smith’s scores were above 70, one
+“need[s] to consider those IQ scores with the other areas of
+functioning,” such as his adaptive functioning, including ev-
+idence of his “academic achievement” and “executive func-
+tioning.” Id., at 180. Together, those latter considerations
+showed that, “cognitively[, Smith is] impaired in a number
+of areas” and that, according to Fabian, Smith’s IQ scores
+“in total can be considered consistent with significant limi-
+tations in intellectual disability.” Ibid. Smith’s second ex-
+pert, too, testified that Smith’s scores were “in the range of
+what would be considered mild intellectual disability,” “par-
+ticularly” when “consider[ing] the standard error of meas-
+urement.” Id., at 111; see also 3 id., at 875.
+In assessing Smith’s intellectual functioning, the District
+Court also considered a report by the expert who had
+5Cite as: 608 U. S. ____ (2026)
+SOTOMAYOR, J., concurring
+administered the 1998 test in which Smith scored a 72 with
+a standard error range of 69 to 75. That expert concluded
+that Smith’s score “places him at the 3rd percentile in com-
+parison to the general population,” and that Smith “‘oper-
+ates between the Low Average and Mentally Retarded
+range’ ” but “ ‘at a level closer to those individuals who
+would be considered mentally retarded.’ ” Smith v. Dunn,
+Civ. Action No. 05–00474 (SD Ala., Aug. 17, 2021), App. to
+Pet. for Cert. (Pet. App.) 73a.
+Based on all the evidence, the District Court found that
+whether Smith “qualifies as having significantly subaver-
+age intellectual function[ing]” was “not clear” and that this
+was a “close case.” Id., at 74a. The court acknowledged that
+King “testified that if there are multiple sources of IQ over
+a long period of time[,] it contributes to the construct of va-
+lidity indicating what a true IQ score is for an individual”
+and that “multiple IQ scores” in Smith’s case “place him in
+the borderline range, functioning just above intellectual
+disability.” Id., at 70a. However, the District Court did “not
+find [this evidence] strong enough to conclude that Smith is
+not intellectually disabled without considering evidence of
+his adaptive deficits” because Smith “did not consistently
+score so high that the [District] Court [wa]s confident that
+the lowest score can be thrown out as an outlier or that the
+standard error for the tests can be disregarded.” Ibid. The
+District Court observed that “at best Smith[’s] intelligence
+falls at the low end of the Borderline range of intelligence
+and at worst at the high end of the required significantly
+subaverage intellectual functioning.” Id., at 74a. It there-
+fore decided to consider “additional evidence,” including ev-
+idence about “whether Smith suffers from significant or
+substantial deficits in adaptive behavior,” to assess
+whether Smith is intellectually disabled. Ibid.
+From there, the District Court analyzed evidence of
+Smith’s adaptive deficits, which included Smith’s school
+records, testimony from Smith’s family members about
+6 HAMM v. SMITH
+SOTOMAYOR, J., concurring
+Smith’s abilities, testimony from Smith himself, and the ex-
+pert opinions of King and Fabian. Id., at 75a–92a.2 The
+District Court also considered the results of other psycho-
+logical tests, which related to both the intellectual-function-
+ing and adaptive-functioning prongs. Id., at 90a–92a.
+After weighing all the evidence, the District Court found
+that “Smith has shown by a preponderance of the evidence
+that he has significantly subaverage intellectual function-
+ing and significant deficits in adaptive behavior.” Id., at
+92a. The court also found that Smith’s intellectual- and
+adaptive-functioning issues “clearly arose before he was 18
+years of age.” Id., at 96a. Based on these findings, the court
+concluded that Smith “is intellectually disabled and cannot
+constitutionally be executed.” Id., at 96a–97a.
+C
+The Eleventh Circuit initially affirmed, but this Court va-
+cated that decision because its basis was “unclear.” Hamm
+v. Smith, 604 U. S. 1, 2 (2024) (per curiam). The Court ex-
+plained that “the Eleventh Circuit’s opinion might be read
+to afford conclusive weight to the fact that the lower end of
+the standard-error range for Smith’s lowest IQ score is 69,”
+which “would suggest a per se rule that the lower end of the
+standard-error range for an offender’s lowest score is dis-
+positive” of the intellectual-functioning prong. Ibid. Alter-
+natively, the opinion could be read to “suggest a more holis-
+tic approach to multiple IQ scores that considers the
+relevant evidence, including as appropriate any relevant
+expert testimony.” Ibid. This Court noted that it “has not
+specified how courts should evaluate multiple IQ scores,”
+and asked the Eleventh Circuit to clarify its holding. Ibid.
+On remand, the Eleventh Circuit answered that it had
+used a “ ‘holistic approach.’ ” Smith v. Commissioner, Ala.
+——————
+2 The District Court “question[ed] the veracity” of some of King’s testi-
+mony because his criticism of Fabian’s methods was contradicted by his
+own prior testimony in other cases. See App. to Pet. for Cert. 89a.
+7Cite as: 608 U. S. ____ (2026)
+SOTOMAYOR, J., concurring
+Dept. of Corrections, No. 21–14519 (Nov. 14, 2024) (per cu-
+riam), Pet. App. 2a. It also “unambiguously reject[ed] any
+suggestion that a court may ever conclude that a capital de-
+fendant suffers from significantly subaverage intellectual
+functioning based solely on the fact that the lower end of
+the standard-error range for his lowest of multiple IQ scores
+is 69.” Ibid. It then affirmed the District Court’s decision,
+explaining that the District Court had properly considered
+“Smith’s IQ test results, taken together and in context of
+expert testimony,” and that its factual findings were not
+clearly erroneous. Id., at 5a.
+D
+Alabama filed a petition for a writ of certiorari proposing
+two questions: First, “[w]hether, under a proper application
+of Atkins, a State can require a claimant to prove an IQ of
+70 or less by a preponderance of the evidence”; and second,
+“[w]hether courts evaluating multiple IQ scores must find
+that every valid score of ‘about’ 75 or less supports an At-
+kins claim.” Pet. for Cert. i. This Court declined to grant
+either question, and instead granted a question raised by
+the United States on the last two-and-a-half pages of its
+amicus brief: “Whether and how courts may consider the
+cumulative effect of multiple IQ scores in assessing an At-
+kins claim.” Brief for United States as Amicus Curiae on
+Pet. for Cert. I; see id., at 20–22. The United States did not
+identify any split among the lower courts on this issue. See
+id., at 20–22.
+II
+The Court is not equipped in this case to provide any
+meaningful guidance on how courts should assess multiple
+IQ scores. All the parties here agree that the Eighth
+Amendment does not prescribe a single formula for weigh-
+ing multiple IQ scores. All the parties also agree that At-
+kins gave States the primary role in “developing
+8 HAMM v. SMITH
+SOTOMAYOR, J., concurring
+appropriate ways to enforce” Atkins. 536 U. S., at 317. Alt-
+hough the parties offer to this Court a variety of approaches
+to assessing multiple IQ scores that States could adopt, the
+litigation below did not focus on whether a precise method-
+ology exists that courts must use. Without the benefit of an
+evidentiary record or decisions below trained on the specific
+theories now advanced by the parties, this Court rightly
+concludes that it should not provide more detailed guidance
+beyond what this Court’s cases have previously said.
+A
+To start, and most significantly, the parties agree that
+there is no single approach to weighing multiple IQ scores.
+Alabama here disclaims any “single, mechanical rule . . . for
+aggregating multiple IQ scores.” Reply Brief 12 (internal
+quotation marks omitted; ellipsis in original). It instead of-
+fers a rule that a factfinding court must consider the “cu-
+mulative effect” of multiple IQ scores, by which it means
+that the scores must be “combine[d] to prove an IQ of 70 or
+below.” Id., at 1, 10. Alabama suggests that courts could
+do so using one of several methods, such as taking the me-
+dian, examining the “overlap among each score’s error
+range,” calculating a composite score, taking the average,
+or looking only at the highest score. Id., at 10–12, 19. Still,
+it acknowledges that there is no “consensus over whether
+and how to evaluate the cumulative effect of multiple IQ
+scores.” Brief for Petitioner 28.
+The United States agrees that “the Eighth Amendment”
+does not “prescrib[e] a specific approach to analyzing mul-
+tiple IQ tests.” Brief for United States as Amicus Curiae
+19. It notes that it is “possible” to combine multiple scores
+into a composite score or into a “single range,” but contends
+only that “a court may take stock of the full range of . . . IQ
+scores,” not how a court must do so. Id., at 18–19. It also
+emphasizes that if a court considered multiple scores or a
+combination of those scores, such as a composite score, the
+9Cite as: 608 U. S. ____ (2026)
+SOTOMAYOR, J., concurring
+inquiry would “[o]f course . . . fall to the factfinder to assess
+and weigh this sort of expert analysis.” Id., at 19.
+Smith, for his part, contends that courts must assess mul-
+tiple IQ scores “holistically,” which includes “considering
+those scores in light of other evidence—particularly expert
+testimony—regarding the scores’ validity and meaning, and
+other evidence of the claimant’s intellectual functioning.”
+Brief for Respondent 2. Smith does not disagree with Ala-
+bama and the United States, however, that as part of that
+holistic analysis, courts could consider an aggregation of
+scores, such as a composite score, if one is presented.
+Thus, despite discussing different methods by which
+courts could assess multiple IQ scores, the parties all ap-
+pear to agree there is no particular method by which courts
+must consider multiple scores.
+B
+The Court’s review is further complicated by the fact that
+the issue of how to consider multiple IQ scores was neither
+meaningfully raised nor passed upon below. In the District
+Court, Alabama never argued that the court must, as a mat-
+ter of law, combine all IQ scores using any particular
+method (or set of methods) to assess whether an Atkins
+claimant has proven significantly subaverage intellectual
+functioning. See Respondent’s Post-Hearing Brief, ECF
+Doc. 129, pp. 36–46. Nor did Alabama argue that the Dis-
+trict Court must base its finding of intellectual functioning
+solely on Smith’s IQ scores, without considering evidence of
+Smith’s academic performance and adaptive functioning as
+well. See id., at 36 (arguing that Smith’s school records
+show he does not meet the intellectual-functioning prong,
+rather than asking the District Court to ignore those rec-
+ords). Instead, Alabama urged the District Court to apply
+Alabama’s state-law standard for assessing intellectual dis-
+ability, which it explained does not “preclude consideration
+of other evidence of intellectual disability, including
+10 HAMM v. SMITH
+SOTOMAYOR, J., concurring
+testimony regarding adaptive deficits[,] when a person has
+an IQ over 70.” Id., at 4.
+In fact, none of the experts, not even the State’s expert,
+combined Smith’s scores using any method that Alabama
+now claims is necessary. Not one of the experts calculated
+a composite score, used the mean or median, examined the
+“overlap” of the scores’ error ranges, or relied solely on the
+highest score. Nor did any expert testify that using such
+methods was the most scientifically sound way to evaluate
+Smith’s intellectual functioning. Instead, all three consid-
+ered all the scores in addition to other evidence and used
+their own clinical judgment to render conclusions about
+Smith’s intellectual functioning. In other words, each ex-
+pert assessed the scores holistically.
+Nor did Alabama appeal the District Court’s determina-
+tion on this basis. In its brief to the Eleventh Circuit, Ala-
+bama argued that the District Court improperly shifted the
+burden of proof onto the State to prove that Smith was not
+intellectually disabled and that its factual determinations
+were clearly erroneous. At no point did Alabama contend
+that the District Court erred by failing to combine Smith’s
+scores using one of the methods it now claims is required.
+Unsurprisingly, then, neither the District Court nor the
+Eleventh Circuit specifically addressed whether a court
+must consider the “cumulative effect” of

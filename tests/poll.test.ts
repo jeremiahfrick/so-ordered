@@ -363,6 +363,56 @@ describe('logging', () => {
   });
 });
 
+describe('opinion lineup', () => {
+  const PDF = 'http://x/0.pdf'; // the rss() helper links the first item here
+  const golden = JSON.parse(fixture('lineups_golden.json'));
+  const routes = {
+    [RSS]: ok(rss(['A v. B (24A884)'])),
+    [CASE('24A884')]: ok(fixture('case_24-1056.json')),
+    [SLIP]: ok(fixture('slipopinion_24.html')),
+    [ORDERS]: emptyOrders,
+  };
+  const withoutLineup = async () => {
+    const s = await setup(routes);
+    await runPoll(s.deps);
+    return s.posts[0].body;
+  };
+
+  test("the lineup from the opinion's PDF is appended after the opinion table", async () => {
+    const s = await setup(routes, { pdfs: { [PDF]: fixture('lineups_text/24-1056_qn12.txt') } });
+    await runPoll(s.deps);
+    expect(s.pdfCalls).toEqual([PDF]);
+    expect(s.posts[0].body).toBe(`${await withoutLineup()}\n${golden['24-1056_qn12'].section}`);
+    expect(s.posts[0].body).toContain('\nJudge|Majority|Concurrence|Dissent\n');
+    expect(s.logs.some((l) => l.startsWith('Lineup skipped'))).toBe(false);
+    expect(await isNoted(s.redis, 'cases', '24A884')).toBe(true);
+  });
+
+  test('a PDF that cannot be fetched posts without a lineup and logs one line', async () => {
+    const s = await setup(routes); // no pdfs => 404
+    await runPoll(s.deps);
+    expect(s.posts).toHaveLength(1);
+    expect(s.posts[0].body).not.toContain('Judge|Majority');
+    expect(s.logs.filter((l) => l.startsWith('Lineup skipped'))).toEqual(['Lineup skipped (24A884): PDF status 404']);
+    expect(await isNoted(s.redis, 'cases', '24A884')).toBe(true);
+  });
+
+  test('a PDF whose text extraction throws posts without a lineup', async () => {
+    const s = await setup(routes, { pdfs: { [PDF]: 'x' }, pdfThrows: true });
+    await runPoll(s.deps);
+    expect(s.posts).toHaveLength(1);
+    expect(s.posts[0].body).not.toContain('Judge|Majority');
+    expect(s.logs.some((l) => l.includes('Lineup skipped (24A884): pdf extraction failed'))).toBe(true);
+  });
+
+  test('a PDF without a lineup posts the plain opinion table and logs nothing', async () => {
+    const s = await setup(routes, { pdfs: { [PDF]: 'an opinion with no syllabus lineup' } });
+    await runPoll(s.deps);
+    expect(s.posts[0].body).toBe(await withoutLineup());
+    expect(s.logs.some((l) => l.startsWith('Lineup skipped'))).toBe(false);
+  });
+});
+
 describe('order digests', () => {
   const base = 'https://www.supremecourt.gov/orders/courtorders/';
   const miscUrl = base + '102126zr_5i36.pdf';
