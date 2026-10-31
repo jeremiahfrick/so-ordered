@@ -41,6 +41,9 @@
       }
     ]
   },
+  "marketingAssets": {
+    "icon": "assets/icon.png"
+  },
   "dev": {
     "subreddit": "so_ordered_dev"
   }
