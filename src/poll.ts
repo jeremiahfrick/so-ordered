@@ -12,6 +12,7 @@ export type PollDeps = {
   redis: RedisLike;
   log: (msg: string) => void;
   now: () => Date;
+  appVersion: () => string; // the installed app version, so the logs show which build is running
 };
 
 const BASE = 'https://www.supremecourt.gov';
@@ -30,6 +31,15 @@ async function oncePerHour(d: PollDeps, key: string): Promise<boolean> {
   if (Number.isFinite(last) && last > 0 && now - last < HOUR_MS) return false;
   await d.redis.set(key, String(now));
   return true;
+}
+
+// An upload shows up in the logs as one line, on the first tick the new version runs.
+async function logVersionChange(d: PollDeps): Promise<void> {
+  const version = d.appVersion();
+  const previous = await d.redis.get('last_version');
+  if (previous === version) return;
+  await d.redis.set('last_version', version);
+  d.log(`VERSION ${version} running${previous ? ` (was ${previous})` : ' (first run)'}`);
 }
 
 async function fetchFeed(d: PollDeps, warn: (m: string) => void) {
@@ -81,6 +91,7 @@ async function baseline(d: PollDeps): Promise<void> {
 // The old bot's flow: find_and_post_opinions + post_it + find_and_post_orders. A key is marked noted only after
 // submit resolves, so a failed post is retried on the next tick.
 export async function runPoll(d: PollDeps): Promise<void> {
+  await logVersionChange(d);
   if (!(await isInitialized(d.redis))) {
     await baseline(d);
     return;
@@ -96,7 +107,7 @@ export async function runPoll(d: PollDeps): Promise<void> {
     d.log(`Exception (pollOrders): ${message(e)}`);
   }
   // Idle ticks are silent; this hourly line is the only sign of life (there is no external heartbeat).
-  if (await oncePerHour(d, 'last_heartbeat')) d.log(`HEARTBEAT polling ok at ${d.now().toISOString()}`);
+  if (await oncePerHour(d, 'last_heartbeat')) d.log(`HEARTBEAT v${d.appVersion()} polling ok at ${d.now().toISOString()}`);
 }
 
 async function lookupAuthor(d: PollDeps, caseNum: string, caseJson: any): Promise<string> {

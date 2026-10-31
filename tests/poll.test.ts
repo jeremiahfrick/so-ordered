@@ -32,6 +32,8 @@ async function setup(routes: Record<string, Res>, opts: SetupOpts = {}) {
   const enc = new TextEncoder();
   const dec = new TextDecoder();
   let clock = new Date('2026-10-06T02:30:00Z'); // 10/05 evening in New York
+  let version = '0.0.7';
+  if (opts.initialized !== false) await redis.set('last_version', version); // an app that has already run this version
   const deps: PollDeps = {
     fetchText: async (url, headers) => {
       calls.push({ url, headers });
@@ -57,11 +59,15 @@ async function setup(routes: Record<string, Res>, opts: SetupOpts = {}) {
     redis,
     log: (m) => logs.push(m),
     now: () => clock,
+    appVersion: () => version,
   };
   const advance = (minutes: number) => {
     clock = new Date(clock.getTime() + minutes * 60_000);
   };
-  return { deps, redis, calls, posts, logs, advance, pdfCalls };
+  const setVersion = (v: string) => {
+    version = v;
+  };
+  return { deps, redis, calls, posts, logs, advance, pdfCalls, setVersion };
 }
 
 const emptyOrders = ok('<html><body></body></html>');
@@ -83,7 +89,10 @@ describe('first run on a fresh install', () => {
     // only the two listing pages are fetched: no case JSON, no PDFs
     expect(s.calls.map((c) => c.url).sort()).toEqual([ORDERS, RSS].sort());
     expect(s.pdfCalls).toEqual([]);
-    expect(s.logs).toEqual([expect.stringMatching(/^Initialized: skipped 1 opinion and 12 orders already on the Court's site/)]);
+    expect(s.logs).toEqual([
+      'VERSION 0.0.7 running (first run)',
+      expect.stringMatching(/^Initialized: skipped 1 opinion and 12 orders already on the Court's site/),
+    ]);
   });
 
   test('later ticks post only what is new since the first run', async () => {
@@ -139,7 +148,7 @@ describe('first run on a fresh install', () => {
     const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: ok(fixture('orders.html')) }, { initialized: false });
     await runPoll(s.deps);
     expect(await isInitialized(s.redis)).toBe(true);
-    expect(s.logs[0]).toMatch(/skipped 0 opinions and 12 orders/);
+    expect(s.logs.some((l) => /skipped 0 opinions and 12 orders/.test(l))).toBe(true);
   });
 });
 
@@ -269,6 +278,25 @@ describe('logging', () => {
     s.advance(60);
     await runPoll(s.deps);
     expect(s.logs.filter((l) => l.startsWith('HEARTBEAT'))).toHaveLength(2);
+  });
+
+  test('the heartbeat names the running app version', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: ok(fixture('orders.html')) });
+    await runPoll(s.deps);
+    expect(s.logs.filter((l) => l.startsWith('HEARTBEAT'))).toEqual(['HEARTBEAT v0.0.7 polling ok at 2026-10-06T02:30:00.000Z']);
+  });
+
+  test('a new version is logged once, on the first tick it runs, with the previous version', async () => {
+    const s = await setup({ [RSS]: ok(rss([])), [ORDERS]: ok(fixture('orders.html')) });
+    await runPoll(s.deps);
+    expect(s.logs.filter((l) => l.startsWith('VERSION'))).toEqual([]); // same version as before: silent
+
+    s.setVersion('0.0.8');
+    s.advance(2);
+    await runPoll(s.deps);
+    s.advance(2);
+    await runPoll(s.deps);
+    expect(s.logs.filter((l) => l.startsWith('VERSION'))).toEqual(['VERSION 0.0.8 running (was 0.0.7)']);
   });
 
   test('a tick that finds nothing new never logs "Posted 0"', async () => {

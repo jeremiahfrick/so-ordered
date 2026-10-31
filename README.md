@@ -66,7 +66,7 @@ The app uses Devvit's HTTP fetch to read public documents from one domain.
 The app stores data only in Devvit's built-in Redis, within Reddit's infrastructure:
 
 - Identifiers of Court items already posted (case numbers and PDF URLs)
-- A flag recording that the first check has run
+- A flag recording that the first check has run, and the app version last seen (so the logs can show when a new version started)
 - Timestamps used to limit log messages to one per hour
 
 It stores no information about Reddit users, moderators or subreddit members, reads no private messages, and sends no data to any server other than the read-only requests to `www.supremecourt.gov` described above. Uninstalling the app removes its data. See [PRIVACY.md](PRIVACY.md) and [TERMS.md](TERMS.md).

@@ -1,4 +1,4 @@
-import { createServer, getServerPort, reddit, redis } from '@devvit/web/server';
+import { context, createServer, getServerPort, reddit, redis } from '@devvit/web/server';
 import { fetchPdfBytes } from '../fetchPdf';
 import { pdfToText } from '../pdf';
 import { PollDeps, runPoll } from '../poll';
@@ -18,6 +18,7 @@ const pollDeps: PollDeps = {
   redis,
   log: (m) => console.log(m),
   now: () => new Date(),
+  appVersion: () => context.appVersion,
 };
 
 const routeDeps: RouteDeps = {
